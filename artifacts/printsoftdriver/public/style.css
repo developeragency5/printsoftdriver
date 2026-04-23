@@ -1487,15 +1487,14 @@ section { padding: 72px 24px; }
   .hero-pro {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
-    min-height: 560px;
-    max-height: 92vh;
+    min-height: 720px;
+    padding: 60px 0 90px;
     overflow: hidden;
     background: #0F172A;
     isolation: isolate;
   }
   @media (max-width: 900px) {
-    .hero-pro { aspect-ratio: auto; min-height: auto; padding: 100px 0 80px; max-height: none; }
+    .hero-pro { min-height: auto; padding: 100px 0 80px; }
   }
 
   .hero-pro-bg {

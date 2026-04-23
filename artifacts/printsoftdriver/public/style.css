@@ -128,7 +128,7 @@ ul { list-style: none; }
   overflow: hidden;
   padding: 80px 24px 64px;
   text-align: center;
-  color: white;
+  color: #000000;
 }
 .hero::before {
   content: '';
@@ -168,7 +168,7 @@ ul { list-style: none; }
   overflow: hidden;
   padding: 60px 24px;
   text-align: center;
-  color: white;
+  color: #000000;
 }
 .hero-sm::before {
   content: '';

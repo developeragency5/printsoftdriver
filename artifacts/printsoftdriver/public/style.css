@@ -7,19 +7,16 @@
 
 /* CSS Variables */
 :root {
-  --primary: #1A73E8;
-  --secondary: #0D47A1;
-  --accent: #E8F0FE;
-  --bg: #FFFFFF;
-  --surface: #F8F9FA;
-  --text-primary: #202124;
-  --text-secondary: #5F6368;
-  --border: #DADCE0;
-  --success: #34A853;
-  --radius: 12px;
-  --shadow: 0 2px 12px rgba(0,0,0,0.08);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
-}
+    --primary: #1D4ED8;
+    --secondary: #1E3A8A;
+    --accent: #E0F2FE;
+    --muted: #0EA5E9;
+    --bg: #FFFFFF;
+    --surface: #FFFFFF;
+    --text-primary: #1E293B;
+    --text-secondary: #475569;
+    --border: #CBD5E1;
+  }
 
 /* Reset */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -193,7 +190,7 @@ section { padding: 72px 24px; }
 .section-header h2 { font-size: clamp(1.6rem, 3vw, 2.4rem); color: var(--secondary); margin-bottom: 12px; }
 .section-header p { color: var(--text-secondary); max-width: 620px; margin: 0 auto; font-size: 1.05rem; }
 
-.bg-surface { background: var(--surface); }
+.bg-surface { background: #FFFFFF; }
 
 /* ===========================
    CARDS
@@ -286,16 +283,16 @@ section { padding: 72px 24px; }
   border-radius: 10px;
   position: relative;
 }
-.arch-layer:nth-child(1) { background: #1A73E8; color: white; }
+.arch-layer:nth-child(1) { background: #1D4ED8; color: white; }
 .arch-layer:nth-child(3) { background: #2B7DE9; color: white; }
 .arch-layer:nth-child(5) { background: #3A7FE8; color: white; }
 .arch-layer:nth-child(7) { background: #1557B0; color: white; }
-.arch-layer:nth-child(9) { background: #0D47A1; color: white; }
+.arch-layer:nth-child(9) { background: #1E3A8A; color: white; }
 .arch-arrow {
   width: 0; height: 0;
   border-left: 16px solid transparent;
   border-right: 16px solid transparent;
-  border-top: 20px solid #1A73E8;
+  border-top: 20px solid #1D4ED8;
   margin: 2px auto;
 }
 .arch-arrow:nth-child(4) { border-top-color: #2B7DE9; }
@@ -666,7 +663,7 @@ section { padding: 72px 24px; }
 }
 .how-to-card {
   background: #FFFFFF;
-  border: 1px solid #DADCE0;
+  border: 1px solid #CBD5E1;
   border-radius: 14px;
   overflow: hidden;
   display: flex;
@@ -693,17 +690,17 @@ section { padding: 72px 24px; }
 }
 .how-to-body h3 {
   margin: 0 0 12px 0;
-  color: #0D47A1;
+  color: #1E3A8A;
   font-size: 1.25rem;
 }
 .how-to-body p {
-  color: #5F6368;
+  color: #475569;
   line-height: 1.7;
   margin: 0;
 }
 .how-to-body code {
-  background: #E8F0FE;
-  color: #0D47A1;
+  background: #E0F2FE;
+  color: #1E3A8A;
   padding: 2px 6px;
   border-radius: 4px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -726,7 +723,7 @@ section { padding: 72px 24px; }
   gap: 24px;
   align-items: flex-start;
   background: #FFFFFF;
-  border: 1px solid #DADCE0;
+  border: 1px solid #CBD5E1;
   border-radius: 14px;
   padding: 28px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -739,7 +736,7 @@ section { padding: 72px 24px; }
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #1A73E8 0%, #0D47A1 100%);
+  background: linear-gradient(135deg, #1D4ED8 0%, #1E3A8A 100%);
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -751,11 +748,11 @@ section { padding: 72px 24px; }
 }
 .step-text h3 {
   margin: 0 0 10px 0;
-  color: #0D47A1;
+  color: #1E3A8A;
   font-size: 1.3rem;
 }
 .step-text p {
-  color: #5F6368;
+  color: #475569;
   line-height: 1.7;
   margin: 0;
 }

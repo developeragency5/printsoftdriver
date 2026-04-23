@@ -1,0 +1,80 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "XNZNQxP6voNahqMkza-EU"
+uri = "file://attached_assets/stock_images/computer_settings.jpg"
+type = "image"
+title = "person working on computer settings, software updates on screen"
+
+[[outputs]]
+id = "AFoQtuuiQ21mBZeGhj8c8"
+uri = "file://attached_assets/stock_images/motherboard_hardware.jpg"
+type = "image"
+title = "computer motherboard close up with chips and circuits, technology hardware"
+
+[[outputs]]
+id = "81PJmsBUJeIMTQUdhTKv9"
+uri = "file://attached_assets/stock_images/hero_tech_workspace.jpg"
+type = "image"
+title = "modern laptop computer with code and circuit board, technology workspace, professional"
+
+[[outputs]]
+id = "D9WMlcEIBIMxR-fnTZOj5"
+uri = "file://attached_assets/stock_images/graphics_card.jpg"
+type = "image"
+title = "graphics card GPU hardware"
+
+[[outputs]]
+id = "lAnVdM_5PxslM7B8PxiEz"
+uri = "file://attached_assets/stock_images/printer_device.jpg"
+type = "image"
+title = "office printer modern professional"
+
+[[outputs]]
+id = "RigaxYnqp-K_vAM3QujRS"
+uri = "file://attached_assets/stock_images/network_cables.jpg"
+type = "image"
+title = "network cable server room data center"
+
+[[outputs]]
+id = "8zvy-3AaQjRhS3PBvYFTB"
+uri = "file://attached_assets/stock_images/tech_support.jpg"
+type = "image"
+title = "person working on computer technical support"
+
+[[outputs]]
+id = "U12w7k09D-ZAB3mu7JjXI"
+uri = "file://attached_assets/stock_images/network_room.jpg"
+type = "image"
+title = "network server room cables"
+
+[[outputs]]
+id = "2fNwVXlu5NNzf0dRgUMBq"
+uri = "file://attached_assets/stock_images/printer.jpg"
+type = "image"
+title = "modern office printer device"
+
+[[outputs]]
+id = "q04Q3npIOoqiytHRFu0-y"
+uri = "file://attached_assets/stock_images/cpu_chip.jpg"
+type = "image"
+title = "computer chip processor silicon close up"
+
+[[outputs]]
+id = "e1e7FPvVc14fogKfQ8pzI"
+uri = "file://attached_assets/stock_images/person_laptop.jpg"
+type = "image"
+title = "person typing laptop computer business technology"
+
+[[outputs]]
+id = "u1-gqNhaheXztsRDV5keo"
+uri = "file://attached_assets/stock_images/hardware_components.jpg"
+type = "image"
+title = "computer hardware components close up technology"
+
+[[outputs]]
+id = "zrjobKUJ_shYq5WzpD4GW"
+uri = "file://attached_assets/stock_images/laptop.jpg"
+type = "image"
+title = "laptop computer keyboard with screen"

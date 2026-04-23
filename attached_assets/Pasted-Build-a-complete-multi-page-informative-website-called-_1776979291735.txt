@@ -1,0 +1,388 @@
+Build a complete multi-page informative website called "PrintSoftDriver" using ONLY HTML, CSS, and Vanilla JavaScript. No frameworks, no libraries, no external dependencies of any kind.
+
+TARGET: Score 100/100 on Microsoft Ads AdScan compliance audit. Every rule below comes from the audit report — follow each one precisely.
+
+═══════════════════════════════════════
+WEBSITE OVERVIEW
+═══════════════════════════════════════
+Website Name: PrintSoftDriver
+Domain purpose: 100% informative educational website about computer drivers. NOT a product-selling website. No products, no download links, no brand names, no company names of any kind anywhere on the site.
+
+═══════════════════════════════════════
+FILES TO CREATE
+═══════════════════════════════════════
+- index.html (Home Page)
+- blog.html (Blog Page)
+- contact.html (Contact Us Page)
+- privacy.html (Privacy Policy + Disclaimer + Terms of Use — tabbed)
+- style.css (shared stylesheet for all pages)
+- script.js (shared JavaScript)
+- favicon.svg (custom SVG chip/circuit icon)
+
+═══════════════════════════════════════
+AUDIT FIX #1 — MICROSOFT UET TAG (was flagged on 6 pages)
+═══════════════════════════════════════
+Add the Microsoft UET tag placeholder to the  of ALL HTML pages.
+The tag must be present even if the tracking ID is a placeholder — the HTML structure must exist:
+
+
+
+Place this right before  on every page.
+
+═══════════════════════════════════════
+AUDIT FIX #2 — TITLE TAGS (50-60 characters, all pages)
+═══════════════════════════════════════
+Every page must have a 
+(52 chars ✓)
+
+blog.html:   
+(52 chars ✓)
+
+contact.html: 
+(54 chars ✓)
+
+privacy.html: 
+(53 chars ✓)
+
+═══════════════════════════════════════
+AUDIT FIX #3 — META DESCRIPTIONS (140-160 characters, all pages)
+═══════════════════════════════════════
+Every page must have a  between 140 and 160 characters exactly. Count characters carefully.
+
+index.html (155 chars):
+
+
+blog.html (152 chars):
+
+
+contact.html (148 chars):
+
+
+privacy.html (150 chars):
+
+
+═══════════════════════════════════════
+AUDIT FIX #4 — CCPA "DO NOT SELL OR SHARE" LINK
+═══════════════════════════════════════
+Add a "Do Not Sell or Share My Personal Information" link in the footer of EVERY page.
+This link must point to: privacy.html#do-not-sell-section
+
+CRITICAL: Use this exact ID only ONCE in the entire privacy.html file:
+
+Do NOT create any other element with id="do-not-sell" or id="do-not-sell-section" anywhere else in the document. Having duplicate IDs causes an audit failure.
+
+In the footer of every page, add:
+Do Not Sell or Share My Personal Information
+
+═══════════════════════════════════════
+AUDIT FIX #5 — PRIVACY POLICY MUST MENTION MICROSOFT/BING TRACKING
+═══════════════════════════════════════
+In the Privacy Policy section of privacy.html, add this paragraph under "Third-Party Advertising and Tracking":
+
+"We may use Microsoft Advertising (formerly Bing Ads) and its Universal Event Tracking (UET) technology to measure the effectiveness of our content and understand how visitors interact with our website. Microsoft Advertising may collect data about your visits using cookies and similar tracking technologies. For more information about Microsoft Advertising's data practices, please visit Microsoft's privacy policy. You may opt out of personalized ads from Microsoft Advertising by visiting their opt-out page."
+
+This paragraph must appear in the privacy policy as visible text on the page.
+
+═══════════════════════════════════════
+AUDIT FIX #6 — NO DUPLICATE HTML ELEMENT IDs
+═══════════════════════════════════════
+CRITICAL RULE: Every id="..." attribute across the ENTIRE website must be globally unique. 
+- Never use the same id value twice on any single page
+- Never use id="do-not-sell" — use id="do-not-sell-section" only once
+- Before writing each id, check it has not been used before on that page
+- This was flagged on the /privacy-policy page in the audit — fix it
+
+═══════════════════════════════════════
+AUDIT FIX #7 — REDIRECT CHAIN (homepage had 1 redirect)
+═══════════════════════════════════════
+Add this to the  of index.html:
+
+Ensure all internal links use consistent URLs (always with www or always without — pick one and stick to it).
+
+═══════════════════════════════════════
+SEO REQUIREMENTS (all pages — required for 100/100)
+═══════════════════════════════════════
+Add ALL of these to the  of every page:
+
+1. Character encoding:
+
+
+2. Viewport:
+
+
+3. HTML lang attribute:
+
+
+4. Robots:
+
+
+5. Author:
+
+
+6. Open Graph tags (required — og:title, og:description, og:image, og:url):
+
+
+
+
+
+
+7. Canonical link (unique per page):
+
+
+8. Favicon:
+
+
+9. JSON-LD Structured Data (add to index.html):
+
+
+10. Security headers (add as  where possible):
+
+
+
+═══════════════════════════════════════
+COOKIE CONSENT BANNER (required for audit)
+═══════════════════════════════════════
+Add a CCPA/GDPR cookie consent banner that appears at the bottom of every page on first visit.
+Built in pure JavaScript using localStorage.
+
+The banner must contain:
+- Text: "We use cookies to improve your experience. By continuing, you agree to our Cookie Policy."
+- "Accept All" button
+- "Reject All" button (same visual size as Accept — equal prominence required by audit)
+- Link to privacy.html
+
+When user clicks either button, banner disappears and choice is saved.
+Use id="cookie-banner" — make sure this ID appears only once per page.
+
+JavaScript logic:
+if (!localStorage.getItem('cookieConsent')) {
+  document.getElementById('cookie-banner').style.display = 'flex';
+}
+function acceptCookies() {
+  localStorage.setItem('cookieConsent', 'accepted');
+  document.getElementById('cookie-banner').style.display = 'none';
+}
+function rejectCookies() {
+  localStorage.setItem('cookieConsent', 'rejected');
+  document.getElementById('cookie-banner').style.display = 'none';
+}
+
+═══════════════════════════════════════
+COLOR THEME & DESIGN RULES
+═══════════════════════════════════════
+Primary: #1A73E8 (professional blue)
+Secondary: #0D47A1 (deep navy)
+Accent: #E8F0FE (light blue tint)
+Background: #FFFFFF
+Surface: #F8F9FA
+Text Primary: #202124
+Text Secondary: #5F6368
+Border: #DADCE0
+
+Font: Use Google Fonts — "Inter" for body, "Poppins" for headings.
+Add ONLY these Google Fonts (count as 1 external script — audit allows it):
+
+
+═══════════════════════════════════════
+SHARED HEADER (all pages)
+═══════════════════════════════════════
+- Logo: SVG chip icon + "PrintSoftDriver" text
+- Nav: Home | Blog | Contact Us
+- Active page highlighted
+- Sticky with shadow on scroll (IntersectionObserver JS)
+- Mobile hamburger menu (pure JS)
+- White background, 1px bottom border
+
+═══════════════════════════════════════
+SHARED FOOTER (all pages — must include ALL required links)
+═══════════════════════════════════════
+3-column grid:
+- Column 1: Logo + "PrintSoftDriver provides free educational information about device drivers. We do not sell products or offer technical support."
+- Column 2: Quick links: Home | Blog | Contact | Privacy Policy | Disclaimer | Terms of Use | Cookie Policy
+- Column 3: Contact info (email: info@printsoftdriver.com, note about educational purpose only)
+
+Bottom strip must include ALL of these links — required for audit:
+Privacy Policy | Terms of Use | Disclaimer | Cookie Policy | Do Not Sell or Share My Personal Information
+
+Copyright line: © 2025 PrintSoftDriver. All Rights Reserved. For educational purposes only.
+
+Background: #0D47A1 (navy), white text.
+
+═══════════════════════════════════════
+PAGE 1: HOME PAGE (index.html) — 2500+ words
+═══════════════════════════════════════
+Exactly 1 H1 tag. H2 → H3 hierarchy must be logical (never skip levels).
+All content server-side rendered (no JS-only content rendering).
+All images must have descriptive alt attributes.
+
+SECTION 1 — HERO BANNER:
+- CSS gradient background #1A73E8 to #0D47A1
+- Pure CSS dot pattern overlay (background-image: radial-gradient)
+- H1: "Everything You Need to Know About Device Drivers"
+- Subheading (p tag): "Your complete educational resource on how drivers power every digital device"
+- Two buttons linking to real page anchors (not href="#"):
+  Button 1: href="#driver-types" — "Explore Driver Types"
+  Button 2: href="blog.html" — "Read Our Blog"
+- SVG tech illustration (laptop + peripherals connected by lines)
+
+SECTION 2 — WHAT IS A DRIVER? (id="what-is-a-driver")
+- H2: "Understanding Device Drivers"
+- 3 cards with SVG icons, H3 headings, and 2-3 full paragraphs each
+- Card 1: "What Is a Driver?" (explain software bridge concept)
+- Card 2: "Why Drivers Matter" (stability, performance, experience)
+- Card 3: "How Drivers Work" (kernel space, driver stack, hardware abstraction)
+
+SECTION 3 — TYPES OF DRIVERS (id="driver-types")
+- H2: "Types of Device Drivers Explained"
+- Light gray background (#F8F9FA)
+- Write 150+ words for each of these 12 types in paragraph form (NO bullet points):
+  1. Kernel-Mode Drivers
+  2. User-Mode Drivers
+  3. Printer Drivers
+  4. Display / Graphics Drivers
+  5. Audio Drivers
+  6. Network Drivers
+  7. USB Drivers
+  8. Storage / Disk Drivers
+  9. Input Device Drivers
+  10. Chipset Drivers
+  11. Bluetooth Drivers
+  12. Virtual Device Drivers
+- Alternating left-right layout card for each
+
+SECTION 4 — IMPORTANCE OF KEEPING DRIVERS UPDATED (id="driver-updates")
+- H2: "Why Keeping Drivers Updated Matters"
+- 4 columns with H3 and 100+ word paragraphs:
+  1. System Stability
+  2. Security Patches
+  3. Performance Improvements
+  4. Hardware Compatibility
+
+SECTION 5 — HOW OPERATING SYSTEMS MANAGE DRIVERS (id="os-management")
+- H2: "How Operating Systems Handle Drivers"
+- 3-column layout — paragraph form only, 400+ total words
+- Covers: Windows approach | Linux approach | macOS approach
+- No brand logos. Educational text only.
+
+SECTION 6 — DRIVER ARCHITECTURE DIAGRAM (id="driver-architecture")
+- H2: "Understanding Driver Architecture"
+- Pure CSS/SVG layered diagram:
+  Application Layer → OS Kernel → Driver Layer → Hardware Abstraction Layer → Physical Hardware
+- Each layer as a colored CSS box with connecting arrows
+- 150+ word explanatory paragraph below
+
+SECTION 7 — COMMON DRIVER ISSUES (id="driver-issues")
+- H2: "Common Driver-Related Problems"
+- 6-card grid, H3 per card, 100+ words each:
+  1. Driver Conflicts
+  2. Outdated Drivers
+  3. Corrupted Driver Files
+  4. Missing Drivers After OS Install
+  5. Incompatible Drivers
+  6. Signed vs Unsigned Drivers
+
+SECTION 8 — FAQ ACCORDION (id="faq")
+- H2: "Frequently Asked Questions About Drivers"
+- 8 questions, accordion in pure JS (no display:none during streaming — use max-height transition)
+- Each answer 100+ words:
+  Q1. What happens if a driver is missing?
+  Q2. How does the OS detect new hardware?
+  Q3. What is a driver signature?
+  Q4. What is the difference between a driver and firmware?
+  Q5. Can a driver cause a computer to crash?
+  Q6. What is a generic driver?
+  Q7. How are drivers installed during OS setup?
+  Q8. What is driver rollback?
+
+═══════════════════════════════════════
+PAGE 2: BLOG PAGE (blog.html)
+═══════════════════════════════════════
+- Hero: blue gradient banner, H1: "Driver Knowledge Hub"
+- 6 blog cards in 3-column grid, each with: SVG illustration, category tag, H2 title, excerpt (3-4 sentences), "Read Article" button (styled, non-functional)
+- All blog buttons must NOT use href="#" — use href="blog.html" to avoid dead CTA audit failure
+- Add sidebar: Categories list + Popular Topics list
+- Topics:
+  1. The Evolution of Device Drivers: From DOS to Modern Operating Systems
+  2. Understanding Kernel-Mode vs User-Mode Drivers
+  3. How Printer Drivers Translate Data Into Printed Output
+  4. The Role of Audio Drivers in Digital Sound Processing
+  5. Network Drivers Explained: How Your PC Connects to the Internet
+  6. What Every User Should Know About Driver Architecture
+
+═══════════════════════════════════════
+PAGE 3: CONTACT US (contact.html)
+═══════════════════════════════════════
+- Hero: H1: "Contact PrintSoftDriver"
+- Display email: info@printsoftdriver.com (visible on page — required by audit)
+- Display phone: +1 (800) 000-0000 (visible on page — phone number required by audit)
+- Contact form: Name, Email, Subject (dropdown), Message, Submit
+- JS form validation (no empty fields, valid email format)
+- On submit: success message (no backend needed)
+- Important: "We do not offer technical support. This is an educational-only website."
+- 3 info cards below: Our Mission | Editorial Policy | Content Standards
+
+═══════════════════════════════════════
+PAGE 4: LEGAL PAGE (privacy.html)
+═══════════════════════════════════════
+JS tab navigation for 4 tabs:
+
+TAB 1 — PRIVACY POLICY (US/CCPA compliant, 600+ words):
+Sections must include:
+- Information We Collect
+- How We Use Information
+- Cookies and Tracking Technologies (MUST include paragraph about Microsoft/Bing Advertising UET tracking — see Audit Fix #5 above)
+- Third-Party Services
+- Data Retention
+- Your Rights Under CCPA (California users)
+- Children's Privacy (COPPA compliance)
+- Changes to This Policy
+- Contact Information
+
+CCPA DO NOT SELL SECTION (id="do-not-sell-section" — USE THIS EXACT ID, ONLY ONCE):
+
+  
+Do Not Sell or Share My Personal Information
+
+  
+Under the California Consumer Privacy Act (CCPA), California residents have the right to opt out of the sale or sharing of their personal information. We do not sell personal information. To exercise your rights, contact us at info@printsoftdriver.com.
+
+
+
+
+TAB 2 — DISCLAIMER (400+ words):
+- No Professional Advice
+- Accuracy of Information
+- External Links Disclaimer
+- Limitation of Liability
+- No Affiliate Links statement
+- Changes and Errors
+
+TAB 3 — TERMS OF USE (400+ words):
+- Acceptance of Terms
+- Intellectual Property
+- Permitted Use
+- Prohibited Activities
+- Governing Law (United States)
+- Limitation of Liability
+- Contact
+
+TAB 4 — COOKIE POLICY (300+ words):
+- What Are Cookies
+- Types of Cookies We Use
+- Third-Party Cookies (mention Microsoft Advertising/UET)
+- How to Control Cookies
+- Updates to Cookie Policy
+
+═══════════════════════════════════════
+IMAGES & VISUALS
+═══════════════════════════════════════
+NO external image URLs. All visuals must be:
+- Pure inline SVG drawn with paths, rects, circles
+- CSS illustrations using border/background tricks
+- Colors: blue (#1A73E8), white, gray (#F8F9FA), navy (#0D47A1)
+- Every  or  in every 
+- No deprecated tags: no , 
+, 
+, - All structural tags balanced (every
+has matching
+) - Keep HTML payload under 500KB per page - Move all styles to style.css — minimize inline styles (max 5 per page) - 1 external script loaded only (Google Fonts CSS counts separately as CSS, not JS) - No mixed content (all resources must use relative paths or HTTPS) - No deprecated HTML tags anywhere ═══════════════════════════════════════ CONTENT QUALITY RULES (from audit) ══════════════════════════════

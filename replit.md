@@ -54,3 +54,12 @@ A pure HTML/CSS/Vanilla JavaScript multi-page informational website about device
 - `pnpm --filter @workspace/api-server run dev` — run API server locally
 
 See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details.
+
+## Multi-Page Expansion (Apr 2026)
+- Added 8 new pages: about.html, troubleshooting.html, and 6 driver guides (printer, graphics, audio, network, usb, system).
+- Nav order: Home / Blog / About / Troubleshooting / Contact (consistent across all 12 pages).
+- Home page expanded with "Helpful Topics We Cover" section (6 colored topic cards with Read More links), About preview split-row, and Troubleshooting CTA banner.
+- Blog redesigned with photo hero, featured post, 9 articles using real stock photos (no copyright issues).
+- Footer now includes Driver Guides column + standalone disclaimer block above the bottom links.
+- Animations: IntersectionObserver-based scroll reveal on `.reveal` elements, staggered via `.stagger`, plus float/pulse on hero illustration. All respect `prefers-reduced-motion`.
+- All pages share the same header/footer structure and registered in vite.config.ts inputs.

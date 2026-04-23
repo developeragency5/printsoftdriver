@@ -140,3 +140,44 @@ function rejectCookies() {
     }
   });
 })();
+
+
+  /* ---- Scroll Reveal Animations ---- */
+  (function () {
+    var elements = document.querySelectorAll('.reveal');
+    if (!elements.length) return;
+
+    if (!('IntersectionObserver' in window)) {
+      elements.forEach(function (el) { el.classList.add('visible'); });
+      return;
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+
+    elements.forEach(function (el) { io.observe(el); });
+  })();
+
+  /* ---- Smooth Scroll for Anchor Links ---- */
+  (function () {
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var href = link.getAttribute('href');
+        if (href.length < 2) return;
+        var target = document.querySelector(href);
+        if (!target) return;
+        e.preventDefault();
+        var header = document.getElementById('site-header');
+        var offset = header ? header.offsetHeight + 12 : 0;
+        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      });
+    });
+  })();
+  

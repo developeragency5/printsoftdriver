@@ -1704,7 +1704,10 @@ section { padding: 72px 24px; }
     font-weight: 800;
     color: #FFFFFF;
     letter-spacing: -0.02em;
-    line-height: 1;
+    line-height: 1.25;
+    padding: 2px 0;
+    display: inline-block;
+    overflow: visible;
   }
   .hero-pro-stat-plus {
     color: #73A5CA;

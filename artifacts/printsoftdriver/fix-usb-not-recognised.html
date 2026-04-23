@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fix: USB Device Not Recognised — A Friendly Step-by-Step | PrintSoftDriver</title>
+  <meta name="description" content="Plugged in a USB device and your computer barely shrugs? A calm, ordered guide to fixing 'USB device not recognised' errors.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PrintSoftDriver">
+  <meta property="og:title" content="Fix: USB Device Not Recognised — A Friendly Step-by-Step | PrintSoftDriver">
+  <meta property="og:description" content="Plugged in a USB device and your computer barely shrugs? A calm, ordered guide to fixing 'USB device not recognised' errors.">
+  <meta property="og:image" content="favicon.svg">
+  <meta property="og:url" content="https://www.printsoftdriver.com/fix-usb-not-recognised.html">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://www.printsoftdriver.com/fix-usb-not-recognised.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"PLACEHOLDER_UET_ID"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+</head>
+<body>
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="PrintSoftDriver Home">
+      <svg width="36" height="36" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="6" fill="#E87F24"/>
+        <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+        <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+        <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        <rect x="4" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="24" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="4" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="24" width="4" height="4" rx="1" fill="#FEFDDF"/>
+      </svg>
+      <span class="logo-text">PrintSoftDriver</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero-sub" aria-label="Quick Fix Guide">
+    <div class="hero-sub-bg" aria-hidden="true">
+      <img src="images/hero-bg-tech.png" alt="">
+    </div>
+    <div class="hero-sub-overlay" aria-hidden="true"></div>
+    <div class="hero-sub-grid" aria-hidden="true"></div>
+    <span class="hero-sub-orb hero-sub-orb-1" aria-hidden="true"></span>
+    <span class="hero-sub-orb hero-sub-orb-2" aria-hidden="true"></span>
+    <div class="hero-sub-floats" aria-hidden="true">
+      <div class="hero-sub-float hero-sub-float-1">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="4" r="2" fill="currentColor"/><path d="M12 6v12" stroke="currentColor" stroke-width="2"/><path d="m12 18-3-3M12 18l3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="9" y="20" width="6" height="3" rx="1" stroke="currentColor" stroke-width="2"/></svg></div>
+        <div><span>USB Driver</span><small>Reinstall</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-2">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div><span>Cable</span><small>Verify</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-3">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+        <div><span>Time</span><small>~5 min</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-4">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="4" r="2" fill="currentColor"/><path d="M12 6v12" stroke="currentColor" stroke-width="2"/><path d="m12 18-3-3M12 18l3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="9" y="20" width="6" height="3" rx="1" stroke="currentColor" stroke-width="2"/></svg></div>
+        <div><span>Port</span><small>Switch</small></div>
+      </div>
+    </div>
+    <div class="hero-sub-inner">
+      <span class="hero-sub-tag"><span class="hero-sub-tag-dot"></span> Quick Fix Guide</span>
+      <h1 class="hero-sub-title">USB Device <span class="accent">Not Recognised</span></h1>
+      <p class="hero-sub-sub">You plugged it in. The familiar chime did not happen. Or worse, the computer popped up a blunt 'unknown device' message. Calm down — this is one of the friendliest problems on the list.</p>
+      <div class="hero-sub-meta">
+        <span class="hero-sub-pill severity-easy">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 8v5M12 16h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          Difficulty: Easy
+        </span>
+        <span class="hero-sub-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          ~5–12 minutes
+        </span>
+        <span class="hero-sub-pill success">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+          Spare USB cable helpful
+        </span>
+      </div>
+      <div class="hero-sub-bread"><a href="index.html">Home</a> &rsaquo; <a href="troubleshooting.html">Troubleshooting</a> &rsaquo; <span>USB Not Recognised</span></div>
+    </div>
+  </section>
+
+<!-- ========== QUICK FIX CALLOUT ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="quick-fix-card reveal">
+      <span class="quick-fix-label">60-Second Quick Fix</span>
+      <h2>Try This First — The 60-Second Triple Check</h2>
+      <ol>
+        <li>Try the device in a different USB port on the same computer.</li>
+        <li>If you can, try a different USB cable — cables fail far more often than people realise.</li>
+        <li>Try the device on a second computer, even briefly. That instantly tells you whether it is the device or your computer.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHAT'S HAPPENING ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">What's Actually Happening</span>
+      <h2>Why USB Devices Sometimes Refuse to Show Up</h2>
+    </div>
+    <div class="split-row">
+      <div class="split-text reveal">
+        <p>USB is one of the great success stories of computing — billions of devices, all sharing one connector standard. The downside is that there are a lot of moving parts behind the scenes. When you plug in a USB device, the operating system has to: detect that something was inserted, ask the device to identify itself, find the right driver to talk to it, load that driver, and finally let your applications use it. A failure at any of those steps shows up as 'not recognised'.</p>
+        <p>The single most common cause is the cable. USB cables — especially cheap ones — wear out, develop intermittent breaks, or were never built to carry data in the first place (some are charge-only). Always rule out the cable before suspecting anything more complicated.</p>
+        <p>The second cause is the USB controller driver itself, which sits one layer below the device-specific driver. If the controller is in a weird state, no USB device on that port will work properly. A clean reinstall of the controller driver fixes this kind of system-wide misbehaviour.</p>
+      </div>
+      <div class="split-image reveal">
+        <img src="images/usb.jpg" alt="Why USB Devices Sometimes Refuse to Show Up" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STEP-BY-STEP FIX ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">The Calm, Step-by-Step Fix</span>
+      <h2>Get Your USB Device Talking Again</h2>
+      <p>Work through these in order. Most readers solve the problem by step three — and almost everyone by step five.</p>
+    </div>
+    <div class="fix-steps">
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">1</span>
+          <img src="images/hardware.jpg" alt="Try a Different Port and Cable" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Try a Different Port and Cable</h3>
+          <p>Before any software fixes, do the physical-layer check. Different port, different cable. This solves the problem about a third of the time on its own.</p>
+          <ul class="fix-step-list">
+            <li>Move the device to a USB port directly on the computer (not a hub).</li>
+            <li>Try a known-good cable if you have one.</li>
+            <li>Avoid front-panel ports on desktops as a test — they are often less reliable than rear ports.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">2</span>
+          <img src="images/laptop.jpg" alt="Check Device Manager for the Mystery Device" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Check Device Manager for the Mystery Device</h3>
+          <p>Open Device Manager and look for any device showing a yellow warning triangle. That is the OS telling you exactly which driver it cannot load.</p>
+          <ul class="fix-step-list">
+            <li>Open Device Manager.</li>
+            <li>Look for any item with a yellow exclamation mark.</li>
+            <li>Right-click and choose Update driver → Search automatically.</li>
+            <li>If that fails, choose Uninstall device and unplug then replug the device.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">3</span>
+          <img src="images/kernel-mode.jpg" alt="Reinstall the USB Controller Driver" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Reinstall the USB Controller Driver</h3>
+          <p>If the issue affects multiple devices, the USB controller driver is the suspect. Uninstalling it forces a fresh load on next boot.</p>
+          <ul class="fix-step-list">
+            <li>In Device Manager, expand 'Universal Serial Bus controllers'.</li>
+            <li>Right-click each entry and choose Uninstall device.</li>
+            <li>Restart — the OS reinstalls the controllers automatically.</li>
+            <li>Reconnect your USB device and test.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">4</span>
+          <img src="images/professional-workspace.png" alt="Disable USB Selective Suspend" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Disable USB Selective Suspend</h3>
+          <p>On laptops, the OS can power down USB ports to save battery — and sometimes that goes wrong. Disable selective suspend as a test.</p>
+          <ul class="fix-step-list">
+            <li>Open Power Options → Change plan settings → Advanced power settings.</li>
+            <li>Expand USB settings → USB selective suspend setting.</li>
+            <li>Set both Battery and Plugged in to Disabled.</li>
+            <li>Apply and try the device again.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">5</span>
+          <img src="images/support-pro.png" alt="Install the Device-Specific Driver" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Install the Device-Specific Driver</h3>
+          <p>Some USB devices — printers, audio interfaces, complex peripherals — need their own driver from the maker, not just the generic OS one.</p>
+          <ul class="fix-step-list">
+            <li>Visit the device maker's official support page.</li>
+            <li>Search for your exact model and your operating system version.</li>
+            <li>Download the driver, run the installer, and restart.</li>
+            <li>Reconnect the device and test.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CAUSES ACCORDION ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Common Root Causes</span>
+      <h2>Why This Happens In the First Place</h2>
+      <p>Tap any cause to read the friendly explanation behind it.</p>
+    </div>
+    <div class="cause-accordion reveal">
+      <details>
+        <summary>Why does my USB device work on one computer but not another?</summary>
+        <div>That confirms the device itself is fine. The problem is on the computer where it does not work — either the USB controller driver, the port, or a specific power-management setting. Reinstall the controller driver first.</div>
+      </details>
+
+      <details>
+        <summary>Why does Windows say 'Unknown USB Device (Device Descriptor Request Failed)'?</summary>
+        <div>That message means the OS detected something was plugged in, but the device never identified itself correctly. Try a different cable first — that is the cause about half the time. If not, the USB controller driver needs a reinstall.</div>
+      </details>
+
+      <details>
+        <summary>Why does the same port work for charging but not data?</summary>
+        <div>Some USB cables are charge-only and physically lack the data wires. Always test with a cable you know carries data.</div>
+      </details>
+
+      <details>
+        <summary>Why does my USB hub stop working after a few hours?</summary>
+        <div>Unpowered USB hubs share power between every device plugged in. As more devices wake up, the hub runs out of power and starts disconnecting things. Use a powered hub or plug high-power devices directly into the computer.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STILL BROKEN / WARNING ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cards-3 stagger">
+      <div class="warn-card reveal">
+        <h3>What Not To Do</h3>
+        <p>Avoid third-party "driver updater" tools that promise miracle fixes. They often install bundles you do not need and occasionally cause the very problems they claim to solve. Stick to the official manufacturer support page for your device.</p>
+      </div>
+      <div class="callout reveal">
+        <h3>If It Still Will Not Cooperate</h3>
+        <p>If you have worked through every step and the problem persists, the issue may be hardware, not software. Try the device on a second computer if you can. If it still fails, that is a strong sign the device itself is at fault.</p>
+      </div>
+      <div class="warn-card reveal" style="border-left-color:#73A5CA;background:linear-gradient(135deg,#EAF3FA 0%,#D9E8F2 100%);">
+        <h3 style="color:#0F172A;">A Calming Reminder</h3>
+        <p>Almost every problem on this page has a fix that takes less time than making a cup of tea. Take a breath, work through the steps in order, and you will get there.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== RELATED ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Keep Reading</span>
+      <h2>Related Guides You Might Like</h2>
+    </div>
+    <div class="related-grid">
+    <a href="usb-drivers.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/usb.jpg" alt="USB & Peripherals Driver Guide" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">USB</span>
+        <h3>USB & Peripherals Driver Guide</h3>
+        <p>From class drivers to plug-and-play — explained simply.</p>
+      </div>
+    </a>
+    <a href="fix-wifi-drops.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/network.jpg" alt="Fix: Wi-Fi Drops Constantly" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">Wi-Fi</span>
+        <h3>Fix: Wi-Fi Drops Constantly</h3>
+        <p>The calm reset routine for an unstable wireless connection.</p>
+      </div>
+    </a>
+    <a href="fix-printer-blank.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/printer-clean.png" alt="Fix: Printer Prints Blank Pages" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">Printer</span>
+        <h3>Fix: Printer Prints Blank Pages</h3>
+        <p>The calm step-by-step for blank or garbled printer output.</p>
+      </div>
+    </a>
+  </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Did This Guide Help You Out?</h2>
+      <p>If it did, share it with a friend who might be staring at the same frustrating screen. If it did not, drop us a line — we genuinely want to make these guides better.</p>
+      <div class="cta-actions">
+        <a href="troubleshooting.html" class="btn btn-primary">Back to Troubleshooting Hub</a>
+        <a href="contact.html" class="btn btn-outline-dark">Send Us Feedback</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Fixes</h4>
+      <ul>
+        <li><a href="fix-printer-blank.html">Printer Blank Pages</a></li>
+        <li><a href="fix-no-sound.html">No Sound Coming Out</a></li>
+        <li><a href="fix-wifi-drops.html">Wi-Fi Drops Constantly</a></li>
+        <li><a href="fix-screen-flicker.html">Screen Flickers / Black</a></li>
+        <li><a href="fix-usb-not-recognised.html">USB Not Recognised</a></li>
+        <li><a href="fix-slow-after-update.html">Slow After Update</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-col-3">
+      <h4>Get In Touch</h4>
+      <p>Have a question, suggestion, or topic you'd love us to cover next?</p>
+      <div class="contact-item">
+        <span>Email</span>
+        info@printsoftdriver.com
+      </div>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="privacy.html#tab-terms">Terms of Use</a>
+      <a href="privacy.html#tab-disclaimer">Full Disclaimer</a>
+      <a href="privacy.html#tab-cookies">Cookie Policy</a>
+      <a href="privacy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
+    </div>
+    <p class="footer-copyright">&copy; 2026 PrintSoftDriver. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+  <p class="cookie-text">We use cookies to improve your experience. By continuing, you agree to our <a href="privacy.html#tab-cookies">Cookie Policy</a>.</p>
+  <div class="cookie-btns">
+    <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">Accept All</button>
+    <button class="cookie-btn cookie-btn-reject" onclick="rejectCookies()">Reject All</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

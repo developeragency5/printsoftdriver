@@ -1,268 +1,324 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Troubleshooting Driver Problems — A Calm, Friendly Guide | PrintSoftDriver</title>
-    <meta name="description" content="Stuck with a driver problem? Walk through our calm, plain-English troubleshooting guide for printers, audio, networking, graphics, and more.">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="PrintSoftDriver">
-    <meta property="og:title" content="Troubleshooting Driver Problems — A Calm, Friendly Guide | PrintSoftDriver">
-    <meta property="og:description" content="Stuck with a driver problem? Walk through our calm, plain-English troubleshooting guide for printers, audio, networking, graphics, and more.">
-    <meta property="og:image" content="favicon.svg">
-    <meta property="og:url" content="https://www.printsoftdriver.com/troubleshooting.html">
-    <meta property="og:type" content="website">
-    <link rel="canonical" href="https://www.printsoftdriver.com/troubleshooting.html">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"PLACEHOLDER_UET_ID"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
-  </head>
-  <body>
-  
-  <!-- ========== HEADER ========== -->
-  <header id="site-header" role="banner">
-    <div class="header-inner">
-      <a href="index.html" class="logo" aria-label="PrintSoftDriver Home">
-        <svg width="36" height="36" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="32" height="32" rx="6" fill="#E87F24"/>
-          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
-          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
-          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
-          <rect x="4" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
-          <rect x="24" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
-          <rect x="14" y="4" width="4" height="4" rx="1" fill="#FEFDDF"/>
-          <rect x="14" y="24" width="4" height="4" rx="1" fill="#FEFDDF"/>
-        </svg>
-        <span class="logo-text">PrintSoftDriver</span>
-      </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="about.html">About</a>
-        <a href="troubleshooting.html">Troubleshooting</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-      <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Troubleshooting Driver Problems — Calm, Friendly Fixes | PrintSoftDriver</title>
+  <meta name="description" content="Stuck with a driver problem? Walk through our calm, plain-English troubleshooting hub for printers, audio, networking, graphics, USB, and more.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PrintSoftDriver">
+  <meta property="og:title" content="Troubleshooting Driver Problems — Calm, Friendly Fixes | PrintSoftDriver">
+  <meta property="og:description" content="Stuck with a driver problem? Walk through our calm, plain-English troubleshooting hub for printers, audio, networking, graphics, USB, and more.">
+  <meta property="og:image" content="favicon.svg">
+  <meta property="og:url" content="https://www.printsoftdriver.com/troubleshooting.html">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://www.printsoftdriver.com/troubleshooting.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"PLACEHOLDER_UET_ID"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="PrintSoftDriver Home">
+      <svg width="36" height="36" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="6" fill="#E87F24"/>
+        <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+        <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+        <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        <rect x="4" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="24" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="4" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="24" width="4" height="4" rx="1" fill="#FEFDDF"/>
+      </svg>
+      <span class="logo-text">PrintSoftDriver</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
       <a href="troubleshooting.html">Troubleshooting</a>
       <a href="contact.html">Contact</a>
     </nav>
-  </header>
-  
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-  <!-- ========== HERO ========== -->
-  <section class="hero-page hero-page-tall" aria-label="Troubleshooting Hero">
-    <div class="hero-page-bg" aria-hidden="true">
-      <img src="images/support-pro.png" alt="">
-      <div class="hero-page-overlay overlay-strong"></div>
+<!-- ========== PREMIUM HERO ========== -->
+<section class="hero-sub" aria-label="Troubleshooting Hub">
+  <div class="hero-sub-bg" aria-hidden="true"><img src="images/hero-bg-tech.png" alt=""></div>
+  <div class="hero-sub-overlay" aria-hidden="true"></div>
+  <div class="hero-sub-grid" aria-hidden="true"></div>
+  <span class="hero-sub-orb hero-sub-orb-1" aria-hidden="true"></span>
+  <span class="hero-sub-orb hero-sub-orb-2" aria-hidden="true"></span>
+  <div class="hero-sub-floats" aria-hidden="true">
+    <div class="hero-sub-float hero-sub-float-1"><div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="6" y="3" width="12" height="6" rx="1" stroke="currentColor" stroke-width="2"/><rect x="3" y="9" width="18" height="9" rx="2" stroke="currentColor" stroke-width="2"/><rect x="6" y="14" width="12" height="7" rx="1" stroke="currentColor" stroke-width="2"/></svg></div><div><span>Printer</span><small>Quick fix</small></div></div>
+    <div class="hero-sub-float hero-sub-float-2"><div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.55a11 11 0 0114 0M1.42 9a16 16 0 0121.16 0M8.53 16.11a6 6 0 016.95 0M12 20h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><span>Wi-Fi</span><small>Quick fix</small></div></div>
+    <div class="hero-sub-float hero-sub-float-3"><div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M11 5L6 9H2v6h4l5 4V5zM15 9a3 3 0 010 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><span>Audio</span><small>Quick fix</small></div></div>
+    <div class="hero-sub-float hero-sub-float-4"><div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 22h8M12 18v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><div><span>Display</span><small>Quick fix</small></div></div>
+  </div>
+  <div class="hero-sub-inner">
+    <span class="hero-sub-tag"><span class="hero-sub-tag-dot"></span> Troubleshooting Hub</span>
+    <h1 class="hero-sub-title">Take a Breath. <span class="accent">Most Driver Problems</span> Have a Simple Fix.</h1>
+    <p class="hero-sub-sub">A calm, ordered walkthrough for every common driver problem. Every symptom on this page links to a dedicated step-by-step fix guide — with images, plain-English explanations, and zero jargon walls.</p>
+    <div class="hero-sub-actions">
+      <a href="#symptoms" class="btn-pro btn-pro-primary"><span>Jump to Symptoms</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a href="#universal" class="btn-pro btn-pro-ghost"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 8v4M12 16h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><span>Try Universal Fixes First</span></a>
     </div>
-    <div class="hero-page-content reveal">
-      <span class="hero-eyebrow">Troubleshooting Help</span>
-      <h1>Take a Breath. Most Driver Problems Have a Simple Fix.</h1>
-      <p>This is a calm, ordered walkthrough for the everyday driver problems that look scary but usually are not. Work through the steps in order, and you will solve the majority of issues before lunch.</p>
-      <div class="hero-breadcrumbs"><a href="index.html">Home</a> <span aria-hidden="true">›</span> <span>Troubleshooting</span></div>
-    </div>
-  </section>
+    <div class="hero-sub-bread"><a href="index.html">Home</a> &rsaquo; <span>Troubleshooting</span></div>
+  </div>
+</section>
 
-  <!-- ========== UNIVERSAL FIRST STEPS ========== -->
-  <section class="page-section">
-    <div class="section-inner">
-      <div class="section-header reveal">
-        <span class="section-eyebrow">Step 1 — The Universal Fixes</span>
-        <h2>Try These Four Things First, Every Time</h2>
-        <p>Before you blame the driver, blame the boring stuff. These four steps fix more problems than anything else combined.</p>
-      </div>
-      <ol class="steps-grid">
-        <li class="step-card reveal"><span class="step-num">1</span><h3>Restart, Properly</h3><p>A full restart, not just closing the lid. It clears stuck driver state and resets every device on the system. Try this first, always.</p></li>
-        <li class="step-card reveal"><span class="step-num">2</span><h3>Check the Cable or Wireless Link</h3><p>Loose USB cables, a Bluetooth toggle that flicked off, a Wi-Fi network silently switched — physical and wireless layers cause more "driver" problems than drivers themselves.</p></li>
-        <li class="step-card reveal"><span class="step-num">3</span><h3>Reseat the Device</h3><p>Unplug, wait ten seconds, plug back into a different port if possible. This forces the operating system to re-detect the device and reload the driver cleanly.</p></li>
-        <li class="step-card reveal"><span class="step-num">4</span><h3>Check for Pending Updates</h3><p>An interrupted operating system update can leave drivers in an in-between state. Let any pending updates finish, then restart again.</p></li>
-      </ol>
+<!-- ========== UNIVERSAL FIRST STEPS ========== -->
+<section id="universal" class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Step 1 — The Universal Fixes</span>
+      <h2>Try These Four Things First, Every Time</h2>
+      <p>Before you blame the driver, blame the boring stuff. These four steps fix more problems than anything else combined.</p>
     </div>
-  </section>
+    <ol class="steps-grid">
+      <li class="step-card reveal"><span class="step-num">1</span><h3>Restart, Properly</h3><p>A full restart, not just closing the lid. It clears stuck driver state and resets every device on the system. Try this first, always.</p></li>
+      <li class="step-card reveal"><span class="step-num">2</span><h3>Check the Cable or Wireless Link</h3><p>Loose USB cables, a Bluetooth toggle that flicked off, a Wi-Fi network silently switched — physical and wireless layers cause more "driver" problems than drivers themselves.</p></li>
+      <li class="step-card reveal"><span class="step-num">3</span><h3>Reseat the Device</h3><p>Unplug, wait ten seconds, plug back into a different port if possible. This forces the operating system to re-detect the device and reload the driver cleanly.</p></li>
+      <li class="step-card reveal"><span class="step-num">4</span><h3>Check for Pending Updates</h3><p>An interrupted operating system update can leave drivers in an in-between state. Let any pending updates finish, then restart again.</p></li>
+    </ol>
+  </div>
+</section>
 
-  <!-- ========== DRIVER-SPECIFIC ========== -->
-  <section class="page-section bg-surface">
-    <div class="section-inner">
-      <div class="section-header reveal">
-        <span class="section-eyebrow">Step 2 — Driver-Specific Fixes</span>
-        <h2>Still Misbehaving? Reset the Driver</h2>
-        <p>If the universal fixes did not solve it, the driver itself probably needs a reset. The order matters.</p>
-      </div>
-      <div class="split-row">
-        <div class="split-text reveal">
-          <h3>The Clean Reinstall, Step by Step</h3>
-          <ol class="ordered-steps">
-            <li>Identify the exact device and the maker of the chip inside it.</li>
-            <li>Visit the official manufacturer support page and download the latest driver for your operating system version.</li>
-            <li>In your operating system's device manager, uninstall the existing driver — and tick the option to remove the driver software too, if offered.</li>
-            <li>Restart the computer.</li>
-            <li>Run the freshly downloaded driver installer.</li>
-            <li>Restart again, then test.</li>
-          </ol>
-          <p>This sequence resolves the vast majority of stubborn driver problems. The reason it works so well is that it removes any leftovers from previous installs that might be silently fighting with the new version.</p>
-        </div>
-        <div class="split-image reveal">
-          <img src="images/laptop.jpg" alt="A laptop showing diagnostic information" loading="lazy" width="640" height="420">
-        </div>
-      </div>
+<!-- ========== DRIVER-SPECIFIC ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Step 2 — Driver-Specific Fixes</span>
+      <h2>Still Misbehaving? Reset the Driver</h2>
+      <p>If the universal fixes did not solve it, the driver itself probably needs a reset. The order matters.</p>
     </div>
-  </section>
-
-  <!-- ========== SYMPTOMS GRID ========== -->
-  <section class="page-section">
-    <div class="section-inner">
-      <div class="section-header reveal">
-        <span class="section-eyebrow">Common Symptoms</span>
-        <h2>Quick Help by Symptom</h2>
-        <p>Find your problem in plain language and jump straight to a calm, structured fix.</p>
+    <div class="split-row">
+      <div class="split-text reveal">
+        <h3>The Clean Reinstall, Step by Step</h3>
+        <ol class="ordered-steps">
+          <li>Identify the exact device and the maker of the chip inside it.</li>
+          <li>Visit the official manufacturer support page and download the latest driver for your operating system version.</li>
+          <li>In your operating system's device manager, uninstall the existing driver — and tick the option to remove the driver software too, if offered.</li>
+          <li>Restart the computer.</li>
+          <li>Run the freshly downloaded driver installer.</li>
+          <li>Restart again, then test.</li>
+        </ol>
+        <p>This sequence resolves the vast majority of stubborn driver problems. The reason it works so well is that it removes any leftovers from previous installs that might be silently fighting with the new version.</p>
       </div>
-      <div class="symptom-grid">
-        <article class="symptom-card reveal">
-          <div class="symptom-icon" aria-hidden="true">🖨️</div>
-          <h3>Printer Prints Blank or Garbled Pages</h3>
-          <p>Almost always a printer driver issue. Reinstall the latest driver from the printer maker, not from a generic listing.</p>
-          <a href="printer-drivers.html" class="text-link">Read the printer guide →</a>
-        </article>
-        <article class="symptom-card reveal">
-          <div class="symptom-icon" aria-hidden="true">🔇</div>
-          <h3>No Sound Coming Out</h3>
-          <p>Check default output device first, then reinstall the audio driver from your laptop or motherboard maker.</p>
-          <a href="audio-drivers.html" class="text-link">Read the audio guide →</a>
-        </article>
-        <article class="symptom-card reveal">
-          <div class="symptom-icon" aria-hidden="true">📶</div>
-          <h3>Wi-Fi Drops Constantly</h3>
-          <p>Disable aggressive power-saving on the network adapter, then update the driver from the laptop maker.</p>
-          <a href="network-drivers.html" class="text-link">Read the network guide →</a>
-        </article>
-        <article class="symptom-card reveal">
-          <div class="symptom-icon" aria-hidden="true">🖥️</div>
-          <h3>Screen Flickers or Goes Black</h3>
-          <p>Almost always a graphics driver problem. Roll back to a known-good version or do a clean install of the latest stable driver.</p>
-          <a href="graphics-drivers.html" class="text-link">Read the graphics guide →</a>
-        </article>
-        <article class="symptom-card reveal">
-          <div class="symptom-icon" aria-hidden="true">🔌</div>
-          <h3>USB Device Not Recognised</h3>
-          <p>Try another cable, then another port. If it still fails, reinstall the device-specific driver and the USB controller driver.</p>
-          <a href="usb-drivers.html" class="text-link">Read the USB guide →</a>
-        </article>
-        <article class="symptom-card reveal">
-          <div class="symptom-icon" aria-hidden="true">🐢</div>
-          <h3>Computer Feels Slow After an Update</h3>
-          <p>Re-install the chipset driver and check the GPU driver. Updates sometimes replace tuned drivers with generic ones.</p>
-          <a href="system-drivers.html" class="text-link">Read the system guide →</a>
-        </article>
+      <div class="split-image reveal">
+        <img src="images/laptop.jpg" alt="A laptop showing diagnostic information" loading="lazy" width="640" height="420">
       </div>
-    </div>
-  </section>
-
-  <!-- ========== SAFETY ========== -->
-  <section class="page-section bg-surface">
-    <div class="section-inner">
-      <div class="callout reveal">
-        <h2>A Quick Note on Safety</h2>
-        <p>Always download drivers from your hardware manufacturer's official website. Avoid third-party "driver updater" tools that promise miracle fixes — they often install bundles you do not need, and occasionally cause the very problems they claim to solve.</p>
-        <p>If you are not comfortable making changes to your system, ask a trusted technician. There is no shame in it. The same way most people happily call a plumber, calling someone who knows their way around a computer is perfectly sensible.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== CTA ========== -->
-  <section class="page-section">
-    <div class="section-inner">
-      <div class="cta-card reveal">
-        <h2>Still Stuck? Tell Us About It</h2>
-        <p>If you have worked through these steps and your problem persists, drop us a line. We may not be able to solve it for you, but we love adding new symptoms and fixes to our guides.</p>
-        <div class="cta-actions">
-          <a href="contact.html" class="btn btn-primary">Send a Message</a>
-          <a href="blog.html" class="btn btn-outline-dark">Read the Blog</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
-  <!-- ========== FOOTER ========== -->
-  <footer id="site-footer" role="contentinfo">
-    <div class="footer-grid">
-      <div class="footer-col">
-        <div class="footer-logo">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="32" height="32" rx="6" fill="#E87F24"/>
-            <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
-            <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
-            <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
-          </svg>
-          <span class="footer-logo-text">PrintSoftDriver</span>
-        </div>
-        <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Site Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="troubleshooting.html">Troubleshooting</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Driver Guides</h4>
-        <ul>
-          <li><a href="printer-drivers.html">Printer Drivers</a></li>
-          <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
-          <li><a href="audio-drivers.html">Audio Drivers</a></li>
-          <li><a href="network-drivers.html">Network Drivers</a></li>
-          <li><a href="usb-drivers.html">USB &amp; Peripherals</a></li>
-          <li><a href="system-drivers.html">System Drivers</a></li>
-        </ul>
-      </div>
-      <div class="footer-col footer-col-3">
-        <h4>Get In Touch</h4>
-        <p>Have a question, suggestion, or topic you'd love us to cover next?</p>
-        <div class="contact-item">
-          <span>Email</span>
-          info@printsoftdriver.com
-        </div>
-      </div>
-    </div>
-    <div class="footer-disclaimer">
-      <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-bottom-links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="privacy.html#tab-terms">Terms of Use</a>
-        <a href="privacy.html#tab-disclaimer">Full Disclaimer</a>
-        <a href="privacy.html#tab-cookies">Cookie Policy</a>
-        <a href="privacy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
-      </div>
-      <p class="footer-copyright">&copy; 2026 PrintSoftDriver. All Rights Reserved.</p>
-    </div>
-  </footer>
-
-  <!-- ========== COOKIE BANNER ========== -->
-  <div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
-    <p class="cookie-text">We use cookies to improve your experience. By continuing, you agree to our <a href="privacy.html#tab-cookies">Cookie Policy</a>.</p>
-    <div class="cookie-btns">
-      <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">Accept All</button>
-      <button class="cookie-btn cookie-btn-reject" onclick="rejectCookies()">Reject All</button>
     </div>
   </div>
+</section>
 
-  <script src="script.js"></script>
-  </body>
-  </html>
+<!-- ========== SYMPTOMS GRID — links to dedicated fix pages ========== -->
+<section id="symptoms" class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Quick Help by Symptom</span>
+      <h2>Find Your Problem, Get a Dedicated Fix</h2>
+      <p>Each card opens a full step-by-step guide with images, common causes, and an ordered fix routine.</p>
+    </div>
+    <div class="symptom-grid-pro">
+
+      <article class="symptom-card-pro reveal">
+        <div class="symptom-card-pro-head">
+          <div class="symptom-card-pro-icon">🖨️</div>
+          <span class="symptom-card-pro-tag">Printer</span>
+        </div>
+        <div class="symptom-card-pro-body">
+          <h3>Printer Prints Blank or Garbled Pages</h3>
+          <p>Almost always a printer driver issue. Reinstall the latest driver from the printer maker, not from a generic listing.</p>
+          <a href="fix-printer-blank.html" class="symptom-card-pro-link">Open the printer fix guide
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="symptom-card-pro reveal">
+        <div class="symptom-card-pro-head">
+          <div class="symptom-card-pro-icon">🔇</div>
+          <span class="symptom-card-pro-tag">Audio</span>
+        </div>
+        <div class="symptom-card-pro-body">
+          <h3>No Sound Coming Out</h3>
+          <p>Check default output device first, then reinstall the audio driver from your laptop or motherboard maker.</p>
+          <a href="fix-no-sound.html" class="symptom-card-pro-link">Open the audio fix guide
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="symptom-card-pro reveal">
+        <div class="symptom-card-pro-head">
+          <div class="symptom-card-pro-icon">📶</div>
+          <span class="symptom-card-pro-tag">Wi-Fi</span>
+        </div>
+        <div class="symptom-card-pro-body">
+          <h3>Wi-Fi Drops Constantly</h3>
+          <p>Disable aggressive power-saving on the network adapter, then update the driver from the laptop maker.</p>
+          <a href="fix-wifi-drops.html" class="symptom-card-pro-link">Open the Wi-Fi fix guide
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="symptom-card-pro reveal">
+        <div class="symptom-card-pro-head">
+          <div class="symptom-card-pro-icon">🖥️</div>
+          <span class="symptom-card-pro-tag">Display</span>
+        </div>
+        <div class="symptom-card-pro-body">
+          <h3>Screen Flickers or Goes Black</h3>
+          <p>Almost always a graphics driver problem. Roll back to a known-good version or do a clean install of the latest stable driver.</p>
+          <a href="fix-screen-flicker.html" class="symptom-card-pro-link">Open the display fix guide
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="symptom-card-pro reveal">
+        <div class="symptom-card-pro-head">
+          <div class="symptom-card-pro-icon">🔌</div>
+          <span class="symptom-card-pro-tag">USB</span>
+        </div>
+        <div class="symptom-card-pro-body">
+          <h3>USB Device Not Recognised</h3>
+          <p>Try another cable, then another port. If it still fails, reinstall the device-specific driver and the USB controller driver.</p>
+          <a href="fix-usb-not-recognised.html" class="symptom-card-pro-link">Open the USB fix guide
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="symptom-card-pro reveal">
+        <div class="symptom-card-pro-head">
+          <div class="symptom-card-pro-icon">🐢</div>
+          <span class="symptom-card-pro-tag">System</span>
+        </div>
+        <div class="symptom-card-pro-body">
+          <h3>Computer Feels Slow After an Update</h3>
+          <p>Re-install the chipset driver and check the GPU driver. Updates sometimes replace tuned drivers with generic ones.</p>
+          <a href="fix-slow-after-update.html" class="symptom-card-pro-link">Open the system fix guide
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SAFETY ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="callout reveal">
+      <h2>A Quick Note on Safety</h2>
+      <p>Always download drivers from your hardware manufacturer's official website. Avoid third-party "driver updater" tools that promise miracle fixes — they often install bundles you do not need, and occasionally cause the very problems they claim to solve.</p>
+      <p>If you are not comfortable making changes to your system, ask a trusted technician. There is no shame in it. The same way most people happily call a plumber, calling someone who knows their way around a computer is perfectly sensible.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Still Stuck? Tell Us About It</h2>
+      <p>If you have worked through these steps and your problem persists, drop us a line. We may not be able to solve it for you, but we love adding new symptoms and fixes to our guides.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Send a Message</a>
+        <a href="blog.html" class="btn btn-outline-dark">Read the Blog</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Fixes</h4>
+      <ul>
+        <li><a href="fix-printer-blank.html">Printer Blank Pages</a></li>
+        <li><a href="fix-no-sound.html">No Sound Coming Out</a></li>
+        <li><a href="fix-wifi-drops.html">Wi-Fi Drops Constantly</a></li>
+        <li><a href="fix-screen-flicker.html">Screen Flickers / Black</a></li>
+        <li><a href="fix-usb-not-recognised.html">USB Not Recognised</a></li>
+        <li><a href="fix-slow-after-update.html">Slow After Update</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-col-3">
+      <h4>Get In Touch</h4>
+      <p>Have a question, suggestion, or topic you'd love us to cover next?</p>
+      <div class="contact-item">
+        <span>Email</span>
+        info@printsoftdriver.com
+      </div>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="privacy.html#tab-terms">Terms of Use</a>
+      <a href="privacy.html#tab-disclaimer">Full Disclaimer</a>
+      <a href="privacy.html#tab-cookies">Cookie Policy</a>
+      <a href="privacy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
+    </div>
+    <p class="footer-copyright">&copy; 2026 PrintSoftDriver. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+  <p class="cookie-text">We use cookies to improve your experience. By continuing, you agree to our <a href="privacy.html#tab-cookies">Cookie Policy</a>.</p>
+  <div class="cookie-btns">
+    <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">Accept All</button>
+    <button class="cookie-btn cookie-btn-reject" onclick="rejectCookies()">Reject All</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

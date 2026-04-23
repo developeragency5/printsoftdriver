@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fix: Wi-Fi Drops Constantly or Reconnects Every Few Minutes | PrintSoftDriver</title>
+  <meta name="description" content="Wi-Fi keeps dropping out? A friendly step-by-step guide for fixing unstable wireless on a laptop or desktop, including driver and power settings.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PrintSoftDriver">
+  <meta property="og:title" content="Fix: Wi-Fi Drops Constantly or Reconnects Every Few Minutes | PrintSoftDriver">
+  <meta property="og:description" content="Wi-Fi keeps dropping out? A friendly step-by-step guide for fixing unstable wireless on a laptop or desktop, including driver and power settings.">
+  <meta property="og:image" content="favicon.svg">
+  <meta property="og:url" content="https://www.printsoftdriver.com/fix-wifi-drops.html">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://www.printsoftdriver.com/fix-wifi-drops.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"PLACEHOLDER_UET_ID"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+</head>
+<body>
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="PrintSoftDriver Home">
+      <svg width="36" height="36" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="6" fill="#E87F24"/>
+        <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+        <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+        <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        <rect x="4" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="24" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="4" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="24" width="4" height="4" rx="1" fill="#FEFDDF"/>
+      </svg>
+      <span class="logo-text">PrintSoftDriver</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero-sub" aria-label="Quick Fix Guide">
+    <div class="hero-sub-bg" aria-hidden="true">
+      <img src="images/hero-bg-tech.png" alt="">
+    </div>
+    <div class="hero-sub-overlay" aria-hidden="true"></div>
+    <div class="hero-sub-grid" aria-hidden="true"></div>
+    <span class="hero-sub-orb hero-sub-orb-1" aria-hidden="true"></span>
+    <span class="hero-sub-orb hero-sub-orb-2" aria-hidden="true"></span>
+    <div class="hero-sub-floats" aria-hidden="true">
+      <div class="hero-sub-float hero-sub-float-1">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.55a11 11 0 0114 0M1.42 9a16 16 0 0121.16 0M8.53 16.11a6 6 0 016.95 0M12 20h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div><span>Wi-Fi Driver</span><small>Update</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-2">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div><span>Power</span><small>Settings</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-3">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+        <div><span>Time</span><small>~10 min</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-4">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12.55a11 11 0 0114 0M1.42 9a16 16 0 0121.16 0M8.53 16.11a6 6 0 016.95 0M12 20h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div><span>Channel</span><small>Less crowded</small></div>
+      </div>
+    </div>
+    <div class="hero-sub-inner">
+      <span class="hero-sub-tag"><span class="hero-sub-tag-dot"></span> Quick Fix Guide</span>
+      <h1 class="hero-sub-title">Wi-Fi <span class="accent">Drops Constantly</span> Every Few Minutes</h1>
+      <p class="hero-sub-sub">An unstable Wi-Fi connection is one of the most aggravating computer problems — and almost always caused by a small handful of fixable settings. Here is the calm reset routine.</p>
+      <div class="hero-sub-meta">
+        <span class="hero-sub-pill severity-medium">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 8v5M12 16h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          Difficulty: Medium
+        </span>
+        <span class="hero-sub-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          ~8–15 minutes
+        </span>
+        <span class="hero-sub-pill success">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+          Router access helpful
+        </span>
+      </div>
+      <div class="hero-sub-bread"><a href="index.html">Home</a> &rsaquo; <a href="troubleshooting.html">Troubleshooting</a> &rsaquo; <span>Wi-Fi Drops Constantly</span></div>
+    </div>
+  </section>
+
+<!-- ========== QUICK FIX CALLOUT ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="quick-fix-card reveal">
+      <span class="quick-fix-label">60-Second Quick Fix</span>
+      <h2>Try This First — The Two-Minute Reset</h2>
+      <ol>
+        <li>Toggle Wi-Fi off and back on from the system tray, then wait fifteen seconds for it to reconnect.</li>
+        <li>Restart your router by pulling the power for thirty full seconds before plugging it back in.</li>
+        <li>Restart your computer once for a clean start to the wireless stack.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHAT'S HAPPENING ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">What's Actually Happening</span>
+      <h2>Why Your Laptop Keeps Losing Wi-Fi</h2>
+    </div>
+    <div class="split-row">
+      <div class="split-text reveal">
+        <p>A laptop's Wi-Fi card is one of the most power-hungry components when it is actively transmitting. To save battery, every laptop has aggressive power-management built into the wireless driver — the OS will quietly turn the card off when it thinks you are idle, and back on when you start using the network. If the on/off cycle is too aggressive, you get constant dropouts that look like a router problem but are entirely a setting on your computer.</p>
+        <p>The second common cause is interference. Modern homes are crowded with wireless signals — neighbours' routers, smart bulbs, video doorbells, baby monitors. If your router is on a busy channel, every other transmission collides with yours and the connection becomes unstable. Switching channels or using the 5 GHz band (less crowded than 2.4 GHz) makes a dramatic difference.</p>
+        <p>The third common cause is an outdated or corrupted Wi-Fi driver. Driver updates for wireless chips are released frequently to fix exactly this kind of stability issue, so a fresh install from your laptop maker often resolves problems that have been bothering you for months.</p>
+      </div>
+      <div class="split-image reveal">
+        <img src="images/network.jpg" alt="Why Your Laptop Keeps Losing Wi-Fi" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STEP-BY-STEP FIX ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">The Calm, Step-by-Step Fix</span>
+      <h2>Stabilise Your Wi-Fi, In Order</h2>
+      <p>Work through these in order. Most readers solve the problem by step three — and almost everyone by step five.</p>
+    </div>
+    <div class="fix-steps">
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">1</span>
+          <img src="images/laptop.jpg" alt="Disable Aggressive Power Saving on the Wi-Fi Card" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Disable Aggressive Power Saving on the Wi-Fi Card</h3>
+          <p>This single change fixes more 'random Wi-Fi dropouts' than anything else. Tell the operating system to keep the Wi-Fi card fully powered.</p>
+          <ul class="fix-step-list">
+            <li>Open Device Manager and expand Network adapters.</li>
+            <li>Right-click your Wi-Fi adapter and open Properties → Power Management.</li>
+            <li>Untick 'Allow the computer to turn off this device to save power'.</li>
+            <li>Apply and restart.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">2</span>
+          <img src="images/professional-workspace.png" alt="Forget the Network and Reconnect Cleanly" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Forget the Network and Reconnect Cleanly</h3>
+          <p>Stored network profiles can become corrupted over time. Forgetting the network and rejoining gives you a clean slate.</p>
+          <ul class="fix-step-list">
+            <li>Open Wi-Fi settings and find the network in your saved list.</li>
+            <li>Choose Forget.</li>
+            <li>Reconnect by entering the password fresh.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">3</span>
+          <img src="images/user-mode.jpg" alt="Update or Reinstall the Wi-Fi Driver" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Update or Reinstall the Wi-Fi Driver</h3>
+          <p>Wireless drivers see frequent updates because stability is constantly being improved. Get the latest from your laptop maker, not from a generic driver tool.</p>
+          <ul class="fix-step-list">
+            <li>Visit your laptop manufacturer's official support page.</li>
+            <li>Search by your exact model number and operating system version.</li>
+            <li>Download the wireless driver and install it.</li>
+            <li>Restart and reconnect.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">4</span>
+          <img src="images/network.jpg" alt="Switch the Router to a Less Crowded Channel" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Switch the Router to a Less Crowded Channel</h3>
+          <p>If you live in a dense building, your neighbours' Wi-Fi networks are stepping on yours. Most routers can scan for the best channel automatically.</p>
+          <ul class="fix-step-list">
+            <li>Log into your router admin page.</li>
+            <li>Find the wireless settings and look for a 'channel' option.</li>
+            <li>Pick 'Auto', or manually try channels 1, 6, or 11 on 2.4 GHz.</li>
+            <li>Use the 5 GHz band when possible — it is far less crowded.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">5</span>
+          <img src="images/support-pro.png" alt="Reset the Network Stack as a Last Resort" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Reset the Network Stack as a Last Resort</h3>
+          <p>If nothing else worked, a full network stack reset clears every cached setting and starts fresh. This will forget all saved networks.</p>
+          <ul class="fix-step-list">
+            <li>Open the network reset option from system settings.</li>
+            <li>Confirm and let the computer restart.</li>
+            <li>Reconnect to your Wi-Fi by entering the password again.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CAUSES ACCORDION ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Common Root Causes</span>
+      <h2>Why This Happens In the First Place</h2>
+      <p>Tap any cause to read the friendly explanation behind it.</p>
+    </div>
+    <div class="cause-accordion reveal">
+      <details>
+        <summary>Why does Wi-Fi drop only when my laptop is unplugged?</summary>
+        <div>That is a classic power-management symptom. On battery, the OS gets more aggressive about turning the Wi-Fi card off. Disable power saving on the wireless adapter as shown above.</div>
+      </details>
+
+      <details>
+        <summary>Why does my phone work fine but my laptop drops?</summary>
+        <div>Phones use a completely different wireless chip and driver. If only the laptop is affected, the issue is almost certainly with the laptop's wireless driver or settings — not the router.</div>
+      </details>
+
+      <details>
+        <summary>Why does Wi-Fi drop only at certain times of day?</summary>
+        <div>That is a sign of channel congestion. When neighbours come home in the evening and start streaming, the airwaves get crowded. Switching to a less-used channel or the 5 GHz band usually fixes it.</div>
+      </details>
+
+      <details>
+        <summary>Why does it disconnect every time I open a video call?</summary>
+        <div>Some wireless drivers have known bugs around real-time audio packets. A driver update from the laptop maker almost always fixes this.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STILL BROKEN / WARNING ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cards-3 stagger">
+      <div class="warn-card reveal">
+        <h3>What Not To Do</h3>
+        <p>Avoid third-party "driver updater" tools that promise miracle fixes. They often install bundles you do not need and occasionally cause the very problems they claim to solve. Stick to the official manufacturer support page for your device.</p>
+      </div>
+      <div class="callout reveal">
+        <h3>If It Still Will Not Cooperate</h3>
+        <p>If you have worked through every step and the problem persists, the issue may be hardware, not software. Try the device on a second computer if you can. If it still fails, that is a strong sign the device itself is at fault.</p>
+      </div>
+      <div class="warn-card reveal" style="border-left-color:#73A5CA;background:linear-gradient(135deg,#EAF3FA 0%,#D9E8F2 100%);">
+        <h3 style="color:#0F172A;">A Calming Reminder</h3>
+        <p>Almost every problem on this page has a fix that takes less time than making a cup of tea. Take a breath, work through the steps in order, and you will get there.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== RELATED ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Keep Reading</span>
+      <h2>Related Guides You Might Like</h2>
+    </div>
+    <div class="related-grid">
+    <a href="network-drivers.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/network.jpg" alt="The Plain-English Wi-Fi Guide" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">Networking</span>
+        <h3>The Plain-English Wi-Fi Guide</h3>
+        <p>Everything from drivers to power saving to driver updates.</p>
+      </div>
+    </a>
+    <a href="fix-screen-flicker.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/graphics-card.jpg" alt="Fix: Screen Flickers or Goes Black" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">Graphics</span>
+        <h3>Fix: Screen Flickers or Goes Black</h3>
+        <p>Calm fixes for flickering displays and sudden black screens.</p>
+      </div>
+    </a>
+    <a href="fix-slow-after-update.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/cpu-chip.jpg" alt="Fix: Slow After an Update" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">System</span>
+        <h3>Fix: Slow After an Update</h3>
+        <p>Why an OS update sometimes makes your PC feel sluggish.</p>
+      </div>
+    </a>
+  </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Did This Guide Help You Out?</h2>
+      <p>If it did, share it with a friend who might be staring at the same frustrating screen. If it did not, drop us a line — we genuinely want to make these guides better.</p>
+      <div class="cta-actions">
+        <a href="troubleshooting.html" class="btn btn-primary">Back to Troubleshooting Hub</a>
+        <a href="contact.html" class="btn btn-outline-dark">Send Us Feedback</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Fixes</h4>
+      <ul>
+        <li><a href="fix-printer-blank.html">Printer Blank Pages</a></li>
+        <li><a href="fix-no-sound.html">No Sound Coming Out</a></li>
+        <li><a href="fix-wifi-drops.html">Wi-Fi Drops Constantly</a></li>
+        <li><a href="fix-screen-flicker.html">Screen Flickers / Black</a></li>
+        <li><a href="fix-usb-not-recognised.html">USB Not Recognised</a></li>
+        <li><a href="fix-slow-after-update.html">Slow After Update</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-col-3">
+      <h4>Get In Touch</h4>
+      <p>Have a question, suggestion, or topic you'd love us to cover next?</p>
+      <div class="contact-item">
+        <span>Email</span>
+        info@printsoftdriver.com
+      </div>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="privacy.html#tab-terms">Terms of Use</a>
+      <a href="privacy.html#tab-disclaimer">Full Disclaimer</a>
+      <a href="privacy.html#tab-cookies">Cookie Policy</a>
+      <a href="privacy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
+    </div>
+    <p class="footer-copyright">&copy; 2026 PrintSoftDriver. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+  <p class="cookie-text">We use cookies to improve your experience. By continuing, you agree to our <a href="privacy.html#tab-cookies">Cookie Policy</a>.</p>
+  <div class="cookie-btns">
+    <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">Accept All</button>
+    <button class="cookie-btn cookie-btn-reject" onclick="rejectCookies()">Reject All</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

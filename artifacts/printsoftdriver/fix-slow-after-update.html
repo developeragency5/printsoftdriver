@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fix: Computer Feels Slow After a System Update | PrintSoftDriver</title>
+  <meta name="description" content="After an OS update your computer feels sluggish? A friendly, calm guide to restoring performance — usually a chipset or graphics driver issue.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PrintSoftDriver">
+  <meta property="og:title" content="Fix: Computer Feels Slow After a System Update | PrintSoftDriver">
+  <meta property="og:description" content="After an OS update your computer feels sluggish? A friendly, calm guide to restoring performance — usually a chipset or graphics driver issue.">
+  <meta property="og:image" content="favicon.svg">
+  <meta property="og:url" content="https://www.printsoftdriver.com/fix-slow-after-update.html">
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="https://www.printsoftdriver.com/fix-slow-after-update.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"PLACEHOLDER_UET_ID"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+</head>
+<body>
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="PrintSoftDriver Home">
+      <svg width="36" height="36" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="6" fill="#E87F24"/>
+        <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+        <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+        <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        <rect x="4" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="24" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="4" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="24" width="4" height="4" rx="1" fill="#FEFDDF"/>
+      </svg>
+      <span class="logo-text">PrintSoftDriver</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero-sub" aria-label="Quick Fix Guide">
+    <div class="hero-sub-bg" aria-hidden="true">
+      <img src="images/hero-bg-tech.png" alt="">
+    </div>
+    <div class="hero-sub-overlay" aria-hidden="true"></div>
+    <div class="hero-sub-grid" aria-hidden="true"></div>
+    <span class="hero-sub-orb hero-sub-orb-1" aria-hidden="true"></span>
+    <span class="hero-sub-orb hero-sub-orb-2" aria-hidden="true"></span>
+    <div class="hero-sub-floats" aria-hidden="true">
+      <div class="hero-sub-float hero-sub-float-1">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="6" y="6" width="12" height="12" rx="1" stroke="currentColor" stroke-width="2"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+        <div><span>Chipset Driver</span><small>Reinstall</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-2">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div><span>Background</span><small>Audit</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-3">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+        <div><span>Time</span><small>~20 min</small></div>
+      </div>
+      <div class="hero-sub-float hero-sub-float-4">
+        <div class="hero-sub-float-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="6" y="6" width="12" height="12" rx="1" stroke="currentColor" stroke-width="2"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+        <div><span>GPU Driver</span><small>Refresh</small></div>
+      </div>
+    </div>
+    <div class="hero-sub-inner">
+      <span class="hero-sub-tag"><span class="hero-sub-tag-dot"></span> Quick Fix Guide</span>
+      <h1 class="hero-sub-title">Computer Feels <span class="accent">Slow After</span> an Update</h1>
+      <p class="hero-sub-sub">An operating system update should make things better, not worse — but updates sometimes replace your manufacturer's tuned drivers with generic ones, and performance takes a noticeable hit. Here is the calm, ordered way to put it right.</p>
+      <div class="hero-sub-meta">
+        <span class="hero-sub-pill severity-medium">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 8v5M12 16h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          Difficulty: Medium
+        </span>
+        <span class="hero-sub-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          ~15–30 minutes
+        </span>
+        <span class="hero-sub-pill success">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
+          No tools needed
+        </span>
+      </div>
+      <div class="hero-sub-bread"><a href="index.html">Home</a> &rsaquo; <a href="troubleshooting.html">Troubleshooting</a> &rsaquo; <span>Slow After Update</span></div>
+    </div>
+  </section>
+
+<!-- ========== QUICK FIX CALLOUT ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="quick-fix-card reveal">
+      <span class="quick-fix-label">60-Second Quick Fix</span>
+      <h2>Try This First — Settle the Update Down</h2>
+      <ol>
+        <li>Restart the computer twice in a row. Some updates only finish after a second restart, and performance is degraded until they do.</li>
+        <li>Wait an hour while plugged in. Background indexing, anti-virus rescans, and update finalisation can hammer the disk for a while after a big update.</li>
+        <li>Open Task Manager and check whether one process is constantly maxing out a CPU core. That is your suspect.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHAT'S HAPPENING ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">What's Actually Happening</span>
+      <h2>Why an Update Can Slow Things Down</h2>
+    </div>
+    <div class="split-row">
+      <div class="split-text reveal">
+        <p>Operating system updates do an enormous amount of behind-the-scenes work. They replace system files, recompile parts of the OS for your specific hardware, re-index your files for search, and frequently swap out hardware drivers with newer (or sometimes generic) versions. For the first hour or two after a major update, your computer is doing a lot of catching up — even when it looks idle.</p>
+        <p>The deeper, more persistent slowdown almost always comes from drivers being replaced. Your laptop maker carefully tunes their chipset, GPU, and storage drivers for your specific model. When an OS update replaces those tuned drivers with a Microsoft-supplied generic version, you can lose a noticeable amount of performance — sometimes 10 to 20 percent — until you reinstall the proper ones.</p>
+        <p>The third factor is background services. New OS features bring new background services that you may not need. Auditing what is running and trimming the truly unnecessary services frequently restores responsiveness without touching anything risky.</p>
+      </div>
+      <div class="split-image reveal">
+        <img src="images/cpu-chip.jpg" alt="Why an Update Can Slow Things Down" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STEP-BY-STEP FIX ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">The Calm, Step-by-Step Fix</span>
+      <h2>Restore Performance, In Order</h2>
+      <p>Work through these in order. Most readers solve the problem by step three — and almost everyone by step five.</p>
+    </div>
+    <div class="fix-steps">
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">1</span>
+          <img src="images/laptop.jpg" alt="Let the Update Truly Finish" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Let the Update Truly Finish</h3>
+          <p>Plug in, leave the laptop on for an hour, and let any pending background work complete. This alone fixes a surprising percentage of post-update slowness.</p>
+          <ul class="fix-step-list">
+            <li>Plug into mains power so the OS does not throttle background work.</li>
+            <li>Restart twice in a row, leaving 5 minutes between restarts.</li>
+            <li>Avoid heavy work for the first hour after a big update.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">2</span>
+          <img src="images/professional-workspace.png" alt="Check Task Manager for One Hungry Process" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Check Task Manager for One Hungry Process</h3>
+          <p>Open Task Manager and sort by CPU and Disk usage. A single process holding a CPU core at 100 percent or constantly thrashing the disk is your real problem.</p>
+          <ul class="fix-step-list">
+            <li>Open Task Manager (Ctrl + Shift + Esc).</li>
+            <li>Sort by CPU descending — note any process consistently above 30 percent.</li>
+            <li>Sort by Disk descending — note any process always at 100 percent.</li>
+            <li>Search the process name online before doing anything drastic.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">3</span>
+          <img src="images/kernel-mode.jpg" alt="Reinstall the Chipset Driver from the Maker" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Reinstall the Chipset Driver from the Maker</h3>
+          <p>The chipset driver is the most foundational driver on your computer — it tells the OS how the CPU, memory, and bus all talk to each other. Updates often replace it with a generic version.</p>
+          <ul class="fix-step-list">
+            <li>Visit your laptop or motherboard maker's official support page.</li>
+            <li>Find the chipset driver section.</li>
+            <li>Download the latest version for your OS.</li>
+            <li>Run the installer and restart.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">4</span>
+          <img src="images/graphics-card.jpg" alt="Reinstall the GPU Driver" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Reinstall the GPU Driver</h3>
+          <p>OS updates can swap your tuned GPU driver for a generic one. Reinstall the proper one from your GPU maker's official site.</p>
+          <ul class="fix-step-list">
+            <li>Visit your GPU maker's official driver download page.</li>
+            <li>Pick the latest stable release.</li>
+            <li>Use the Clean Install option if offered.</li>
+            <li>Restart and test.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="fix-step reveal">
+        <div class="fix-step-visual">
+          <span class="fix-step-num">5</span>
+          <img src="images/user-mode.jpg" alt="Trim Unnecessary Startup Programs" loading="lazy">
+        </div>
+        <div class="fix-step-body">
+          <h3>Trim Unnecessary Startup Programs</h3>
+          <p>Updates often re-enable startup items you previously disabled. Take five minutes to clean the startup list again.</p>
+          <ul class="fix-step-list">
+            <li>Open Task Manager → Startup tab.</li>
+            <li>Disable anything you do not need at boot.</li>
+            <li>Restart and notice the difference.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CAUSES ACCORDION ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Common Root Causes</span>
+      <h2>Why This Happens In the First Place</h2>
+      <p>Tap any cause to read the friendly explanation behind it.</p>
+    </div>
+    <div class="cause-accordion reveal">
+      <details>
+        <summary>Why does my laptop run hotter after the update?</summary>
+        <div>A generic GPU or chipset driver may not respect your laptop's tuned thermal limits, causing the cooling fans to ramp up. Reinstalling the maker's drivers usually restores normal thermals.</div>
+      </details>
+
+      <details>
+        <summary>Why is the disk constantly at 100 percent now?</summary>
+        <div>Background indexing, anti-malware rescans, and update finalisation all hit the disk hard. If it lasts longer than a couple of hours, identify the responsible process in Task Manager.</div>
+      </details>
+
+      <details>
+        <summary>Why does battery life feel shorter after the update?</summary>
+        <div>Generic drivers do not implement aggressive power management the way your laptop maker's drivers do. Reinstall the chipset and GPU drivers from your laptop maker.</div>
+      </details>
+
+      <details>
+        <summary>Can I roll back the entire update?</summary>
+        <div>Yes — most operating systems keep a rollback option for a couple of weeks after an update. Check System → Recovery for the option, but try fixing drivers first; rolling back loses the security fixes too.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STILL BROKEN / WARNING ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cards-3 stagger">
+      <div class="warn-card reveal">
+        <h3>What Not To Do</h3>
+        <p>Avoid third-party "driver updater" tools that promise miracle fixes. They often install bundles you do not need and occasionally cause the very problems they claim to solve. Stick to the official manufacturer support page for your device.</p>
+      </div>
+      <div class="callout reveal">
+        <h3>If It Still Will Not Cooperate</h3>
+        <p>If you have worked through every step and the problem persists, the issue may be hardware, not software. Try the device on a second computer if you can. If it still fails, that is a strong sign the device itself is at fault.</p>
+      </div>
+      <div class="warn-card reveal" style="border-left-color:#73A5CA;background:linear-gradient(135deg,#EAF3FA 0%,#D9E8F2 100%);">
+        <h3 style="color:#0F172A;">A Calming Reminder</h3>
+        <p>Almost every problem on this page has a fix that takes less time than making a cup of tea. Take a breath, work through the steps in order, and you will get there.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== RELATED ========== -->
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Keep Reading</span>
+      <h2>Related Guides You Might Like</h2>
+    </div>
+    <div class="related-grid">
+    <a href="system-drivers.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/chipset.jpg" alt="Chipset & System Drivers" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">System</span>
+        <h3>Chipset & System Drivers</h3>
+        <p>The unsung heroes that keep your whole PC humming along.</p>
+      </div>
+    </a>
+    <a href="fix-screen-flicker.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/graphics-card.jpg" alt="Fix: Screen Flickers or Goes Black" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">Graphics</span>
+        <h3>Fix: Screen Flickers or Goes Black</h3>
+        <p>Calm fixes for flickering displays and sudden black screens.</p>
+      </div>
+    </a>
+    <a href="fix-wifi-drops.html" class="related-card reveal">
+      <div class="related-card-img"><img src="images/network.jpg" alt="Fix: Wi-Fi Drops Constantly" loading="lazy"></div>
+      <div class="related-card-body">
+        <span class="related-card-tag">Wi-Fi</span>
+        <h3>Fix: Wi-Fi Drops Constantly</h3>
+        <p>The calm reset routine for an unstable wireless connection.</p>
+      </div>
+    </a>
+  </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Did This Guide Help You Out?</h2>
+      <p>If it did, share it with a friend who might be staring at the same frustrating screen. If it did not, drop us a line — we genuinely want to make these guides better.</p>
+      <div class="cta-actions">
+        <a href="troubleshooting.html" class="btn btn-primary">Back to Troubleshooting Hub</a>
+        <a href="contact.html" class="btn btn-outline-dark">Send Us Feedback</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Fixes</h4>
+      <ul>
+        <li><a href="fix-printer-blank.html">Printer Blank Pages</a></li>
+        <li><a href="fix-no-sound.html">No Sound Coming Out</a></li>
+        <li><a href="fix-wifi-drops.html">Wi-Fi Drops Constantly</a></li>
+        <li><a href="fix-screen-flicker.html">Screen Flickers / Black</a></li>
+        <li><a href="fix-usb-not-recognised.html">USB Not Recognised</a></li>
+        <li><a href="fix-slow-after-update.html">Slow After Update</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-col-3">
+      <h4>Get In Touch</h4>
+      <p>Have a question, suggestion, or topic you'd love us to cover next?</p>
+      <div class="contact-item">
+        <span>Email</span>
+        info@printsoftdriver.com
+      </div>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="privacy.html#tab-terms">Terms of Use</a>
+      <a href="privacy.html#tab-disclaimer">Full Disclaimer</a>
+      <a href="privacy.html#tab-cookies">Cookie Policy</a>
+      <a href="privacy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
+    </div>
+    <p class="footer-copyright">&copy; 2026 PrintSoftDriver. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+  <p class="cookie-text">We use cookies to improve your experience. By continuing, you agree to our <a href="privacy.html#tab-cookies">Cookie Policy</a>.</p>
+  <div class="cookie-btns">
+    <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">Accept All</button>
+    <button class="cookie-btn cookie-btn-reject" onclick="rejectCookies()">Reject All</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

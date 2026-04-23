@@ -7,14 +7,14 @@
 
 /* CSS Variables */
 :root {
-    --primary: #1D4ED8;
-    --secondary: #1E3A8A;
-    --accent: #E0F2FE;
-    --muted: #0EA5E9;
-    --bg: #FFFFFF;
-    --surface: #FFFFFF;
-    --text-primary: #1E293B;
-    --text-secondary: #475569;
+    --primary: #393E46;
+    --secondary: #222831;
+    --accent: #E5E7EB;
+    --muted: #6B7280;
+    --bg: #F8F9FA;
+    --surface: #F8F9FA;
+    --text-primary: #111111;
+    --text-secondary: #4B5563;
     --border: #CBD5E1;
   }
 
@@ -190,7 +190,7 @@ section { padding: 72px 24px; }
 .section-header h2 { font-size: clamp(1.6rem, 3vw, 2.4rem); color: var(--secondary); margin-bottom: 12px; }
 .section-header p { color: var(--text-secondary); max-width: 620px; margin: 0 auto; font-size: 1.05rem; }
 
-.bg-surface { background: #FFFFFF; }
+.bg-surface { background: #F8F9FA; }
 
 /* ===========================
    CARDS
@@ -283,16 +283,16 @@ section { padding: 72px 24px; }
   border-radius: 10px;
   position: relative;
 }
-.arch-layer:nth-child(1) { background: #1D4ED8; color: white; }
+.arch-layer:nth-child(1) { background: #393E46; color: white; }
 .arch-layer:nth-child(3) { background: #2B7DE9; color: white; }
 .arch-layer:nth-child(5) { background: #3A7FE8; color: white; }
 .arch-layer:nth-child(7) { background: #1557B0; color: white; }
-.arch-layer:nth-child(9) { background: #1E3A8A; color: white; }
+.arch-layer:nth-child(9) { background: #222831; color: white; }
 .arch-arrow {
   width: 0; height: 0;
   border-left: 16px solid transparent;
   border-right: 16px solid transparent;
-  border-top: 20px solid #1D4ED8;
+  border-top: 20px solid #393E46;
   margin: 2px auto;
 }
 .arch-arrow:nth-child(4) { border-top-color: #2B7DE9; }
@@ -690,7 +690,7 @@ section { padding: 72px 24px; }
 }
 .how-to-body h3 {
   margin: 0 0 12px 0;
-  color: #1E3A8A;
+  color: #222831;
   font-size: 1.25rem;
 }
 .how-to-body p {
@@ -699,8 +699,8 @@ section { padding: 72px 24px; }
   margin: 0;
 }
 .how-to-body code {
-  background: #E0F2FE;
-  color: #1E3A8A;
+  background: #E5E7EB;
+  color: #222831;
   padding: 2px 6px;
   border-radius: 4px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -736,7 +736,7 @@ section { padding: 72px 24px; }
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #1D4ED8 0%, #1E3A8A 100%);
+  background: linear-gradient(135deg, #393E46 0%, #222831 100%);
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -748,7 +748,7 @@ section { padding: 72px 24px; }
 }
 .step-text h3 {
   margin: 0 0 10px 0;
-  color: #1E3A8A;
+  color: #222831;
   font-size: 1.3rem;
 }
 .step-text p {

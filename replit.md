@@ -63,3 +63,13 @@ See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and pa
 - Footer now includes Driver Guides column + standalone disclaimer block above the bottom links.
 - Animations: IntersectionObserver-based scroll reveal on `.reveal` elements, staggered via `.stagger`, plus float/pulse on hero illustration. All respect `prefers-reduced-motion`.
 - All pages share the same header/footer structure and registered in vite.config.ts inputs.
+
+## UI Polish Round 2 (Apr 2026)
+- Removed person-laptop.jpg (bedroom photo) site-wide; replaced with AI-generated professional-workspace.png.
+- Removed brand-visible printer.jpg site-wide; replaced with AI-generated printer-clean.png (no logos, no text).
+- Replaced tech-support.jpg with AI-generated support-pro.png (cleaner editorial framing).
+- Added hero-bg-tech.png — premium teal circuit-board background used by new home hero.
+- Removed "Free Educational Resource" badge; replaced with "Independent Driver Education" tag with pulsing dot.
+- Built a brand-new premium home hero: 16:9 aspect-ratio, layered glass-morphism, animated gradient orbs, grid mask, shimmering text accent, fade-up entrance, gradient primary CTA, ghost CTA, stats panel with dividers, scroll cue.
+- Inner-page heroes (.hero-page, .hero-page-tall) now also enforce 16:9 aspect-ratio with min/max constraints; degrade gracefully on mobile.
+- All animations respect prefers-reduced-motion.

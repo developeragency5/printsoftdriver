@@ -72,87 +72,55 @@
 </header>
 
 <!-- ========== HERO ========== -->
-<section class="hero" aria-label="Hero Banner">
-  <div class="hero-content">
-    <span class="hero-eyebrow">Free Educational Resource</span>
-    <h1>Drivers, Demystified — <span class="accent">The Tiny Software</span> That Runs Your Whole Computer</h1>
-    <p>From the click of your mouse to the words on your screen, drivers are the quiet translators making it all happen. Let's walk through how they work, together.</p>
-    <div class="hero-btns">
-      <a href="#driver-types" class="btn btn-primary">Explore Driver Types</a>
-      <a href="blog.html" class="btn btn-outline">Read Our Blog</a>
+  <section class="hero-pro" aria-label="Hero Banner">
+    <div class="hero-pro-bg" aria-hidden="true">
+      <img src="images/hero-bg-tech.png" alt="">
+      <div class="hero-pro-overlay"></div>
+      <div class="hero-pro-orb hero-pro-orb-1"></div>
+      <div class="hero-pro-orb hero-pro-orb-2"></div>
+      <div class="hero-pro-grid"></div>
     </div>
-    <div class="hero-stats" role="list" aria-label="Quick site stats">
-      <div class="hero-stat" role="listitem"><span class="num">12+</span><span class="label">Driver Types</span></div>
-      <div class="hero-stat" role="listitem"><span class="num">4</span><span class="label">OS Platforms</span></div>
-      <div class="hero-stat" role="listitem"><span class="num">100%</span><span class="label">Free Guide</span></div>
+    <div class="hero-pro-inner">
+      <div class="hero-pro-content">
+        <span class="hero-pro-tag"><span class="hero-pro-dot"></span> Independent Driver Education</span>
+        <h1 class="hero-pro-title">
+          Drivers, <span class="hero-pro-accent">Demystified.</span><br>
+          The Tiny Software That<br>Runs Your Whole Computer.
+        </h1>
+        <p class="hero-pro-sub">From the click of your mouse to the words on your screen, drivers are the quiet translators making it all happen. Walk through how they work, in friendly plain English.</p>
+        <div class="hero-pro-actions">
+          <a href="#topics" class="btn-pro btn-pro-primary">
+            <span>Explore Driver Guides</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="troubleshooting.html" class="btn-pro btn-pro-ghost">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 8v4M12 16h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+            <span>Troubleshooting Help</span>
+          </a>
+        </div>
+        <div class="hero-pro-stats" role="list" aria-label="Site stats">
+          <div class="hero-pro-stat" role="listitem">
+            <span class="hero-pro-stat-num">12<span class="hero-pro-stat-plus">+</span></span>
+            <span class="hero-pro-stat-label">Driver Categories</span>
+          </div>
+          <div class="hero-pro-stat-divider" aria-hidden="true"></div>
+          <div class="hero-pro-stat" role="listitem">
+            <span class="hero-pro-stat-num">50<span class="hero-pro-stat-plus">+</span></span>
+            <span class="hero-pro-stat-label">In-Depth Guides</span>
+          </div>
+          <div class="hero-pro-stat-divider" aria-hidden="true"></div>
+          <div class="hero-pro-stat" role="listitem">
+            <span class="hero-pro-stat-num">100<span class="hero-pro-stat-plus">%</span></span>
+            <span class="hero-pro-stat-label">Free, Always</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Hero SVG Illustration -->
-    <svg class="hero-illustration" width="560" height="220" viewBox="0 0 560 220" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Laptop connected to printer, keyboard, speaker and mouse via device driver connections" role="img">
-      <!-- Laptop body -->
-      <rect x="200" y="60" width="160" height="110" rx="8" fill="white" fill-opacity="0.15" stroke="white" stroke-width="2"/>
-      <rect x="210" y="70" width="140" height="85" rx="4" fill="white" fill-opacity="0.1" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
-      <!-- Laptop text lines -->
-      <rect x="225" y="90" width="80" height="4" rx="2" fill="white" fill-opacity="0.5"/>
-      <rect x="225" y="102" width="100" height="4" rx="2" fill="white" fill-opacity="0.4"/>
-      <rect x="225" y="114" width="60" height="4" rx="2" fill="white" fill-opacity="0.3"/>
-      <!-- Laptop base -->
-      <rect x="185" y="170" width="190" height="8" rx="4" fill="white" fill-opacity="0.2"/>
-      <!-- Center label -->
-      <text x="280" y="200" text-anchor="middle" fill="white" fill-opacity="0.9" font-size="11" font-family="Inter,sans-serif" font-weight="600">Device Drivers</text>
-
-      <!-- Printer icon (left top) -->
-      <g transform="translate(60,55)">
-        <rect width="60" height="48" rx="8" fill="white" fill-opacity="0.15" stroke="white" stroke-width="1.5"/>
-        <rect x="10" y="8" width="40" height="20" rx="3" fill="white" fill-opacity="0.25"/>
-        <rect x="16" y="14" width="28" height="4" rx="2" fill="white" fill-opacity="0.6"/>
-        <rect x="10" y="32" width="40" height="10" rx="2" fill="white" fill-opacity="0.2"/>
-        <text x="30" y="64" text-anchor="middle" fill="white" fill-opacity="0.8" font-size="9" font-family="Inter,sans-serif">Printer</text>
-      </g>
-      <!-- Connection line printer to laptop -->
-      <line x1="120" y1="80" x2="200" y2="105" stroke="white" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="6,4"/>
-      <circle cx="120" cy="80" r="3" fill="white" fill-opacity="0.7"/>
-      <circle cx="200" cy="105" r="3" fill="white" fill-opacity="0.7"/>
-
-      <!-- Keyboard icon (left bottom) -->
-      <g transform="translate(45,145)">
-        <rect width="72" height="36" rx="6" fill="white" fill-opacity="0.15" stroke="white" stroke-width="1.5"/>
-        <rect x="8" y="8" width="56" height="6" rx="2" fill="white" fill-opacity="0.3"/>
-        <rect x="8" y="18" width="40" height="6" rx="2" fill="white" fill-opacity="0.25"/>
-        <rect x="16" y="28" width="40" height="4" rx="2" fill="white" fill-opacity="0.2"/>
-        <text x="36" y="50" text-anchor="middle" fill="white" fill-opacity="0.8" font-size="9" font-family="Inter,sans-serif">Keyboard</text>
-      </g>
-      <!-- Connection line keyboard to laptop -->
-      <line x1="117" y1="165" x2="200" y2="158" stroke="white" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="6,4"/>
-      <circle cx="117" cy="165" r="3" fill="white" fill-opacity="0.7"/>
-      <circle cx="200" cy="158" r="3" fill="white" fill-opacity="0.7"/>
-
-      <!-- Speaker icon (right top) -->
-      <g transform="translate(430,55)">
-        <rect width="56" height="56" rx="8" fill="white" fill-opacity="0.15" stroke="white" stroke-width="1.5"/>
-        <polygon points="20,20 32,12 32,44 20,36" fill="white" fill-opacity="0.5"/>
-        <path d="M36 20 Q42 28 36 36" stroke="white" stroke-opacity="0.6" stroke-width="2" fill="none"/>
-        <path d="M39 16 Q48 28 39 40" stroke="white" stroke-opacity="0.4" stroke-width="1.5" fill="none"/>
-        <text x="28" y="72" text-anchor="middle" fill="white" fill-opacity="0.8" font-size="9" font-family="Inter,sans-serif">Speaker</text>
-      </g>
-      <!-- Connection line speaker to laptop -->
-      <line x1="430" y1="83" x2="360" y2="105" stroke="white" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="6,4"/>
-      <circle cx="430" cy="83" r="3" fill="white" fill-opacity="0.7"/>
-      <circle cx="360" cy="105" r="3" fill="white" fill-opacity="0.7"/>
-
-      <!-- Mouse icon (right bottom) -->
-      <g transform="translate(440,145)">
-        <ellipse cx="30" cy="24" rx="20" ry="28" fill="white" fill-opacity="0.15" stroke="white" stroke-width="1.5"/>
-        <line x1="30" y1="0" x2="30" y2="20" stroke="white" stroke-opacity="0.5" stroke-width="1.5"/>
-        <circle cx="30" cy="14" r="4" fill="white" fill-opacity="0.5"/>
-        <text x="30" y="66" text-anchor="middle" fill="white" fill-opacity="0.8" font-size="9" font-family="Inter,sans-serif">Mouse</text>
-      </g>
-      <!-- Connection line mouse to laptop -->
-      <line x1="440" y1="165" x2="360" y2="158" stroke="white" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="6,4"/>
-      <circle cx="440" cy="165" r="3" fill="white" fill-opacity="0.7"/>
-      <circle cx="360" cy="158" r="3" fill="white" fill-opacity="0.7"/>
-    </svg>
-  </div>
-</section>
+    <div class="hero-pro-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="hero-pro-scroll-line"></span>
+    </div>
+  </section>
 
 <!-- ========== SECTION 2: WHAT IS A DRIVER ========== -->
 <section id="what-is-a-driver" aria-labelledby="what-is-heading">
@@ -240,7 +208,7 @@
 
       <!-- 3. Printer -->
       <article class="driver-type-item">
-        <div class="driver-icon"><img src="images/printer.jpg" alt="A modern office printer device representing printer driver software" loading="lazy" width="600" height="450"></div>
+        <div class="driver-icon"><img src="images/printer-clean.png" alt="A modern office printer device representing printer driver software" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Printer Drivers</h3>
           <p>Printer drivers are the software components responsible for translating document data from an application into a format that a physical printing device can interpret and render on paper. This translation is far more complex than it may appear, because different printers use fundamentally different page description languages, command sets, and internal rendering pipelines.</p>
@@ -850,7 +818,7 @@
     <div class="section-inner">
       <div class="split-row">
         <div class="split-image reveal">
-          <img src="images/person-laptop.jpg" alt="A person working calmly at their laptop in a bright workspace" loading="lazy" width="640" height="420">
+          <img src="images/professional-workspace.png" alt="A person working calmly at their laptop in a bright workspace" loading="lazy" width="640" height="420">
         </div>
         <div class="split-text reveal">
           <span class="section-eyebrow">About PrintSoftDriver</span>
@@ -879,7 +847,7 @@
           <a href="troubleshooting.html" class="btn btn-primary">Open the Troubleshooting Guide</a>
         </div>
         <div class="trouble-image reveal">
-          <img src="images/tech-support.jpg" alt="A friendly tech support specialist at a clean desk" loading="lazy" width="500" height="380">
+          <img src="images/support-pro.png" alt="A friendly tech support specialist at a clean desk" loading="lazy" width="500" height="380">
         </div>
       </div>
     </div>

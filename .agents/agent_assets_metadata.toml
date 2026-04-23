@@ -1,5 +1,28 @@
 uploads = []
-generated = []
+
+[[generated]]
+id = "9UySAXLAUL52mcu8dSFuA"
+uri = "file://artifacts/printsoftdriver/public/images/printer-clean.png"
+type = "image"
+title = "clean printer"
+
+[[generated]]
+id = "UYjj7RbCTg0UfQwi7CPLf"
+uri = "file://artifacts/printsoftdriver/public/images/hero-bg-tech.png"
+type = "image"
+title = "hero tech background"
+
+[[generated]]
+id = "gwJIxFVKu69h3TcXSUvQE"
+uri = "file://artifacts/printsoftdriver/public/images/professional-workspace.png"
+type = "image"
+title = "professional workspace"
+
+[[generated]]
+id = "njhdrp4sM3IxzpewBxi3G"
+uri = "file://artifacts/printsoftdriver/public/images/support-pro.png"
+type = "image"
+title = "support professional"
 
 [[outputs]]
 id = "XNZNQxP6voNahqMkza-EU"
@@ -132,3 +155,27 @@ id = "O40teUSufa1Kezeo_md9L"
 uri = "file://attached_assets/stock_images/virtual_driver.jpg"
 type = "image"
 title = "cloud computing virtualization data servers"
+
+[[outputs]]
+id = "jZzyH4KzFNRfFvjbn7C0P"
+uri = "file://attached_assets/stock_images/office_printer_clean.jpg"
+type = "image"
+title = "modern white office printer on a clean desk no brand logos professional minimal"
+
+[[outputs]]
+id = "60g8MfgZYgeCOm4LCxuBj"
+uri = "file://attached_assets/stock_images/professional_workspace.jpg"
+type = "image"
+title = "modern minimal home office workspace with laptop on desk natural light professional"
+
+[[outputs]]
+id = "Yay-HqYINR64ybOg2lJPC"
+uri = "file://attached_assets/stock_images/professional_team_office.jpg"
+type = "image"
+title = "diverse professional team collaborating at modern office desk with computers"
+
+[[outputs]]
+id = "V7ttsImpKMIt_sZA4d4Iv"
+uri = "file://attached_assets/stock_images/hero_tech_background.jpg"
+type = "image"
+title = "abstract dark teal technology circuit board background with glowing nodes professional"

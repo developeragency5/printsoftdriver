@@ -71,7 +71,7 @@
 <section class="hero" aria-label="Hero Banner">
   <div class="hero-content">
     <h1>Drivers, Demystified — The Tiny Software That Runs Your Whole Computer</h1>
-    <p>From the click of your mouse to the words on your screen, drivers are the quiet translators making it all happen. Let's walk through how they work — in plain English, with no jargon overload.</p>
+    <p>From the click of your mouse to the words on your screen, drivers are the quiet translators making it all happen. Let's walk through how they work, together.</p>
     <div class="hero-btns">
       <a href="#driver-types" class="btn btn-primary">Explore Driver Types</a>
       <a href="blog.html" class="btn btn-outline">Read Our Blog</a>
@@ -208,14 +208,7 @@
 
       <!-- 1. Kernel-Mode -->
       <article class="driver-type-item">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="10" y="10" width="60" height="60" rx="8" fill="#1A73E8"/>
-            <rect x="22" y="22" width="36" height="36" rx="4" fill="#0D47A1"/>
-            <rect x="30" y="30" width="20" height="20" rx="2" fill="#E8F0FE"/>
-            <rect x="35" y="35" width="10" height="10" rx="1" fill="#1A73E8"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/kernel-mode.jpg" alt="Server racks in a data center representing the privileged kernel-mode driver layer" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Kernel-Mode Drivers</h3>
           <p>Kernel-mode drivers operate within the most privileged layer of an operating system — the kernel itself. They execute in kernel space, which means they have direct, unmediated access to every system resource, including physical memory, hardware registers, and I/O ports. This high level of privilege is essential because these drivers need to respond to hardware events with minimal latency and maximum control.</p>
@@ -226,13 +219,7 @@
 
       <!-- 2. User-Mode -->
       <article class="driver-type-item reverse">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="40" cy="40" r="30" fill="#E8F0FE"/>
-            <circle cx="40" cy="30" r="12" fill="#1A73E8"/>
-            <path d="M18 62 Q40 48 62 62" fill="#0D47A1"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/user-mode.jpg" alt="A person working at a computer illustrating user-mode driver isolation" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>User-Mode Drivers</h3>
           <p>User-mode drivers run in the less-privileged user space of the operating system, isolated from the kernel by a hardware-enforced memory boundary. This isolation provides a significant safety advantage: if a user-mode driver crashes or encounters an unhandled error, the failure is contained within the user space process, and the operating system can terminate and restart the driver without crashing the entire system.</p>
@@ -243,15 +230,7 @@
 
       <!-- 3. Printer -->
       <article class="driver-type-item">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="15" y="25" width="50" height="35" rx="6" fill="#1A73E8"/>
-            <rect x="22" y="32" width="36" height="18" rx="3" fill="#E8F0FE"/>
-            <rect x="22" y="15" width="36" height="12" rx="3" fill="#0D47A1"/>
-            <rect x="28" y="37" width="24" height="3" rx="1" fill="#1A73E8"/>
-            <rect x="28" y="44" width="16" height="3" rx="1" fill="#1A73E8"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/printer.jpg" alt="A modern office printer device representing printer driver software" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Printer Drivers</h3>
           <p>Printer drivers are the software components responsible for translating document data from an application into a format that a physical printing device can interpret and render on paper. This translation is far more complex than it may appear, because different printers use fundamentally different page description languages, command sets, and internal rendering pipelines.</p>
@@ -262,15 +241,7 @@
 
       <!-- 4. Display -->
       <article class="driver-type-item reverse">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="10" y="15" width="60" height="42" rx="6" fill="#0D47A1"/>
-            <rect x="15" y="20" width="50" height="32" rx="3" fill="#1A73E8"/>
-            <rect x="20" y="25" width="40" height="22" rx="2" fill="#E8F0FE"/>
-            <rect x="30" y="57" width="20" height="6" rx="2" fill="#0D47A1"/>
-            <rect x="25" y="63" width="30" height="3" rx="1" fill="#0D47A1"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/graphics-card.jpg" alt="A computer graphics card showing the GPU hardware managed by display drivers" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Display / Graphics Drivers</h3>
           <p>Display and graphics drivers are among the most complex and performance-sensitive drivers in any operating system. They serve as the interface between the operating system's graphics subsystem, application programs, and the physical display hardware, which includes both the graphics processing unit (GPU) and the monitor or display panel itself.</p>
@@ -281,14 +252,7 @@
 
       <!-- 5. Audio -->
       <article class="driver-type-item">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="40" cy="40" r="28" fill="#E8F0FE"/>
-            <polygon points="28,28 44,16 44,64 28,52" fill="#1A73E8"/>
-            <path d="M48 26 Q58 40 48 54" stroke="#0D47A1" stroke-width="3" fill="none" stroke-linecap="round"/>
-            <path d="M52 20 Q66 40 52 60" stroke="#1A73E8" stroke-width="2" fill="none" stroke-linecap="round"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/audio.jpg" alt="Professional audio headphones representing sound hardware controlled by audio drivers" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Audio Drivers</h3>
           <p>Audio drivers manage the communication between the operating system's audio stack and the physical sound hardware. Modern computing environments demand extremely low-latency audio processing — professional music production, for example, requires round-trip latency below 10 milliseconds to remain usable in real-time recording scenarios. Achieving this requires the audio driver to bypass many of the buffering layers present in the standard OS audio pipeline.</p>
@@ -299,19 +263,7 @@
 
       <!-- 6. Network -->
       <article class="driver-type-item reverse">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="40" cy="40" r="12" fill="#1A73E8"/>
-            <circle cx="15" cy="25" r="7" fill="#0D47A1"/>
-            <circle cx="65" cy="25" r="7" fill="#0D47A1"/>
-            <circle cx="15" cy="55" r="7" fill="#0D47A1"/>
-            <circle cx="65" cy="55" r="7" fill="#0D47A1"/>
-            <line x1="22" y1="25" x2="28" y2="36" stroke="#1A73E8" stroke-width="2"/>
-            <line x1="58" y1="25" x2="52" y2="36" stroke="#1A73E8" stroke-width="2"/>
-            <line x1="22" y1="55" x2="28" y2="44" stroke="#1A73E8" stroke-width="2"/>
-            <line x1="58" y1="55" x2="52" y2="44" stroke="#1A73E8" stroke-width="2"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/network.jpg" alt="Network cables and server room representing network interface drivers" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Network Drivers</h3>
           <p>Network drivers, also called Network Interface Card (NIC) drivers, are the software components that enable a computer to communicate over local area networks, wireless networks, and the broader internet. They manage the physical-layer transmission of data frames between the computer's network hardware and the OS's network stack, which handles higher-level protocols such as TCP/IP.</p>
@@ -322,18 +274,7 @@
 
       <!-- 7. USB -->
       <article class="driver-type-item">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="32" y="10" width="16" height="8" rx="3" fill="#1A73E8"/>
-            <rect x="38" y="18" width="4" height="36" fill="#1A73E8"/>
-            <line x1="40" y1="38" x2="25" y2="30" stroke="#0D47A1" stroke-width="2"/>
-            <circle cx="20" cy="30" r="5" fill="#0D47A1"/>
-            <line x1="40" y1="42" x2="55" y2="34" stroke="#0D47A1" stroke-width="2"/>
-            <rect x="52" y="29" width="8" height="6" rx="1" fill="#0D47A1"/>
-            <line x1="40" y1="46" x2="40" y2="54" stroke="#0D47A1" stroke-width="2"/>
-            <rect x="32" y="54" width="16" height="10" rx="2" fill="#0D47A1"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/usb.jpg" alt="A USB connector and cable showing the connection USB drivers manage" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>USB Drivers</h3>
           <p>USB (Universal Serial Bus) drivers form a multi-layered stack that manages communication between USB-connected devices and the operating system. The USB driver stack typically consists of a host controller driver at the bottom, which manages the physical USB port and schedules data transfers on the USB bus, and class drivers or function drivers at the top, which implement the specific behavior of each USB device category.</p>
@@ -344,16 +285,7 @@
 
       <!-- 8. Storage -->
       <article class="driver-type-item reverse">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="12" y="22" width="56" height="36" rx="6" fill="#0D47A1"/>
-            <circle cx="56" cy="40" r="10" fill="#1A73E8"/>
-            <circle cx="56" cy="40" r="4" fill="#E8F0FE"/>
-            <rect x="18" y="32" width="24" height="3" rx="1.5" fill="#E8F0FE"/>
-            <rect x="18" y="40" width="16" height="3" rx="1.5" fill="#E8F0FE" opacity="0.7"/>
-            <rect x="18" y="48" width="20" height="3" rx="1.5" fill="#E8F0FE" opacity="0.5"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/storage.jpg" alt="A solid state drive representing the storage hardware managed by disk drivers" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Storage / Disk Drivers</h3>
           <p>Storage drivers manage communication between the operating system and data storage devices, including hard disk drives (HDDs), solid-state drives (SSDs), NVMe devices, optical drives, and network-attached storage controllers. These drivers are responsible for translating file system read and write requests into the specific command sets understood by the storage hardware.</p>
@@ -364,18 +296,7 @@
 
       <!-- 9. Input Device -->
       <article class="driver-type-item">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="10" y="28" width="44" height="28" rx="6" fill="#1A73E8"/>
-            <rect x="16" y="34" width="8" height="6" rx="1" fill="white" opacity="0.8"/>
-            <rect x="28" y="34" width="8" height="6" rx="1" fill="white" opacity="0.8"/>
-            <rect x="40" y="34" width="8" height="6" rx="1" fill="white" opacity="0.8"/>
-            <rect x="16" y="44" width="32" height="6" rx="1" fill="white" opacity="0.6"/>
-            <ellipse cx="60" cy="52" rx="12" ry="16" fill="#0D47A1"/>
-            <line x1="60" y1="36" x2="60" y2="48" stroke="#E8F0FE" stroke-width="1.5"/>
-            <circle cx="60" cy="44" r="3" fill="#E8F0FE"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/input.jpg" alt="A keyboard and mouse on a desk representing input device drivers" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Input Device Drivers</h3>
           <p>Input device drivers facilitate communication between the operating system and the wide variety of devices through which users interact with their computers. Keyboards, mice, touchpads, trackballs, graphics tablets, game controllers, and touchscreens all require drivers that translate their physical signals into standardized events that the OS and applications can consume.</p>
@@ -386,21 +307,7 @@
 
       <!-- 10. Chipset -->
       <article class="driver-type-item reverse">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="20" y="20" width="40" height="40" rx="4" fill="#0D47A1" stroke="#E8F0FE" stroke-width="2"/>
-            <rect x="27" y="27" width="26" height="26" rx="2" fill="#1A73E8"/>
-            <rect x="33" y="33" width="14" height="14" rx="1" fill="#E8F0FE"/>
-            <rect x="10" y="30" width="10" height="4" rx="2" fill="#E8F0FE"/>
-            <rect x="60" y="30" width="10" height="4" rx="2" fill="#E8F0FE"/>
-            <rect x="10" y="46" width="10" height="4" rx="2" fill="#E8F0FE"/>
-            <rect x="60" y="46" width="10" height="4" rx="2" fill="#E8F0FE"/>
-            <rect x="30" y="10" width="4" height="10" rx="2" fill="#E8F0FE"/>
-            <rect x="46" y="10" width="4" height="10" rx="2" fill="#E8F0FE"/>
-            <rect x="30" y="60" width="4" height="10" rx="2" fill="#E8F0FE"/>
-            <rect x="46" y="60" width="4" height="10" rx="2" fill="#E8F0FE"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/chipset.jpg" alt="A computer motherboard with chipset components managed by chipset drivers" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Chipset Drivers</h3>
           <p>Chipset drivers are foundational system software components that manage the motherboard's chipset — the collection of integrated circuits that coordinate communication between the CPU, RAM, storage controllers, and peripheral buses. Unlike peripheral-specific drivers, chipset drivers affect the entire system's performance and stability because they govern how all components talk to each other.</p>
@@ -411,15 +318,7 @@
 
       <!-- 11. Bluetooth -->
       <article class="driver-type-item">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="40" cy="40" r="30" fill="#E8F0FE"/>
-            <path d="M34 26 L46 36 L34 46 L34 26Z" fill="#1A73E8"/>
-            <path d="M34 46 L46 56" stroke="#1A73E8" stroke-width="2.5" stroke-linecap="round"/>
-            <path d="M34 26 L46 16" stroke="#1A73E8" stroke-width="2.5" stroke-linecap="round"/>
-            <path d="M46 36 L34 46" stroke="#0D47A1" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/bluetooth.jpg" alt="Wireless bluetooth earbuds representing devices supported by bluetooth drivers" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Bluetooth Drivers</h3>
           <p>Bluetooth drivers manage the complex protocol stack that enables short-range wireless communication between a host computer and Bluetooth-enabled peripheral devices such as headphones, keyboards, mice, game controllers, and smartphones. The Bluetooth protocol stack consists of multiple layered specifications, and the driver must implement all of them correctly to maintain interoperability across thousands of different device manufacturers.</p>
@@ -430,15 +329,7 @@
 
       <!-- 12. Virtual -->
       <article class="driver-type-item reverse">
-        <div class="driver-icon">
-          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="12" y="20" width="56" height="16" rx="4" fill="#1A73E8"/>
-            <rect x="12" y="42" width="56" height="16" rx="4" fill="#0D47A1"/>
-            <rect x="22" y="24" width="36" height="8" rx="2" fill="#E8F0FE" opacity="0.5"/>
-            <rect x="22" y="46" width="36" height="8" rx="2" fill="#E8F0FE" opacity="0.5"/>
-            <line x1="40" y1="36" x2="40" y2="42" stroke="white" stroke-width="2" stroke-dasharray="3,2"/>
-          </svg>
-        </div>
+        <div class="driver-icon"><img src="images/virtual.jpg" alt="A cloud computing data center representing virtual device drivers and virtualization" loading="lazy" width="600" height="450"></div>
         <div class="driver-text">
           <h3>Virtual Device Drivers</h3>
           <p>Virtual device drivers create software abstractions of hardware devices that either don't physically exist or are shared among multiple software environments. They are essential for virtualization platforms, emulation layers, and software systems that need to present a hardware-like interface to other software without requiring actual physical hardware to be present.</p>
@@ -910,10 +801,6 @@
       <div class="contact-item">
         <span>Email</span>
         info@printsoftdriver.com
-      </div>
-      <div class="contact-item">
-        <span>Note</span>
-        Educational purposes only. No technical support provided.
       </div>
     </div>
   </div>

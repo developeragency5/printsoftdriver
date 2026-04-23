@@ -78,3 +78,57 @@ id = "zrjobKUJ_shYq5WzpD4GW"
 uri = "file://attached_assets/stock_images/laptop.jpg"
 type = "image"
 title = "laptop computer keyboard with screen"
+
+[[outputs]]
+id = "ZqnCgm16O9IGhBPn46DDn"
+uri = "file://attached_assets/stock_images/kernel_mode.jpg"
+type = "image"
+title = "server room data center technology computing"
+
+[[outputs]]
+id = "2IsC6r4AM9sL5XFW96G6r"
+uri = "file://attached_assets/stock_images/audio_driver.jpg"
+type = "image"
+title = "headphones audio sound equipment"
+
+[[outputs]]
+id = "mj3cl8wNviO42shuji_y8"
+uri = "file://attached_assets/stock_images/user_mode.jpg"
+type = "image"
+title = "person using computer software application"
+
+[[outputs]]
+id = "fJnNNMqB-xpomIa5psfcQ"
+uri = "file://attached_assets/stock_images/storage_driver.jpg"
+type = "image"
+title = "SSD solid state drive storage hardware"
+
+[[outputs]]
+id = "NuJZQiVBkWhJNB37HOmg_"
+uri = "file://attached_assets/stock_images/usb_driver.jpg"
+type = "image"
+title = "USB cable port connection technology"
+
+[[outputs]]
+id = "qVVknXpRgw120OxUt57f0"
+uri = "file://attached_assets/stock_images/input_driver.jpg"
+type = "image"
+title = "computer keyboard and mouse white desk"
+
+[[outputs]]
+id = "I0sGDis3Jg6QieRo-EH2w"
+uri = "file://attached_assets/stock_images/bluetooth_driver.jpg"
+type = "image"
+title = "wireless bluetooth earbuds modern tech"
+
+[[outputs]]
+id = "gU_FlBMVDJh2Q6ypEQiD7"
+uri = "file://attached_assets/stock_images/chipset_driver.jpg"
+type = "image"
+title = "motherboard computer hardware chipset"
+
+[[outputs]]
+id = "O40teUSufa1Kezeo_md9L"
+uri = "file://attached_assets/stock_images/virtual_driver.jpg"
+type = "image"
+title = "cloud computing virtualization data servers"

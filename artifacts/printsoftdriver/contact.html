@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact PrintSoftDriver - Educational Driver Resource</title>
+  <meta name="description" content="Contact PrintSoftDriver with questions or content suggestions about our educational device driver resource. We do not provide technical support or software downloads.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PrintSoftDriver">
+  <meta property="og:title" content="Contact PrintSoftDriver - Educational Driver Resource">
+  <meta property="og:description" content="Contact PrintSoftDriver with questions or content suggestions about our educational device driver resource. We do not provide technical support or software downloads.">
+  <meta property="og:image" content="favicon.svg">
+  <meta property="og:url" content="https://www.printsoftdriver.com/contact.html">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://www.printsoftdriver.com/contact.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <!-- Microsoft UET Tag -->
+  <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"PLACEHOLDER_UET_ID"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="PrintSoftDriver Home">
+      <svg width="36" height="36" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="6" fill="#1A73E8"/>
+        <rect x="8" y="8" width="16" height="16" rx="2" fill="#0D47A1" stroke="#E8F0FE" stroke-width="1"/>
+        <rect x="12" y="12" width="8" height="8" rx="1" fill="#1A73E8"/>
+        <rect x="14" y="14" width="4" height="4" fill="#E8F0FE"/>
+        <rect x="4" y="14" width="4" height="4" rx="1" fill="#E8F0FE"/>
+        <rect x="24" y="14" width="4" height="4" rx="1" fill="#E8F0FE"/>
+        <rect x="14" y="4" width="4" height="4" rx="1" fill="#E8F0FE"/>
+        <rect x="14" y="24" width="4" height="4" rx="1" fill="#E8F0FE"/>
+      </svg>
+      <span class="logo-text">PrintSoftDriver</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero-sm" aria-label="Contact Hero">
+  <h1>Contact PrintSoftDriver</h1>
+  <p>Have a question or content suggestion? We'd love to hear from you. This is an educational resource — we do not provide technical support.</p>
+</section>
+
+<!-- ========== CONTACT SECTION ========== -->
+<section aria-labelledby="contact-main-heading">
+  <div class="section-inner">
+    <div class="contact-layout">
+
+      <!-- Contact Form -->
+      <div class="contact-form-wrap">
+        <h2 id="contact-main-heading">Send Us a Message</h2>
+        <p>Use this form for general inquiries or content suggestions about our educational driver articles. Please note that we cannot assist with technical support, software installation issues, or device troubleshooting.</p>
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="field-name">Full Name <span aria-hidden="true">*</span></label>
+            <input type="text" id="field-name" name="name" placeholder="Your full name" autocomplete="name">
+            <span class="form-error" id="err-name" role="alert">Please enter your full name.</span>
+          </div>
+          <div class="form-group">
+            <label for="field-email">Email Address <span aria-hidden="true">*</span></label>
+            <input type="email" id="field-email" name="email" placeholder="your@email.com" autocomplete="email">
+            <span class="form-error" id="err-email" role="alert">Please enter a valid email address.</span>
+          </div>
+          <div class="form-group">
+            <label for="field-subject">Subject <span aria-hidden="true">*</span></label>
+            <select id="field-subject" name="subject">
+              <option value="default" disabled selected>Select a subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="content">Content Suggestion</option>
+              <option value="issue">Report an Issue</option>
+              <option value="other">Other</option>
+            </select>
+            <span class="form-error" id="err-subject" role="alert">Please select a subject.</span>
+          </div>
+          <div class="form-group">
+            <label for="field-message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="field-message" name="message" placeholder="Write your message here..."></textarea>
+            <span class="form-error" id="err-message" role="alert">Please enter your message.</span>
+          </div>
+          <button type="submit" class="btn btn-blue">Send Message</button>
+        </form>
+        <div class="success-msg" id="success-msg" role="alert" aria-live="polite">
+          Thank you! Your message has been received. We'll get back to you as soon as possible.
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="36" height="36" rx="8" fill="#E8F0FE"/>
+              <rect x="8" y="12" width="20" height="14" rx="2" stroke="#1A73E8" stroke-width="1.5" fill="none"/>
+              <path d="M8 14 L18 21 L28 14" stroke="#1A73E8" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Email Address</h4>
+            <p>info@printsoftdriver.com</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="36" height="36" rx="8" fill="#E8F0FE"/>
+              <path d="M12 10 Q12 10 14 14 L12 16 Q14 20 16 22 Q18 24 22 26 L24 24 Q28 26 28 26 Q28 28 26 28 Q14 28 8 16 Q8 10 12 10Z" fill="#1A73E8"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Phone</h4>
+            <p>+1 (800) 000-0000</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="36" height="36" rx="8" fill="#E8F0FE"/>
+              <circle cx="18" cy="16" r="5" stroke="#1A73E8" stroke-width="1.5" fill="none"/>
+              <path d="M18 21 Q11 26 11 30 L25 30 Q25 26 18 21Z" fill="#1A73E8" opacity="0.5"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Response Time</h4>
+            <p>Within 2-3 business days</p>
+          </div>
+        </div>
+        <div class="contact-note" role="note">
+          <strong>Please note:</strong> We do not offer technical support. This website is for educational purposes only. If you need help with a specific device or software, please consult the manufacturer's official documentation.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== INFO CARDS ========== -->
+<section class="bg-surface" aria-labelledby="info-cards-heading">
+  <div class="section-inner">
+    <div class="section-header">
+      <h2 id="info-cards-heading">About Our Educational Resource</h2>
+    </div>
+    <div class="cards-3">
+      <article class="card">
+        <div class="card-icon">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="10" fill="#E8F0FE"/>
+            <circle cx="22" cy="18" r="7" fill="#1A73E8"/>
+            <path d="M10 36 Q22 28 34 36" fill="#0D47A1"/>
+          </svg>
+        </div>
+        <h3>Our Mission</h3>
+        <p>PrintSoftDriver was created to provide accessible, accurate, and thoroughly researched educational content about computer device drivers. Our mission is to help everyday users, students, and technology enthusiasts understand the foundational software layer that makes all computing hardware work — without the confusion of marketing language, product recommendations, or technical jargon that assumes expert knowledge.</p>
+        <p>We believe that understanding how technology works is empowering. When users know what a driver is, why it matters, and how it interacts with their hardware, they are better equipped to maintain their systems, understand error messages, and make informed decisions about their computing environments. Every article and guide on this site is written with that educational goal as the primary objective.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="10" fill="#E8F0FE"/>
+            <rect x="10" y="10" width="24" height="24" rx="3" fill="none" stroke="#1A73E8" stroke-width="2"/>
+            <path d="M16 22 L20 26 L28 18" stroke="#0D47A1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Editorial Policy</h3>
+        <p>All content published on PrintSoftDriver is researched, written, and reviewed for factual accuracy before publication. We do not publish product reviews, recommendations, download links, or promotional content of any kind. Our editorial standards require that every factual claim about how drivers function be based on documented operating system specifications, driver development frameworks, or verifiable technical sources.</p>
+        <p>We are committed to maintaining complete editorial independence. No commercial relationship, advertising arrangement, or sponsorship influences the content we publish. Our sole editorial criterion is educational value: does this article help a reader better understand how device drivers work? We also review and update older articles when operating system developments or new driver technologies make prior information incomplete or outdated.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">
+          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="10" fill="#E8F0FE"/>
+            <path d="M22 10 L34 16 L34 28 L22 34 L10 28 L10 16 Z" fill="none" stroke="#1A73E8" stroke-width="2"/>
+            <circle cx="22" cy="22" r="5" fill="#0D47A1"/>
+          </svg>
+        </div>
+        <h3>Content Standards</h3>
+        <p>Every piece of content on this website adheres to strict standards designed to ensure accuracy, clarity, and genuine educational value. We do not use sensationalist language, create artificial urgency, or imply that readers have a technical problem that needs solving. Our content explains concepts objectively, using clear and accessible language suited to a general technical audience with varying levels of computing background.</p>
+        <p>We specifically avoid: naming or promoting specific software products, providing download links of any kind, claiming expertise in diagnosing individual technical issues, and making guarantees about hardware or software performance. This website exists solely to educate. If you notice any content that appears inaccurate or that deviates from these standards, please use the contact form above to let us know, and we will review and address your concern promptly.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#1A73E8"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#0D47A1" stroke="#E8F0FE" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#1A73E8"/>
+          <rect x="14" y="14" width="4" height="4" fill="#E8F0FE"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>PrintSoftDriver provides free educational information about device drivers. We do not sell products or offer technical support. All content is for informational and educational purposes only.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="privacy.html#tab-disclaimer">Disclaimer</a></li>
+        <li><a href="privacy.html#tab-terms">Terms of Use</a></li>
+        <li><a href="privacy.html#tab-cookies">Cookie Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-col-3">
+      <h4>Contact Info</h4>
+      <p>For content suggestions or general inquiries about this educational resource:</p>
+      <div class="contact-item">
+        <span>Email</span>
+        info@printsoftdriver.com
+      </div>
+      <div class="contact-item">
+        <span>Note</span>
+        Educational purposes only. No technical support provided.
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="privacy.html#tab-terms">Terms of Use</a>
+      <a href="privacy.html#tab-disclaimer">Disclaimer</a>
+      <a href="privacy.html#tab-cookies">Cookie Policy</a>
+      <a href="privacy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
+    </div>
+    <p class="footer-copyright">&copy; 2025 PrintSoftDriver. All Rights Reserved. For educational purposes only.</p>
+  </div>
+</footer>
+
+<!-- ========== COOKIE BANNER ========== -->
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+  <p class="cookie-text">We use cookies to improve your experience. By continuing, you agree to our <a href="privacy.html#tab-cookies">Cookie Policy</a>.</p>
+  <div class="cookie-btns">
+    <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">Accept All</button>
+    <button class="cookie-btn cookie-btn-reject" onclick="rejectCookies()">Reject All</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

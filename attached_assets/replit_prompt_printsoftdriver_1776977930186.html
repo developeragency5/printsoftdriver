@@ -1,0 +1,313 @@
+
+<style>
+  .prompt-box {
+    background: var(--color-background-primary);
+    border: 0.5px solid var(--color-border-secondary);
+    border-radius: var(--border-radius-lg);
+    padding: 1.5rem;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 1.8;
+    color: var(--color-text-primary);
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-height: 500px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+  }
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  .label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+  }
+  .copy-btn {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 16px;
+    border-radius: var(--border-radius-md);
+    border: 0.5px solid var(--color-border-secondary);
+    background: var(--color-background-secondary);
+    color: var(--color-text-primary);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .copy-btn:hover { background: var(--color-background-tertiary); }
+  .copy-btn.copied { color: var(--color-text-success); border-color: var(--color-border-success); }
+  .note {
+    font-size: 12px;
+    color: var(--color-text-secondary);
+    margin-top: 0.5rem;
+  }
+</style>
+
+<div style="padding: 1rem 0;">
+  <div class="top-bar">
+    <span class="label">Replit Prompt — printsoftdriver.com</span>
+    <button class="copy-btn" id="copyBtn" onclick="copyPrompt()">Copy prompt</button>
+  </div>
+
+  <div class="prompt-box" id="promptText">Build a complete multi-page informative website called "PrintSoftDriver" using only HTML, CSS, and Vanilla JavaScript — no frameworks, no libraries, no external dependencies.
+
+═══════════════════════════════════════
+WEBSITE OVERVIEW
+═══════════════════════════════════════
+Website Name: PrintSoftDriver
+Purpose: A 100% informative educational website about computer drivers — what they are, how they work, types, importance, and general knowledge. This is NOT a product-selling website. No products, no download links, no brand names, no company names of any kind.
+
+═══════════════════════════════════════
+PAGES TO BUILD (4 PAGES TOTAL)
+═══════════════════════════════════════
+1. index.html — Home Page
+2. blog.html — Blog Page
+3. contact.html — Contact Us Page
+4. privacy.html — Privacy Policy, Disclaimer & Legal Pages
+
+Also create:
+- style.css — Shared stylesheet for all pages
+- script.js — Shared JavaScript file
+- favicon.svg — A custom SVG favicon (circuit board + chip icon in blue tones)
+
+═══════════════════════════════════════
+COLOR THEME & DESIGN RULES
+═══════════════════════════════════════
+Primary Color: #1A73E8 (professional blue)
+Secondary Color: #0D47A1 (deep navy blue)
+Accent Color: #E8F0FE (light blue tint)
+Background: #FFFFFF (white)
+Surface: #F8F9FA (light gray)
+Text Primary: #202124 (near black)
+Text Secondary: #5F6368 (medium gray)
+Border Color: #DADCE0 (light border)
+Success Green: #34A853
+
+Font: Use Google Fonts — "Inter" for body text and "Poppins" for headings
+Design feel: Clean, modern, professional, trustworthy — like a technology education portal
+NO dark mode required. Light theme only.
+
+═══════════════════════════════════════
+SHARED HEADER & NAVIGATION (all pages)
+═══════════════════════════════════════
+- Logo: SVG chip/circuit icon + "PrintSoftDriver" text in bold
+- Nav links: Home | Blog | Contact Us
+- Active page highlighted in nav
+- Sticky header with subtle box-shadow on scroll (JS)
+- Hamburger menu for mobile (pure JS toggle)
+- Background: white with 1px bottom border
+
+═══════════════════════════════════════
+SHARED FOOTER (all pages)
+═══════════════════════════════════════
+- 3-column grid layout
+- Column 1: Logo + short tagline about the site being informational
+- Column 2: Quick links (Home, Blog, Contact, Privacy Policy, Disclaimer)
+- Column 3: A short note — "This website is for educational and informational purposes only."
+- Bottom strip: Copyright 2025 PrintSoftDriver | All Rights Reserved
+- Background: #0D47A1 (dark navy), white text
+
+═══════════════════════════════════════
+PAGE 1: HOME PAGE (index.html)
+═══════════════════════════════════════
+TARGET: Minimum 2500 words of original, informative, well-structured content about drivers.
+
+SECTION 1 — HERO BANNER:
+- Full-width hero section
+- Background: CSS gradient from #1A73E8 to #0D47A1 with a subtle tech pattern overlay made in pure CSS (dots or grid lines using CSS background-image)
+- Headline: "Everything You Need to Know About Device Drivers"
+- Subheadline: "Your complete educational resource on how drivers power every device in your digital world"
+- Two CTA buttons: "Explore Driver Types" (scrolls to section) and "Read Our Blog" (links to blog.html)
+- A centered SVG illustration below the text — draw a laptop/monitor with connection lines going to peripheral icons (printer, keyboard, speaker, mouse) — all done in inline SVG with blue/white colors
+
+SECTION 2 — WHAT IS A DRIVER? (Info cards row):
+- Section heading: "Understanding Device Drivers"
+- 3 cards side by side with icons (SVG), heading, and 2–3 paragraphs each:
+  Card 1: "What Is a Driver?" — Explain that a driver is a software program that acts as a communication bridge between the operating system and hardware. Cover the concept in detail.
+  Card 2: "Why Drivers Matter" — Explain the critical role of drivers in system stability, hardware performance, and user experience. Write 2–3 full paragraphs.
+  Card 3: "How Drivers Work" — Explain the technical process of how a driver translates OS commands into hardware-specific instructions. Include detail about kernel space, driver stack, etc.
+
+SECTION 3 — TYPES OF DRIVERS (detailed content):
+- Full-width section with light gray background
+- Section heading: "Types of Device Drivers Explained"
+- Write a long, detailed description for EACH of the following driver types (minimum 150 words each, in paragraph form — NOT bullet lists):
+  1. Kernel-Mode Drivers
+  2. User-Mode Drivers
+  3. Printer Drivers
+  4. Display / Graphics Drivers
+  5. Audio Drivers
+  6. Network Drivers (LAN, Wi-Fi)
+  7. USB Drivers
+  8. Storage / Disk Drivers
+  9. Input Device Drivers (keyboard, mouse, touchpad)
+  10. Chipset Drivers
+  11. Bluetooth Drivers
+  12. Virtual Device Drivers
+- Each type shown in an alternating left-right layout card (icon on one side, text on other)
+
+SECTION 4 — IMPORTANCE OF KEEPING DRIVERS UPDATED:
+- Standard section with white background
+- 4-column icon grid with headings and paragraph text covering:
+  1. System Stability
+  2. Security Patches
+  3. Performance Improvements
+  4. Hardware Compatibility
+- Write at least 100 words per column in paragraph form
+
+SECTION 5 — HOW OPERATING SYSTEMS MANAGE DRIVERS:
+- Explain how Windows, Linux, and macOS handle drivers differently — written entirely in paragraph form (no brand logos, just educational content about OS types)
+- Minimum 400 words total in this section
+- Use a clean 3-column layout
+
+SECTION 6 — DRIVER ARCHITECTURE (visual diagram):
+- Create a pure CSS/SVG layered diagram showing the software stack:
+  Application Layer → OS Kernel → Driver Layer → Hardware Abstraction Layer → Physical Hardware
+- Style with blue gradient boxes and connecting arrows
+- Add explanatory paragraph below the diagram (150+ words)
+
+SECTION 7 — COMMON DRIVER ISSUES & EXPLANATIONS:
+- Section heading: "Common Driver-Related Problems"
+- 6-card grid layout, each card covers one issue in paragraph form (100+ words each):
+  1. Driver Conflicts
+  2. Outdated Drivers
+  3. Corrupted Driver Files
+  4. Missing Drivers After OS Install
+  5. Incompatible Drivers
+  6. Signed vs Unsigned Drivers
+
+SECTION 8 — FAQ SECTION:
+- Accordion-style (pure JS) with at least 8 questions and detailed answers (100+ words each answer):
+  1. What happens if a driver is missing?
+  2. How does the OS detect new hardware?
+  3. What is a driver signature?
+  4. What is the difference between a driver and firmware?
+  5. Can a driver cause a computer to crash?
+  6. What is a generic driver?
+  7. How are drivers installed during OS setup?
+  8. What is driver rollback?
+
+═══════════════════════════════════════
+PAGE 2: BLOG PAGE (blog.html)
+═══════════════════════════════════════
+- Page hero: blue gradient banner with "Driver Knowledge Hub" title
+- Display 6 blog post cards in a 3-column grid
+- Each card has: SVG icon illustration, category tag, title, excerpt (3–4 sentences), and "Read More" button (non-functional, styled)
+- Blog topics (all informative, no product recommendations):
+  1. "The Evolution of Device Drivers: From DOS to Modern Operating Systems"
+  2. "Understanding Kernel-Mode vs User-Mode Drivers"
+  3. "How Printer Drivers Translate Data Into Printed Output"
+  4. "The Role of Audio Drivers in Digital Sound Processing"
+  5. "Network Drivers Explained: How Your PC Connects to the Internet"
+  6. "What Every User Should Know About Driver Architecture"
+- Add a sidebar with: "Categories" list, "Popular Topics" list — all informational labels, no links
+
+═══════════════════════════════════════
+PAGE 3: CONTACT US (contact.html)
+═══════════════════════════════════════
+- Hero banner (blue gradient): "Get in Touch"
+- Contact form with fields: Full Name, Email Address, Subject (dropdown: General Inquiry / Content Suggestion / Report an Issue / Other), Message textarea, Submit button
+- Form validation in pure JavaScript (no empty fields, valid email format)
+- On submit: show a success message "Thank you! Your message has been received." (no backend needed)
+- Below form: an info section with 3 icon cards: Our Mission, Editorial Policy, Content Standards — each with 2 paragraphs explaining the site's informational nature
+- Note: "We do not offer technical support. This website is for educational purposes only."
+
+═══════════════════════════════════════
+PAGE 4: LEGAL PAGES (privacy.html)
+═══════════════════════════════════════
+Create a single page with tab navigation (JS tabs) for 3 policies:
+
+TAB 1 — PRIVACY POLICY (US-compliant):
+Write a full privacy policy including: Information We Collect, How We Use Information, Cookies Policy, Third-Party Services, Data Retention, Your Rights (CCPA for California users), Children's Privacy (COPPA), Changes to This Policy, Contact Information. Minimum 600 words.
+
+TAB 2 — DISCLAIMER:
+Write a full disclaimer including: No Professional Advice, Accuracy of Information, External Links Disclaimer, Limitation of Liability, Affiliate Disclosure (state: no affiliate links), Changes and Errors. Minimum 400 words.
+
+TAB 3 — TERMS OF USE:
+Write full Terms of Use including: Acceptance of Terms, Intellectual Property, Permitted Use, Prohibited Activities, Governing Law (state of [User's State], USA), Limitation of Liability, Contact. Minimum 400 words.
+
+═══════════════════════════════════════
+IMAGES & VISUAL ELEMENTS
+═══════════════════════════════════════
+DO NOT use any external image URLs. Instead:
+- Create ALL illustrations using pure inline SVG
+- Hero section: CSS gradient background + SVG tech illustration
+- Section icons: SVG icons for each driver type and feature
+- Blog cards: unique SVG illustrations for each topic
+- Driver architecture diagram: layered SVG/CSS diagram
+- All SVGs must be original and drawn with paths, circles, rects in blue/white/gray tones
+
+═══════════════════════════════════════
+JAVASCRIPT FEATURES
+═══════════════════════════════════════
+- Sticky header with shadow on scroll
+- Mobile hamburger menu toggle
+- Smooth scroll for anchor links
+- FAQ accordion open/close
+- Blog page tab/category filter (show/hide cards)
+- Contact form validation + success message
+- Legal page tab switcher
+- Scroll-to-top button (appears after scrolling 300px)
+- Animate-on-scroll: fade-in sections as user scrolls (IntersectionObserver API)
+
+═══════════════════════════════════════
+FAVICON
+═══════════════════════════════════════
+Create favicon.svg — A 32x32 SVG showing a stylized chip/circuit board icon in blue (#1A73E8) on white background. Use simple geometric paths. Link it in the <head> of all HTML pages as:
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+═══════════════════════════════════════
+RESPONSIVE DESIGN
+═══════════════════════════════════════
+- Fully responsive for mobile (320px), tablet (768px), desktop (1200px+)
+- Use CSS Grid and Flexbox only
+- Media queries at 768px and 1024px breakpoints
+- Mobile: all columns stack to 1 column
+- Tablet: 2-column grid
+- Desktop: full multi-column layouts
+
+═══════════════════════════════════════
+SEO & META TAGS (add to all pages)
+═══════════════════════════════════════
+<meta name="description" content="PrintSoftDriver is your complete educational resource about device drivers — types, importance, architecture and how they work.">
+<meta name="keywords" content="device drivers, driver types, printer drivers, graphics drivers, audio drivers, USB drivers, kernel drivers">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta name="author" content="PrintSoftDriver">
+
+═══════════════════════════════════════
+STRICT RULES — DO NOT VIOLATE
+═══════════════════════════════════════
+✗ No driver download links anywhere
+✗ No product names, model numbers, or SKUs
+✗ No company or brand names (not even mentioned)
+✗ No affiliate links or sponsored content
+✗ No content copied from any external source
+✗ No frameworks (no Bootstrap, no jQuery, no React)
+✗ No external CDN links of any kind
+✗ No placeholder "lorem ipsum" text — all content must be real, original, educational
+✗ No dark backgrounds except footer and hero
+✗ No pop-ups or cookie banners (keep it clean)
+
+═══════════════════════════════════════
+OUTPUT FORMAT
+═══════════════════════════════════════
+Output each file separately, clearly labeled:
+--- index.html ---
+[full code]
+--- blog.html ---
+[full code]
+--- contact.html ---
+[full code]
+--- privacy.html ---
+[full code]
+--- style.css ---
+[full code]
+--- script.js ---
+[full code]
+--- favicon.svg ---
+[full code]
+
+Start with style.css and script.js first, then HTML files. Make sure all files link correctly to each other.

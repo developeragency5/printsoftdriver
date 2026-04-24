@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm --filter @workspace/printsoftdriver build",
+  "outputDirectory": "artifacts/printsoftdriver/dist/public",
+  "framework": null,
+  "cleanUrls": false,
+  "trailingSlash": false
+}

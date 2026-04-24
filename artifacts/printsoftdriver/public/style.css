@@ -3203,3 +3203,152 @@ a.driver-tile .driver-tile-toggle svg {
   mask-image: radial-gradient(ellipse at center, #000 30%, transparent 80%);
 }
 .hero-page--virtual .hero-eyebrow { color: #C4B5FD; }
+
+/* ========== FOOTER 5-COLUMN LAYOUT (with Legal column) ========== */
+.footer-grid {
+  grid-template-columns: 1.6fr 1fr 1fr 1fr 1.2fr;
+}
+@media (max-width: 1024px) {
+  .footer-grid { grid-template-columns: 1fr 1fr 1fr; gap: 32px; }
+}
+@media (max-width: 700px) {
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
+}
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+
+/* ========== LEGAL HERO VARIANTS ========== */
+.hero-page--legal-hub .hero-page-overlay,
+.hero-page--legal-privacy .hero-page-overlay {
+  background:
+    radial-gradient(circle at 30% 30%, rgba(115,165,202,0.45) 0%, transparent 55%),
+    linear-gradient(135deg, rgba(13,90,120,0.92) 0%, rgba(15,23,42,0.95) 100%);
+}
+.hero-page--legal-disclaimer .hero-page-overlay {
+  background:
+    radial-gradient(circle at 70% 30%, rgba(232,127,36,0.55) 0%, transparent 55%),
+    linear-gradient(135deg, rgba(154,52,18,0.90) 0%, rgba(15,23,42,0.95) 100%);
+}
+.hero-page--legal-terms .hero-page-overlay {
+  background:
+    repeating-linear-gradient(135deg, rgba(255,200,30,0.05) 0 24px, transparent 24px 48px),
+    linear-gradient(135deg, rgba(30,41,59,0.95) 0%, rgba(15,23,42,0.95) 100%);
+}
+.hero-page--legal-cookie .hero-page-overlay {
+  background:
+    radial-gradient(circle at 25% 70%, rgba(255,200,30,0.30) 0 20px, transparent 22px),
+    radial-gradient(circle at 75% 25%, rgba(232,127,36,0.30) 0 16px, transparent 18px),
+    radial-gradient(circle at 60% 60%, rgba(255,200,30,0.20) 0 12px, transparent 14px),
+    radial-gradient(circle at 40% 30%, rgba(232,127,36,0.20) 0 10px, transparent 12px),
+    linear-gradient(135deg, rgba(120,53,15,0.90) 0%, rgba(15,23,42,0.95) 100%);
+}
+.hero-page--legal-hub .hero-eyebrow,
+.hero-page--legal-privacy .hero-eyebrow { color: #B5D6E8; }
+.hero-page--legal-disclaimer .hero-eyebrow { color: #FED7AA; }
+.hero-page--legal-terms .hero-eyebrow { color: #FFC81E; }
+.hero-page--legal-cookie .hero-eyebrow { color: #FDE68A; }
+
+/* ========== LEGAL HUB CARDS (privacy.html landing) ========== */
+.legal-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+@media (max-width: 720px) { .legal-hub-grid { grid-template-columns: 1fr; } }
+.legal-hub-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid #E2E8F0;
+  border-radius: 18px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s cubic-bezier(.2,.8,.2,1), border-color 0.3s, box-shadow 0.3s;
+}
+.legal-hub-card:hover {
+  transform: translateY(-4px);
+  border-color: #FFC81E;
+  box-shadow: 0 20px 40px -18px rgba(232,127,36,0.30);
+  text-decoration: none;
+}
+.legal-hub-icon {
+  width: 52px; height: 52px; border-radius: 14px;
+  background: linear-gradient(135deg, #FEFDDF, #FFE9C5);
+  display: flex; align-items: center; justify-content: center;
+  color: #E87F24;
+  transition: transform 0.3s;
+}
+.legal-hub-card:hover .legal-hub-icon { transform: rotate(-6deg) scale(1.08); }
+.legal-hub-card h3 {
+  margin: 0; font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem; font-weight: 700; color: #0F172A;
+}
+.legal-hub-card p {
+  margin: 0; color: #475569; font-size: 0.94rem; line-height: 1.65;
+}
+.legal-hub-cta {
+  margin-top: auto;
+  display: inline-flex; align-items: center; gap: 6px;
+  color: #E87F24; font-weight: 600; font-size: 0.92rem;
+}
+.legal-hub-card:hover .legal-hub-cta svg { transform: translateX(3px); }
+.legal-hub-cta svg { transition: transform 0.25s; }
+
+.legal-hub-footnote {
+  margin-top: 24px;
+  padding: 24px 28px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 14px;
+  color: #475569;
+}
+.legal-hub-footnote p { margin: 0 0 8px; font-size: 0.94rem; line-height: 1.65; }
+.legal-hub-footnote p:last-child { margin-bottom: 0; }
+.legal-hub-footnote a { color: #E87F24; font-weight: 600; text-decoration: none; }
+.legal-hub-footnote a:hover { text-decoration: underline; }
+
+/* ========== LEGAL CROSSLINKS (footer of each policy page) ========== */
+.legal-crosslinks {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid #E2E8F0;
+}
+.legal-crosslinks h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem; font-weight: 700; color: #0F172A;
+  margin: 0 0 18px;
+}
+.legal-crosslinks-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+@media (max-width: 720px) { .legal-crosslinks-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 420px) { .legal-crosslinks-grid { grid-template-columns: 1fr; } }
+.legal-crosslink {
+  display: flex; flex-direction: column; gap: 4px;
+  padding: 14px 16px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.25s;
+}
+.legal-crosslink:hover {
+  background: #FEFDDF;
+  border-color: #FFC81E;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+.legal-crosslink strong {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem; color: #E87F24;
+}
+.legal-crosslink span {
+  font-size: 0.82rem; color: #64748B;
+}

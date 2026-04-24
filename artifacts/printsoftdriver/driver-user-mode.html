@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>User-Mode Drivers — The Safer Sandbox | PrintSoftDriver</title>
-    <meta name="description" content="How user-mode drivers let cameras, scanners, and printers talk to your computer safely without risking the wider system. A clear, friendly explainer guide.">
+    <meta name="description" content="How user-mode drivers let cameras, scanners, and peripherals talk to your computer safely without risking the wider system. A clear, friendly explainer guide.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="PrintSoftDriver">
     <meta property="og:title" content="User-Mode Drivers — The Safer Sandbox | PrintSoftDriver">
-    <meta property="og:description" content="How user-mode drivers let cameras, scanners, and printers talk to your computer safely without risking the wider system. A clear, friendly explainer guide.">
+    <meta property="og:description" content="How user-mode drivers let cameras, scanners, and peripherals talk to your computer safely without risking the wider system. A clear, friendly explainer guide.">
     <meta property="og:image" content="favicon.svg">
     <meta property="og:url" content="https://www.printsoftdriver.com/driver-user-mode.html">
     <meta property="og:type" content="website">
@@ -19,7 +19,7 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "User-Mode Drivers — The Safer Sandbox | PrintSoftDriver",
-  "description": "How user-mode drivers let cameras, scanners, and printers talk to your computer safely without risking the wider system. A clear, friendly explainer guide.",
+  "description": "How user-mode drivers let cameras, scanners, and peripherals talk to your computer safely without risking the wider system. A clear, friendly explainer guide.",
   "url": "https://www.printsoftdriver.com/driver-user-mode.html",
   "isPartOf": {
     "@type": "WebSite",
@@ -136,7 +136,7 @@
         <div class="split-text reveal">
           <h2 id="sec-1">The Trade-Off: Safety vs Raw Speed</h2>
           <p>There is a small cost for that safety. Each time a user-mode driver needs to talk to the hardware, the request has to cross the boundary between user space and kernel space — a context switch that takes a tiny but measurable amount of CPU time. For most peripherals, that overhead is invisible.</p>
-          <p>For latency-critical hardware like high-end GPUs or 10-gigabit NICs, the math changes — those still live in kernel mode. But for the long tail of consumer devices (webcams, scanners, fitness trackers, label printers), the trade is overwhelmingly worth it.</p>
+          <p>For latency-critical hardware like high-end GPUs or 10-gigabit NICs, the math changes — those still live in kernel mode. But for the long tail of consumer devices (webcams, scanners, fitness trackers, smart devices), the trade is overwhelmingly worth it.</p>
         </div>
         <div class="split-image reveal">
           <img src="images/usb.jpg" alt="A USB device being plugged in" loading="lazy" width="640" height="420">
@@ -151,7 +151,7 @@
         <div class="split-text reveal">
           <h2 id="sec-2">How the OS Catches a Crashing Driver</h2>
           <p>Behind the scenes, the OS hosts each user-mode driver inside a small wrapper process. If that process faults, the OS detects the crash, releases its resources, logs the event, and quietly spawns a fresh copy of the driver. Most users never even notice — at worst, a device flickers off and reconnects a second later.</p>
-          <p>This pattern is what lets you unplug a misbehaving printer or webcam, plug it back in, and have everything work again without rebooting. The kernel is never destabilized, because it was never on the hook in the first place.</p>
+          <p>This pattern is what lets you unplug a misbehaving webcam or scanner, plug it back in, and have everything work again without rebooting. The kernel is never destabilized, because it was never on the hook in the first place.</p>
           <ul class="check-list"><li>Each driver runs inside its own host process</li><li>Crashes are isolated and logged, not catastrophic</li><li>Devices auto-recover without user action</li><li>Supports clean uninstalls without OS reboots</li></ul>
         </div>
         <div class="split-image reveal">
@@ -237,7 +237,7 @@
       <div class="footer-col">
         <h4>Driver Guides</h4>
         <ul>
-          <li><a href="printer-drivers.html">Printer Drivers</a></li>
+          <li><a href="driver-bluetooth.html">Bluetooth Drivers</a></li>
           <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
           <li><a href="audio-drivers.html">Audio Drivers</a></li>
           <li><a href="network-drivers.html">Network Drivers</a></li>

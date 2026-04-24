@@ -1,0 +1,49 @@
+# PrintSoftDriver
+
+> An independent, plain-English educational hub explaining device drivers — the invisible software that lets your computer talk to its hardware. Friendly guides, troubleshooting walkthroughs, and brand-specific driver references for everyday users.
+
+## About
+PrintSoftDriver (https://www.printsoftdriver.com) publishes calm, jargon-free educational content about device drivers, operating systems, and computer hardware. We do not host downloads, sell software, or provide paid technical support. All articles are written for general readers who want to understand how their computer works.
+
+## Core Pages
+- [Home](https://www.printsoftdriver.com/): Overview of PrintSoftDriver and what device drivers are.
+- [About](https://www.printsoftdriver.com/about.html): Mission, editorial standards, and team philosophy.
+- [Blog](https://www.printsoftdriver.com/blog.html): Long-form articles on driver concepts, OS updates, and troubleshooting topics.
+- [Troubleshooting Hub](https://www.printsoftdriver.com/troubleshooting.html): Index of step-by-step fix guides.
+- [Sitemap](https://www.printsoftdriver.com/sitemap.html): Complete list of every page on the site.
+- [Contact](https://www.printsoftdriver.com/contact.html): Reach the editorial team.
+
+## Driver Category Guides
+- [Printer Drivers](https://www.printsoftdriver.com/printer-drivers.html)
+- [Graphics Drivers](https://www.printsoftdriver.com/graphics-drivers.html)
+- [Audio Drivers](https://www.printsoftdriver.com/audio-drivers.html)
+- [Network Drivers](https://www.printsoftdriver.com/network-drivers.html)
+- [USB & Peripheral Drivers](https://www.printsoftdriver.com/usb-drivers.html)
+- [System Drivers](https://www.printsoftdriver.com/system-drivers.html)
+
+## Driver Architecture Explainers
+- [Kernel-Mode Drivers](https://www.printsoftdriver.com/driver-kernel-mode.html)
+- [User-Mode Drivers](https://www.printsoftdriver.com/driver-user-mode.html)
+- [Storage & Disk Drivers](https://www.printsoftdriver.com/driver-storage-disk.html)
+- [Input Device Drivers](https://www.printsoftdriver.com/driver-input-devices.html)
+- [Chipset Drivers](https://www.printsoftdriver.com/driver-chipset.html)
+- [Bluetooth Drivers](https://www.printsoftdriver.com/driver-bluetooth.html)
+- [Virtual Drivers](https://www.printsoftdriver.com/driver-virtual.html)
+
+## Common Fix Walkthroughs
+- [Printer Prints Blank Pages](https://www.printsoftdriver.com/fix-printer-blank.html)
+- [No Sound on Computer](https://www.printsoftdriver.com/fix-no-sound.html)
+- [Wi-Fi Drops Repeatedly](https://www.printsoftdriver.com/fix-wifi-drops.html)
+- [Screen Flickers or Goes Black](https://www.printsoftdriver.com/fix-screen-flicker.html)
+- [USB Device Not Recognised](https://www.printsoftdriver.com/fix-usb-not-recognised.html)
+- [Computer Slow After Update](https://www.printsoftdriver.com/fix-slow-after-update.html)
+
+## Legal
+- [Privacy Policy](https://www.printsoftdriver.com/privacy-policy.html)
+- [Terms of Use](https://www.printsoftdriver.com/terms.html)
+- [Disclaimer](https://www.printsoftdriver.com/disclaimer.html)
+- [Cookie Policy](https://www.printsoftdriver.com/cookie-policy.html)
+
+## Optional
+- [XML Sitemap](https://www.printsoftdriver.com/sitemap.xml)
+- [robots.txt](https://www.printsoftdriver.com/robots.txt)

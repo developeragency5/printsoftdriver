@@ -4,27 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>INF Files — Windows Driver Manifests Explained</title>
-  <meta name="description" content="Open the lid on the small text file that Windows reads every time it installs a driver — what it contains and how it is interpreted.">
+  <title>Acpi and Drivers — Power and Devices | PrintSoftDriver</title>
+  <meta name="description" content="What Acpi describes, how drivers use it for power management, and why Bios tables matter for driver behaviour.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="PrintSoftDriver">
-  <meta name="keywords" content="inf file, windows inf, driver manifest, driver install file">
-  <meta property="og:title" content="INF Files — Windows Driver Manifests Explained | PrintSoftDriver">
-  <meta property="og:description" content="Open the lid on the small text file that Windows reads every time it installs a driver — what it contains and how it is interpreted.">
+  <meta name="keywords" content="acpi and drivers, driver guide, printsoftdriver">
+  <meta property="og:title" content="Acpi and Drivers — Power and Devices | PrintSoftDriver">
+  <meta property="og:description" content="What Acpi describes, how drivers use it for power management, and why Bios tables matter for driver behaviour.">
   <meta property="og:image" content="https://www.printsoftdriver.com/opengraph.jpg">
-  <meta property="og:url" content="https://www.printsoftdriver.com/inf-files-explained.html">
+  <meta property="og:url" content="https://www.printsoftdriver.com/acpi-and-drivers.html">
   <meta property="og:type" content="article">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="INF Files — Windows Driver Manifests Explained | PrintSoftDriver">
-  <meta name="twitter:description" content="Open the lid on the small text file that Windows reads every time it installs a driver — what it contains and how it is interpreted.">
-  <link rel="canonical" href="https://www.printsoftdriver.com/inf-files-explained.html">
+  <meta name="twitter:title" content="Acpi and Drivers — Power and Devices | PrintSoftDriver">
+  <meta name="twitter:description" content="What Acpi describes, how drivers use it for power management, and why Bios tables matter for driver behaviour.">
+  <link rel="canonical" href="https://www.printsoftdriver.com/acpi-and-drivers.html">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "INF Files — The Tiny Manifest Behind Every Windows Driver",
-  "name": "INF Files — Windows Driver Manifests Explained | PrintSoftDriver",
-  "description": "Open the lid on the small text file that Windows reads every time it installs a driver — what it contains and how it is interpreted.",
-  "url": "https://www.printsoftdriver.com/inf-files-explained.html",
+  "headline": "Acpi and Drivers — How the System Talks About Itself",
+  "name": "Acpi and Drivers — Power and Devices | PrintSoftDriver",
+  "description": "What Acpi describes, how drivers use it for power management, and why Bios tables matter for driver behaviour.",
+  "url": "https://www.printsoftdriver.com/acpi-and-drivers.html",
   "image": "https://www.printsoftdriver.com/opengraph.jpg",
   "author": {
     "@type": "Organization",
@@ -103,18 +103,18 @@
     <a href="contact.html">Contact</a>
   </nav>
 </header>
-<section class="hero-page hero-page--legal-disclaimer" aria-label="INF Files Explained hero">
+<section class="hero-page hero-page--guides" aria-label="Acpi and Drivers — How the System Talks About Itself hero">
   <div class="hero-page-overlay"></div>
   <div class="hero-page-content reveal">
-    <span class="hero-eyebrow">Inf Files Explained</span>
-    <h1>INF Files — The Tiny Manifest Behind Every Windows Driver</h1>
-    <p>A short tour of the simple text file that tells Windows everything it needs to know to install and recognise a device driver.</p>
+    <span class="hero-eyebrow">Driver Concepts</span>
+    <h1>Acpi and Drivers — How the System Talks About Itself</h1>
+    <p>A short explainer of the Advanced Configuration and Power Interface — what it describes and how drivers use it.</p>
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
       <a href="blog.html">Driver Concepts</a>
       <span aria-hidden="true">›</span>
-      <span>INF Files Explained</span>
+      <span>Acpi and Drivers</span>
     </nav>
   </div>
 </section>
@@ -123,13 +123,12 @@
   <div class="section-inner">
     <div class="split-row">
       <div class="split-text reveal">
-        <h2 id="sec-0">An INF File Is a Driver's Recipe Card</h2>
-        <p>Every Windows driver package includes an INF file — a plain-text manifest with sections that name the device, list the files to copy, set registry keys, and register services. Windows reads this file when you install the driver and follows its recipe step by step.</p>
-        <p>INF files are surprisingly readable. Open one with a text editor and you can see the device IDs the driver supports, the manufacturer name, and the various files that make up the install. Nothing is hidden.</p>
-        
+        <h2 id="sec-0">What Acpi Provides</h2>
+        <p>Acpi is a description provided by firmware for the operating system to read at boot. It lists the devices on the platform that are not auto-discoverable, the power states each one supports, and the methods to switch between states.</p>
+        <p>Without Acpi, the operating system would have to guess about platform-specific devices like the embedded controller, the lid switch, or the power button. With it, drivers know exactly what is there and how to control it.</p>
       </div>
       <div class="split-image reveal">
-        <img src="images/professional-workspace.png" alt="INF file concept" loading="lazy" width="640" height="420">
+        <img src="images/kernel-mode.jpg" alt="Acpi concept" loading="lazy" width="640" height="420">
       </div>
     </div>
   </div>
@@ -138,13 +137,12 @@
   <div class="section-inner">
     <div class="split-row reverse">
       <div class="split-text reveal">
-        <h2 id="sec-1">How Windows Uses an INF</h2>
-        <p>When a new device appears on your PC, Windows hashes its hardware ID and looks through every INF file in the driver store for a match. If it finds one, it follows that INF's instructions to install the driver. If it does not, it asks Windows Update for help, then prompts you for a manual install.</p>
-        <p>This is why a driver download usually starts with you pointing Windows at an INF file rather than running a setup.exe — the INF is the genuine entry point.</p>
-        
+        <h2 id="sec-1">How Drivers Use Acpi Methods</h2>
+        <p>Drivers call Acpi methods to put their devices into low-power states, to wake them, to read sensors, and to handle hot-plug events. The methods are described in firmware tables and executed by an interpreter inside the operating system.</p>
+        <p>When the operating system tells a device to suspend, it is often executing an Acpi method on the driver's behalf. The result is consistent power management across very different hardware platforms.</p>
       </div>
       <div class="split-image reveal">
-        <img src="images/tech-support.jpg" alt="Driver install concept" loading="lazy" width="640" height="420">
+        <img src="images/cpu-chip.jpg" alt="Power management concept" loading="lazy" width="640" height="420">
       </div>
     </div>
   </div>
@@ -153,49 +151,17 @@
   <div class="section-inner">
     <div class="split-row">
       <div class="split-text reveal">
-        <h2 id="sec-2">When You Might Edit an INF</h2>
-        <p>Most users never touch INF files. Hardware enthusiasts occasionally edit them to add support for unofficial device IDs, or to install a driver on a similar-but-not-identical device. This is technically straightforward but breaks the driver's signature, so the modified driver will only load on a Windows that has signature enforcement disabled.</p>
-        <p>For everyday work, leave INFs alone. They are designed to be read, not rewritten.</p>
-        
+        <h2 id="sec-2">When Acpi Tables Are the Issue</h2>
+        <p>Buggy Acpi tables in firmware can cause devices to misbehave on suspend, wake at unexpected times, or report wrong sensor values. Bios updates from the system maker are the right way to address these — operating system patches sometimes work around them but cannot rewrite them.</p>
+        <p>For Linux users, the dmesg output at boot lists Acpi-related warnings. Persistent ones often correlate with known issues that the system maker has acknowledged on their support page.</p>
       </div>
       <div class="split-image reveal">
-        <img src="images/kernel-mode.jpg" alt="Driver internal structure concept" loading="lazy" width="640" height="420">
+        <img src="images/professional-workspace.png" alt="Documentation review" loading="lazy" width="640" height="420">
       </div>
     </div>
   </div>
 </section>
-<section class="page-section bg-surface" aria-labelledby="faq-heading">
-  <div class="section-inner">
-    <div class="section-header reveal">
-      <span class="section-eyebrow">Quick Answers</span>
-      <h2 id="faq-heading">Frequently Asked Questions</h2>
-      <p>The questions readers send us most often on this topic.</p>
-    </div>
-    <div class="faq-list reveal">
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Where do INF files live on Windows?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Inside C:\Windows\INF for installed drivers, and inside each driver package's folder for downloaded drivers waiting to install.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Can I open an INF file in Notepad?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — INF files are plain text and intentionally readable. They will not damage Windows just by opening.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Why does editing an INF break driver signing?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Because the signature covers the file's contents byte by byte. Any change invalidates it.</p></div></div>
-      </div>
-    </div>
-  </div>
-</section>
+
 <section class="page-section">
   <div class="section-inner">
     <div class="section-header reveal">
@@ -204,17 +170,17 @@
       <p>Hand-picked articles that pair well with this one.</p>
     </div>
     <div class="related-grid reveal">
-      <a class="related-card" href="what-is-a-device-driver.html"><h3>What Is a Device Driver?</h3><p>Foundation reading.</p></a>
-      <a class="related-card" href="driver-signing-explained.html"><h3>Driver Signing</h3><p>Why edited INFs lose their trust.</p></a>
-      <a class="related-card" href="driver-store-explained.html"><h3>Driver Store Explained</h3><p>Where Windows keeps installed INFs.</p></a>
+      <a class="related-card" href="driver-chipset.html"><h3>Chipset Drivers</h3><p>Closely related platform layer.</p></a>
+      <a class="related-card" href="firmware-vs-driver.html"><h3>Firmware vs Driver</h3><p>How the two layers interact.</p></a>
+      <a class="related-card" href="fix-sleep-mode-not-working.html"><h3>Fix: Sleep Mode Not Working</h3><p>Common Acpi-related symptom.</p></a>
     </div>
   </div>
 </section>
 <section class="page-section">
   <div class="section-inner">
     <div class="cta-card reveal">
-      <h2>Want More Plain-English Driver Reads?</h2>
-      <p>We translate the technical so you can focus on using your computer rather than fighting it.</p>
+      <h2>Browse More PrintSoftDriver Reads</h2>
+      <p>Plain-English explainers, fix walkthroughs, and concept articles for every part of your system.</p>
       <div class="cta-actions">
         <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
         <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
@@ -255,7 +221,7 @@
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>
-        <li><a href="usb-drivers.html">USB &amp; Devices</a></li>
+        <li><a href="usb-drivers.html">Usb &amp; Devices</a></li>
         <li><a href="system-drivers.html">System Drivers</a></li>
       </ul>
     </div>

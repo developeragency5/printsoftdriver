@@ -18,9 +18,18 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 
 ## PrintSoftDriver Website
 
-A pure HTML/CSS/Vanilla JavaScript multi-page informational website about device drivers.
+A pure HTML/CSS/Vanilla JavaScript multi-page informational website about device drivers. **160 pages total** (110 original + 50 added programmatically).
 
 ### Files location: `artifacts/printsoftdriver/`
+
+### Programmatic page generator: `scripts/generate-pages.mjs`
+Defines 50 topics (10 error codes, 8 OS guides, 10 fix walkthroughs, 10 concept deep-dives, 7 vendor pages, 5 how-tos) and writes one HTML file per topic. Idempotent inserts into hub pages (`sitemap.html`, `troubleshooting.html`, `blog.html`, `network/system/audio/usb/graphics-drivers.html`) using `<footer id="site-footer"` as the marker. Re-runnable safely.
+
+### Strict content rules (verified clean across all 160 pages)
+- No `microsoft`, `bing` (incl. substrings like `plumbing`, `describing`), or `google`
+- No `Windows Hello`
+- `PrintSoftDriver` brand on every page
+- All titles ≤60 chars
 
 - `index.html` — Home page (2500+ words, 8 sections)
 - `blog.html` — Blog / Knowledge Hub (6 articles)

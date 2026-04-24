@@ -133,7 +133,7 @@
       <div class="split-text reveal">
         <h2 id="sec-0">The Print Spooler Restart</h2>
         <p>The print queue lives inside the Windows Print Spooler service. When it freezes, no jobs go in or out. Open Services (services.msc), find Print Spooler, right-click and Restart. The queue usually clears within a few seconds.</p>
-        <p>If Restart hangs, Stop the service first, manually delete every file inside C:\Windows\System32\spool\PERIPHERALS, then Start the service again. This is the nuclear option but it is harmless — only the pending print jobs are removed.</p>
+        <p>If Restart hangs, Stop the service first, manually delete every file inside C:\Windows\System32\spool\DEVICES, then Start the service again. This is the nuclear option but it is harmless — only the pending print jobs are removed.</p>
         <ul class="check-list"><li>Open services.msc</li><li>Restart the Print Spooler service</li><li>Manually delete the queue folder if Restart hangs</li></ul>
       </div>
       <div class="split-image reveal">
@@ -147,8 +147,8 @@
     <div class="split-row reverse">
       <div class="split-text reveal">
         <h2 id="sec-1">Why Queues Get Stuck</h2>
-        <p>Print jobs hang when the peripheral reports a transient error (paper out, ink low, network blip) and Windows fails to recover. Each hung job blocks every following job. Clearing one usually clears the cascade.</p>
-        <p>Some peripheral drivers also struggle with very large jobs. Splitting a 200-page document into smaller batches can prevent recurring hangs on older drivers.</p>
+        <p>Print jobs hang when the device reports a transient error (paper out, ink low, network blip) and Windows fails to recover. Each hung job blocks every following job. Clearing one usually clears the cascade.</p>
+        <p>Some device drivers also struggle with very large jobs. Splitting a 200-page document into smaller batches can prevent recurring hangs on older drivers.</p>
         
       </div>
       <div class="split-image reveal">
@@ -162,8 +162,8 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-2">Long-Term Prevention</h2>
-        <p>If your queue gets stuck regularly, update the peripheral driver. Older drivers — especially those for inkjets sold a decade ago — handle modern Windows updates poorly and benefit hugely from refreshed packages.</p>
-        <p>Also check whether your peripheral has any built-in firmware updates available. A firmware update on the peripheral itself can resolve the underlying communication issues that cause queues to hang.</p>
+        <p>If your queue gets stuck regularly, update the device driver. Older drivers — especially those for inkjets sold a decade ago — handle modern Windows updates poorly and benefit hugely from refreshed packages.</p>
+        <p>Also check whether your device has any built-in firmware updates available. A firmware update on the device itself can resolve the underlying communication issues that cause queues to hang.</p>
         
       </div>
       <div class="split-image reveal">
@@ -196,7 +196,7 @@
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span>Should I reinstall my peripheral driver?</span>
+          <span>Should I reinstall my device driver?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer"><div class="faq-answer-inner"><p>If queues hang regularly, yes — a fresh driver install often resolves the underlying communication glitches.</p></div></div>
@@ -212,9 +212,9 @@
       <p>Hand-picked articles that pair well with this one.</p>
     </div>
     <div class="related-grid reveal">
-      <a class="related-card" href="fix-printer-offline.html"><h3>Fix: Peripheral Showing Offline</h3><p>Adjacent walkthrough.</p></a>
+      <a class="related-card" href="fix-printer-offline.html"><h3>Fix: Device Showing Offline</h3><p>Adjacent walkthrough.</p></a>
       <a class="related-card" href="fix-printer-blank.html"><h3>Fix: Blank Page Output</h3><p>Adjacent walkthrough.</p></a>
-      <a class="related-card" href="printer-drivers.html"><h3>Peripheral Drivers Explained</h3><p>Foundation reading.</p></a>
+      <a class="related-card" href="printer-drivers.html"><h3>Device Drivers Explained</h3><p>Foundation reading.</p></a>
     </div>
   </div>
 </section>
@@ -259,11 +259,11 @@
     <div class="footer-col">
       <h4>Driver Guides</h4>
       <ul>
-        <li><a href="printer-drivers.html">Peripheral Drivers</a></li>
+        <li><a href="printer-drivers.html">Device Drivers</a></li>
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>
-        <li><a href="usb-drivers.html">USB &amp; Peripherals</a></li>
+        <li><a href="usb-drivers.html">USB &amp; Devices</a></li>
         <li><a href="system-drivers.html">System Drivers</a></li>
       </ul>
     </div>

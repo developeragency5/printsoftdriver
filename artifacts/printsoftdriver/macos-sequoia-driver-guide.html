@@ -134,7 +134,7 @@
         <h2 id="sec-0">How macOS Sequoia Manages Drivers in the Background</h2>
         <p>macOS Sequoia continues Apple's careful retreat from kernel extensions and into the safer DriverKit framework. For end users, the surface experience is unchanged: plug in a device, and macOS either supports it natively or guides you through downloading a small system component.</p>
         <p>Apple Silicon Macs in particular benefit from Sequoia's tighter integration. Many internal device drivers are co-developed alongside the chip itself, leading to faster wake-from-sleep, better battery behaviour, and very reliable USB and Thunderbolt handling.</p>
-        <ul class="check-list"><li>DriverKit-based drivers run in user space for safety</li><li>Software Update is the main driver-refresh channel</li><li>Built-in support for the vast majority of peripherals and webcams</li></ul>
+        <ul class="check-list"><li>DriverKit-based drivers run in user space for safety</li><li>Software Update is the main driver-refresh channel</li><li>Built-in support for the vast majority of devices and webcams</li></ul>
       </div>
       <div class="split-image reveal">
         <img src="images/laptop.jpg" alt="macOS Sequoia desktop scene" loading="lazy" width="640" height="420">
@@ -148,7 +148,7 @@
       <div class="split-text reveal">
         <h2 id="sec-1">Where Driver Updates Come From on macOS Sequoia</h2>
         <p>Driver updates on Sequoia mostly arrive bundled with macOS point releases. Apple uses these monthly or near-monthly updates to refresh built-in drivers, security policies, and the rare third-party System Extension that ships through Software Update.</p>
-        <p>If a peripheral needs a vendor-supplied update — for example, a high-end audio interface or a stylus tablet — the vendor publishes its own installer. These tend to be infrequent and well-tested.</p>
+        <p>If a device needs a vendor-supplied update — for example, a high-end audio interface or a stylus tablet — the vendor publishes its own installer. These tend to be infrequent and well-tested.</p>
         
       </div>
       <div class="split-image reveal">
@@ -192,7 +192,7 @@
           <span>Do I need to install drivers separately on Sequoia?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Rarely. Plug in your peripheral, webcam, or external drive, and Sequoia usually handles it without any visible install step.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Rarely. Plug in your device, webcam, or external drive, and Sequoia usually handles it without any visible install step.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
@@ -259,11 +259,11 @@
     <div class="footer-col">
       <h4>Driver Guides</h4>
       <ul>
-        <li><a href="printer-drivers.html">Peripheral Drivers</a></li>
+        <li><a href="printer-drivers.html">Device Drivers</a></li>
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>
-        <li><a href="usb-drivers.html">USB &amp; Peripherals</a></li>
+        <li><a href="usb-drivers.html">USB &amp; Devices</a></li>
         <li><a href="system-drivers.html">System Drivers</a></li>
       </ul>
     </div>

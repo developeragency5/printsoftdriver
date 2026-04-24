@@ -133,8 +133,8 @@
       <div class="split-text reveal">
         <h2 id="sec-0">How macOS Sonoma Manages Drivers in the Background</h2>
         <p>On macOS, you rarely speak the word 'driver' as a regular user — Apple bundles the vast majority of device drivers with the operating system itself. macOS Sonoma carries forward Apple's modern model where third-party kernel extensions are heavily restricted, in favour of safer user-space alternatives.</p>
-        <p>If you plug in a peripheral, scanner, or USB device, macOS will usually find a built-in driver, or download one in the background through its Software Update mechanism. The user experience is nearly invisible compared to Windows.</p>
-        <ul class="check-list"><li>Built-in drivers for thousands of peripherals, scanners, and webcams</li><li>DriverKit and System Extensions replace classic kexts</li><li>Apple-issued updates ship through Software Update</li></ul>
+        <p>If you plug in a device, scanner, or USB device, macOS will usually find a built-in driver, or download one in the background through its Software Update mechanism. The user experience is nearly invisible compared to Windows.</p>
+        <ul class="check-list"><li>Built-in drivers for thousands of devices, scanners, and webcams</li><li>DriverKit and System Extensions replace classic kexts</li><li>Apple-issued updates ship through Software Update</li></ul>
       </div>
       <div class="split-image reveal">
         <img src="images/laptop.jpg" alt="macOS Sonoma desktop scene" loading="lazy" width="640" height="420">
@@ -147,8 +147,8 @@
     <div class="split-row reverse">
       <div class="split-text reveal">
         <h2 id="sec-1">Where Driver Updates Come From on macOS Sonoma</h2>
-        <p>Driver updates on Sonoma arrive through three channels. The first is the OS itself — major macOS updates often refresh many built-in drivers. The second is Software Update's optional updates, where some peripherals and scanners refresh their drivers. The third is the vendor's own installer for a small number of complex devices.</p>
-        <p>Most users stay safely on path one alone. Path two helps if a peripheral driver needs a fix between OS releases. Path three is reserved for things like high-end audio interfaces and tablets that require a vendor-installed System Extension.</p>
+        <p>Driver updates on Sonoma arrive through three channels. The first is the OS itself — major macOS updates often refresh many built-in drivers. The second is Software Update's optional updates, where some devices and scanners refresh their drivers. The third is the vendor's own installer for a small number of complex devices.</p>
+        <p>Most users stay safely on path one alone. Path two helps if a device driver needs a fix between OS releases. Path three is reserved for things like high-end audio interfaces and tablets that require a vendor-installed System Extension.</p>
         
       </div>
       <div class="split-image reveal">
@@ -189,10 +189,10 @@
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span>Where do macOS peripheral drivers come from?</span>
+          <span>Where do macOS device drivers come from?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Many are bundled with macOS itself; others arrive automatically the first time you add a peripheral. A few high-end peripherals still ship installer packages from the vendor.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Many are bundled with macOS itself; others arrive automatically the first time you add a device. A few high-end devices still ship installer packages from the vendor.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
@@ -259,11 +259,11 @@
     <div class="footer-col">
       <h4>Driver Guides</h4>
       <ul>
-        <li><a href="printer-drivers.html">Peripheral Drivers</a></li>
+        <li><a href="printer-drivers.html">Device Drivers</a></li>
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>
-        <li><a href="usb-drivers.html">USB &amp; Peripherals</a></li>
+        <li><a href="usb-drivers.html">USB &amp; Devices</a></li>
         <li><a href="system-drivers.html">System Drivers</a></li>
       </ul>
     </div>

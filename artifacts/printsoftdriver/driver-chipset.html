@@ -136,7 +136,7 @@
         <div class="split-text reveal">
           <h2 id="sec-1">Why Chipset Drivers Go First on a Fresh Install</h2>
           <p>Every PC builder learns this rule the hard way: when you install a new operating system, install the chipset drivers before anything else. Many other drivers — graphics, storage, network — depend on the chipset driver to know how to enumerate the devices below them. Install them out of order, and you can spend hours chasing problems that disappear the moment you finally install the chipset driver.</p>
-          <p>After chipset, the recommended order is usually: storage controller, network, graphics, audio, then peripheral drivers. That sequence reflects which drivers depend on which.</p>
+          <p>After chipset, the recommended order is usually: storage controller, network, graphics, audio, then device drivers. That sequence reflects which drivers depend on which.</p>
         </div>
         <div class="split-image reveal">
           <img src="images/hardware.jpg" alt="A motherboard being installed in a PC case" loading="lazy" width="640" height="420">
@@ -237,11 +237,11 @@
       <div class="footer-col">
         <h4>Driver Guides</h4>
         <ul>
-          <li><a href="printer-drivers.html">Peripheral Drivers</a></li>
+          <li><a href="printer-drivers.html">Device Drivers</a></li>
           <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
           <li><a href="audio-drivers.html">Audio Drivers</a></li>
           <li><a href="network-drivers.html">Network Drivers</a></li>
-          <li><a href="usb-drivers.html">USB &amp; Peripherals</a></li>
+          <li><a href="usb-drivers.html">USB &amp; Devices</a></li>
           <li><a href="system-drivers.html">System Drivers</a></li>
         </ul>
       </div>

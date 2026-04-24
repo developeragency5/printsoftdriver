@@ -1,0 +1,951 @@
+https://printsoftdriver.com
+READY TO PUBLISH
+APR 24, 2026 · 12:18
+97
+PASSED
+7
+WARNINGS
+0
+FAILED
+APPROVAL CHANCE
+98%
+VERY HIGH
+Several minor warnings present — likely to be approved.
+REJECTION PROBABILITY
+2%
+VERY LOW
+No specific Microsoft Ads disapproval categories triggered.
+Per-Page Breakdown
+31 OF 31 PAGES SCANNED
+Site-wide score above is the worst page's score. Microsoft reviews each landing page individually — fix the failing pages below before targeting them in your campaigns.
+
+
+98
+HOMEPAGE
+/
+https://www.printsoftdriver.com/
+100
+5
+WARNINGS (5)
+Fewer than 3 redirects
+1 redirect(s) detected
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/about.html
+https://www.printsoftdriver.com/about.html
+100
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"About PrintSoftDriver — Friendly Driver Education" (49 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/sitemap.html
+https://www.printsoftdriver.com/sitemap.html
+100
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Sitemap — All Pages on PrintSoftDriver Website" (46 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-usb-not-recognised.html
+https://www.printsoftdriver.com/fix-usb-not-recognised.html
+99
+6
+WARNINGS (6)
+Title tag present and optimal length (50–60 chars)
+"Fix: USB Device Not Recognised | PrintSoftDriver" (48 chars)
+Meta description present and optimal length (140–160 chars)
+"Plugged in a USB device and your computer barely reacts? A calm, ordered guide t..." (172 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/privacy-policy.html
+https://www.printsoftdriver.com/privacy-policy.html
+100
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Privacy Policy — PrintSoftDriver Information Hub" (48 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/blog.html
+https://www.printsoftdriver.com/blog.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/index.html
+https://www.printsoftdriver.com/index.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/network-drivers.html
+https://www.printsoftdriver.com/network-drivers.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/audio-drivers.html
+https://www.printsoftdriver.com/audio-drivers.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/usb-drivers.html
+https://www.printsoftdriver.com/usb-drivers.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/contact.html
+https://www.printsoftdriver.com/contact.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/troubleshooting.html
+https://www.printsoftdriver.com/troubleshooting.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/printer-drivers.html
+https://www.printsoftdriver.com/printer-drivers.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/system-drivers.html
+https://www.printsoftdriver.com/system-drivers.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/graphics-drivers.html
+https://www.printsoftdriver.com/graphics-drivers.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-printer-blank.html
+https://www.printsoftdriver.com/fix-printer-blank.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-no-sound.html
+https://www.printsoftdriver.com/fix-no-sound.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-wifi-drops.html
+https://www.printsoftdriver.com/fix-wifi-drops.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-screen-flicker.html
+https://www.printsoftdriver.com/fix-screen-flicker.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/privacy.html
+https://www.printsoftdriver.com/privacy.html
+100
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Legal & Privacy Hub — PrintSoftDriver Information" (49 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-slow-after-update.html
+https://www.printsoftdriver.com/fix-slow-after-update.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/disclaimer.html
+https://www.printsoftdriver.com/disclaimer.html
+100
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Disclaimer — PrintSoftDriver Information Hub" (44 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/terms.html
+https://www.printsoftdriver.com/terms.html
+100
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Terms of Use — PrintSoftDriver Information Hub" (46 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/cookie-policy.html
+https://www.printsoftdriver.com/cookie-policy.html
+100
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Cookie Policy — PrintSoftDriver Information Hub" (47 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-kernel-mode.html
+https://www.printsoftdriver.com/driver-kernel-mode.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-user-mode.html
+https://www.printsoftdriver.com/driver-user-mode.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-storage-disk.html
+https://www.printsoftdriver.com/driver-storage-disk.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-input-devices.html
+https://www.printsoftdriver.com/driver-input-devices.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-chipset.html
+https://www.printsoftdriver.com/driver-chipset.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-bluetooth.html
+https://www.printsoftdriver.com/driver-bluetooth.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-virtual.html
+https://www.printsoftdriver.com/driver-virtual.html
+101
+4
+WARNINGS (4)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Google Consent Mode v2 (if GA4 used)
+GA4 detected but no Consent Mode v2 signals found
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+Technical & Infrastructure
+21 pass
+1 warn
+HTTPS enforced
+Final URL uses HTTPS
+How to fix
+Configure your server to redirect all HTTP traffic to HTTPS using a 301 redirect.
+Valid SSL certificate
+SSL certificate appears valid (page loaded over HTTPS)
+How to fix
+Install a valid SSL certificate from a trusted CA (e.g., Let's Encrypt).
+HTTP status code is 200 OK
+HTTP 200
+How to fix
+Ensure your landing page returns HTTP 200. Pages returning 4xx/5xx errors will be rejected by Microsoft Ads.
+Fewer than 3 redirects
+Warning on page: /
+1 redirect(s) detected
+How to fix
+Reduce redirect chains. Each redirect adds latency and may lose tracking parameters.
+HTTP → HTTPS redirect
+Page served over HTTPS
+How to fix
+Set up a 301 redirect from http:// to https:// at the server level.
+No mixed content
+0 potential HTTP (non-HTTPS) reference(s) found in HTML
+How to fix
+Update all resource URLs (images, scripts, stylesheets, fonts) to use HTTPS.
+Page loads in under 3 seconds
+Page loaded in 0.49s
+How to fix
+Optimize images, enable compression (gzip/brotli), minimize JS/CSS, use a CDN.
+Mobile viewport meta tag present
+Viewport meta tag found
+How to fix
+Add <meta name="viewport" content="width=device-width, initial-scale=1"> to your <head>.
+Security headers present
+CSP: ✓, X-Frame-Options: ✓, X-Content-Type-Options: ✓
+How to fix
+Add security headers: Content-Security-Policy, X-Frame-Options, X-Content-Type-Options.
+Cache-Control header present
+Cache-Control: public, max-age=0, must-revalidate
+How to fix
+Add a Cache-Control header to improve performance and CDN behavior.
+robots.txt exists
+robots.txt found (115 bytes)
+How to fix
+Create a robots.txt at your domain root and ensure it doesn't block the ad landing page URL.
+sitemap.xml exists
+sitemap.xml found (4039 bytes)
+How to fix
+Create an XML sitemap at /sitemap.xml and submit it to Bing Webmaster Tools.
+robots.txt does not block Bingbot
+robots.txt does not block Bingbot
+How to fix
+Update robots.txt to allow Bingbot. Microsoft Ads requires that landing pages are crawlable by Bingbot.
+Favicon present
+Favicon link tag found
+How to fix
+Add <link rel="icon" href="/favicon.ico"> to your <head>.
+Character encoding declared
+Character encoding declared
+How to fix
+Add <meta charset="UTF-8"> to the <head> of your page.
+HTML5 doctype declared
+<!DOCTYPE html> found
+How to fix
+Add <!DOCTYPE html> as the first line of your HTML document.
+Reasonable JavaScript bundle count
+1 external script(s) loaded
+How to fix
+Reduce the number of external JavaScript files. Heavy script loading slows down the page and hurts landing-page experience scoring.
+No duplicate HTML element IDs
+All element IDs are unique
+How to fix
+Each HTML element ID must be unique. Duplicates break accessibility tools and JavaScript references.
+No deprecated HTML tags
+No deprecated HTML tags detected
+How to fix
+Remove deprecated tags like <font>, <center>, <marquee>, <blink>. Use CSS instead.
+Limited inline styles
+3 inline style attribute(s) found
+How to fix
+Move inline styles to external stylesheets for better performance and maintainability.
+Balanced HTML structural tags
+All structural tags balanced
+How to fix
+Ensure every <div>, <section>, <article>, etc. has a matching closing tag. Unclosed tags break layout and accessibility.
+Reasonable HTML page weight
+HTML document is 110 KB
+How to fix
+Keep HTML payload under 500 KB. Large HTML hurts mobile load times and landing-page experience.
+
+SEO & Bing Indexability
+10 pass
+2 warn
+Title tag present and optimal length (50–60 chars)
+Warning on 8 pages: /about.html, /sitemap.html, /fix-usb-not-recognised.html (+5 more)
+"About PrintSoftDriver — Friendly Driver Education" (49 chars)
+How to fix
+Write a title between 50–60 characters that clearly describes the page and includes keywords.
+Meta description present and optimal length (140–160 chars)
+Warning on page: /fix-usb-not-recognised.html
+"Plugged in a USB device and your computer barely reacts? A calm, ordered guide t..." (172 chars)
+How to fix
+Write a compelling meta description between 140–160 characters.
+Exactly one H1 tag
+1 H1 tag(s) found
+How to fix
+Use exactly one H1 tag that describes the primary topic of the page.
+Logical heading hierarchy
+H1: 1, H2: 14, H3: 57
+How to fix
+Use headings in order: H1 → H2 → H3. Don't skip heading levels.
+All images have alt attributes
+0 image(s) missing alt attributes out of 30 total
+How to fix
+Add descriptive alt attributes to all <img> tags for accessibility and SEO.
+JSON-LD structured data present
+JSON-LD structured data found
+How to fix
+Add Organization or WebSite JSON-LD schema to help search engines understand your site.
+Open Graph tags present
+og:title: ✓, og:description: ✓, og:image: ✓
+How to fix
+Add og:title, og:description, og:image, and og:url meta tags.
+Canonical link tag present
+Canonical: https://www.printsoftdriver.com/
+How to fix
+Add <link rel="canonical" href="https://yourdomain.com/page/"> to your <head>.
+HTML lang attribute present
+lang="en"
+How to fix
+Add a lang attribute to your <html> tag, e.g., <html lang="en">.
+URL is lowercase and hyphenated
+URL path: /
+How to fix
+Use lowercase, hyphen-separated URL paths (e.g., /my-product-page instead of /MyProductPage).
+Content rendered server-side (visible to Bingbot)
+Server-rendered content present (7892 words in <body>).
+How to fix
+Use Server-Side Rendering (SSR) or pre-rendering. Bingbot's JavaScript rendering is limited — pages that render entirely in the browser are often not indexed, which means your ads won't run.
+Title tag is not keyword-stuffed
+Title shows natural word distribution
+How to fix
+Write a natural, descriptive title. Avoid repeating the same keyword multiple times in your <title> tag.
+
+Content Compliance
+36 pass
+No adult/sexually explicit content
+No adult content keywords detected
+How to fix
+Remove adult content. Microsoft Ads prohibits adult and sexually explicit content.
+No drugs or drug paraphernalia
+No drug-related content detected
+How to fix
+Advertising for recreational drugs or drug paraphernalia is prohibited by Microsoft Ads.
+No weapons, firearms, or ammunition
+No weapon-related content detected
+How to fix
+Advertising for weapons, firearms, and ammunition is prohibited by Microsoft Ads.
+No tobacco or vaping products
+No tobacco/vaping content detected
+How to fix
+Advertising for tobacco products and vaping/e-cigarette products is prohibited by Microsoft Ads.
+No malware, phishing, or unwanted software indicators
+No malware/phishing indicators detected
+How to fix
+Remove any content related to malware distribution, phishing, or unwanted software downloads.
+No trafficking or exploitation content
+No trafficking/exploitation content detected
+How to fix
+Content related to trafficking or exploitation is strictly prohibited.
+No deceptive products or services
+No deceptive product/service claims detected
+How to fix
+Remove get-rich-quick schemes, miracle cure claims, and other deceptive advertising patterns.
+No piracy or counterfeit content
+No piracy content detected
+How to fix
+Advertising for pirated content, cracked software, or counterfeit goods is prohibited.
+No third-party tech support advertising
+No third-party tech support language detected
+How to fix
+Microsoft globally banned third-party tech support advertising in 2016. You cannot advertise support for products you don't own. Accounts are permanently suspended for this violation.
+No Microsoft brand terms in domain name
+Domain does not contain Microsoft brand terms
+How to fix
+Domain names must not contain Microsoft, Windows, Office, Xbox, Bing, Outlook, or other Microsoft brand terms.
+No scareware or fake error messages
+No scareware or fake error patterns detected
+How to fix
+Remove all fake error messages, virus warnings, and security alerts. Microsoft permanently suspends accounts for scareware.
+No dangerous executable download links
+No .exe, .msi, .scr, .bat, or .cmd download links detected
+How to fix
+Remove all .exe, .msi, .scr, .bat, and .cmd download links. Microsoft treats these as high-risk on third-party sites.
+No remote access tool downloads or widgets
+No remote access tools detected on page
+How to fix
+Remove all remote access tool downloads (TeamViewer, AnyDesk, LogMeIn, etc.) and 'connect to technician' widgets from landing pages.
+No third-party credential harvesting forms
+No credential harvesting patterns detected
+How to fix
+Do not embed login forms for Microsoft, Google, Apple, or other third-party services on your landing page.
+No unverifiable trust badges or endorsement claims
+No unverifiable trust badges detected
+How to fix
+Remove trust badges (Norton, McAfee, BBB, 'As seen on CNN') unless they link to a valid, active verification page. Fake badges cause instant rejection.
+No unauthorized Microsoft brand impersonation
+No Microsoft brand logo images detected
+How to fix
+Remove all Microsoft, Windows, Office, Xbox, and Surface logos and brand marks. Only Microsoft and authorized partners may display these.
+No urgent call prompts or phone numbers in error messages
+No urgent call prompts or phone-in-error patterns detected
+How to fix
+Remove urgent call prompts ('Call Now!', 'Immediate Help!', '24/7 Emergency'). Phone numbers near error messages are a permanent suspension trigger.
+No gift card, wire transfer, or crypto payment requests
+No scam payment method patterns detected
+How to fix
+Remove gift card, wire transfer, money order, and cryptocurrency payment options. These are universal scam signals that trigger automatic suspension.
+Gambling content (requires certification)
+No gambling terms detected
+How to fix
+Gambling advertising requires Microsoft Advertising certification and is restricted by market. Contact Microsoft Ads support to apply.
+Alcohol content (restricted by market)
+No alcohol sales terms detected
+How to fix
+Alcohol advertising is restricted by market. Must not target minors. Verify compliance with local laws and Microsoft Ads alcohol policy.
+Healthcare claims include required disclaimers
+Health terms found: diagnose, symptom (NO disclaimer found)
+How to fix
+Add medical disclaimers: 'Consult a healthcare professional. This is not a substitute for medical advice.' Healthcare ads are restricted.
+Financial claims include required disclaimers
+No financial claim terms detected
+How to fix
+Add disclaimers: 'Past performance does not guarantee future results. Investments involve risk of loss.' Finance ads are restricted.
+Cryptocurrency content (requires certification)
+No cryptocurrency terms detected
+How to fix
+Cryptocurrency advertising requires Microsoft Advertiser certification. Contact Microsoft Ads support to apply.
+Dating content (restricted by market)
+No dating service terms detected
+How to fix
+Dating and companionship advertising is restricted. Must not promote sexual services. Review Microsoft Ads dating policy.
+No unsubstantiated superlatives
+No prohibited superlatives detected
+How to fix
+Remove or substantiate claims like '#1', 'best', 'guaranteed', 'miracle'. Provide evidence or remove them.
+No prohibited urgency language
+No prohibited urgency patterns detected
+How to fix
+Microsoft Ads prohibits urgency language such as "do this immediately," "supplies are running out," or "offer won't last."
+No excessive capitalization
+No excessive capitalization detected
+How to fix
+Use proper grammatically correct capitalization. Avoid random or excessive caps like BIG SALE or AmAzinG.
+No competitor trademark misuse in H1/Title
+No trademark misuse detected in title/H1
+How to fix
+Do not use competitor trademarks (Microsoft, Google, Amazon) in your H1 or title tag unless you are that brand.
+Business name visible on page
+Business/brand name visible: "PrintSoftDriver - Device Driver Education &amp; Gu"
+How to fix
+Make sure your brand/business name is clearly visible, ideally in the page title or H1.
+No misleading calls-to-action
+No misleading CTAs detected
+How to fix
+Remove misleading CTAs. Microsoft Ads prohibits deceptive calls-to-action like fake prize notifications.
+Affiliate / sponsored content disclosed (when monetized links present)
+No affiliate / referral links detected on page
+How to fix
+If your page contains affiliate or sponsored links, you must clearly disclose the material connection (FTC + Microsoft Ads Information Integrity policy). Add a visible 'Affiliate disclosure' or 'We may earn a commission' notice.
+No signs of AI-generated content
+Content shows natural variation (375 sentences analyzed)
+How to fix
+Add personal voice, varied sentence lengths, and concrete examples. Microsoft penalizes pages with low-quality, mass-produced content.
+No duplicated paragraphs
+No duplicate sentences detected
+How to fix
+Remove duplicate content. Microsoft Ads quality scoring penalizes pages with repeated or boilerplate paragraphs.
+No spam or auto-generated content patterns
+No spam patterns detected
+How to fix
+Reduce link density and remove repeated/auto-generated text patterns. Spam-style pages are rejected by Microsoft Ads.
+Sufficient content depth
+7899 words of body text (good depth)
+How to fix
+Add at least 250 words of meaningful, original content. Thin pages fail landing-page experience scoring.
+No keyword stuffing
+No keyword stuffing detected (analyzed 5144 content words)
+How to fix
+Reduce keyword repetition. Microsoft Ads policy prohibits keyword stuffing — write naturally for users, not search engines.
+
+Required Pages & Contact Info
+5 pass
+1 warn
+Privacy Policy linked
+Privacy policy link found
+How to fix
+Add a visible link to your Privacy Policy. Microsoft Ads requires an accessible privacy policy on all landing pages.
+Terms of Service linked
+Terms of service link found
+How to fix
+Add a link to your Terms of Service.
+Contact page linked
+Contact page link found
+How to fix
+Add a link to a contact page with your business address, phone number, or email.
+About page linked
+About page link found
+How to fix
+Add a link to an About page explaining who you are and what you do.
+Phone number visible on page
+Warning on 31 pages: /, /blog.html, /about.html (+28 more)
+No phone number found on page
+How to fix
+Display a real contact phone number to build trust with visitors.
+Email address visible on page
+Email address detected on page
+How to fix
+Display a contact email address to build trust.
+Refund/Return policy linked (e-commerce)
+E-commerce not detected on this page
+How to fix
+For e-commerce sites, add a visible link to your Refund and Return Policy.
+
+Consent & Privacy
+3 pass
+3 warn
+Cookie consent mechanism detected
+Cookie consent mechanism detected
+How to fix
+Add a GDPR/CCPA compliant cookie consent banner. Consider using a CMP like OneTrust, Cookiebot, or CookieYes.
+Cookie banner has Reject option
+Reject/decline option found in cookie banner
+How to fix
+Add a 'Reject All' button with equal visual prominence to the 'Accept' button in your cookie banner.
+Microsoft UET tag detected
+Warning on 31 pages: /, /blog.html, /about.html (+28 more)
+No Microsoft UET tag detected
+How to fix
+Install the Microsoft Universal Event Tracking (UET) tag to track conversions.
+Google Consent Mode v2 (if GA4 used)
+Warning on 27 pages: /, /blog.html, /about.html (+24 more)
+GA4 detected but no Consent Mode v2 signals found
+How to fix
+Implement Google Consent Mode v2 if using GA4 to comply with EU consent requirements.
+Privacy Policy mentions Microsoft/Bing tracking
+Warning on 31 pages: /, /blog.html, /about.html (+28 more)
+Privacy policy may not mention Microsoft/Bing tracking
+How to fix
+Update your Privacy Policy to explicitly mention Microsoft Advertising tracking technologies.
+"Do Not Sell or Share" link (CCPA)
+"Do Not Sell" link found
+How to fix
+For California visitors, add a "Do Not Sell or Share My Personal Information" link per CCPA requirements.
+
+Landing Page Quality
+13 pass
+Final URL domain matches original (no cloaking)
+Final URL stays on the same domain: www.printsoftdriver.com
+How to fix
+The final landing page domain must match the domain in your ad. Redirecting to a different brand/domain is prohibited (www <-> non-www on the same domain is fine).
+No high density of advertising
+Ad iframes: 0, Ad scripts: 0
+How to fix
+Landing pages must not display a high density of advertising above the fold or consist primarily of ads/links. Content should provide value, not solely display ads.
+Page has sufficient, substantive content
+Approximately 7899 words of text content detected
+How to fix
+Landing pages must not contain sparse or limited content. Add substantive, relevant text content that provides value to users.
+No auto-playing video with sound
+No unmuted auto-playing video detected
+How to fix
+Add the muted attribute to all autoplay videos: <video autoplay muted>
+No browser manipulation (resize, prompt-spam, back-button hijack)
+No browser manipulation detected
+How to fix
+Do not resize browser windows, spam beforeunload prompts, or trap users with popstate re-pushes.
+No full-page modal/interstitial on load
+No obvious full-page interstitial detected
+How to fix
+Avoid showing full-page pop-ups or interstitials immediately on page load. Do not delay or obstruct user access to content.
+Primary call-to-action visible
+Call-to-action button/link detected
+How to fix
+Ensure your primary call-to-action is clearly visible on the page.
+No unnecessary sensitive data collection
+No unnecessary sensitive data collection detected
+How to fix
+Do not require the entry of sensitive personal data (SSN, passport, etc.) unnecessary to provide the service.
+Basic accessibility attributes present
+ARIA attributes detected
+How to fix
+Add aria-labels, roles, and alt text to improve accessibility for users with disabilities.
+Page is not set to noindex
+Page allows indexing
+How to fix
+Remove the noindex meta tag. Microsoft Ads requires landing pages to be indexable by Bing. Non-indexed sites are disallowed.
+No placeholder or under-construction content
+No placeholder text detected
+How to fix
+Replace all placeholder text with real content before running ads. Pages not functioning properly will be rejected.
+Landing page opens to working content (not 'unavailable' / 404 soft-fail)
+No 'page unavailable' / soft-404 patterns detected
+How to fix
+Microsoft Ads rejects landing pages that 'do not open properly or consistently result in a product not available message'. Fix dead links or remove the URL from your campaign.
+CTA buttons link to a real destination
+0 working CTA(s), 0 dead CTA(s) (href="#" / javascript:void)
+How to fix
+Every 'Buy Now' / 'Sign Up' / 'Get Started' button must link to a real destination. Dead-link CTAs (href="#") violate the relevance and quality policy.
+
+Hosting & Site Intelligence
+9 pass
+Custom domain (not a free hosting subdomain)
+Domain www.printsoftdriver.com is a custom domain
+How to fix
+Use a custom domain (yourbrand.com) for Microsoft Ads landing pages instead of a free hosting subdomain.
+Site is live (no sleep / spin-down page)
+Site is responding normally
+How to fix
+Your application is not running. Use a production hosting tier (always-on / autoscale) to ensure 100% uptime for your ad landing page.
+No hardcoded API keys/secrets in HTML
+No obvious secret patterns detected in HTML
+How to fix
+Never hardcode API keys or secrets in client-side code. Use environment variables server-side only.
+Production-grade deployment
+Custom domain detected — likely properly deployed
+How to fix
+Use a production hosting tier (always-on, autoscale, or reserved VM) to ensure 100% uptime for your ad landing page.
+Hosted IP address
+66.33.60.66, 76.76.21.142 — United States, Walnut
+How to fix
+Informational — confirms where the landing page is physically served from.
+Hosting IP not flagged
+IP / hosting provider does not match known suspicious patterns
+How to fix
+Move the landing page to a reputable hosting provider. VPN/proxy IPs and bulletproof hosts are commonly rejected by Microsoft Ads.
+Hosting provider
+Vercel, Inc (AS16509 Amazon.com, Inc.) • CDN: Vercel Edge
+How to fix
+Informational — useful for attribution and IP-reputation diagnostics.
+Domain registrar
+Registrar information unavailable
+How to fix
+Informational — confirms domain ownership chain.
+Detected website technology
+Built with: Bootstrap • Server: Vercel
+How to fix
+Informational — useful for diagnosing landing-page rendering issues.

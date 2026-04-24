@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>How to Roll Back a Driver in Windows | PrintSoftDriver</title>
+  <meta name="description" content="When a fresh driver update introduces problems, Windows almost always keeps the previous version ready. A calm guide to rolling back safely.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="PrintSoftDriver">
+  <meta name="keywords" content="roll back driver, driver rollback, undo driver update, restore previous driver">
+  <meta property="og:title" content="How to Roll Back a Driver in Windows | PrintSoftDriver">
+  <meta property="og:description" content="When a fresh driver update introduces problems, Windows almost always keeps the previous version ready. A calm guide to rolling back safely.">
+  <meta property="og:image" content="https://www.printsoftdriver.com/opengraph.jpg">
+  <meta property="og:url" content="https://www.printsoftdriver.com/roll-back-driver.html">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Roll Back a Driver in Windows | PrintSoftDriver">
+  <meta name="twitter:description" content="When a fresh driver update introduces problems, Windows almost always keeps the previous version ready. A calm guide to rolling back safely.">
+  <link rel="canonical" href="https://www.printsoftdriver.com/roll-back-driver.html">
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How to Roll Back a Driver That Is Misbehaving",
+  "name": "How to Roll Back a Driver in Windows | PrintSoftDriver",
+  "description": "When a fresh driver update introduces problems, Windows almost always keeps the previous version ready. A calm guide to rolling back safely.",
+  "url": "https://www.printsoftdriver.com/roll-back-driver.html",
+  "image": "https://www.printsoftdriver.com/opengraph.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "PrintSoftDriver",
+    "url": "https://www.printsoftdriver.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "PrintSoftDriver",
+    "url": "https://www.printsoftdriver.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.printsoftdriver.com/favicon.svg"
+    }
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "PrintSoftDriver",
+    "url": "https://www.printsoftdriver.com/"
+  },
+  "inLanguage": "en"
+}</script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.min.css">
+</head>
+<body>
+<header id="site-header" role="banner">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="PrintSoftDriver Home">
+      <svg width="36" height="36" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="6" fill="#E87F24"/>
+        <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+        <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+        <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        <rect x="4" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="24" y="14" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="4" width="4" height="4" rx="1" fill="#FEFDDF"/>
+        <rect x="14" y="24" width="4" height="4" rx="1" fill="#FEFDDF"/>
+      </svg>
+      <span class="logo-text">PrintSoftDriver</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<section class="hero-page hero-page--legal-disclaimer" aria-label="Roll Back a Driver hero">
+  <div class="hero-page-overlay"></div>
+  <div class="hero-page-content reveal">
+    <span class="hero-eyebrow">ROLL BACK A DRIVER</span>
+    <h1>How to Roll Back a Driver That Is Misbehaving</h1>
+    <p>When a driver update introduces a bug, Windows usually keeps the previous one ready. A friendly walkthrough through the rollback flow.</p>
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span aria-hidden="true">›</span>
+      <a href="blog.html">Driver Concepts</a>
+      <span aria-hidden="true">›</span>
+      <span>Roll Back a Driver</span>
+    </nav>
+  </div>
+</section>
+<main>
+<section class="page-section" aria-labelledby="sec-0">
+  <div class="section-inner">
+    <div class="split-row">
+      <div class="split-text reveal">
+        <h2 id="sec-0">When to Roll Back</h2>
+        <p>If a freshly installed driver introduces flicker, BSODs, or noticeably worse battery life, the cleanest fix is often to roll back to the previous one. This works because Windows stores both versions in the driver store and can swap between them in seconds.</p>
+        <p>Common rollback candidates are graphics drivers immediately after a major update, network drivers after a Windows feature update, and audio drivers after an OEM app update.</p>
+        
+      </div>
+      <div class="split-image reveal">
+        <img src="images/tech-support.jpg" alt="Rollback concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section bg-surface" aria-labelledby="sec-1">
+  <div class="section-inner">
+    <div class="split-row reverse">
+      <div class="split-text reveal">
+        <h2 id="sec-1">How the Rollback Works</h2>
+        <p>Open Device Manager, find the device, right-click and choose Properties → Driver tab. If a Roll Back Driver button is enabled, the previous driver is ready to install. Click it, follow the prompt, and reboot if asked.</p>
+        <p>If the Roll Back button is greyed out, the previous driver is no longer in the driver store — Windows keeps a limited number of versions. In that case, manually download the older driver from the vendor's archive.</p>
+        <ul class="check-list"><li>Device Manager → device → Properties → Driver</li><li>Roll Back Driver if available</li><li>Manual install of older version if not</li></ul>
+      </div>
+      <div class="split-image reveal">
+        <img src="images/professional-workspace.png" alt="Device Manager concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section" aria-labelledby="sec-2">
+  <div class="section-inner">
+    <div class="split-row">
+      <div class="split-text reveal">
+        <h2 id="sec-2">Preventing the Same Update Coming Back</h2>
+        <p>Windows Update can helpfully reinstall the same problematic driver after a rollback. Microsoft provides a 'Show or hide updates' tool that lets you prevent a specific driver update from reinstalling automatically.</p>
+        <p>On Windows 11, the optional drivers section in Settings → Windows Update → Advanced options also makes it easier to manually choose which driver versions to apply.</p>
+        
+      </div>
+      <div class="split-image reveal">
+        <img src="images/kernel-mode.jpg" alt="Update control concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section bg-surface" aria-labelledby="faq-heading">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Quick Answers</span>
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <p>The questions readers send us most often on this topic.</p>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>How long does Windows keep old driver versions?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Typically the previous version, sometimes two. Heavy driver churn rotates older ones out faster.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Can I roll back any driver?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Most of them — the option is greyed out only when no previous version exists in the driver store.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Can Windows Update reinstall a problematic driver?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — use Microsoft's 'Show or hide updates' tool to prevent it.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Keep Reading</span>
+      <h2>Related Guides on PrintSoftDriver</h2>
+      <p>Hand-picked articles that pair well with this one.</p>
+    </div>
+    <div class="related-grid reveal">
+      <a class="related-card" href="driver-store-explained.html"><h3>Driver Store</h3><p>Where the previous versions live.</p></a>
+      <a class="related-card" href="update-drivers-windows-update.html"><h3>Updating via Windows Update</h3><p>How updates arrive.</p></a>
+      <a class="related-card" href="uninstall-driver-cleanly.html"><h3>Uninstall a Driver Cleanly</h3><p>When rollback is not enough.</p></a>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Want More Plain-English Driver Reads?</h2>
+      <p>We translate the technical so you can focus on using your computer rather than fighting it.</p>
+      <div class="cta-actions">
+        <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
+        <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Driver Guides</h4>
+      <ul>
+        <li><a href="printer-drivers.html">Printer Drivers</a></li>
+        <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
+        <li><a href="audio-drivers.html">Audio Drivers</a></li>
+        <li><a href="network-drivers.html">Network Drivers</a></li>
+        <li><a href="usb-drivers.html">USB &amp; Peripherals</a></li>
+        <li><a href="system-drivers.html">System Drivers</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+        <li><a href="privacy-policy.html#do-not-sell-section">Do Not Sell My Info</a></li>
+      </ul>
+    </div>
+    <div class="footer-col footer-col-3">
+      <h4>Get In Touch</h4>
+      <p>Have a question, suggestion, or topic you'd love us to cover next?</p>
+      <div class="contact-item">
+        <span>Email</span>
+        info@printsoftdriver.com
+      </div>
+    </div>
+  </div>
+  <div class="footer-disclaimer">
+    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+      <a href="disclaimer.html">Full Disclaimer</a>
+      <a href="cookie-policy.html">Cookie Policy</a>
+      <a href="privacy-policy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
+      <a href="sitemap.html">Sitemap</a>
+    </div>
+    <p class="footer-copyright">&copy; PrintSoftDriver. All Rights Reserved.</p>
+  </div>
+</footer>
+<div id="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+  <p class="cookie-text">We use cookies to improve your experience. By continuing, you agree to our <a href="cookie-policy.html">Cookie Policy</a>.</p>
+  <div class="cookie-btns">
+    <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">Accept All</button>
+    <button class="cookie-btn cookie-btn-reject" onclick="rejectCookies()">Reject All</button>
+  </div>
+</div>
+<script src="script.min.js"></script>
+</body>
+</html>

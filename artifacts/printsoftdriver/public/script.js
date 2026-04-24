@@ -354,3 +354,38 @@ function rejectCookies() {
     sections.forEach(function (s) { io.observe(s); });
   }
 })();
+
+/* ---------- Auto-inject Back Button on inner pages ---------- */
+(function backButtonInit() {
+  var path = (window.location.pathname || '').toLowerCase();
+  var file = path.split('/').pop() || '';
+  // Skip home page
+  if (file === '' || file === 'index.html') return;
+
+  var btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'back-btn';
+  btn.setAttribute('aria-label', 'Go back to previous page');
+  btn.innerHTML =
+    '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">' +
+    '<path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>' +
+    '</svg><span>Back</span>';
+
+  btn.addEventListener('click', function () {
+    if (window.history.length > 1 && document.referrer && document.referrer.indexOf(window.location.host) !== -1) {
+      window.history.back();
+    } else {
+      window.location.href = 'index.html';
+    }
+  });
+
+  function mount() {
+    if (document.querySelector('.back-btn')) return;
+    document.body.appendChild(btn);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', mount);
+  } else {
+    mount();
+  }
+})();

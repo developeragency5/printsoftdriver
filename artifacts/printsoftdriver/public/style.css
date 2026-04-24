@@ -2626,3 +2626,46 @@ section { padding: 72px 24px; }
 .severity-easy { background: rgba(115,165,202,0.18); color: #73A5CA; }
 .severity-medium { background: rgba(255,200,30,0.20); color: #C99412; }
 .severity-warn { background: rgba(232,127,36,0.20); color: #E87F24; }
+
+/* --- Floating Back Button (auto-injected on inner pages) --- */
+.back-btn {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 950;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px 11px 14px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #E87F24 0%, #FFC81E 100%);
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 10px 28px rgba(232,127,36,0.38), 0 2px 6px rgba(15,23,42,0.18);
+  cursor: pointer;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.back-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(232,127,36,0.48), 0 4px 10px rgba(15,23,42,0.22);
+  filter: brightness(1.04);
+}
+.back-btn:active { transform: translateY(0); }
+.back-btn:focus-visible {
+  outline: 3px solid rgba(115,165,202,0.7);
+  outline-offset: 3px;
+}
+.back-btn svg { display: block; }
+@media (max-width: 640px) {
+  .back-btn {
+    left: 14px;
+    bottom: 14px;
+    padding: 10px 16px 10px 12px;
+    font-size: 0.86rem;
+  }
+}
+@media print { .back-btn { display: none !important; } }

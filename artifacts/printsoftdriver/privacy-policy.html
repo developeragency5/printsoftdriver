@@ -35,7 +35,30 @@
 </script>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="style.css">
-  </head>
+    <!-- Consent Mode v2 (default denied until user opts in) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied',
+      'functionality_storage': 'granted',
+      'security_storage': 'granted',
+      'wait_for_update': 500
+    });
+    gtag('set', 'ads_data_redaction', true);
+  </script>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true });
+  </script>
+  <!-- Microsoft UET (Bing Ads) tag -->
+  <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"00000000",enableAutoSpaTracking:true};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+</head>
   <body>
 
   <!-- ========== HEADER ========== -->
@@ -119,6 +142,14 @@
 
           <h2>Third-Party Services</h2>
           <p>Our Site may use third-party services to support its operation and help us understand how visitors use our content. These may include web analytics services and content delivery networks. These third parties may collect information about your use of our Site and other websites over time in accordance with their own privacy policies. We encourage you to review the privacy policies of any third-party services you interact with through our Site.</p>
+
+          <h2>Advertising and Analytics Partners</h2>
+          <p>To measure the performance of our educational content and the effectiveness of advertising campaigns that direct visitors to this Site, we use the following third-party measurement and tracking technologies:</p>
+          <ul>
+            <li><strong>Google Analytics 4 (GA4)</strong> with <strong>Google Consent Mode v2</strong> — used to understand how visitors interact with our pages in aggregate. Consent Mode v2 ensures that no advertising or analytics cookies are set until you grant consent through our cookie banner. Until you opt in, all storage signals (<code>ad_storage</code>, <code>ad_user_data</code>, <code>ad_personalization</code>, <code>analytics_storage</code>) are set to "denied" by default, and IP addresses are anonymized.</li>
+            <li><strong>Microsoft Advertising (Bing Ads) Universal Event Tracking (UET) tag</strong> — a small JavaScript tag from Microsoft that allows us to measure the performance of advertising campaigns served through Microsoft Advertising and Bing Ads. The Microsoft UET tag may set cookies on your device to record page visits, conversions, and interactions originating from Bing search and Microsoft Advertising network referrals. Microsoft, Bing, and the Microsoft Advertising platform process this data in accordance with their own privacy policies.</li>
+          </ul>
+          <p>You can opt out of Microsoft Advertising / Bing Ads tracking at any time by visiting Microsoft's privacy dashboard at <a href="https://account.microsoft.com/privacy" rel="noopener">account.microsoft.com/privacy</a>, and you can opt out of Google Analytics tracking by installing the Google Analytics Opt-out Browser Add-on at <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">tools.google.com/dlpage/gaoptout</a>. Declining cookies in our cookie banner will also prevent these tags from collecting data on your visit.</p>
           <p>We do not integrate social media share buttons, embedded social media feeds, or third-party advertising networks that track users across sites for targeted advertising based on personal profiles.</p>
 
           <h2>Data Retention</h2>
@@ -220,6 +251,9 @@
       </div>
       <div class="footer-disclaimer">
         <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
+      </div>
+            <div class="footer-contact-line" style="text-align:center;margin:18px 0 8px;font-size:14px;opacity:.85;">
+        <span>Customer Support: </span><a href="tel:+18885550173" style="color:inherit;text-decoration:none;">+1 (888) 555-0173</a>
       </div>
       <div class="footer-bottom">
         <div class="footer-bottom-links">

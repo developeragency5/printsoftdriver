@@ -103,18 +103,18 @@
     <a href="contact.html">Contact</a>
   </nav>
 </header>
-<section class="hero-page hero-page--legal-disclaimer" aria-label="DKMS Explained hero">
+<section class="hero-page hero-page--legal-disclaimer" aria-label="Dkms guide hero">
   <div class="hero-page-overlay"></div>
   <div class="hero-page-content reveal">
-    <span class="hero-eyebrow">DKMS EXPLAINED</span>
-    <h1>DKMS — Why Some Linux Drivers Survive Every Kernel Update</h1>
+    <span class="hero-eyebrow">Linux Driver Updates</span>
+    <h1>Dkms — Why Some Linux Drivers Survive Every Kernel Update</h1>
     <p>A friendly look at Dynamic Kernel Module Support, the small system that quietly rebuilds out-of-tree Linux drivers every time the kernel updates.</p>
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
       <a href="blog.html">Driver Concepts</a>
       <span aria-hidden="true">›</span>
-      <span>DKMS Explained</span>
+      <span>Dkms Explained</span>
     </nav>
   </div>
 </section>
@@ -123,9 +123,9 @@
   <div class="section-inner">
     <div class="split-row">
       <div class="split-text reveal">
-        <h2 id="sec-0">The Problem DKMS Solves</h2>
+        <h2 id="sec-0">The Problem Dkms Solves</h2>
         <p>Linux drivers compiled against one kernel version usually do not work on another, because the kernel's internal API is not stable across major versions. Without help, every kernel upgrade would break every out-of-tree driver on the system.</p>
-        <p>DKMS — Dynamic Kernel Module Support — solves this by keeping the source code of out-of-tree drivers around and rebuilding them automatically each time the kernel updates. The result is that the user almost never notices the kernel changing under their feet.</p>
+        <p>Dkms — Dynamic Kernel Module Support — solves this by keeping the source code of out-of-tree drivers around and rebuilding them automatically each time the kernel updates. The result is that the user almost never notices the kernel changing under their feet.</p>
         
       </div>
       <div class="split-image reveal">
@@ -138,9 +138,9 @@
   <div class="section-inner">
     <div class="split-row reverse">
       <div class="split-text reveal">
-        <h2 id="sec-1">How DKMS Works in Practice</h2>
-        <p>When you install an out-of-tree driver — say, the Nvidia driver via your distribution's package manager, or a Wi-Fi driver from a vendor's website — the package places its source under /usr/src and registers it with DKMS.</p>
-        <p>Each time apt, dnf, or pacman installs a new kernel, DKMS rebuilds every registered driver against the new kernel and installs the resulting modules. Boot into the new kernel and your hardware just works, with no extra steps from you.</p>
+        <h2 id="sec-1">How Dkms Works in Practice</h2>
+        <p>When you install an out-of-tree driver — say, the Nvidia driver via your distribution's package manager, or a Wi-Fi driver from a vendor's website — the package places its source under /usr/src and registers it with Dkms.</p>
+        <p>Each time apt, dnf, or pacman installs a new kernel, Dkms rebuilds every registered driver against the new kernel and installs the resulting modules. Boot into the new kernel and your hardware just works, with no extra steps from you.</p>
         
       </div>
       <div class="split-image reveal">
@@ -153,9 +153,9 @@
   <div class="section-inner">
     <div class="split-row">
       <div class="split-text reveal">
-        <h2 id="sec-2">When DKMS Quietly Fails</h2>
-        <p>Occasionally a kernel update introduces a change that breaks a particular out-of-tree driver. DKMS reports the build failure, the user boots into the new kernel without that driver, and the affected hardware stops working until the vendor publishes a patched source.</p>
-        <p>This is the small price for using out-of-tree drivers. Drivers that are upstream in the kernel tree do not need DKMS at all — the kernel maintainers update them in lockstep with the rest of the code.</p>
+        <h2 id="sec-2">When Dkms Quietly Fails</h2>
+        <p>Occasionally a kernel update introduces a change that breaks a particular out-of-tree driver. Dkms reports the build failure, the user boots into the new kernel without that driver, and the affected hardware stops working until the vendor publishes a patched source.</p>
+        <p>This is the small price for using out-of-tree drivers. Drivers that are upstream in the kernel tree do not need Dkms at all — the kernel maintainers update them in lockstep with the rest of the code.</p>
         
       </div>
       <div class="split-image reveal">
@@ -174,24 +174,24 @@
     <div class="faq-list reveal">
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span>Do I need DKMS for every Linux driver?</span>
+          <span>Do I need Dkms for every Linux driver?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer"><div class="faq-answer-inner"><p>No — only for out-of-tree drivers. Drivers shipped with the kernel itself update along with the kernel automatically.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span>What if DKMS fails to build a driver after a kernel update?</span>
+          <span>What if Dkms fails to build a driver after a kernel update?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer"><div class="faq-answer-inner"><p>The system boots without that driver. You either pick a different kernel temporarily or wait for the vendor to publish updated source code.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span>Is DKMS available on all distributions?</span>
+          <span>Is Dkms available on all distributions?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — Debian, Ubuntu, Fedora, openSUSE, and Arch all ship DKMS in their default repositories.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — Debian, Ubuntu, Fedora, openSUSE, and Arch all ship Dkms in their default repositories.</p></div></div>
       </div>
     </div>
   </div>
@@ -204,7 +204,7 @@
       <p>Hand-picked articles that pair well with this one.</p>
     </div>
     <div class="related-grid reveal">
-      <a class="related-card" href="ubuntu-driver-guide.html"><h3>Ubuntu Driver Guide</h3><p>Where DKMS often runs.</p></a>
+      <a class="related-card" href="ubuntu-driver-guide.html"><h3>Ubuntu Driver Guide</h3><p>Where Dkms often runs.</p></a>
       <a class="related-card" href="fedora-driver-guide.html"><h3>Fedora Driver Guide</h3><p>Same pattern, different distro.</p></a>
       <a class="related-card" href="what-is-a-device-driver.html"><h3>What Is a Device Driver?</h3><p>Foundation reading.</p></a>
     </div>
@@ -266,7 +266,7 @@
         <li><a href="terms.html">Terms of Use</a></li>
         <li><a href="disclaimer.html">Disclaimer</a></li>
         <li><a href="cookie-policy.html">Cookie Policy</a></li>
-        <li><a href="privacy-policy.html#do-not-sell-section">Do Not Sell My Info</a></li>
+        <li><a href="privacy-policy.html#do-not-sell-section">Your Privacy Choices</a></li>
       </ul>
     </div>
     <div class="footer-col footer-col-3">
@@ -279,7 +279,7 @@
     </div>
   </div>
   <div class="footer-disclaimer">
-    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
+    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource published for general information only. It has no affiliation with, and no endorsement or sponsorship from, any hardware maker, software publisher, or operating system vendor. The site is purely informational: there are no software downloads, paid help-desk services, repair services, or consulting offered here. Content is provided on an "as is" basis without warranty of any kind. For changes to your system, please refer to the official documentation supplied by your device maker.
   </div>
         <div class="footer-contact-line" style="text-align:center;margin:18px 0 8px;font-size:14px;opacity:.85;">
         <span>Customer Support: </span><a href="tel:+18885550173" style="color:inherit;text-decoration:none;">+1 (888) 555-0173</a>
@@ -293,7 +293,7 @@
       <a href="terms.html">Terms of Use</a>
       <a href="disclaimer.html">Full Disclaimer</a>
       <a href="cookie-policy.html">Cookie Policy</a>
-      <a href="privacy-policy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
+      <a href="privacy-policy.html#do-not-sell-section">Your Privacy Choices</a>
       <a href="sitemap.html">Sitemap</a>
     </div>
     <p class="footer-copyright">&copy; PrintSoftDriver. All Rights Reserved.</p>

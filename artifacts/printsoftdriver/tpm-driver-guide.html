@@ -106,7 +106,7 @@
 <section class="hero-page hero-page--guides" aria-label="TPM Driver Guide hero">
   <div class="hero-page-overlay"></div>
   <div class="hero-page-content reveal">
-    <span class="hero-eyebrow">TPM DRIVER GUIDE</span>
+    <span class="hero-eyebrow">Trusted Platform Module</span>
     <h1>TPM Drivers — The Quiet Security Chip Inside Your PC</h1>
     <p>What the Trusted Platform Module is, why Windows 11 made it mandatory, and what its driver actually does for everyday users.</p>
     <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -124,7 +124,7 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-0">The Quiet Security Module</h2>
-        <p>A TPM (Trusted Platform Module) is a small dedicated security chip — or a firmware equivalent inside the CPU — that handles cryptographic operations isolated from the main system. It generates and stores cryptographic keys, attests to system integrity, and underpins features like BitLocker and Windows Hello.</p>
+        <p>A TPM (Trusted Platform Module) is a small dedicated security chip — or a firmware equivalent inside the CPU — that handles cryptographic operations isolated from the main system. It generates and stores cryptographic keys, attests to system integrity, and underpins features like BitLocker and Windows Sign-in.</p>
         <p>Most modern PCs include either a dedicated TPM chip or a 'firmware TPM' built into the processor. From the operating system's perspective, both look identical and both rely on the TPM driver to mediate communication.</p>
         
       </div>
@@ -140,11 +140,11 @@
       <div class="split-text reveal">
         <h2 id="sec-1">Why Windows 11 Made It Mandatory</h2>
         <p>Windows 11 famously requires a TPM 2.0 — and a fair share of older PCs were caught out by this requirement. the OS vendor's reasoning is straightforward: certain core security features become much weaker without a hardware root of trust.</p>
-        <p>If your PC supports TPM but it is not enabled, the option lives in the BIOS/UEFI under names like 'PTT' (Intel Platform Trust Technology) or 'fTPM' (AMD firmware TPM). Toggling it on enables Windows 11 install eligibility on most modern hardware.</p>
-        <ul class="check-list"><li>TPM 2.0 required for Windows 11</li><li>PTT/fTPM is the firmware-based version</li><li>BIOS toggle usually enables it on supported PCs</li></ul>
+        <p>If your PC supports TPM but it is not enabled, the option lives in the Bios/Uefi under names like 'PTT' (Intel Platform Trust Technology) or 'fTPM' (AMD firmware TPM). Toggling it on enables Windows 11 install eligibility on most modern hardware.</p>
+        <ul class="check-list"><li>TPM 2.0 required for Windows 11</li><li>PTT/fTPM is the firmware-based version</li><li>Bios toggle usually enables it on supported PCs</li></ul>
       </div>
       <div class="split-image reveal">
-        <img src="images/professional-workspace.png" alt="BIOS configuration concept" loading="lazy" width="640" height="420">
+        <img src="images/professional-workspace.png" alt="Bios configuration concept" loading="lazy" width="640" height="420">
       </div>
     </div>
   </div>
@@ -155,7 +155,7 @@
       <div class="split-text reveal">
         <h2 id="sec-2">What the TPM Driver Does</h2>
         <p>The TPM driver is a small layer that sits between Windows and the TPM chip, mediating commands and responses. It rarely needs user attention — Windows installs the right driver automatically when it detects a TPM.</p>
-        <p>If Device Manager shows your TPM with a warning icon, the most common cause is a firmware mismatch: the BIOS has updated TPM firmware in a way that the OS-side driver has not yet caught up to. Updating Windows usually resolves it within a release or two.</p>
+        <p>If Device Manager shows your TPM with a warning icon, the most common cause is a firmware mismatch: the Bios has updated TPM firmware in a way that the OS-side driver has not yet caught up to. Updating Windows usually resolves it within a release or two.</p>
         
       </div>
       <div class="split-image reveal">
@@ -266,7 +266,7 @@
         <li><a href="terms.html">Terms of Use</a></li>
         <li><a href="disclaimer.html">Disclaimer</a></li>
         <li><a href="cookie-policy.html">Cookie Policy</a></li>
-        <li><a href="privacy-policy.html#do-not-sell-section">Do Not Sell My Info</a></li>
+        <li><a href="privacy-policy.html#do-not-sell-section">Your Privacy Choices</a></li>
       </ul>
     </div>
     <div class="footer-col footer-col-3">
@@ -279,7 +279,7 @@
     </div>
   </div>
   <div class="footer-disclaimer">
-    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource. We are not affiliated with, endorsed by, or sponsored by any hardware manufacturer, software company, or operating system vendor. All product categories, technologies, and concepts described on this site are referenced for educational purposes only. We do not host, distribute, or recommend any specific software downloads, and we do not provide technical support, repair services, or paid consulting. Information is provided "as is" without warranty of any kind. Always consult your device manufacturer's official documentation before making changes to your system.
+    <strong>Disclaimer:</strong> PrintSoftDriver is an independent educational resource published for general information only. It has no affiliation with, and no endorsement or sponsorship from, any hardware maker, software publisher, or operating system vendor. The site is purely informational: there are no software downloads, paid help-desk services, repair services, or consulting offered here. Content is provided on an "as is" basis without warranty of any kind. For changes to your system, please refer to the official documentation supplied by your device maker.
   </div>
         <div class="footer-contact-line" style="text-align:center;margin:18px 0 8px;font-size:14px;opacity:.85;">
         <span>Customer Support: </span><a href="tel:+18885550173" style="color:inherit;text-decoration:none;">+1 (888) 555-0173</a>
@@ -293,7 +293,7 @@
       <a href="terms.html">Terms of Use</a>
       <a href="disclaimer.html">Full Disclaimer</a>
       <a href="cookie-policy.html">Cookie Policy</a>
-      <a href="privacy-policy.html#do-not-sell-section">Do Not Sell or Share My Personal Information</a>
+      <a href="privacy-policy.html#do-not-sell-section">Your Privacy Choices</a>
       <a href="sitemap.html">Sitemap</a>
     </div>
     <p class="footer-copyright">&copy; PrintSoftDriver. All Rights Reserved.</p>

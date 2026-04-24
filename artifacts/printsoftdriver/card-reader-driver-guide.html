@@ -89,6 +89,7 @@
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
       <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="sitemap.html">Sitemap</a>
       <a href="contact.html">Contact</a>
     </nav>
     <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
@@ -124,8 +125,8 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-0">Built-In Card Readers Use Standard Drivers</h2>
-        <p>Most laptop SD card readers are connected to the system through a small Realtek or Genesys Logic chip that speaks a standard mass-storage protocol. Windows, macOS, and Linux all recognise these chips out of the box, so an inserted SD card appears as a regular drive.</p>
-        <p>Vendor drivers (typically from Realtek) add small refinements — better power management, faster wake from sleep, support for newer SD card classes — but the basic functionality usually works without them.</p>
+        <p>Most laptop SD card readers are connected to the system through a small controller chip that speaks a standard mass-storage protocol. Windows, macOS, and Linux all recognise these chips out of the box, so an inserted SD card appears as a regular drive.</p>
+        <p>Vendor drivers add small refinements — better power management, faster wake from sleep, support for newer SD card classes — but the basic functionality usually works without them.</p>
         
       </div>
       <div class="split-image reveal">
@@ -140,8 +141,8 @@
       <div class="split-text reveal">
         <h2 id="sec-1">USB Card Readers Behave Identically</h2>
         <p>External USB card readers also use mass-storage class drivers. Plug one in and it appears as one or more drive letters depending on how many slots it has. The OS handles SD, microSD, and CompactFlash cards uniformly through the same generic driver.</p>
-        <p>Higher-end card readers used by photographers — Lexar Professional, ProGrade, SanDisk Extreme — sometimes ship with their own driver and small companion app, but even these usually work fine without the extra software.</p>
-        <ul class="check-list"><li>Built-in readers use Realtek/Genesys drivers</li><li>USB readers use generic mass-storage drivers</li><li>Companion apps are usually optional</li></ul>
+        <p>Higher-end card readers used by photographers sometimes ship with their own driver and small companion app, but even these usually work fine without the extra software.</p>
+        <ul class="check-list"><li>Built-in readers use vendor controller drivers</li><li>USB readers use generic mass-storage drivers</li><li>Companion apps are usually optional</li></ul>
       </div>
       <div class="split-image reveal">
         <img src="images/professional-workspace.png" alt="Photographer workflow concept" loading="lazy" width="640" height="420">
@@ -154,7 +155,7 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-2">Common Card Reader Issues</h2>
-        <p>If the card reader stops appearing in Explorer, check Disk Management — the drive may be present but unassigned a letter. Right-click and assign one. If the reader vanishes from Device Manager entirely, reinstall the Realtek or Genesys driver from your laptop maker's support page.</p>
+        <p>If the card reader stops appearing in Explorer, check Disk Management — the drive may be present but unassigned a letter. Right-click and assign one. If the reader vanishes from Device Manager entirely, reinstall the card-reader controller driver from your laptop maker's support page.</p>
         <p>Cards that mount as read-only usually have their write-protect switch flipped on (a tiny tab on the side of full-size SD cards). Slide the switch back, eject, and reinsert.</p>
         
       </div>

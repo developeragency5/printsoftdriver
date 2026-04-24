@@ -1,9 +1,10 @@
 name: Deploy PrintSoftDriver to GitHub Pages
 
+# NOTE: Production traffic is served from Vercel at the custom domain
+# (https://www.printsoftdriver.com). This workflow is kept around as a
+# fallback only and no longer runs on push. Trigger it manually from the
+# Actions tab if you need to publish a snapshot to GitHub Pages.
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 permissions:

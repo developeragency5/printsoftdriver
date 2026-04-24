@@ -64,6 +64,12 @@ See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and pa
 - Animations: IntersectionObserver-based scroll reveal on `.reveal` elements, staggered via `.stagger`, plus float/pulse on hero illustration. All respect `prefers-reduced-motion`.
 - All pages share the same header/footer structure and registered in vite.config.ts inputs.
 
+## Deployment (Apr 2026)
+- Production is served from Vercel at the custom domain `https://www.printsoftdriver.com` (HTTPS, attached in the Vercel dashboard).
+- `artifacts/printsoftdriver/vercel.json` pins the Vercel build settings: build command `PORT=3000 pnpm build`, output directory `dist/public`, no `BASE_PATH` (so the site lives at `/`). Set Root Directory to `artifacts/printsoftdriver` in the Vercel project settings; pnpm-workspace install at the monorepo root is auto-detected.
+- All canonical and `og:url` tags on the 30 HTML pages, plus `public/sitemap.xml` and `public/robots.txt`, point at `https://www.printsoftdriver.com/...`.
+- The legacy GitHub Pages workflow (`.github/workflows/deploy.yml`) is now `workflow_dispatch`-only — it will not auto-publish on push and is kept as a manual fallback.
+
 ## UI Polish Round 2 (Apr 2026)
 - Removed person-laptop.jpg (bedroom photo) site-wide; replaced with AI-generated professional-workspace.png.
 - Removed brand-visible printer.jpg site-wide; replaced with AI-generated printer-clean.png (no logos, no text).

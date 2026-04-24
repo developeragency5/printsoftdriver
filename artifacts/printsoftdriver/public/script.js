@@ -389,3 +389,47 @@ function rejectCookies() {
     mount();
   }
 })();
+
+/* ---------- Visual gallery lightbox (homepage 10-panel) ---------- */
+(function visualLightboxInit() {
+  var cards = document.querySelectorAll('.visual-card');
+  if (!cards.length) return;
+
+  var box = document.createElement('div');
+  box.className = 'visual-lightbox';
+  box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-modal', 'true');
+  box.setAttribute('aria-label', 'Enlarged infographic panel');
+  box.innerHTML =
+    '<button type="button" class="visual-lightbox-close" aria-label="Close">×</button>' +
+    '<img alt="">';
+  document.body.appendChild(box);
+
+  var img = box.querySelector('img');
+  var closeBtn = box.querySelector('.visual-lightbox-close');
+
+  function open(src, alt) {
+    img.src = src;
+    img.alt = alt || '';
+    box.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    box.classList.remove('open');
+    document.body.style.overflow = '';
+    setTimeout(function () { img.src = ''; }, 280);
+  }
+
+  cards.forEach(function (card) {
+    card.addEventListener('click', function () {
+      var src = card.querySelector('img').getAttribute('src');
+      var alt = card.querySelector('img').getAttribute('alt');
+      open(src, alt);
+    });
+  });
+  closeBtn.addEventListener('click', close);
+  box.addEventListener('click', function (e) { if (e.target === box) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && box.classList.contains('open')) close();
+  });
+})();

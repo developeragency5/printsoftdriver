@@ -277,141 +277,129 @@
     <div class="section-header reveal">
       <span class="section-eyebrow">12 Categories</span>
       <h2 id="types-heading">Every Type of Driver, Made Simple</h2>
-      <p>Tap any tile to expand the full breakdown — privileges, architecture, real-world examples.</p>
+      <p>Each tile opens a dedicated page with the full breakdown — privileges, architecture, real-world examples.</p>
     </div>
 
     <div class="driver-grid reveal-stagger">
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="driver-kernel-mode.html">
         <span class="driver-tile-tag">Privileged</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M9 9h6v6H9z" fill="currentColor"/></svg>
         </div>
         <h3>Kernel-Mode Drivers</h3>
         <p class="driver-tile-summary">Live in the OS's most privileged layer with direct hardware access — fast, but a single bug can crash the entire system.</p>
-        <p class="driver-tile-detail">Kernel-mode drivers operate within the most privileged layer of an operating system — the kernel itself. They have direct, unmediated access to physical memory, hardware registers, and I/O ports, which is essential for low-latency hardware response. Because they share the kernel's memory space, any critical error can destabilize the whole OS, often resulting in a stop error (blue screen). Examples include file system, storage, and network protocol drivers.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="driver-user-mode.html">
         <span class="driver-tile-tag">Isolated</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v12M6 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </div>
         <h3>User-Mode Drivers</h3>
         <p class="driver-tile-summary">Run in the safer user space — if they crash, the OS just restarts them without taking the system down.</p>
-        <p class="driver-tile-detail">User-mode drivers run in less-privileged user space, isolated from the kernel by a hardware-enforced memory boundary. If one crashes, the OS can terminate and restart the driver without crashing. Frameworks like Windows UMDF allow cameras, scanners, and many USB peripherals to use user-mode drivers safely. They communicate with the kernel through controlled interfaces like I/O control calls.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="printer-drivers.html">
         <span class="driver-tile-tag">Output</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M6 9V3h12v6M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v7H6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <h3>Printer Drivers</h3>
         <p class="driver-tile-summary">Translate document data into the exact language your printer understands — paper, ink, color, layout, all of it.</p>
-        <p class="driver-tile-detail">Printer drivers convert documents into a format a printer can render. They manage color, page layout, resolution, and media, translating screen content into PCL, PostScript, or proprietary printer languages. Many include a rendering pipeline that rasterizes vectors and fonts at native resolution, plus logic for collation, duplexing, and document splitting.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="graphics-drivers.html">
         <span class="driver-tile-tag">Performance</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 22h8M12 18v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </div>
         <h3>Display &amp; Graphics</h3>
         <p class="driver-tile-summary">The most updated drivers on your system — they unlock GPU power and drive every frame on your screen.</p>
-        <p class="driver-tile-detail">Graphics drivers sit between the OS, applications, and the GPU. They manage video RAM, schedule rendering across thousands of shader cores, handle resolution and refresh rate, and prevent visual artifacts. They expose APIs like DirectX, Vulkan, OpenGL, and Metal. Updated frequently — sometimes monthly — to optimize for new games and fix performance bottlenecks.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="audio-drivers.html">
         <span class="driver-tile-tag">Real-time</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M11 5L6 9H2v6h4l5 4V5zM15 9a3 3 0 010 6M19 5a8 8 0 010 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <h3>Audio Drivers</h3>
         <p class="driver-tile-summary">Demand ultra-low latency — pro music needs round-trip audio in under 10 ms to feel real-time.</p>
-        <p class="driver-tile-detail">Audio drivers manage the OS audio stack and the sound hardware. They handle multiple simultaneous streams, mixing, hardware DSP, and conversion between digital and analog. Standards include WASAPI, ASIO, Core Audio, and ALSA/PulseAudio. They also manage power states for the audio hardware.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="network-drivers.html">
         <span class="driver-tile-tag">Connectivity</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M5 12.55a11 11 0 0114 0M1.42 9a16 16 0 0121.16 0M8.53 16.11a6 6 0 016.95 0M12 20h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <h3>Network Drivers</h3>
         <p class="driver-tile-summary">Move billions of bytes between you and the internet, often offloading work to the network chip itself.</p>
-        <p class="driver-tile-detail">Network (NIC) drivers manage data frames between hardware and the OS network stack. They handle reception at gigabit speeds, configure DMA engines for transmission, and implement offloads (TSO, LRO, checksum) to reduce CPU load. Wireless drivers also handle access-point association, encryption, and dynamic rate adaptation.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="usb-drivers.html">
         <span class="driver-tile-tag">Plug &amp; Play</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M9 4v8m6-8v8M6 12h12v3a6 6 0 01-6 6h0a6 6 0 01-6-6v-3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <h3>USB Drivers</h3>
         <p class="driver-tile-summary">A multi-layer stack — host controllers, class drivers, and device-specific logic — all triggered by a single plug.</p>
-        <p class="driver-tile-detail">USB drivers form a stack: a host controller driver at the bottom, class drivers above. When you plug in a device, the host controller enumerates it; the OS loads the right class driver (USB Audio, HID, Mass Storage, CDC). They also manage power states and hot-plug events.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="driver-storage-disk.html">
         <span class="driver-tile-tag">High-IOPS</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="6" rx="9" ry="3" stroke="currentColor" stroke-width="2"/><path d="M3 6v6c0 1.66 4 3 9 3s9-1.34 9-3V6M3 12v6c0 1.66 4 3 9 3s9-1.34 9-3v-6" stroke="currentColor" stroke-width="2"/></svg>
         </div>
         <h3>Storage &amp; Disk</h3>
         <p class="driver-tile-summary">Translate file system requests into commands your SSD or hard drive understands — AHCI, NVMe, and beyond.</p>
-        <p class="driver-tile-detail">Storage drivers translate read/write requests into hardware commands. SATA/IDE drives use AHCI; NVMe uses a purpose-built protocol designed for the parallelism of NAND flash, supporting thousands of simultaneous I/O queues for maximum performance.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="driver-input-devices.html">
         <span class="driver-tile-tag">Input</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M6 14h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </div>
         <h3>Input Devices</h3>
         <p class="driver-tile-summary">Keyboards, mice, touchpads, controllers — all turn physical signals into events your apps can use.</p>
-        <p class="driver-tile-detail">Input drivers convert physical actions into standardized OS events. Many use USB HID with report descriptors that explain incoming data. Advanced devices like precision touchpads and graphics tablets need proprietary drivers for pressure sensing, palm rejection, and gesture recognition.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="driver-chipset.html">
         <span class="driver-tile-tag">Foundational</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="9" y="9" width="6" height="6" stroke="currentColor" stroke-width="2"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </div>
         <h3>Chipset Drivers</h3>
         <p class="driver-tile-summary">Govern how every component on your motherboard talks to the others — install these first, always.</p>
-        <p class="driver-tile-detail">Chipset drivers manage the motherboard's chipset — the circuits coordinating CPU, RAM, storage, and peripheral buses. They configure PCIe lanes, manage power states, and enable advanced features like SR-IOV. Missing chipset drivers can prevent the OS from detecting your storage or USB controllers entirely.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="driver-bluetooth.html">
         <span class="driver-tile-tag">Wireless</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M6.5 6.5L17.5 17.5M17.5 6.5L6.5 17.5M12 2v20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
         </div>
         <h3>Bluetooth Drivers</h3>
         <p class="driver-tile-summary">Manage the layered protocol stack that pairs you with headphones, keyboards, watches, and IoT gadgets.</p>
-        <p class="driver-tile-detail">Bluetooth drivers implement a multi-layer stack: HCI for radio control, L2CAP for channels, and profile drivers (HFP, HID, A2DP). BLE adds GATT-based services for fitness trackers and IoT sensors, all while maintaining ultra-low power consumption.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
 
-      <article class="driver-tile" tabindex="0">
+      <a class="driver-tile" href="driver-virtual.html">
         <span class="driver-tile-tag">Software-only</span>
         <div class="driver-tile-icon">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <h3>Virtual Drivers</h3>
         <p class="driver-tile-summary">Pretend to be hardware that doesn't exist — they power VMs, VPNs, virtual audio cables, and emulators.</p>
-        <p class="driver-tile-detail">Virtual drivers create software hardware abstractions. In hypervisors, VirtIO drivers give VMs storage, network, and display access. They also power virtual serial ports, virtual mixers, and VPN adapters that intercept traffic and route it through encrypted tunnels — invisible to the apps using them.</p>
-        <button class="driver-tile-toggle" aria-expanded="false"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-      </article>
+        <span class="driver-tile-toggle"><span class="driver-tile-toggle-label">Read more</span> <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
     </div>
   </div>
 </section>

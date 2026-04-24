@@ -276,6 +276,7 @@ function rejectCookies() {
 (function () {
   var tiles = document.querySelectorAll('.driver-tile');
   tiles.forEach(function (tile) {
+    if (tile.tagName === 'A') return;
     var toggle = tile.querySelector('.driver-tile-toggle');
     if (!toggle) return;
     function flip() {

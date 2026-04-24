@@ -11,6 +11,27 @@ env = { "CI" = "true" }
 [workflows]
 runButton = "Project"
 
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "artifacts/printsoftdriver: web"
+
+[[workflows.workflow]]
+name = "artifacts/printsoftdriver: web"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PORT=24123 BASE_PATH=/ pnpm --filter @workspace/printsoftdriver run dev"
+waitForPort = 24123
+
 [agent]
 stack = "PNPM_WORKSPACE"
 expertMode = true

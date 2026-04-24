@@ -1,10 +1,17 @@
-name: Deploy PrintSoftDriver to GitHub Pages
+name: Publish GitHub Pages redirect to custom domain
 
-# NOTE: Production traffic is served from Vercel at the custom domain
-# (https://www.printsoftdriver.com). This workflow is kept around as a
-# fallback only and no longer runs on push. Trigger it manually from the
-# Actions tab if you need to publish a snapshot to GitHub Pages.
+# Production traffic for PrintSoftDriver is served from Vercel at
+# https://www.printsoftdriver.com. The legacy GitHub Pages site at
+# https://developeragency5.github.io/printsoftdriver/ now publishes a tiny
+# redirect-only shim instead of the full app, so any old bookmarks or
+# backlinks land on the equivalent page on the canonical custom domain
+# (preserving the path, query string, and hash).
+#
+# Runs on every push to main so the shim is kept in sync, and can also be
+# triggered manually from the Actions tab.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -20,31 +27,60 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Build redirect shim
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          touch dist/.nojekyll
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10.26.1
+          # Single redirect document used for both the project root
+          # (index.html) and every unknown path (404.html). The inline
+          # script strips the legacy "/printsoftdriver" path prefix and
+          # forwards to the same path on https://www.printsoftdriver.com,
+          # preserving query string and hash. The <meta refresh> is the
+          # no-JS fallback (Google treats a 0-second refresh as a 301).
+          cat > dist/index.html <<'HTML'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <title>Moved to printsoftdriver.com</title>
+            <meta name="robots" content="noindex">
+            <link rel="canonical" href="https://www.printsoftdriver.com/">
+            <meta http-equiv="refresh" content="0; url=https://www.printsoftdriver.com/">
+            <script>
+              (function () {
+                var target = 'https://www.printsoftdriver.com';
+                var prefix = '/printsoftdriver';
+                var path = window.location.pathname || '/';
+                if (path.indexOf(prefix) === 0) {
+                  path = path.substring(prefix.length);
+                }
+                if (path === '') {
+                  path = '/';
+                }
+                window.location.replace(
+                  target + path + window.location.search + window.location.hash
+                );
+              })();
+            </script>
+            <style>
+              body { font-family: system-ui, sans-serif; max-width: 32rem; margin: 4rem auto; padding: 0 1rem; color: #1f2937; }
+              a { color: #0d9488; }
+            </style>
+          </head>
+          <body>
+            <h1>This site has moved</h1>
+            <p>
+              PrintSoftDriver now lives at
+              <a href="https://www.printsoftdriver.com/">www.printsoftdriver.com</a>.
+              You should be redirected automatically.
+            </p>
+          </body>
+          </html>
+          HTML
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build PrintSoftDriver
-        env:
-          BASE_PATH: /printsoftdriver/
-          PORT: 3000
-        run: pnpm --filter @workspace/printsoftdriver run build
-
-      - name: Add .nojekyll
-        run: touch artifacts/printsoftdriver/dist/public/.nojekyll
+          cp dist/index.html dist/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -52,7 +88,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: artifacts/printsoftdriver/dist/public
+          path: dist
 
   deploy:
     needs: build

@@ -68,7 +68,7 @@ See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and pa
 - Production is served from Vercel at the custom domain `https://www.printsoftdriver.com` (HTTPS, attached in the Vercel dashboard).
 - `artifacts/printsoftdriver/vercel.json` pins the Vercel build settings: build command `PORT=3000 pnpm build`, output directory `dist/public`, no `BASE_PATH` (so the site lives at `/`). Set Root Directory to `artifacts/printsoftdriver` in the Vercel project settings; pnpm-workspace install at the monorepo root is auto-detected.
 - All canonical and `og:url` tags on the 30 HTML pages, plus `public/sitemap.xml` and `public/robots.txt`, point at `https://www.printsoftdriver.com/...`.
-- The legacy GitHub Pages workflow (`.github/workflows/deploy.yml`) is now `workflow_dispatch`-only — it will not auto-publish on push and is kept as a manual fallback.
+- The legacy GitHub Pages workflow (`.github/workflows/deploy.yml`) no longer publishes the full app. It now builds a tiny redirect-only shim (`index.html` + `404.html` + `.nojekyll`) that 301-forwards every path on `https://developeragency5.github.io/printsoftdriver/<path>` to the equivalent page on `https://www.printsoftdriver.com/<path>` (preserving query string and hash). Runs on push to `main` and via manual dispatch so the shim stays in sync.
 
 ## UI Polish Round 2 (Apr 2026)
 - Removed person-laptop.jpg (bedroom photo) site-wide; replaced with AI-generated professional-workspace.png.

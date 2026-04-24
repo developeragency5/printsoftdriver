@@ -1,0 +1,450 @@
+62 issues with unminified JavaScript and CSS files
+Warning
+
+How to fix
+Failed:
+62
+Successful:
+0
+
+
+Page URL
+
+Resource URL
+Resource Type
+Discovered
+Sortable
+
+PrintSoftDriver - Device Driver Education & Guide
+https://www.printsoftdriver.com/
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+PrintSoftDriver - Device Driver Education & Guide
+https://www.printsoftdriver.com/
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+About PrintSoftDriver — Friendly Driver Education for Everyone
+https://www.printsoftdriver.com/about.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+About PrintSoftDriver — Friendly Driver Education for Everyone
+https://www.printsoftdriver.com/about.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Audio Drivers Explained — Crisp Sound Made Simple | PrintSoftDriver
+https://www.printsoftdriver.com/audio-drivers.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Audio Drivers Explained — Crisp Sound Made Simple | PrintSoftDriver
+https://www.printsoftdriver.com/audio-drivers.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+The Driver Blog — Friendly Reads About How Your Computer Works | PrintSoftDriver
+https://www.printsoftdriver.com/blog.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+The Driver Blog — Friendly Reads About How Your Computer Works | PrintSoftDriver
+https://www.printsoftdriver.com/blog.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Contact PrintSoftDriver — Educational Driver Resource
+https://www.printsoftdriver.com/contact.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Contact PrintSoftDriver — Educational Driver Resource
+https://www.printsoftdriver.com/contact.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Cookie Policy - PrintSoftDriver
+https://www.printsoftdriver.com/cookie-policy.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Cookie Policy - PrintSoftDriver
+https://www.printsoftdriver.com/cookie-policy.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Disclaimer - PrintSoftDriver
+https://www.printsoftdriver.com/disclaimer.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Disclaimer - PrintSoftDriver
+https://www.printsoftdriver.com/disclaimer.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Bluetooth Drivers Explained — Pairing, Profiles, and the Stack | PrintSoftDriver
+https://www.printsoftdriver.com/driver-bluetooth.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Bluetooth Drivers Explained — Pairing, Profiles, and the Stack | PrintSoftDriver
+https://www.printsoftdriver.com/driver-bluetooth.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Chipset Drivers Explained — The Foundation of Your PC | PrintSoftDriver
+https://www.printsoftdriver.com/driver-chipset.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Chipset Drivers Explained — The Foundation of Your PC | PrintSoftDriver
+https://www.printsoftdriver.com/driver-chipset.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Input Device Drivers Explained — Keyboard, Mouse, and Beyond | PrintSoftDriver
+https://www.printsoftdriver.com/driver-input-devices.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Input Device Drivers Explained — Keyboard, Mouse, and Beyond | PrintSoftDriver
+https://www.printsoftdriver.com/driver-input-devices.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Kernel-Mode Drivers Explained — The Privileged Layer | PrintSoftDriver
+https://www.printsoftdriver.com/driver-kernel-mode.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Kernel-Mode Drivers Explained — The Privileged Layer | PrintSoftDriver
+https://www.printsoftdriver.com/driver-kernel-mode.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Storage & Disk Drivers Explained — From AHCI to NVMe | PrintSoftDriver
+https://www.printsoftdriver.com/driver-storage-disk.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Storage & Disk Drivers Explained — From AHCI to NVMe | PrintSoftDriver
+https://www.printsoftdriver.com/driver-storage-disk.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+User-Mode Drivers Explained — The Safer Sandbox | PrintSoftDriver
+https://www.printsoftdriver.com/driver-user-mode.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+User-Mode Drivers Explained — The Safer Sandbox | PrintSoftDriver
+https://www.printsoftdriver.com/driver-user-mode.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Virtual Drivers Explained — Software Pretending to Be Hardware | PrintSoftDriver
+https://www.printsoftdriver.com/driver-virtual.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Virtual Drivers Explained — Software Pretending to Be Hardware | PrintSoftDriver
+https://www.printsoftdriver.com/driver-virtual.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Fix: No Sound Coming Out of Your Computer | PrintSoftDriver
+https://www.printsoftdriver.com/fix-no-sound.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Fix: No Sound Coming Out of Your Computer | PrintSoftDriver
+https://www.printsoftdriver.com/fix-no-sound.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Fix: Printer Prints Blank or Garbled Pages | PrintSoftDriver
+https://www.printsoftdriver.com/fix-printer-blank.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Fix: Printer Prints Blank or Garbled Pages | PrintSoftDriver
+https://www.printsoftdriver.com/fix-printer-blank.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Fix: Screen Flickers, Goes Black, or Has Visual Glitches | PrintSoftDriver
+https://www.printsoftdriver.com/fix-screen-flicker.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Fix: Screen Flickers, Goes Black, or Has Visual Glitches | PrintSoftDriver
+https://www.printsoftdriver.com/fix-screen-flicker.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Fix: Computer Feels Slow After a System Update | PrintSoftDriver
+https://www.printsoftdriver.com/fix-slow-after-update.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Fix: Computer Feels Slow After a System Update | PrintSoftDriver
+https://www.printsoftdriver.com/fix-slow-after-update.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Fix: USB Device Not Recognised — A Friendly Step-by-Step | PrintSoftDriver
+https://www.printsoftdriver.com/fix-usb-not-recognised.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Fix: USB Device Not Recognised — A Friendly Step-by-Step | PrintSoftDriver
+https://www.printsoftdriver.com/fix-usb-not-recognised.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Fix: Wi-Fi Drops Constantly or Reconnects Every Few Minutes | PrintSoftDriver
+https://www.printsoftdriver.com/fix-wifi-drops.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Fix: Wi-Fi Drops Constantly or Reconnects Every Few Minutes | PrintSoftDriver
+https://www.printsoftdriver.com/fix-wifi-drops.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Graphics Drivers Explained — Smooth Visuals Made Simple | PrintSoftDriver
+https://www.printsoftdriver.com/graphics-drivers.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Graphics Drivers Explained — Smooth Visuals Made Simple | PrintSoftDriver
+https://www.printsoftdriver.com/graphics-drivers.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+PrintSoftDriver - Device Driver Education & Guide
+https://www.printsoftdriver.com/index.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+PrintSoftDriver - Device Driver Education & Guide
+https://www.printsoftdriver.com/index.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Network Drivers Explained — Connect with Confidence | PrintSoftDriver
+https://www.printsoftdriver.com/network-drivers.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Network Drivers Explained — Connect with Confidence | PrintSoftDriver
+https://www.printsoftdriver.com/network-drivers.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Printer Drivers Explained — A Friendly Guide | PrintSoftDriver
+https://www.printsoftdriver.com/printer-drivers.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Printer Drivers Explained — A Friendly Guide | PrintSoftDriver
+https://www.printsoftdriver.com/printer-drivers.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Privacy Policy - PrintSoftDriver
+https://www.printsoftdriver.com/privacy-policy.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Privacy Policy - PrintSoftDriver
+https://www.printsoftdriver.com/privacy-policy.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Legal & Privacy Hub - PrintSoftDriver
+https://www.printsoftdriver.com/privacy.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Legal & Privacy Hub - PrintSoftDriver
+https://www.printsoftdriver.com/privacy.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Sitemap — PrintSoftDriver
+https://www.printsoftdriver.com/sitemap.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Sitemap — PrintSoftDriver
+https://www.printsoftdriver.com/sitemap.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+System Drivers Explained — The Quiet Core of Your PC | PrintSoftDriver
+https://www.printsoftdriver.com/system-drivers.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+System Drivers Explained — The Quiet Core of Your PC | PrintSoftDriver
+https://www.printsoftdriver.com/system-drivers.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Terms of Use - PrintSoftDriver
+https://www.printsoftdriver.com/terms.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Terms of Use - PrintSoftDriver
+https://www.printsoftdriver.com/terms.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+Troubleshooting Driver Problems — Calm, Friendly Fixes | PrintSoftDriver
+https://www.printsoftdriver.com/troubleshooting.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+Troubleshooting Driver Problems — Calm, Friendly Fixes | PrintSoftDriver
+https://www.printsoftdriver.com/troubleshooting.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New
+
+USB & Peripheral Drivers Explained | PrintSoftDriver
+https://www.printsoftdriver.com/usb-drivers.html
+https://www.printsoftdriver.com/style.css
+CSS
+Apr 24, 2026, 10:59
+New
+
+USB & Peripheral Drivers Explained | PrintSoftDriver
+https://www.printsoftdriver.com/usb-drivers.html
+https://www.printsoftdriver.com/script.js
+JavaScript
+Apr 24, 2026, 10:59
+New

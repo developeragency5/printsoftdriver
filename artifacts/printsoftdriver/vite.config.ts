@@ -45,6 +45,7 @@ export default defineConfig({
           fixScreenFlicker: path.resolve(import.meta.dirname, "fix-screen-flicker.html"),
           fixUsbNotRecognised: path.resolve(import.meta.dirname, "fix-usb-not-recognised.html"),
           fixSlowAfterUpdate: path.resolve(import.meta.dirname, "fix-slow-after-update.html"),
+          sitemap: path.resolve(import.meta.dirname, "sitemap.html"),
         },
     },
   },

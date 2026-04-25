@@ -140,7 +140,7 @@
       <div class="split-text reveal">
         <h2 id="sec-1">Restoring After a Reinstall</h2>
         <p>After Windows is freshly installed, point Device Manager or pnputil at the backup folder to reinstall the drivers. 'pnputil /add-driver C:\DriverBackup\*.inf /subdirs /install' walks the folder and installs every INF it finds.</p>
-        <p>Most modern Windows installs find their own drivers via Windows Update, so this technique is mainly useful for the genuinely obscure devices that the OS vendor's catalogue does not cover.</p>
+        <p>Most modern Windows installs find their own drivers via Windows Update, so this technique is mainly useful for the genuinely obscure devices that Windows' catalogue does not cover.</p>
         <ul class="check-list"><li>pnputil /export-driver * C:\DriverBackup</li><li>Reinstall Windows</li><li>pnputil /add-driver C:\DriverBackup\*.inf /subdirs /install</li></ul>
       </div>
       <div class="split-image reveal">
@@ -191,7 +191,7 @@
           <span>Is pnputil safe to use?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — it is the official the OS vendor tool for managing driver packages.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — it is the official Windows tool for managing driver packages.</p></div></div>
       </div>
     </div>
   </div>

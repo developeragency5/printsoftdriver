@@ -124,9 +124,9 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-0">How Windows 10 Manages Drivers in the Background</h2>
-        <p>Windows 10 was the version that completed the OS vendor's transition to Windows Update as the primary driver delivery channel for the average user. Most drivers are now signed by their vendor, certified by the OS vendor, and pushed to your machine without anyone clicking anything.</p>
-        <p>Behind the scenes, Windows 10 keeps every driver it has ever installed in the driver store. If a new driver misbehaves, Windows can quietly roll back to the previous one, often without the user noticing the swap.</p>
-        <ul class="check-list"><li>Drivers live in C:\Windows\System32\DriverStore</li><li>Most non-device drivers come via Windows Update</li><li>Device Manager remains the manual fallback</li></ul>
+        <p>Windows 10 was the version that completed the transition to Windows Update as the primary driver delivery channel for the average user. Most drivers are now signed by their vendor and pushed to your machine without anyone clicking anything.</p>
+        <p>Behind the scenes, Windows 10 keeps every driver it has ever installed in the driver store. If a new driver causes issues, Windows can quietly roll back to the previous one, often without the user noticing the swap.</p>
+        <ul class="check-list"><li>Drivers live in C:\Windows\System32\DriverStore</li><li>Most third-party drivers arrive via Windows Update</li><li>Device Manager remains the manual fallback</li></ul>
       </div>
       <div class="split-image reveal">
         <img src="images/laptop.jpg" alt="Windows 10 desktop scene" loading="lazy" width="640" height="420">
@@ -139,7 +139,7 @@
     <div class="split-row reverse">
       <div class="split-text reveal">
         <h2 id="sec-1">Where Driver Updates Come From on Windows 10</h2>
-        <p>Driver updates on Windows 10 arrive through three main routes: Windows Update for almost everything, the manufacturer's own utility (your laptop maker's OEM update tool — your laptop maker Support Assistant) for OEM-specific tweaks, and the vendor's website for users who prefer to install manually.</p>
+        <p>Driver updates on Windows 10 arrive through three main routes: Windows Update for almost everything, the manufacturer's own utility (your laptop manufacturer's OEM update tool — your laptop's Support Assistant) for OEM-specific tweaks, and the vendor's website for users who prefer to install manually.</p>
         <p>Windows Update is the safest default for most people. The other channels are useful when a fresh release fixes a specific issue, when the WHQL certification is lagging, or when an OEM bundle adds laptop-specific features.</p>
         
       </div>
@@ -154,7 +154,7 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-2">When You Should Step In Manually</h2>
-        <p>Manual driver intervention on Windows 10 is rarely needed for everyday use. The two situations where it helps are when a freshly installed Windows misses an obscure device (say, a fingerprint reader on an older laptop), or when an automatic update introduces an issue that needs a quick rollback.</p>
+        <p>Manual driver intervention on Windows 10 is rarely needed for everyday use. The two situations where it helps are when a freshly installed Windows misses an obscure device (say, a fingerprint reader on an older laptop), or when an automatic update introduces a regression that needs a quick rollback.</p>
         <p>Device Manager handles both cases — install a driver from a downloaded INF file, or use the Driver tab on a device's Properties page to roll back to the previous version. Both flows take only a few clicks.</p>
         
       </div>
@@ -177,14 +177,14 @@
           <span>Where do Windows 10 driver updates come from?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Most arrive through Windows Update; some richer features come through your laptop maker's update tool; and a small number you install manually from the vendor's site.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Most arrive through Windows Update; some richer features come through your laptop manufacturer's update tool; and a small number you install manually from the vendor's site.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
           <span>Can Windows 10 still get driver updates after end of support?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>After end of support, the OS vendor no longer ships new feature updates, but signed drivers from vendors continue to install. Security updates depend on the OS vendor's extended support choices.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>After end of support, no further new feature updates ship, but signed drivers from vendors continue to install. Security updates depend on extended support arrangements.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">

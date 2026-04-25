@@ -21,7 +21,7 @@
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Cleaning Up the Windows Driver Store Without Breaking Anything",
+  "headline": "Cleaning Up the Windows Driver Store",
   "name": "Cleaning Up the Windows Driver Store Safely | PrintSoftDriver",
   "description": "Trim a bloated Windows driver store without breaking anything — the built-in tools, the safety considerations, and what to leave alone.",
   "url": "https://www.printsoftdriver.com/driver-store-cleanup.html",
@@ -107,8 +107,8 @@
   <div class="hero-page-overlay"></div>
   <div class="hero-page-content reveal">
     <span class="hero-eyebrow">Driver Store Cleanup</span>
-    <h1>Cleaning Up the Windows Driver Store Without Breaking Anything</h1>
-    <p>Over years of updates the Windows driver store can grow into many gigabytes of stored versions. A friendly overview to trimming it safely.</p>
+    <h1>Cleaning Up the Windows Driver Store</h1>
+    <p>Over years of updates the Windows driver store can grow into many gigabytes of stored versions. A friendly overview to trimming it.</p>
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
@@ -139,7 +139,7 @@
     <div class="split-row reverse">
       <div class="split-text reveal">
         <h2 id="sec-1">The Built-In Tools</h2>
-        <p>Disk Cleanup includes a 'Device driver packages' option that removes superseded drivers safely. Run it as Administrator (the option only appears in admin mode) and tick that box to claw back disk space.</p>
+        <p>Disk Cleanup includes a 'Device driver packages' option that removes superseded drivers in the supported way. Run it as Administrator (the option only appears in admin mode) and tick that box to claw back disk space.</p>
         <p>From the command line, 'pnputil /enum-drivers' lists every third-party driver, and 'pnputil /delete-driver oemNN.inf /uninstall' removes a specific package. Combined with a script, this lets advanced users keep only the latest versions of each driver.</p>
         <ul class="check-list"><li>Run Disk Cleanup as Administrator</li><li>Tick 'Device driver packages'</li><li>Use pnputil for fine-grained control</li></ul>
       </div>
@@ -154,8 +154,8 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-2">What Not to Touch</h2>
-        <p>Never delete files directly from C:\Windows\System32\DriverStore — Windows tracks them by hash and a corrupt store can prevent driver installs. Use Disk Cleanup or PnPUtil exclusively.</p>
-        <p>Also be aware that aggressive cleanup removes the rollback safety net. If you trim down to just the latest version of every driver and one of them then misbehaves, the rollback button in Device Manager will be greyed out for that device.</p>
+        <p>Avoid deleting files directly from C:\Windows\System32\DriverStore — Windows tracks them by hash and a damaged store can interfere with later driver installs. Use Disk Cleanup or PnPUtil exclusively.</p>
+        <p>Also note that aggressive cleanup removes the rollback option. If you trim down to just the latest version of every driver and one of them then has issues, the rollback button in Device Manager will be unavailable for that device.</p>
         
       </div>
       <div class="split-image reveal">
@@ -181,7 +181,7 @@
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span>Will cleanup break my drivers?</span>
+          <span>Will cleanup remove drivers I need?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer"><div class="faq-answer-inner"><p>Not if you use Disk Cleanup or PnPUtil. The tools only remove superseded versions, leaving the active driver intact.</p></div></div>
@@ -191,7 +191,7 @@
           <span>Can I still roll back after cleanup?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Only to versions that remain in the driver store. Aggressive cleanup removes the rollback safety net.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Only to versions that remain in the driver store. Aggressive cleanup removes the rollback option.</p></div></div>
       </div>
     </div>
   </div>

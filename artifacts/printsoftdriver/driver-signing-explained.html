@@ -138,13 +138,13 @@
   <div class="section-inner">
     <div class="split-row reverse">
       <div class="split-text reveal">
-        <h2 id="sec-1">the OS vendor's Attestation Step</h2>
-        <p>On modern Windows, after the vendor signs a driver with their certificate, they upload it to the OS vendor's portal. the OS vendor runs additional automated tests, then countersigns the driver itself. This second signature is what current Windows requires before loading a kernel driver.</p>
-        <p>This two-layer system makes life much harder for attackers. Even if a vendor's certificate were stolen, the driver would still need the OS vendor's countersignature to load on Windows 10 and 11.</p>
+        <h2 id="sec-1">Windows' Attestation Step</h2>
+        <p>On modern Windows, after the vendor signs a driver with their certificate, they upload it to Windows' portal. Windows runs additional automated tests, then countersigns the driver itself. This second signature is what current Windows requires before loading a kernel driver.</p>
+        <p>This two-layer system makes life much harder for attackers. Even if a vendor's certificate were stolen, the driver would still need Windows' countersignature to load on Windows 10 and 11.</p>
         
       </div>
       <div class="split-image reveal">
-        <img src="images/kernel-mode.jpg" alt="the OS vendor attestation concept" loading="lazy" width="640" height="420">
+        <img src="images/kernel-mode.jpg" alt="Windows attestation concept" loading="lazy" width="640" height="420">
       </div>
     </div>
   </div>
@@ -181,17 +181,17 @@
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span>What is the OS vendor attestation?</span>
+          <span>What is Windows attestation?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>the OS vendor's portal where vendors submit their signed drivers, after which the OS vendor applies its own signature for kernel-mode trust.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Windows' portal where vendors submit their signed drivers, after which Windows applies its own signature for kernel-mode trust.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
           <span>Can a stolen certificate sign malicious drivers?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>It has happened, but the OS vendor's attestation step and certificate revocation usually shut down compromised certificates quickly.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>It has happened, but Windows' attestation step and certificate revocation usually shut down compromised certificates quickly.</p></div></div>
       </div>
     </div>
   </div>

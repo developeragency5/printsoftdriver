@@ -125,7 +125,7 @@
       <div class="split-text reveal">
         <h2 id="sec-0">What the Driver Store Is</h2>
         <p>Windows keeps every driver it installs inside C:\Windows\System32\DriverStore\FileRepository. Each driver lives in its own subfolder, named after the INF file plus a hash, so versions and updates do not overwrite each other.</p>
-        <p>The store is protected by Windows itself — only the operating system can write to it. This guarantees that every installed driver is intact and its signature is preserved exactly as it was at install time.</p>
+        <p>The store is protected by Windows itself — only the operating system can write to it. This ensures that every installed driver remains intact and its signature is preserved exactly as it was at install time.</p>
         
       </div>
       <div class="split-image reveal">
@@ -140,7 +140,7 @@
       <div class="split-text reveal">
         <h2 id="sec-1">Why It Grows Over Time</h2>
         <p>Every driver update Windows applies leaves the previous version behind in the driver store, ready in case you need to roll back. Over a few years this can quietly accumulate to several gigabytes — usually fine, occasionally inconvenient on small SSDs.</p>
-        <p>the OS vendor provides PnPUtil and the Disk Cleanup tool's 'Device driver packages' option to safely remove obsolete versions. Manual deletion of files in the driver store is a bad idea — Windows tracks them by hash and a corrupt store can prevent driver installs.</p>
+        <p>Windows itself provides PnPUtil and the Disk Cleanup tool's 'Device driver packages' option to safely remove obsolete versions. Manual deletion of files in the driver store is not advisable — Windows tracks them by hash and a damaged store can interfere with later driver installs.</p>
         
       </div>
       <div class="split-image reveal">
@@ -154,8 +154,8 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-2">Inspecting What You Have Installed</h2>
-        <p>From an elevated command prompt, 'pnputil /enum-drivers' lists every third-party driver currently in the driver store. The output shows publisher, install date, and signature status — useful when chasing down a misbehaving driver.</p>
-        <p>Built-in the OS vendor drivers do not show up in this list, because they are managed as part of Windows itself rather than as separate packages. The driver store is only for the third-party additions.</p>
+        <p>From an elevated command prompt, 'pnputil /enum-drivers' lists every third-party driver currently in the driver store. The output shows publisher, install date, and signature status — useful when investigating a problematic driver.</p>
+        <p>Built-in Windows drivers do not show up in this list, because they are managed as part of Windows itself rather than as separate packages. The driver store is only for the third-party additions.</p>
         
       </div>
       <div class="split-image reveal">
@@ -177,7 +177,7 @@
           <span>Can I delete files in the driver store?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>No — let Windows manage it. Use the built-in Disk Cleanup or PnPUtil to remove old versions safely.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>No — let Windows manage it. Use the built-in Disk Cleanup or PnPUtil to remove old versions in the supported way.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">

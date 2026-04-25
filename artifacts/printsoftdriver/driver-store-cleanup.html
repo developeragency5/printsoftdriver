@@ -88,8 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="fixes.html">Fixes</a>
-      <a href="sitemap.html">Sitemap</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
       <a href="contact.html">Contact</a>
     </nav>
     <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
@@ -100,7 +99,7 @@
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
-    <a href="fixes.html">Fixes</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
@@ -109,7 +108,7 @@
   <div class="hero-page-content reveal">
     <span class="hero-eyebrow">Driver Store Cleanup</span>
     <h1>Cleaning Up the Windows Driver Store Without Breaking Anything</h1>
-    <p>Over years of updates the Windows driver store can grow into many gigabytes of stored versions. A Friendly Walkthrough to trimming it safely.</p>
+    <p>Over years of updates the Windows driver store can grow into many gigabytes of stored versions. A friendly guide to trimming it safely.</p>
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
@@ -142,7 +141,117 @@
         <h2 id="sec-1">The Built-In Tools</h2>
         <p>Disk Cleanup includes a 'Device driver packages' option that removes superseded drivers safely. Run it as Administrator (the option only appears in admin mode) and tick that box to claw back disk space.</p>
         <p>From the command line, 'pnputil /enum-drivers' lists every third-party driver, and 'pnputil /delete-driver oemNN.inf /uninstall' removes a specific package. Combined with a script, this lets advanced users keep only the latest versions of each driver.</p>
-        <ul class="check-list">
+        <ul class="check-list"><li>Run Disk Cleanup as Administrator</li><li>Tick 'Device driver packages'</li><li>Use pnputil for fine-grained control</li></ul>
+      </div>
+      <div class="split-image reveal">
+        <img src="images/tech-support.jpg" alt="Disk cleanup concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section" aria-labelledby="sec-2">
+  <div class="section-inner">
+    <div class="split-row">
+      <div class="split-text reveal">
+        <h2 id="sec-2">What Not to Touch</h2>
+        <p>Never delete files directly from C:\Windows\System32\DriverStore — Windows tracks them by hash and a corrupt store can prevent driver installs. Use Disk Cleanup or PnPUtil exclusively.</p>
+        <p>Also be aware that aggressive cleanup removes the rollback safety net. If you trim down to just the latest version of every driver and one of them then misbehaves, the rollback button in Device Manager will be greyed out for that device.</p>
+        
+      </div>
+      <div class="split-image reveal">
+        <img src="images/kernel-mode.jpg" alt="Driver store concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section bg-surface" aria-labelledby="faq-heading">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Quick Answers</span>
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <p>The questions readers send us most often on this topic.</p>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>How much space can driver cleanup free?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Often several gigabytes on a system that is a few years old. Workstations with many devices can free much more.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Will cleanup break my drivers?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Not if you use Disk Cleanup or PnPUtil. The tools only remove superseded versions, leaving the active driver intact.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Can I still roll back after cleanup?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Only to versions that remain in the driver store. Aggressive cleanup removes the rollback safety net.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Keep Reading</span>
+      <h2>Related Guides on PrintSoftDriver</h2>
+      <p>Hand-picked articles that pair well with this one.</p>
+    </div>
+    <div class="related-grid reveal">
+      <a class="related-card" href="driver-store-explained.html"><h3>Driver Store</h3><p>Foundation reading.</p></a>
+      <a class="related-card" href="uninstall-driver-cleanly.html"><h3>Uninstall a Driver Cleanly</h3><p>Companion walkthrough.</p></a>
+      <a class="related-card" href="roll-back-driver.html"><h3>Roll Back a Driver</h3><p>What cleanup makes harder.</p></a>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Want More Plain-English Driver Reads?</h2>
+      <p>We translate the technical so you can focus on using your computer rather than fighting it.</p>
+      <div class="cta-actions">
+        <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
+        <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Driver Guides</h4>
+      <ul>
+        <li><a href="printer-drivers.html">Device Drivers</a></li>
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>

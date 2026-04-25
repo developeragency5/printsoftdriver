@@ -88,8 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="fixes.html">Fixes</a>
-      <a href="sitemap.html">Sitemap</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
       <a href="contact.html">Contact</a>
     </nav>
     <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
@@ -100,11 +99,11 @@
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
-    <a href="fixes.html">Fixes</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
-<section class="hero-page hero-page--fix" aria-label="Fix: External Monitor Not Detected hero">
+<section class="hero-page hero-page--troubleshoot" aria-label="Fix: External Monitor Not Detected hero">
   <div class="hero-page-overlay"></div>
   <div class="hero-page-content reveal">
     <span class="hero-eyebrow">Fix: External Monitor Not Detected</span>
@@ -113,7 +112,7 @@
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
-      <a href="fixes.html">Fixes</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
       <span aria-hidden="true">›</span>
       <span>Fix: External Monitor Not Detected</span>
     </nav>
@@ -127,7 +126,132 @@
         <h2 id="sec-0">Cable, Port, and Input Source</h2>
         <p>Start with the cable. HDMI and DisplayPort cables fail more often than people think — small bend stresses can break internal wires while the connector still looks fine. Try a different cable, then a different port on the computer.</p>
         <p>Confirm the monitor is on the correct input. Most monitors do not auto-detect input changes consistently — a quick press of the source button on the monitor often reveals the problem instantly.</p>
-        <ul class="check-list">
+        <ul class="check-list"><li>Try a different cable to rule out wear</li><li>Try a different port on the computer</li><li>Confirm the monitor's input source matches</li></ul>
+      </div>
+      <div class="split-image reveal">
+        <img src="images/professional-workspace.png" alt="Display setup concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section bg-surface" aria-labelledby="sec-1">
+  <div class="section-inner">
+    <div class="split-row reverse">
+      <div class="split-text reveal">
+        <h2 id="sec-1">OS-Level Display Detection</h2>
+        <p>If the cable and input are fine, ask the operating system to look again. On Windows, press Windows+P and try the various display modes — Duplicate, Extend, and Second screen only. The act of switching modes often nudges Windows into rescanning attached displays.</p>
+        <p>Both Windows and macOS also have a Detect button under Display settings. Click it once and wait a few seconds — sometimes a sluggish detection cycle just needs an explicit prompt.</p>
+        
+      </div>
+      <div class="split-image reveal">
+        <img src="images/graphics-card.jpg" alt="Display ports concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section" aria-labelledby="sec-2">
+  <div class="section-inner">
+    <div class="split-row">
+      <div class="split-text reveal">
+        <h2 id="sec-2">Graphics Driver Considerations</h2>
+        <p>If detection still fails, look at the graphics driver. Open the Nvidia, AMD, or Intel control panel and check whether the second display is listed there. Sometimes the OS misses a display that the driver sees, and clicking 'Apply' on the GPU panel hands the configuration back to Windows correctly.</p>
+        <p>On laptops with both integrated and discrete GPUs, the external display port is often wired to one specific GPU. If the wrong GPU is currently active for that port, the monitor may stay dark until the system switches.</p>
+        
+      </div>
+      <div class="split-image reveal">
+        <img src="images/tech-support.jpg" alt="Multi-monitor diagnostic" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section bg-surface" aria-labelledby="faq-heading">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Quick Answers</span>
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <p>The questions readers send us most often on this topic.</p>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Why does my second monitor only appear sometimes?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Cable seating, GPU power-state changes, and driver loading order can all cause intermittent detection. Try a different port and a fresh cable.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Are HDMI and DisplayPort cables interchangeable?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>No — the connectors and signalling differ. Adapters exist but add a possible failure point.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Why is my external monitor blurry?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Often a resolution or scaling issue. Set the display's native resolution and check the per-monitor scaling under Display settings.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Keep Reading</span>
+      <h2>Related Guides on PrintSoftDriver</h2>
+      <p>Hand-picked articles that pair well with this one.</p>
+    </div>
+    <div class="related-grid reveal">
+      <a class="related-card" href="graphics-drivers.html"><h3>Graphics Drivers Explained</h3><p>Foundation reading.</p></a>
+      <a class="related-card" href="fix-screen-flicker.html"><h3>Fix: Screen Flickers</h3><p>Adjacent display walkthrough.</p></a>
+      <a class="related-card" href="fix-second-monitor-blurry.html"><h3>Fix: Second Monitor Blurry</h3><p>Resolution and scaling fixes.</p></a>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Need Help With Another Issue?</h2>
+      <p>Our troubleshooting section has more calm, ordered walkthroughs for the most common driver-related headaches.</p>
+      <div class="cta-actions">
+        <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
+        <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Driver Guides</h4>
+      <ul>
+        <li><a href="printer-drivers.html">Device Drivers</a></li>
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>

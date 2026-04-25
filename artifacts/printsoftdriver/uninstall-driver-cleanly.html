@@ -88,8 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="fixes.html">Fixes</a>
-      <a href="sitemap.html">Sitemap</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
       <a href="contact.html">Contact</a>
     </nav>
     <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
@@ -100,7 +99,7 @@
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
-    <a href="fixes.html">Fixes</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
@@ -127,7 +126,132 @@
         <h2 id="sec-0">Two Levels of Uninstall</h2>
         <p>Windows offers two flavours of driver uninstall. Right-click a device in Device Manager → Uninstall device shows a checkbox: 'Delete the driver software for this device'. Without that checkbox, Windows removes the device but keeps the driver in the store, ready to reinstall on next reboot.</p>
         <p>With the checkbox ticked, Windows removes both the device and the driver package, freeing the driver store and forcing a fresh install when you next plug the device in.</p>
-        <ul class="check-list">
+        <ul class="check-list"><li>Device Manager → device → Uninstall device</li><li>Tick 'Delete the driver software' to fully remove</li><li>Reboot to confirm fresh state</li></ul>
+      </div>
+      <div class="split-image reveal">
+        <img src="images/professional-workspace.png" alt="Uninstall flow concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section bg-surface" aria-labelledby="sec-1">
+  <div class="section-inner">
+    <div class="split-row reverse">
+      <div class="split-text reveal">
+        <h2 id="sec-1">Stubborn Driver Packages</h2>
+        <p>If Windows reports that a driver cannot be removed because it is in use, boot into Safe Mode and try the uninstall again. Safe Mode loads a minimal driver set, which usually frees up the package for removal.</p>
+        <p>From an elevated command prompt, 'pnputil /delete-driver oemNN.inf /uninstall /force' removes a driver package by its INF name. List packages first with 'pnputil /enum-drivers' to find the right oemNN.inf entry.</p>
+        
+      </div>
+      <div class="split-image reveal">
+        <img src="images/kernel-mode.jpg" alt="PnPUtil concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section" aria-labelledby="sec-2">
+  <div class="section-inner">
+    <div class="split-row">
+      <div class="split-text reveal">
+        <h2 id="sec-2">Display Driver Uninstaller</h2>
+        <p>For graphics drivers in particular, the third-party Display Driver Uninstaller (DDU) tool is widely used in Safe Mode to scrub residual files left by an incomplete driver removal. It is reliable but only needed when standard uninstall has clearly missed something.</p>
+        <p>DDU's instructions recommend running it from Safe Mode for the cleanest result. Reinstall the GPU driver fresh after DDU finishes for the most predictable outcome.</p>
+        
+      </div>
+      <div class="split-image reveal">
+        <img src="images/tech-support.jpg" alt="Driver uninstall scene" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section bg-surface" aria-labelledby="faq-heading">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Quick Answers</span>
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <p>The questions readers send us most often on this topic.</p>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Why does the device come back after uninstall?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Without the 'Delete the driver software' checkbox, Windows reinstalls from the driver store on next reboot.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Is Display Driver Uninstaller safe to use?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — it is widely used and well-respected. Run it in Safe Mode for best results, then reinstall the GPU driver fresh.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Can pnputil remove built-in Windows drivers?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>No — only third-party packages added to the driver store. Built-in drivers belong to Windows itself.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Keep Reading</span>
+      <h2>Related Guides on PrintSoftDriver</h2>
+      <p>Hand-picked articles that pair well with this one.</p>
+    </div>
+    <div class="related-grid reveal">
+      <a class="related-card" href="driver-store-explained.html"><h3>Driver Store</h3><p>Where driver packages live.</p></a>
+      <a class="related-card" href="roll-back-driver.html"><h3>Roll Back a Driver</h3><p>When uninstall is overkill.</p></a>
+      <a class="related-card" href="driver-store-cleanup.html"><h3>Driver Store Cleanup</h3><p>Trim the leftover packages.</p></a>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Want More Plain-English Driver Reads?</h2>
+      <p>We translate the technical so you can focus on using your computer rather than fighting it.</p>
+      <div class="cta-actions">
+        <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
+        <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Driver Guides</h4>
+      <ul>
+        <li><a href="printer-drivers.html">Device Drivers</a></li>
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>

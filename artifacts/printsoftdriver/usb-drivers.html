@@ -76,8 +76,7 @@
         <a href="index.html">Home</a>
         <a href="blog.html">Blog</a>
         <a href="about.html">About</a>
-        <a href="fixes.html">Fixes</a>
-        <a href="sitemap.html">Sitemap</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
         <a href="contact.html">Contact</a>
       </nav>
       <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
@@ -88,8 +87,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="fixes.html">Fixes</a>
-      <a href="sitemap.html">Sitemap</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
@@ -117,7 +115,136 @@
           <h2 id="sec-0">How USB Drivers Discover Devices</h2>
           <p>When you connect a USB device, your computer goes through a quick negotiation called enumeration. The USB driver stack identifies the device, looks up which class it belongs to (keyboard, storage, audio, video, etc.), and either loads a generic driver for that class or a specific one supplied by the manufacturer.</p>
         <p>This is why most simple devices "just work" — the operating system already includes class drivers for common categories.</p>
-          <ul class="check-list">
+          <ul class="check-list"><li>Identifies devices the moment they are plugged in</li><li>Loads the right driver, generic or manufacturer-specific</li><li>Manages power, bandwidth, and hot-plug events</li><li>Handles file transfers, input events, and audio streams</li></ul>
+        </div>
+        <div class="split-image reveal">
+          <img src="images/usb.jpg" alt="A USB cable connector close-up" loading="lazy" width="640" height="420">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section bg-surface" aria-labelledby="sec-1">
+    <div class="section-inner">
+      <div class="split-row reverse">
+        <div class="split-text reveal">
+          <h2 id="sec-1">Keyboards, Mice, and Other Inputs</h2>
+          <p>For everyday keyboards and mice, the standard input driver in your operating system is more than enough. Where it gets interesting is with gaming mice and mechanical keyboards that come with their own software for macros, lighting, and custom profiles. That extra software talks to a vendor driver that exposes the device's advanced features.</p>
+        <p>If a fancy keyboard or mouse stops responding to its custom features, the first thing to try is a quick reinstall of the manufacturer's software, which usually refreshes the driver as well.</p>
+          
+        </div>
+        <div class="split-image reveal">
+          <img src="images/input.jpg" alt="A keyboard and mouse on a clean desk" loading="lazy" width="640" height="420">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section " aria-labelledby="sec-2">
+    <div class="section-inner">
+      <div class="split-row ">
+        <div class="split-text reveal">
+          <h2 id="sec-2">Wireless Devices and Bluetooth</h2>
+          <p>Bluetooth devices have their own driver stack on top of the regular USB stack, because most laptops have a Bluetooth controller that talks to the system over USB internally. That is why you sometimes see "Bluetooth" appear under USB devices in your system tools.</p>
+        <p>Pairing problems, audio that lags, and devices that disconnect randomly are usually a Bluetooth driver issue rather than a hardware one — and again, the manufacturer's latest driver is your best first move.</p>
+          
+        </div>
+        <div class="split-image reveal">
+          <img src="images/bluetooth.jpg" alt="Wireless earbuds in their charging case" loading="lazy" width="640" height="420">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="page-section" aria-labelledby="faq-heading">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Quick Answers</span>
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        <p>The questions readers send us most often about usb & device drivers explained | printsoftdriver.</p>
+      </div>
+      <div class="faq-list reveal">
+        
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Windows says "USB device not recognised." What now?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner"><p>Try a different cable, then a different port, then reinstall the device's driver. If those fail, the device itself or the port may be at fault.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do I need a special driver for a USB flash drive?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><div class="faq-answer-inner"><p>No. Storage devices use a built-in class driver. If a drive is not showing up, check the cable, the port, and the drive's own health.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="page-section">
+    <div class="section-inner">
+      <div class="cta-card reveal">
+        <h2>Want to Explore More Driver Topics?</h2>
+        <p>Our friendly guide covers every major hardware category — from the device on your desk to the chips inside your laptop.</p>
+        <div class="cta-actions">
+          <a href="index.html#topics" class="btn btn-primary">Browse All Topics</a>
+          <a href="troubleshooting.html" class="btn btn-outline-dark">Need Help? Visit Troubleshooting</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- ========== FOOTER ========== -->
+  
+<section class="page-section bg-surface">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">More Controller Reads</span>
+      <h2>Recently Added Reads</h2>
+      <p>Hand-picked recent additions in this category.</p>
+    </div>
+    <div class="related-grid reveal">
+      <a class="related-card" href="asmedia-controller-drivers.html"><h3>ASMedia Controller Drivers</h3><p>A friendly look at the ASMedia controllers that sit behind many Usb ports and…</p></a>
+      <a class="related-card" href="silicon-image-controller-drivers.html"><h3>Silicon Image Controller Drivers</h3><p>A short look at the Silicon Image storage controllers found on many older add…</p></a>
+      <a class="related-card" href="jmicron-controller-drivers.html"><h3>JMicron Controller Drivers</h3><p>A friendly look at the JMicron chips inside many external enclosures and moth…</p></a>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer" role="contentinfo">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="32" height="32" rx="6" fill="#E87F24"/>
+            <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+            <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+            <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+          </svg>
+          <span class="footer-logo-text">PrintSoftDriver</span>
+        </div>
+        <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="troubleshooting.html">Troubleshooting</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Driver Guides</h4>
+        <ul>
+          <li><a href="printer-drivers.html">Device Drivers</a></li>
           <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
           <li><a href="audio-drivers.html">Audio Drivers</a></li>
           <li><a href="network-drivers.html">Network Drivers</a></li>

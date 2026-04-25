@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Fix: DRIVER_POWER_STATE_FAILURE Blue Screen</title>
-  <meta name="description" content="When sleep crashes Windows with this stop code, a driver is failing to handle the power transition. A calm walkthrough to identifying and fixing it.">
+  <meta name="description" content="When sleep crashes Windows with this stop code, a driver is failing to handle the power transition. A calm guide to identifying and fixing it.">
   <meta name="robots" content="index, follow">
   <meta name="author" content="PrintSoftDriver">
   <meta name="keywords" content="driver power state failure, sleep bsod, wake bsod, fast startup bsod">
   <meta property="og:title" content="Fix: DRIVER_POWER_STATE_FAILURE Blue Screen | PrintSoftDriver">
-  <meta property="og:description" content="When sleep crashes Windows with this stop code, a driver is failing to handle the power transition. A calm walkthrough to identifying and fixing it.">
+  <meta property="og:description" content="When sleep crashes Windows with this stop code, a driver is failing to handle the power transition. A calm guide to identifying and fixing it.">
   <meta property="og:image" content="https://www.printsoftdriver.com/opengraph.jpg">
   <meta property="og:url" content="https://www.printsoftdriver.com/fix-driver-power-state-failure.html">
   <meta property="og:type" content="article">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Fix: DRIVER_POWER_STATE_FAILURE Blue Screen | PrintSoftDriver">
-  <meta name="twitter:description" content="When sleep crashes Windows with this stop code, a driver is failing to handle the power transition. A calm walkthrough to identifying and fixing it.">
+  <meta name="twitter:description" content="When sleep crashes Windows with this stop code, a driver is failing to handle the power transition. A calm guide to identifying and fixing it.">
   <link rel="canonical" href="https://www.printsoftdriver.com/fix-driver-power-state-failure.html">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Fix: DRIVER_POWER_STATE_FAILURE Blue Screen",
   "name": "Fix: DRIVER_POWER_STATE_FAILURE Blue Screen | PrintSoftDriver",
-  "description": "When sleep crashes Windows with this stop code, a driver is failing to handle the power transition. A calm walkthrough to identifying and fixing it.",
+  "description": "When sleep crashes Windows with this stop code, a driver is failing to handle the power transition. A calm guide to identifying and fixing it.",
   "url": "https://www.printsoftdriver.com/fix-driver-power-state-failure.html",
   "image": "https://www.printsoftdriver.com/opengraph.jpg",
   "author": {
@@ -88,8 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="fixes.html">Fixes</a>
-      <a href="sitemap.html">Sitemap</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
       <a href="contact.html">Contact</a>
     </nav>
     <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
@@ -100,20 +99,20 @@
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
-    <a href="fixes.html">Fixes</a>
+    <a href="troubleshooting.html">Troubleshooting</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
-<section class="hero-page hero-page--fix" aria-label="Fix: Driver Power State Failure hero">
+<section class="hero-page hero-page--troubleshoot" aria-label="Fix: Driver Power State Failure hero">
   <div class="hero-page-overlay"></div>
   <div class="hero-page-content reveal">
     <span class="hero-eyebrow">Fix: Driver Power State Failure</span>
     <h1>Fix: DRIVER_POWER_STATE_FAILURE Blue Screen</h1>
-    <p>When Windows BSODs trying to enter or leave sleep, a driver is usually failing to handle the power transition. A calm walkthrough to fixing it.</p>
+    <p>When Windows BSODs trying to enter or leave sleep, a driver is usually failing to handle the power transition. A calm guide to fixing it.</p>
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
-      <a href="fixes.html">Fixes</a>
+      <a href="troubleshooting.html">Troubleshooting</a>
       <span aria-hidden="true">›</span>
       <span>Fix: Driver Power State Failure</span>
     </nav>
@@ -142,7 +141,117 @@
         <h2 id="sec-1">The Standard Recovery Path</h2>
         <p>Update the driver named in the stop screen. If the named file is generic (something like ntoskrnl.exe), look at the Reliability Monitor for nearby driver-related events around the same time as the BSOD — those usually identify the genuine culprit.</p>
         <p>Also try updating chipset, graphics, and network drivers as a group. Power-management code spans these subsystems, and an inconsistency between them is a common cause.</p>
-        <ul class="check-list">
+        <ul class="check-list"><li>Update the driver named in the stop screen</li><li>Refresh chipset, graphics, and network drivers together</li><li>Look at Reliability Monitor for related events</li></ul>
+      </div>
+      <div class="split-image reveal">
+        <img src="images/professional-workspace.png" alt="Driver maintenance scene" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section" aria-labelledby="sec-2">
+  <div class="section-inner">
+    <div class="split-row">
+      <div class="split-text reveal">
+        <h2 id="sec-2">If Sleep Still Crashes</h2>
+        <p>Use the Powercfg command-line tool to generate a power report: 'powercfg /sleepstudy' produces an HTML report listing every recent sleep transition and any errors encountered. The report often points directly at the misbehaving device.</p>
+        <p>If the report shows nothing useful, disabling fast-startup (Control Panel → Power Options → 'Choose what the power buttons do' → uncheck Turn on fast startup) often resolves the most stubborn DRIVER_POWER_STATE_FAILURE cases.</p>
+        
+      </div>
+      <div class="split-image reveal">
+        <img src="images/tech-support.jpg" alt="Power diagnostic concept" loading="lazy" width="640" height="420">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section bg-surface" aria-labelledby="faq-heading">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Quick Answers</span>
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <p>The questions readers send us most often on this topic.</p>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Why does my laptop BSOD only on wake?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>A driver is failing to respond correctly when Windows tries to wake it. Update the relevant driver and check Powercfg sleep studies.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>Should I disable fast startup?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>If sleep BSODs persist after driver updates, yes — disable it temporarily and see whether the issue resolves.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>What does 'sleepstudy' tell me?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>A detailed HTML report of recent sleep activity, including failures and the devices that caused them.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Keep Reading</span>
+      <h2>Related Guides on PrintSoftDriver</h2>
+      <p>Hand-picked articles that pair well with this one.</p>
+    </div>
+    <div class="related-grid reveal">
+      <a class="related-card" href="fix-bsod-driver-irql.html"><h3>Fix: IRQL BSOD</h3><p>Adjacent BSOD.</p></a>
+      <a class="related-card" href="driver-kernel-mode.html"><h3>Kernel-Mode Drivers</h3><p>Where power transitions live.</p></a>
+      <a class="related-card" href="fix-slow-after-update.html"><h3>Fix: Slow After Update</h3><p>Adjacent post-update issue.</p></a>
+    </div>
+  </div>
+</section>
+<section class="page-section">
+  <div class="section-inner">
+    <div class="cta-card reveal">
+      <h2>Need Help With Another Issue?</h2>
+      <p>Our troubleshooting section has more calm, ordered walkthroughs for the most common driver-related headaches.</p>
+      <div class="cta-actions">
+        <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
+        <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer id="site-footer" role="contentinfo">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="32" height="32" rx="6" fill="#E87F24"/>
+          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
+          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
+          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
+        </svg>
+        <span class="footer-logo-text">PrintSoftDriver</span>
+      </div>
+      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Site Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="troubleshooting.html">Troubleshooting</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Driver Guides</h4>
+      <ul>
+        <li><a href="printer-drivers.html">Device Drivers</a></li>
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>

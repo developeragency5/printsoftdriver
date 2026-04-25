@@ -1,0 +1,384 @@
+{
+  "redirects": [
+    {
+      "source": "/printer-drivers.html",
+      "destination": "/output-device-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/printer-drivers",
+      "destination": "/output-device-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/brother-printer-drivers.html",
+      "destination": "/brother-sewing-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/brother-printer-drivers",
+      "destination": "/brother-sewing-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/canon-printer-drivers.html",
+      "destination": "/canon-camera-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/canon-printer-drivers",
+      "destination": "/canon-camera-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/dell-printer-drivers.html",
+      "destination": "/dell-monitor-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/dell-printer-drivers",
+      "destination": "/dell-monitor-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/epson-printer-drivers.html",
+      "destination": "/epson-projector-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/epson-printer-drivers",
+      "destination": "/epson-projector-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/hp-printer-drivers.html",
+      "destination": "/hp-laptop-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/hp-printer-drivers",
+      "destination": "/hp-laptop-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/kyocera-printer-drivers.html",
+      "destination": "/kyocera-mobile-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/kyocera-printer-drivers",
+      "destination": "/kyocera-mobile-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/lexmark-printer-drivers.html",
+      "destination": "/lexmark-document-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/lexmark-printer-drivers",
+      "destination": "/lexmark-document-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/ricoh-printer-drivers.html",
+      "destination": "/ricoh-camera-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/ricoh-printer-drivers",
+      "destination": "/ricoh-camera-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/samsung-printer-drivers.html",
+      "destination": "/samsung-monitor-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/samsung-printer-drivers",
+      "destination": "/samsung-monitor-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/xerox-printer-drivers.html",
+      "destination": "/xerox-document-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/xerox-printer-drivers",
+      "destination": "/xerox-document-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/fix-printer-blank.html",
+      "destination": "/fix-display-blank.html",
+      "permanent": true
+    },
+    {
+      "source": "/fix-printer-blank",
+      "destination": "/fix-display-blank.html",
+      "permanent": true
+    },
+    {
+      "source": "/fix-printer-offline.html",
+      "destination": "/fix-network-device-offline.html",
+      "permanent": true
+    },
+    {
+      "source": "/fix-printer-offline",
+      "destination": "/fix-network-device-offline.html",
+      "permanent": true
+    },
+    {
+      "source": "/arch-linux-driver-guide.html",
+      "destination": "/arch-linux-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/arch-linux-driver-guide",
+      "destination": "/arch-linux-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/card-reader-driver-guide.html",
+      "destination": "/card-reader-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/card-reader-driver-guide",
+      "destination": "/card-reader-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/chromeos-driver-guide.html",
+      "destination": "/chromeos-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/chromeos-driver-guide",
+      "destination": "/chromeos-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/debian-driver-guide.html",
+      "destination": "/debian-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/debian-driver-guide",
+      "destination": "/debian-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/driver-backup-guide.html",
+      "destination": "/driver-backup-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/driver-backup-guide",
+      "destination": "/driver-backup-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/fedora-driver-guide.html",
+      "destination": "/fedora-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/fedora-driver-guide",
+      "destination": "/fedora-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/fingerprint-reader-driver-guide.html",
+      "destination": "/fingerprint-reader-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/fingerprint-reader-driver-guide",
+      "destination": "/fingerprint-reader-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/linux-mint-driver-guide.html",
+      "destination": "/linux-mint-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/linux-mint-driver-guide",
+      "destination": "/linux-mint-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/macos-monterey-driver-guide.html",
+      "destination": "/macos-monterey-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/macos-monterey-driver-guide",
+      "destination": "/macos-monterey-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/macos-sequoia-driver-guide.html",
+      "destination": "/macos-sequoia-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/macos-sequoia-driver-guide",
+      "destination": "/macos-sequoia-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/macos-sonoma-driver-guide.html",
+      "destination": "/macos-sonoma-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/macos-sonoma-driver-guide",
+      "destination": "/macos-sonoma-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/macos-ventura-driver-guide.html",
+      "destination": "/macos-ventura-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/macos-ventura-driver-guide",
+      "destination": "/macos-ventura-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/manjaro-driver-guide.html",
+      "destination": "/manjaro-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/manjaro-driver-guide",
+      "destination": "/manjaro-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/npu-driver-guide.html",
+      "destination": "/npu-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/npu-driver-guide",
+      "destination": "/npu-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/opensuse-driver-guide.html",
+      "destination": "/opensuse-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/opensuse-driver-guide",
+      "destination": "/opensuse-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/pop-os-driver-guide.html",
+      "destination": "/pop-os-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/pop-os-driver-guide",
+      "destination": "/pop-os-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/sensor-hub-driver-guide.html",
+      "destination": "/sensor-hub-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/sensor-hub-driver-guide",
+      "destination": "/sensor-hub-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/touchpad-driver-guide.html",
+      "destination": "/touchpad-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/touchpad-driver-guide",
+      "destination": "/touchpad-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/tpm-driver-guide.html",
+      "destination": "/tpm-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/tpm-driver-guide",
+      "destination": "/tpm-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/ubuntu-driver-guide.html",
+      "destination": "/ubuntu-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/ubuntu-driver-guide",
+      "destination": "/ubuntu-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/webcam-driver-guide.html",
+      "destination": "/webcam-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/webcam-driver-guide",
+      "destination": "/webcam-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/windows-10-driver-guide.html",
+      "destination": "/windows-10-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/windows-10-driver-guide",
+      "destination": "/windows-10-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/windows-11-driver-guide.html",
+      "destination": "/windows-11-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/windows-11-driver-guide",
+      "destination": "/windows-11-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/windows-server-driver-guide.html",
+      "destination": "/windows-server-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/windows-server-driver-guide",
+      "destination": "/windows-server-driver-overview.html",
+      "permanent": true
+    },
+    {
+      "source": "/troubleshooting.html",
+      "destination": "/knowledge.html",
+      "permanent": true
+    },
+    {
+      "source": "/troubleshooting",
+      "destination": "/knowledge.html",
+      "permanent": true
+    }
+  ]
+}

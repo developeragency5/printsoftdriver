@@ -124,7 +124,7 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-0">How Fedora Manages Drivers in the Background</h2>
-        <p>Fedora's driver story is similar to Ubuntu's at a high level — most drivers come with the Linux kernel itself — but Fedora deliberately avoids shipping proprietary blobs by default. That gives the system a cleaner core but means a few popular devices (Nvidia GPUs in particular) need an extra step.</p>
+        <p>Fedora's driver story is similar to Ubuntu's at a high level — most drivers come with the Linux kernel itself — but Fedora deliberately avoids shipping proprietary blobs by default. That gives the system a cleaner core but means a few popular devices (graphics vendor GPUs in particular) need an extra step.</p>
         <p>The most common way to add proprietary drivers on Fedora is the RPM Fusion repository, a community-maintained extension to the official Fedora package set. Once enabled, GPU drivers, multimedia codecs, and a few exotic devices install through the regular dnf flow.</p>
         <ul class="check-list"><li>Pure-open core; proprietary drivers via RPM Fusion</li><li>GNOME Software exposes most install flows graphically</li><li>Kernel updates come with regular system upgrades</li></ul>
       </div>
@@ -154,7 +154,7 @@
     <div class="split-row">
       <div class="split-text reveal">
         <h2 id="sec-2">When You Should Step In Manually</h2>
-        <p>Manual driver intervention is occasionally needed for very new GPUs that require a specific Nvidia release, or for Wi-Fi modules whose firmware blob is not yet packaged. Fedora's wiki documents these cases for popular hardware.</p>
+        <p>Manual driver intervention is occasionally needed for very new GPUs that require a specific graphics vendor release, or for Wi-Fi modules whose firmware blob is not yet packaged. Fedora's wiki documents these cases for popular hardware.</p>
         <p>For most users, the default install plus RPM Fusion is enough — the same dnf upgrade flow keeps everything current.</p>
         
       </div>
@@ -181,10 +181,10 @@
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span>Can I install Nvidia drivers easily on Fedora?</span>
+          <span>Can I install proprietary graphics drivers easily on Fedora?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — enable RPM Fusion and install the akmod-nvidia package. Fedora's documentation walks through it step by step.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — enable RPM Fusion and install the akmod-graphics vendor package. Fedora's documentation walks through it step by step.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">

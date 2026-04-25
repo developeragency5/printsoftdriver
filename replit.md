@@ -18,16 +18,21 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 
 ## PrintSoftDriver Website
 
-A pure HTML/CSS/Vanilla JavaScript multi-page informational website about device drivers. **160 pages total** (110 original + 50 added programmatically).
+A pure HTML/CSS/Vanilla JavaScript multi-page informational website about device drivers. **134 pages total**.
 
 ### Files location: `artifacts/printsoftdriver/`
 
-### Programmatic page generator: `scripts/generate-pages.mjs`
-Defines 50 topics (10 error codes, 8 OS guides, 10 fix walkthroughs, 10 concept deep-dives, 7 vendor pages, 5 how-tos) and writes one HTML file per topic. Idempotent inserts into hub pages (`sitemap.html`, `troubleshooting.html`, `blog.html`, `network/system/audio/usb/graphics-drivers.html`) using `<footer id="site-footer"` as the marker. Re-runnable safely.
+### Migration history
+- Apr 2026 — added 50 pages programmatically (hit 160 pages).
+- Apr 2026 — renamed `troubleshooting.html` → `knowledge.html`, all `*-guide.html` → `*-overview.html` (24 files), removed all uses of the word "printer". Vercel 301 redirects in `vercel.json` keep old URLs alive.
+- Apr 2026 — removed all 26 brand-named driver pages (Intel, AMD, Nvidia, Realtek, Qualcomm, Atheros, Broadcom, MediaTek, Brother, Canon, Dell, Epson, HP, Kyocera, Lexmark, Ricoh, Samsung, Xerox, Logitech, ASMedia, JMicron, Silicon Image, Nuvoton, ASIX) and stripped every brand mention from body text. Each deleted page 301-redirects to the matching hub (graphics/network/audio/system/usb-drivers.html). Final size: 134 pages. The one-off migration scripts (`scripts/`) were deleted after running — the static HTML files are now the source of truth.
+- Apr 2026 — removed `public/images/person-laptop.jpg` (the only stock photo with an identifiable person we could verify) and repointed its single use in `driver-user-mode.html` to `images/laptop.jpg`.
 
-### Strict content rules (verified clean across all 160 pages)
+### Strict content rules (verified clean across all 134 pages)
 - No `microsoft`, `bing` (incl. substrings like `plumbing`, `describing`), or `google`
 - No `Windows Hello`
+- No brand names other than `PrintSoftDriver` (no Intel / AMD / Nvidia / Realtek / Qualcomm / Atheros / Broadcom / MediaTek / Brother / Canon / Dell / Epson / HP / Kyocera / Lexmark / Ricoh / Samsung / Xerox / Logitech / ASMedia / JMicron / Nuvoton / ASIX / Conexant / Genesys / Lenovo / Razer / Insta360 / Pentax / Ryzen)
+- No "printer" / "guide" / "troubleshooting" wording
 - `PrintSoftDriver` brand on every page
 - All titles ≤60 chars
 

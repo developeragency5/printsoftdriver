@@ -12,102 +12,102 @@
     },
     {
       "source": "/brother-printer-drivers.html",
-      "destination": "/brother-sewing-drivers.html",
+      "destination": "/usb-drivers.html",
       "permanent": true
     },
     {
       "source": "/brother-printer-drivers",
-      "destination": "/brother-sewing-drivers.html",
+      "destination": "/usb-drivers.html",
       "permanent": true
     },
     {
       "source": "/canon-printer-drivers.html",
-      "destination": "/canon-camera-drivers.html",
+      "destination": "/usb-drivers.html",
       "permanent": true
     },
     {
       "source": "/canon-printer-drivers",
-      "destination": "/canon-camera-drivers.html",
+      "destination": "/usb-drivers.html",
       "permanent": true
     },
     {
       "source": "/dell-printer-drivers.html",
-      "destination": "/dell-monitor-drivers.html",
+      "destination": "/graphics-drivers.html",
       "permanent": true
     },
     {
       "source": "/dell-printer-drivers",
-      "destination": "/dell-monitor-drivers.html",
+      "destination": "/graphics-drivers.html",
       "permanent": true
     },
     {
       "source": "/epson-printer-drivers.html",
-      "destination": "/epson-projector-drivers.html",
+      "destination": "/graphics-drivers.html",
       "permanent": true
     },
     {
       "source": "/epson-printer-drivers",
-      "destination": "/epson-projector-drivers.html",
+      "destination": "/graphics-drivers.html",
       "permanent": true
     },
     {
       "source": "/hp-printer-drivers.html",
-      "destination": "/hp-laptop-drivers.html",
+      "destination": "/system-drivers.html",
       "permanent": true
     },
     {
       "source": "/hp-printer-drivers",
-      "destination": "/hp-laptop-drivers.html",
+      "destination": "/system-drivers.html",
       "permanent": true
     },
     {
       "source": "/kyocera-printer-drivers.html",
-      "destination": "/kyocera-mobile-drivers.html",
+      "destination": "/usb-drivers.html",
       "permanent": true
     },
     {
       "source": "/kyocera-printer-drivers",
-      "destination": "/kyocera-mobile-drivers.html",
+      "destination": "/usb-drivers.html",
       "permanent": true
     },
     {
       "source": "/lexmark-printer-drivers.html",
-      "destination": "/lexmark-document-drivers.html",
+      "destination": "/network-drivers.html",
       "permanent": true
     },
     {
       "source": "/lexmark-printer-drivers",
-      "destination": "/lexmark-document-drivers.html",
+      "destination": "/network-drivers.html",
       "permanent": true
     },
     {
       "source": "/ricoh-printer-drivers.html",
-      "destination": "/ricoh-camera-drivers.html",
+      "destination": "/usb-drivers.html",
       "permanent": true
     },
     {
       "source": "/ricoh-printer-drivers",
-      "destination": "/ricoh-camera-drivers.html",
+      "destination": "/usb-drivers.html",
       "permanent": true
     },
     {
       "source": "/samsung-printer-drivers.html",
-      "destination": "/samsung-monitor-drivers.html",
+      "destination": "/graphics-drivers.html",
       "permanent": true
     },
     {
       "source": "/samsung-printer-drivers",
-      "destination": "/samsung-monitor-drivers.html",
+      "destination": "/graphics-drivers.html",
       "permanent": true
     },
     {
       "source": "/xerox-printer-drivers.html",
-      "destination": "/xerox-document-drivers.html",
+      "destination": "/network-drivers.html",
       "permanent": true
     },
     {
       "source": "/xerox-printer-drivers",
-      "destination": "/xerox-document-drivers.html",
+      "destination": "/network-drivers.html",
       "permanent": true
     },
     {
@@ -378,6 +378,266 @@
     {
       "source": "/troubleshooting",
       "destination": "/knowledge.html",
+      "permanent": true
+    },
+    {
+      "source": "/amd-graphics-drivers.html",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/amd-graphics-drivers",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/nvidia-graphics-drivers.html",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/nvidia-graphics-drivers",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/intel-graphics-drivers.html",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/intel-graphics-drivers",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/atheros-wifi-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/atheros-wifi-drivers",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/broadcom-wifi-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/broadcom-wifi-drivers",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/intel-wifi-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/intel-wifi-drivers",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/qualcomm-wireless-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/qualcomm-wireless-drivers",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/mediatek-wireless-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/mediatek-wireless-drivers",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/asix-ethernet-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/asix-ethernet-drivers",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/realtek-network-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/realtek-network-drivers",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/realtek-audio-drivers.html",
+      "destination": "/audio-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/realtek-audio-drivers",
+      "destination": "/audio-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/asmedia-controller-drivers.html",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/asmedia-controller-drivers",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/jmicron-controller-drivers.html",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/jmicron-controller-drivers",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/silicon-image-controller-drivers.html",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/silicon-image-controller-drivers",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/nuvoton-sensor-drivers.html",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/nuvoton-sensor-drivers",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/logitech-peripheral-drivers.html",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/logitech-peripheral-drivers",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/brother-sewing-drivers.html",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/brother-sewing-drivers",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/canon-camera-drivers.html",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/canon-camera-drivers",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/dell-monitor-drivers.html",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/dell-monitor-drivers",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/epson-projector-drivers.html",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/epson-projector-drivers",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/hp-laptop-drivers.html",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/hp-laptop-drivers",
+      "destination": "/system-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/kyocera-mobile-drivers.html",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/kyocera-mobile-drivers",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/lexmark-document-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/lexmark-document-drivers",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/ricoh-camera-drivers.html",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/ricoh-camera-drivers",
+      "destination": "/usb-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/samsung-monitor-drivers.html",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/samsung-monitor-drivers",
+      "destination": "/graphics-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/xerox-document-drivers.html",
+      "destination": "/network-drivers.html",
+      "permanent": true
+    },
+    {
+      "source": "/xerox-document-drivers",
+      "destination": "/network-drivers.html",
       "permanent": true
     }
   ]

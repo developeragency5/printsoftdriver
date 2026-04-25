@@ -139,7 +139,7 @@
     <div class="split-row reverse">
       <div class="split-text reveal">
         <h2 id="sec-1">How Dkms Works in Practice</h2>
-        <p>When you install an out-of-tree driver — say, the Nvidia driver via your distribution's package manager, or a Wi-Fi driver from a vendor's website — the package places its source under /usr/src and registers it with Dkms.</p>
+        <p>When you install an out-of-tree driver — say, a proprietary graphics driver via your distribution's package manager, or a Wi-Fi driver from a vendor's website — the package places its source under /usr/src and registers it with Dkms.</p>
         <p>Each time apt, dnf, or pacman installs a new kernel, Dkms rebuilds every registered driver against the new kernel and installs the resulting modules. Boot into the new kernel and your hardware just works, with no extra steps from you.</p>
         
       </div>

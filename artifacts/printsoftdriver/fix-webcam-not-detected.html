@@ -88,7 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="fixes.html">Fixes</a>
       <a href="sitemap.html">Sitemap</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -100,11 +100,11 @@
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
-    <a href="troubleshooting.html">Troubleshooting</a>
+    <a href="fixes.html">Fixes</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
-<section class="hero-page hero-page--troubleshoot" aria-label="Fix: Webcam Not Detected hero">
+<section class="hero-page hero-page--fix" aria-label="Fix: Webcam Not Detected hero">
   <div class="hero-page-overlay"></div>
   <div class="hero-page-content reveal">
     <span class="hero-eyebrow">Fix: Webcam Not Detected</span>
@@ -113,7 +113,7 @@
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
-      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="fixes.html">Fixes</a>
       <span aria-hidden="true">›</span>
       <span>Fix: Webcam Not Detected</span>
     </nav>
@@ -127,132 +127,7 @@
         <h2 id="sec-0">Privacy Switches and Hardware Sliders</h2>
         <p>Modern laptops increasingly include a hardware privacy slider over the webcam. If your webcam vanished suddenly, check whether you have accidentally nudged that slider closed. The OS sees a closed shutter as 'no webcam present', not as 'webcam covered'.</p>
         <p>Some laptops also have a function-key shortcut that disables the webcam in firmware. Look for a small camera icon on F-keys and try toggling it.</p>
-        <ul class="check-list"><li>Look for a physical privacy slider</li><li>Try the function-key webcam toggle</li><li>Check OS privacy settings allow camera access</li></ul>
-      </div>
-      <div class="split-image reveal">
-        <img src="images/professional-workspace.png" alt="Webcam privacy concept" loading="lazy" width="640" height="420">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section bg-surface" aria-labelledby="sec-1">
-  <div class="section-inner">
-    <div class="split-row reverse">
-      <div class="split-text reveal">
-        <h2 id="sec-1">OS Privacy Permissions</h2>
-        <p>Windows and macOS both gate camera access at two levels: a system-wide switch and per-app permissions. On Windows, both live under Settings → Privacy & Security → Camera. On macOS, System Settings → Privacy & Security → Camera.</p>
-        <p>Apps that are blocked at the OS level cannot see the camera at all and will report 'no camera detected'. Reset the permission, restart the app, and the webcam should reappear.</p>
-        
-      </div>
-      <div class="split-image reveal">
-        <img src="images/tech-support.jpg" alt="Privacy settings scene" loading="lazy" width="640" height="420">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section" aria-labelledby="sec-2">
-  <div class="section-inner">
-    <div class="split-row">
-      <div class="split-text reveal">
-        <h2 id="sec-2">Driver and Hardware Steps</h2>
-        <p>If permissions are fine and the privacy slider is open, head to Device Manager and look under Cameras or Imaging devices. Update or reinstall the webcam driver. On laptops, the manufacturer's webcam driver is usually a generic UVC driver — Windows often handles it without an extra install.</p>
-        <p>If Device Manager shows the webcam with a warning icon, the cable from the camera module to the motherboard may be loose, especially on older laptops where the hinge has been opened many times. That is a repair-shop conversation rather than a software fix.</p>
-        
-      </div>
-      <div class="split-image reveal">
-        <img src="images/kernel-mode.jpg" alt="Camera diagnostic" loading="lazy" width="640" height="420">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section bg-surface" aria-labelledby="faq-heading">
-  <div class="section-inner">
-    <div class="section-header reveal">
-      <span class="section-eyebrow">Quick Answers</span>
-      <h2 id="faq-heading">Frequently Asked Questions</h2>
-      <p>The questions readers send us most often on this topic.</p>
-    </div>
-    <div class="faq-list reveal">
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Why does my webcam disappear after Windows update?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Privacy default changes are the most common cause. Re-allow camera access for the app and the webcam returns.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Is a USB webcam more reliable than a built-in one?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Often yes — replacing it is much simpler if it fails, and there are no fragile internal cables to worry about.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Can two apps share my webcam at once?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Generally no. Most webcam drivers grant exclusive access to one app at a time. Close other camera apps if your main one cannot see the camera.</p></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section">
-  <div class="section-inner">
-    <div class="section-header reveal">
-      <span class="section-eyebrow">Keep Reading</span>
-      <h2>Related Guides on PrintSoftDriver</h2>
-      <p>Hand-picked articles that pair well with this one.</p>
-    </div>
-    <div class="related-grid reveal">
-      <a class="related-card" href="fix-microphone-not-working.html"><h3>Fix: Microphone Not Working</h3><p>Often paired with webcam issues.</p></a>
-      <a class="related-card" href="usb-drivers.html"><h3>USB & Device Drivers</h3><p>Where USB webcams live.</p></a>
-      <a class="related-card" href="what-is-a-device-driver.html"><h3>What Is a Device Driver?</h3><p>Foundation reading.</p></a>
-    </div>
-  </div>
-</section>
-<section class="page-section">
-  <div class="section-inner">
-    <div class="cta-card reveal">
-      <h2>Need Help With Another Issue?</h2>
-      <p>Our troubleshooting section has more calm, ordered walkthroughs for the most common driver-related headaches.</p>
-      <div class="cta-actions">
-        <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
-        <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
-<footer id="site-footer" role="contentinfo">
-  <div class="footer-grid">
-    <div class="footer-col">
-      <div class="footer-logo">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="32" height="32" rx="6" fill="#E87F24"/>
-          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
-          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
-          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
-        </svg>
-        <span class="footer-logo-text">PrintSoftDriver</span>
-      </div>
-      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
-    </div>
-    <div class="footer-col">
-      <h4>Site Links</h4>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="troubleshooting.html">Troubleshooting</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="sitemap.html">Sitemap</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Driver Guides</h4>
-      <ul>
-        <li><a href="printer-drivers.html">Device Drivers</a></li>
+        <ul class="check-list">
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>

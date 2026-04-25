@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bluetooth Drivers — Pairing & Profiles | PrintSoftDriver</title>
-    <meta name="description" content="A friendly guide to Bluetooth drivers — how they manage pairing, audio quality, and the layered stack behind every wireless headphone and keyboard.">
+    <meta name="description" content="A Friendly Walkthrough to Bluetooth drivers — how they manage pairing, audio quality, and the layered stack behind every wireless headphone and keyboard.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="PrintSoftDriver">
     <meta property="og:title" content="Bluetooth Drivers — Pairing & Profiles | PrintSoftDriver">
-    <meta property="og:description" content="A friendly guide to Bluetooth drivers — how they manage pairing, audio quality, and the layered stack behind every wireless headphone and keyboard.">
+    <meta property="og:description" content="A Friendly Walkthrough to Bluetooth drivers — how they manage pairing, audio quality, and the layered stack behind every wireless headphone and keyboard.">
     <meta property="og:image" content="favicon.svg">
     <meta property="og:url" content="https://www.printsoftdriver.com/driver-bluetooth.html">
     <meta property="og:type" content="website">
@@ -19,7 +19,7 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Bluetooth Drivers — Pairing & Profiles | PrintSoftDriver",
-  "description": "A friendly guide to Bluetooth drivers — how they manage pairing, audio quality, and the layered stack behind every wireless headphone and keyboard.",
+  "description": "A Friendly Walkthrough to Bluetooth drivers — how they manage pairing, audio quality, and the layered stack behind every wireless headphone and keyboard.",
   "url": "https://www.printsoftdriver.com/driver-bluetooth.html",
   "isPartOf": {
     "@type": "WebSite",
@@ -76,7 +76,7 @@
         <a href="index.html">Home</a>
         <a href="blog.html">Blog</a>
         <a href="about.html">About</a>
-        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="fixes.html">Fixes</a>
         <a href="sitemap.html">Sitemap</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -88,7 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="fixes.html">Fixes</a>
       <a href="sitemap.html">Sitemap</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -115,123 +115,7 @@
           <h2 id="sec-0">A Stack, Not a Single Driver</h2>
           <p>Calling Bluetooth a "driver" undersells what is happening. A Bluetooth subsystem is actually a stack of layers — radio firmware at the bottom, then HCI (Host Controller Interface) handling the radio, then L2CAP managing channels, and finally profile-specific drivers on top for things like audio (A2DP), input devices (HID), and file transfer (OBEX).</p>
           <p>Each layer has a single, focused job. That separation is what lets a single Bluetooth chip simultaneously stream music to your headphones, accept keystrokes from your keyboard, and sync data with your fitness tracker — all on completely different profiles.</p>
-          <ul class="check-list"><li>Radio and firmware at the bottom of the stack</li><li>HCI layer talks to the Bluetooth controller</li><li>L2CAP manages logical channels</li><li>Profile drivers (A2DP, HFP, HID) handle each device type</li></ul>
-        </div>
-        <div class="split-image reveal">
-          <img src="images/bluetooth.jpg" alt="Wireless earbuds beside a smartphone" loading="lazy" width="640" height="420">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="page-section bg-surface" aria-labelledby="sec-1">
-    <div class="section-inner">
-      <div class="split-row reverse">
-        <div class="split-text reveal">
-          <h2 id="sec-1">Why Bluetooth Audio Sometimes Sounds Bad</h2>
-          <p>Bluetooth audio quality depends on which profile is active. A2DP is the high-quality stereo profile used for music; HFP (Hands-Free Profile) is the lower-quality two-way profile used the moment a microphone activates. The driver switches between them automatically — and that switch is exactly when audio quality drops, because HFP has nowhere near the bandwidth of A2DP.</p>
-          <p>Modern codecs like aptX, LDAC, and LC3 add another wrinkle: both the headphones and the OS's Bluetooth driver must support the same codec for the higher-quality option to be used. Older drivers often fall back to the basic SBC codec without telling you.</p>
-        </div>
-        <div class="split-image reveal">
-          <img src="images/audio.jpg" alt="Premium wireless headphones on a desk" loading="lazy" width="640" height="420">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="page-section" aria-labelledby="sec-2">
-    <div class="section-inner">
-      <div class="split-row">
-        <div class="split-text reveal">
-          <h2 id="sec-2">When Pairing Goes Wrong</h2>
-          <p>Most Bluetooth problems are not caused by the radio — they are caused by the pairing record stored in the OS becoming stale. The headphones think they are paired but the OS thinks they are not, or vice versa, and neither side can complete the handshake.</p>
-          <p>The fix is almost always the same: forget the device on both ends, then pair fresh. If that fails, an updated Bluetooth driver from the laptop or motherboard maker is the next step. Almost no one needs to touch firmware.</p>
-          <ul class="check-list"><li>Forget and re-pair before anything else</li><li>Update the Bluetooth driver from your device maker</li><li>Check that battery saver is not killing the radio</li><li>Move closer — Bluetooth's range is shorter than people think</li></ul>
-        </div>
-        <div class="split-image reveal">
-          <img src="images/professional-workspace.png" alt="A laptop with a wireless mouse and headphones nearby" loading="lazy" width="640" height="420">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="page-section bg-surface" aria-labelledby="faq-heading">
-    <div class="section-inner">
-      <div class="section-header reveal">
-        <span class="section-eyebrow">Quick Answers</span>
-        <h2 id="faq-heading">Frequently Asked Questions</h2>
-        <p>The questions readers send us most often about bluetooth drivers.</p>
-      </div>
-      <div class="faq-list reveal">
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Why does my microphone quality drop when I join a call?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer"><div class="faq-answer-inner"><p>Your Bluetooth driver switches from the high-quality A2DP audio profile to the lower-quality HFP profile to enable two-way voice. It is a Bluetooth limitation, not your headphones.</p></div></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Can two Bluetooth devices fight each other?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer"><div class="faq-answer-inner"><p>They can compete for the same 2.4 GHz spectrum used by Wi-Fi and microwaves. Modern drivers use frequency hopping to minimize this, but a busy environment can still cause stutters.</p></div></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Is Bluetooth LE a different driver?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer"><div class="faq-answer-inner"><p>It is a different layer in the same stack. A modern Bluetooth driver supports both classic Bluetooth and Bluetooth Low Energy (LE), routing each kind of connection to the right profile handlers.</p></div></div>
-          </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== CTA ========== -->
-  <section class="page-section">
-    <div class="section-inner">
-      <div class="cta-card reveal">
-        <h2>Want to Explore More Driver Types?</h2>
-        <p>This is one of twelve driver categories explained on PrintSoftDriver. Browse the rest, or jump straight into a fix walkthrough if something isn't working.</p>
-        <div class="cta-actions">
-          <a href="index.html#driver-types" class="btn btn-primary">See All Driver Types</a>
-          <a href="troubleshooting.html" class="btn btn-outline-dark">Need Help? Visit Troubleshooting</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== FOOTER ========== -->
-  <footer id="site-footer" role="contentinfo">
-    <div class="footer-grid">
-      <div class="footer-col">
-        <div class="footer-logo">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="32" height="32" rx="6" fill="#E87F24"/>
-            <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
-            <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
-            <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
-          </svg>
-          <span class="footer-logo-text">PrintSoftDriver</span>
-        </div>
-        <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Site Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="troubleshooting.html">Troubleshooting</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="sitemap.html">Sitemap</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Driver Guides</h4>
-        <ul>
-          <li><a href="printer-drivers.html">Device Drivers</a></li>
+          <ul class="check-list">
           <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
           <li><a href="audio-drivers.html">Audio Drivers</a></li>
           <li><a href="network-drivers.html">Network Drivers</a></li>

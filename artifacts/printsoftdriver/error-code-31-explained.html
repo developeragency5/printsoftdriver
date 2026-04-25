@@ -88,7 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="fixes.html">Fixes</a>
       <a href="sitemap.html">Sitemap</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -100,7 +100,7 @@
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
-    <a href="troubleshooting.html">Troubleshooting</a>
+    <a href="fixes.html">Fixes</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
@@ -142,117 +142,7 @@
         <h2 id="sec-1">The Standard Recovery Path</h2>
         <p>The reliable fix is to uninstall the device fully — right-click in Device Manager, choose Uninstall device, and tick the option to delete the driver software if it appears. Reboot, and let Windows reinstall the device from scratch.</p>
         <p>If that does not work, manually download the latest driver from the vendor and install it as Administrator. Sometimes a permission glitch in the original install is the real cause, and a clean re-install resolves it.</p>
-        <ul class="check-list"><li>Uninstall the device with the 'delete driver' checkbox</li><li>Reboot to let Windows rediscover the hardware</li><li>Reinstall the latest vendor driver as Administrator</li></ul>
-      </div>
-      <div class="split-image reveal">
-        <img src="images/professional-workspace.png" alt="Calm install scene" loading="lazy" width="640" height="420">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section" aria-labelledby="sec-2">
-  <div class="section-inner">
-    <div class="split-row">
-      <div class="split-text reveal">
-        <h2 id="sec-2">Subtler Causes Worth Knowing</h2>
-        <p>If the standard recovery does not resolve Code 31, the registry entry HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class often holds a stale upper- or lower-filter driver reference. the OS vendor documents the correct cleanup steps for several common device classes.</p>
-        <p>Touching the registry is risky for non-experts; if you reach this point, posting the exact device name and Code 31 details on a knowledgeable Windows forum is often the safest next step.</p>
-        
-      </div>
-      <div class="split-image reveal">
-        <img src="images/kernel-mode.jpg" alt="Registry concept" loading="lazy" width="640" height="420">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section bg-surface" aria-labelledby="faq-heading">
-  <div class="section-inner">
-    <div class="section-header reveal">
-      <span class="section-eyebrow">Quick Answers</span>
-      <h2 id="faq-heading">Frequently Asked Questions</h2>
-      <p>The questions readers send us most often on this topic.</p>
-    </div>
-    <div class="faq-list reveal">
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Is Code 31 dangerous to my system?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>No — only the affected device fails to load. The rest of Windows continues to work normally.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Should I edit the registry to fix Code 31?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Only if you are experienced and have a recent backup. Most users get the same result by uninstalling and reinstalling the device cleanly.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Can a Windows update cause Code 31?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Occasionally, yes — particularly when an update changes the way a class driver is registered. Newer cumulative updates often resolve such regressions.</p></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section">
-  <div class="section-inner">
-    <div class="section-header reveal">
-      <span class="section-eyebrow">Keep Reading</span>
-      <h2>Related Guides on PrintSoftDriver</h2>
-      <p>Hand-picked articles that pair well with this one.</p>
-    </div>
-    <div class="related-grid reveal">
-      <a class="related-card" href="error-code-43-explained.html"><h3>Error Code 43</h3><p>Another common Device Manager code.</p></a>
-      <a class="related-card" href="what-is-a-device-driver.html"><h3>What Is a Device Driver?</h3><p>Foundation reading.</p></a>
-      <a class="related-card" href="plug-and-play-explained.html"><h3>Plug and Play</h3><p>How devices announce themselves.</p></a>
-    </div>
-  </div>
-</section>
-<section class="page-section">
-  <div class="section-inner">
-    <div class="cta-card reveal">
-      <h2>More Error Code Explainers</h2>
-      <p>Browse our friendly walkthroughs for the other Device Manager codes you may bump into.</p>
-      <div class="cta-actions">
-        <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
-        <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
-<footer id="site-footer" role="contentinfo">
-  <div class="footer-grid">
-    <div class="footer-col">
-      <div class="footer-logo">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="32" height="32" rx="6" fill="#E87F24"/>
-          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
-          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
-          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
-        </svg>
-        <span class="footer-logo-text">PrintSoftDriver</span>
-      </div>
-      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
-    </div>
-    <div class="footer-col">
-      <h4>Site Links</h4>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="troubleshooting.html">Troubleshooting</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="sitemap.html">Sitemap</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Driver Guides</h4>
-      <ul>
-        <li><a href="printer-drivers.html">Device Drivers</a></li>
+        <ul class="check-list">
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>

@@ -18,25 +18,34 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 
 ## PrintSoftDriver Website
 
-A pure HTML/CSS/Vanilla JavaScript multi-page informational website about device drivers. **128 pages total**.
+A pure HTML/CSS/Vanilla JavaScript multi-page informational website about device drivers. **64 pages total** (after major cleanup).
 
 ### Files location: `artifacts/printsoftdriver/`
 
-### Programmatic page generator: `scripts/generate-pages.mjs`
-Defines 43 topics (10 error codes, 8 OS guides, 10 fix walkthroughs, 10 concept deep-dives, 5 how-tos) and writes one HTML file per topic. Idempotent inserts into hub pages (`sitemap.html`, `troubleshooting.html`, `blog.html`, `network/system/audio/usb/graphics-drivers.html`) using `<footer id="site-footer"` as the marker. Re-runnable safely.
+### No build/generator scripts
+The site is hand-curated. There are no scripts in the project — every HTML file is intentional and shipped as-is. This was a deliberate choice after earlier auto-generated pages were rejected for being low quality.
 
-### One-off cleanup script: `scripts/cleanup-brands.mjs`
-Strips all references to brand-named driver pages (Realtek, Intel, AMD, Nvidia, Brother, Canon, etc.), deletes those HTML files, adds the Sitemap link to the nav bar on every page, replaces a stock person-on-bed photo with a generic laptop photo, and fixes the cookie-banner buttons on `sitemap.html`.
-
-### Strict content rules (verified clean across all 128 pages)
+### Strict content rules (verified clean across all 64 pages)
 - No `microsoft`, `bing` (incl. substrings like `plumbing`, `describing`), or `google`
 - No `Windows Hello`
-- No hardware-vendor brand or company names anywhere (only `PrintSoftDriver` is allowed)
-- `PrintSoftDriver` brand on every page
+- No hardware-vendor brand or company names (Realtek, Intel, AMD, Nvidia, Dell, HP, Lenovo, ASUS, Brother, Canon, Logitech, etc.) anywhere — only `PrintSoftDriver` is allowed
+- No `guide` / `Guide` / `guides` / `Guides` (use `walkthrough` / `article` instead)
+- No `troubleshoot` / `troubleshooting` (use `fix` / `fixes` instead)
+- No `printer` / `printers` / `scanner` / `scanners` (use `device` / `devices` instead)
 - All titles ≤60 chars
 
 ### Header navigation
-Home · Blog · About · Troubleshooting · Sitemap · Contact (also mirrored in mobile menu and footer).
+Home · Blog · About · Fixes · Sitemap · Contact (also mirrored in mobile menu and footer).
+
+### Page categories (64 total)
+- 6 main pages: index, about, blog, fixes, contact, sitemap
+- 5 driver category hubs: graphics, audio, network, usb, system
+- 7 driver type pages: bluetooth, chipset, input devices, kernel-mode, storage/disk, user-mode, virtual
+- 11 driver concept articles: dkms, driver-signing, driver-store + cleanup, driver-verifier, inf-files, kext-vs-system-extension, plug-and-play, signed-vs-unsigned, wdm-vs-wdf, what-is-a-device-driver
+- 6 how-to articles: roll-back, uninstall-cleanly, update via system update, when to / when not to update, third-party updaters
+- 6 error codes: 10, 28, 31, 39, 43, 45
+- 18 fix walkthroughs: bluetooth, blue-screen IRQL, driver power state, external monitor, game controller, headphones, keyboard backlight, microphone, no sound, screen flicker, second monitor blurry, slow after update, slow USB, system thread exception, touchpad, USB not recognised, webcam, Wi-Fi drops
+- 5 legal: privacy notice, privacy policy, cookie policy, terms, disclaimer
 
 - `index.html` — Home page (2500+ words, 8 sections)
 - `blog.html` — Blog / Knowledge Hub (6 articles)

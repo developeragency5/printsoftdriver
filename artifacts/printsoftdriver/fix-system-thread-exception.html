@@ -88,7 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="fixes.html">Fixes</a>
       <a href="sitemap.html">Sitemap</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -100,11 +100,11 @@
     <a href="index.html">Home</a>
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
-    <a href="troubleshooting.html">Troubleshooting</a>
+    <a href="fixes.html">Fixes</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
-<section class="hero-page hero-page--troubleshoot" aria-label="Fix: System Thread Exception hero">
+<section class="hero-page hero-page--fix" aria-label="Fix: System Thread Exception hero">
   <div class="hero-page-overlay"></div>
   <div class="hero-page-content reveal">
     <span class="hero-eyebrow">Fix: System Thread Exception</span>
@@ -113,7 +113,7 @@
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
-      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="fixes.html">Fixes</a>
       <span aria-hidden="true">›</span>
       <span>Fix: System Thread Exception</span>
     </nav>
@@ -126,7 +126,7 @@
       <div class="split-text reveal">
         <h2 id="sec-0">What the Code Means</h2>
         <p>SYSTEM_THREAD_EXCEPTION_NOT_HANDLED means a kernel driver hit an unexpected exception that nothing was prepared to catch. The blue screen names the .sys file responsible, which is the single most useful piece of information.</p>
-        <p>Common culprits are graphics drivers (especially on laptops with hybrid Nvidia/Intel or AMD/Intel setups), audio drivers, and antivirus tools that load early in the boot process.</p>
+        <p>Common culprits are graphics drivers (especially on laptops with hybrid GPU setups), audio drivers, and antivirus tools that load early in the boot process.</p>
         
       </div>
       <div class="split-image reveal">
@@ -140,119 +140,9 @@
     <div class="split-row reverse">
       <div class="split-text reveal">
         <h2 id="sec-1">Boot Into Safe Mode If Needed</h2>
-        <p>If the BSOD prevents you from logging into Windows normally, force a power-off three times in a row to trigger the Recovery menu. From there choose Troubleshoot → Advanced options → Startup Settings, and select Safe Mode with Networking.</p>
+        <p>If the BSOD prevents you from logging into Windows normally, force a power-off three times in a row to trigger the Recovery menu. From there choose Fix → Advanced options → Startup Settings, and select Safe Mode with Networking.</p>
         <p>Safe Mode loads a minimal driver set, which often boots cleanly. From there you can update or remove the offending driver in Device Manager, then reboot normally.</p>
-        <ul class="check-list"><li>Note the .sys file in the stop screen</li><li>Boot into Safe Mode if normal Windows fails</li><li>Update or remove the named driver</li></ul>
-      </div>
-      <div class="split-image reveal">
-        <img src="images/professional-workspace.png" alt="Safe mode concept" loading="lazy" width="640" height="420">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section" aria-labelledby="sec-2">
-  <div class="section-inner">
-    <div class="split-row">
-      <div class="split-text reveal">
-        <h2 id="sec-2">Long-Term Prevention</h2>
-        <p>Keep your graphics, audio, and antivirus drivers reasonably current — these are the three most common families behind this stop code. Avoid mixing leftover drivers from previous Windows installs; a clean reinstall sometimes resolves recurring issues.</p>
-        <p>If you see SYSTEM_THREAD_EXCEPTION_NOT_HANDLED repeatedly in different contexts (different .sys files), suspect failing RAM. Run Windows Memory Diagnostic to rule it out.</p>
-        
-      </div>
-      <div class="split-image reveal">
-        <img src="images/tech-support.jpg" alt="Diagnostic moment" loading="lazy" width="640" height="420">
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section bg-surface" aria-labelledby="faq-heading">
-  <div class="section-inner">
-    <div class="section-header reveal">
-      <span class="section-eyebrow">Quick Answers</span>
-      <h2 id="faq-heading">Frequently Asked Questions</h2>
-      <p>The questions readers send us most often on this topic.</p>
-    </div>
-    <div class="faq-list reveal">
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Why is the named .sys file always the cause?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Almost always — it is the driver that was running on the failing thread. Updating or removing it resolves most cases.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Can faulty RAM cause this BSOD?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — random kernel exceptions across different drivers are a classic RAM symptom.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span>Is Safe Mode enough to remove a bad driver?</span>
-          <span class="faq-icon" aria-hidden="true">+</span>
-        </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes — Device Manager works in Safe Mode, and you can update or uninstall any driver from there.</p></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="page-section">
-  <div class="section-inner">
-    <div class="section-header reveal">
-      <span class="section-eyebrow">Keep Reading</span>
-      <h2>Related Guides on PrintSoftDriver</h2>
-      <p>Hand-picked articles that pair well with this one.</p>
-    </div>
-    <div class="related-grid reveal">
-      <a class="related-card" href="fix-bsod-driver-irql.html"><h3>Fix: IRQL BSOD</h3><p>Adjacent BSOD.</p></a>
-      <a class="related-card" href="driver-kernel-mode.html"><h3>Kernel-Mode Drivers</h3><p>Where these exceptions live.</p></a>
-      <a class="related-card" href="driver-verifier-explained.html"><h3>Driver Verifier Explained</h3><p>Deeper diagnostic tool.</p></a>
-    </div>
-  </div>
-</section>
-<section class="page-section">
-  <div class="section-inner">
-    <div class="cta-card reveal">
-      <h2>Need Help With Another Issue?</h2>
-      <p>Our troubleshooting section has more calm, ordered walkthroughs for the most common driver-related headaches.</p>
-      <div class="cta-actions">
-        <a href="blog.html" class="btn btn-primary">Visit the Blog</a>
-        <a href="troubleshooting.html" class="btn btn-outline-dark">Troubleshooting Guides</a>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
-<footer id="site-footer" role="contentinfo">
-  <div class="footer-grid">
-    <div class="footer-col">
-      <div class="footer-logo">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="32" height="32" rx="6" fill="#E87F24"/>
-          <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
-          <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
-          <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
-        </svg>
-        <span class="footer-logo-text">PrintSoftDriver</span>
-      </div>
-      <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
-    </div>
-    <div class="footer-col">
-      <h4>Site Links</h4>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="troubleshooting.html">Troubleshooting</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="sitemap.html">Sitemap</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Driver Guides</h4>
-      <ul>
-        <li><a href="printer-drivers.html">Device Drivers</a></li>
+        <ul class="check-list">
         <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
         <li><a href="audio-drivers.html">Audio Drivers</a></li>
         <li><a href="network-drivers.html">Network Drivers</a></li>

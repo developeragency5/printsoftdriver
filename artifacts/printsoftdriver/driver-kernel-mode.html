@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Kernel-Mode Drivers — The Privileged Layer | PrintSoftDriver</title>
-    <meta name="description" content="A clear, plain-English guide to kernel-mode drivers — what they are, why they have so much power, and why a single bug can affect your whole computer.">
+    <meta name="description" content="A clear, plain-English walkthrough to kernel-mode drivers — what they are, why they have so much power, and why a single bug can affect your whole computer.">
     <meta name="robots" content="index, follow">
     <meta name="author" content="PrintSoftDriver">
     <meta property="og:title" content="Kernel-Mode Drivers — The Privileged Layer | PrintSoftDriver">
-    <meta property="og:description" content="A clear, plain-English guide to kernel-mode drivers — what they are, why they have so much power, and why a single bug can affect your whole computer.">
+    <meta property="og:description" content="A clear, plain-English walkthrough to kernel-mode drivers — what they are, why they have so much power, and why a single bug can affect your whole computer.">
     <meta property="og:image" content="favicon.svg">
     <meta property="og:url" content="https://www.printsoftdriver.com/driver-kernel-mode.html">
     <meta property="og:type" content="website">
@@ -19,7 +19,7 @@
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kernel-Mode Drivers — The Privileged Layer | PrintSoftDriver",
-  "description": "A clear, plain-English guide to kernel-mode drivers — what they are, why they have so much power, and why a single bug can affect your whole computer.",
+  "description": "A clear, plain-English walkthrough to kernel-mode drivers — what they are, why they have so much power, and why a single bug can affect your whole computer.",
   "url": "https://www.printsoftdriver.com/driver-kernel-mode.html",
   "isPartOf": {
     "@type": "WebSite",
@@ -76,7 +76,7 @@
         <a href="index.html">Home</a>
         <a href="blog.html">Blog</a>
         <a href="about.html">About</a>
-        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="fixes.html">Fixes</a>
         <a href="sitemap.html">Sitemap</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -88,7 +88,7 @@
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="about.html">About</a>
-      <a href="troubleshooting.html">Troubleshooting</a>
+      <a href="fixes.html">Fixes</a>
       <a href="sitemap.html">Sitemap</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -115,123 +115,7 @@
           <h2 id="sec-0">What "Kernel Mode" Really Means</h2>
           <p>Modern processors run code in two distinct privilege levels. User mode is where your apps live — sandboxed, restricted, and unable to touch hardware directly. Kernel mode is the opposite: code running here can read and write any memory address, talk to any device, and bypass almost every safety check the operating system enforces on regular programs.</p>
           <p>Kernel-mode drivers are the trusted citizens of this layer. They are loaded by the OS itself and given the keys to the entire machine, because they need that level of access to do their job — responding to interrupts in microseconds, programming hardware registers, and handing data to the kernel without expensive context switches.</p>
-          <ul class="check-list"><li>Direct access to physical memory and hardware registers</li><li>Run inside the OS kernel's own address space</li><li>Required for low-latency hardware response</li><li>Loaded only after passing OS code-signing checks</li></ul>
-        </div>
-        <div class="split-image reveal">
-          <img src="images/hardware.jpg" alt="Server hardware racks representing kernel-level system components" loading="lazy" width="640" height="420">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="page-section bg-surface" aria-labelledby="sec-1">
-    <div class="section-inner">
-      <div class="split-row reverse">
-        <div class="split-text reveal">
-          <h2 id="sec-1">Why a Bug Here Crashes Everything</h2>
-          <p>When a regular app crashes, the OS shrugs, frees its memory, and life goes on. When a kernel-mode driver crashes, there is no outer layer to catch the fall — the driver is the OS, in that moment. A null pointer, a buffer overrun, or a deadlock at this level brings the entire system down with it.</p>
-          <p>On Windows that looks like a stop error (the famous blue screen). On macOS, a kernel panic. On Linux, an oops or a complete freeze. The blame almost always lands on a single misbehaving kernel driver — which is why every modern OS now requires them to be digitally signed and tested before they can load.</p>
-        </div>
-        <div class="split-image reveal">
-          <img src="images/professional-workspace.png" alt="A developer reviewing system logs at a desk" loading="lazy" width="640" height="420">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="page-section" aria-labelledby="sec-2">
-    <div class="section-inner">
-      <div class="split-row">
-        <div class="split-text reveal">
-          <h2 id="sec-2">Where You Encounter Kernel Drivers</h2>
-          <p>Most of the drivers your machine relies on every second are kernel-mode: file system drivers that read your disk, network protocol drivers that move TCP packets, storage drivers that talk to your SSD, and graphics drivers that render every frame on your screen. Without them, the OS could not even finish booting.</p>
-          <p>Antivirus tools, virtual machine hypervisors, and disk-encryption products also install kernel-mode components — which is exactly why a misbehaving security suite can sometimes be the cause of a blue screen, not the cure for one.</p>
-          <ul class="check-list"><li>File system and storage drivers (NTFS, APFS, ext4)</li><li>Network protocol stacks (TCP/IP, Wi-Fi)</li><li>Display and GPU drivers</li><li>Antivirus, encryption, and virtualization layers</li></ul>
-        </div>
-        <div class="split-image reveal">
-          <img src="images/cpu-chip.jpg" alt="A close-up CPU chip representing the hardware kernel drivers control" loading="lazy" width="640" height="420">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="page-section bg-surface" aria-labelledby="faq-heading">
-    <div class="section-inner">
-      <div class="section-header reveal">
-        <span class="section-eyebrow">Quick Answers</span>
-        <h2 id="faq-heading">Frequently Asked Questions</h2>
-        <p>The questions readers send us most often about kernel-mode drivers.</p>
-      </div>
-      <div class="faq-list reveal">
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Are kernel-mode drivers dangerous?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer"><div class="faq-answer-inner"><p>Not in normal use — but they are powerful. A signed driver from a reputable vendor is safe; an unsigned or modified one is one of the easiest ways to compromise an operating system, which is why every modern OS now blocks unsigned kernel drivers by default.</p></div></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>How do I know if a crash was caused by a kernel driver?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer"><div class="faq-answer-inner"><p>On Windows, the stop-error screen names the file (e.g. nvlddmkm.sys) responsible. On macOS, the panic log lists the kext that triggered it. The vendor of that file is your starting point for an update or rollback.</p></div></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Can I write my own kernel driver?</span>
-              <span class="faq-icon" aria-hidden="true">+</span>
-            </button>
-            <div class="faq-answer"><div class="faq-answer-inner"><p>Yes, but it requires the OS's driver development kit and, for distribution, a code-signing certificate from a trusted authority. It is a domain where small mistakes have large consequences.</p></div></div>
-          </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== CTA ========== -->
-  <section class="page-section">
-    <div class="section-inner">
-      <div class="cta-card reveal">
-        <h2>Want to Explore More Driver Types?</h2>
-        <p>This is one of twelve driver categories explained on PrintSoftDriver. Browse the rest, or jump straight into a fix walkthrough if something isn't working.</p>
-        <div class="cta-actions">
-          <a href="index.html#driver-types" class="btn btn-primary">See All Driver Types</a>
-          <a href="troubleshooting.html" class="btn btn-outline-dark">Need Help? Visit Troubleshooting</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== FOOTER ========== -->
-  <footer id="site-footer" role="contentinfo">
-    <div class="footer-grid">
-      <div class="footer-col">
-        <div class="footer-logo">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="32" height="32" rx="6" fill="#E87F24"/>
-            <rect x="8" y="8" width="16" height="16" rx="2" fill="#E87F24" stroke="#FEFDDF" stroke-width="1"/>
-            <rect x="12" y="12" width="8" height="8" rx="1" fill="#E87F24"/>
-            <rect x="14" y="14" width="4" height="4" fill="#FEFDDF"/>
-          </svg>
-          <span class="footer-logo-text">PrintSoftDriver</span>
-        </div>
-        <p>Your friendly, plain-English guide to the world of device drivers. We translate the technical so you can spend more time using your computer and less time fighting it.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Site Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="troubleshooting.html">Troubleshooting</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="sitemap.html">Sitemap</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Driver Guides</h4>
-        <ul>
-          <li><a href="printer-drivers.html">Device Drivers</a></li>
+          <ul class="check-list">
           <li><a href="graphics-drivers.html">Graphics Drivers</a></li>
           <li><a href="audio-drivers.html">Audio Drivers</a></li>
           <li><a href="network-drivers.html">Network Drivers</a></li>

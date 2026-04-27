@@ -139,3 +139,13 @@ Actions:
 - Pipeline: `generateImageAsync` waves of 6 batches × 10 = 60 images per wave (7 waves), each followed by `magick … -strip -interlace Plane -quality 85` PNG→JPG conversion in parallel.
 - Final integrity: 462 files, 0-byte check clean, all dimensions 1280×896 (4:3) or 1408×768 (hero), color means diverse (charcoal, tan, brown, blue-gray, cream, dark teal — no uniform green).
 - Helper files (in `/tmp`, not committed): `regen_helper.js`, `regen_work.json`, `img_inventory.json`.
+
+## Round (2026-04-27, follow-up): Off-topic image fix
+
+User caught a critical bug: the "Featured Read" article image (`psd-029.jpg`) showed a steering wheel, driving gloves and a car key — totally wrong for a software-driver article. Root cause: my prompt builder's default fallback dumped the raw alt text into the prompt, so the word "driver" was interpreted as a car driver.
+
+- Identified all 75 images that hit the unsafe fallback (alt text contained ambiguous words like "driver", "device", "translator", "concept", or generic phrases like "calm knowledge").
+- Rewrote prompts per-file at `/tmp/regen_fix.js`: every prompt now opens with "Editorial conceptual photography illustrating a topic from a website about computer device drivers, PC hardware troubleshooting and consumer electronics" and references a CONCRETE safe subject (laptop, monitor, keyboard, headphones, router, SSD, heatsink, etc.) — never the literal alt-text string.
+- Hardened NEGATIVE prompt to ban: car, automobile, vehicle, steering wheel, car key, driving gloves, dashboard, traffic, road, person driving, racing, athlete, sports equipment, garage, mechanic.
+- Regenerated all 75 in 8 parallel batches, converted PNG→JPG @ q85 4:3, verified 0-byte free, total still 462.
+- Spot checks (psd-029, psd-026, psd-048, psd2-040, psd2-220) all show appropriate computer/desk subjects.

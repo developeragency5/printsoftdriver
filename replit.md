@@ -129,3 +129,13 @@ Actions:
 - **Regenerated all 20 home-page `psd-*.jpg` images with diverse, on-topic, brand-free prompts** so each section now has its own distinctive photograph rather than a generic green PCB. Each prompt explicitly excluded "green circuit board, motherboard texture, gold dot pattern" via the negative prompt. Sample color means after regen: hero cream (R=249/G=223/B=197), data center blue (R=17/G=49/B=79), graphics card on black (R=44 avg), headphones in golden light (R=105/G=83/B=60), keyboard on dark mat (R=36 avg), warm desk shots (R=140-180 range). Confirms no more monoculture.
 - **Image inventory unchanged at 462/462 referenced files present** so no broken image links.
 - **Internal-page images (`psd-*.jpg` not on the home page, plus all `psd2-*.jpg` hardware close-ups) were left as-is for this round** — that's roughly 432 additional files. If the user wants those diversified too, that's a follow-up round of regeneration in batches of 10 (~44 batches).
+
+## Round (2026-04-27): Full image regeneration COMPLETE
+
+- **All 452 site images regenerated** with diverse, on-topic, brand-free photography (462 total files including 10 PNG infographics).
+- 20 home-page `psd-*.jpg` images: bespoke prompts per the home page narrative (hero, features, CTAs, etc).
+- 432 remaining `psd2-*.jpg` images: regenerated using prompt builder at `/tmp/regen_helper.js` with 16 rotating composition styles (top-down flat-lay / window light / overhead grid / etc.) and a strong NEGATIVE prompt that bans green PCB, gold dots, text, logos, and brand marks.
+- Per-image prompt mapping derived from each image's existing alt text (via `/tmp/img_inventory.json`) so the new image stays semantically aligned with the surrounding page copy.
+- Pipeline: `generateImageAsync` waves of 6 batches × 10 = 60 images per wave (7 waves), each followed by `magick … -strip -interlace Plane -quality 85` PNG→JPG conversion in parallel.
+- Final integrity: 462 files, 0-byte check clean, all dimensions 1280×896 (4:3) or 1408×768 (hero), color means diverse (charcoal, tan, brown, blue-gray, cream, dark teal — no uniform green).
+- Helper files (in `/tmp`, not committed): `regen_helper.js`, `regen_work.json`, `img_inventory.json`.

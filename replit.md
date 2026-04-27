@@ -100,3 +100,10 @@ See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and pa
 - Built a brand-new premium home hero: 16:9 aspect-ratio, layered glass-morphism, animated gradient orbs, grid mask, shimmering text accent, fade-up entrance, gradient primary CTA, ghost CTA, stats panel with dividers, scroll cue.
 - Inner-page heroes (.hero-page, .hero-page-tall) now also enforce 16:9 aspect-ratio with min/max constraints; degrade gracefully on mobile.
 - All animations respect prefers-reduced-motion.
+
+## Brand-Image Audit Round 2 (Apr 27, 2026)
+- User flagged a Samsung-branded laptop with Google homepage still appearing on the site. Earlier image regen only covered the 153 hardware-closeup `psd2-*.jpg` shots; the 197 `psd-*.jpg` general/blog photos and 10 `infographic-*.png` cards were untouched.
+- Audited all 462 images on the site, identified 207 suspect general/blog/infographic images, and regenerated every one of them with AI using brand-free prompts categorised by alt-text topic (workspace, hardware, docs, diagnostic, infographic, generic, ai, power, network, security).
+- Universal negative prompt blocks: text, logos, brand names (samsung/apple/dell/hp/lenovo/asus/acer/msi/sony/microsoft/google), branded products, packaging, cars, car interiors, automotive, people, faces.
+- Workspace shots now show a top-down generic unbranded notebook with a blank screen, plant, mug — no logos, no Google/Samsung/etc.
+- All 207 PNGs converted to 85-quality JPGs via ImageMagick (`magick`) and overwritten in place; infographics kept as PNG. 462 referenced / 462 present / 0 missing post-replace.

@@ -5555,3 +5555,33 @@ id = "XVDmeVvxYfAX9KLk8Zt2j"
 uri = "file://attached_assets/stock_images/psd2_install_2_10.jpg"
 type = "image"
 title = "progress loading bar download on screen"
+
+[[outputs]]
+id = "GWAsDxtRYcjFB3ceazeas"
+uri = "file://artifacts/printsoftdriver/public/images/psd-004.jpg"
+type = "image"
+title = "Sample 1: Tidy workspace setup (regenerated)"
+
+[[outputs]]
+id = "X76reY79sibsZ556PyhmW"
+uri = "file://artifacts/printsoftdriver/public/images/psd-012.jpg"
+type = "image"
+title = "Sample 2: Developer workstation (regenerated)"
+
+[[outputs]]
+id = "PP8yl28bTavbK0GwLwni4"
+uri = "file://artifacts/printsoftdriver/public/images/psd-027.jpg"
+type = "image"
+title = "Sample 3: Workspace photo (regenerated)"
+
+[[outputs]]
+id = "iiuWkTlxBoXMpHV7PosIa"
+uri = "file://artifacts/printsoftdriver/public/images/psd-345.jpg"
+type = "image"
+title = "Sample 4: Server room (regenerated)"
+
+[[outputs]]
+id = "gNHYoG7tE3KdwSSIMFxZU"
+uri = "file://artifacts/printsoftdriver/public/images/infographic-1.png"
+type = "image"
+title = "Sample 5: Infographic (regenerated)"

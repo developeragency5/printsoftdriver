@@ -1,0 +1,2546 @@
+20
+/ 100
+CRITICAL
+AUDIT REPORT
+https://printsoftdriver.com
+NOT READY / CRITICAL FAILURES
+APR 27, 2026 · 12:52
+98
+PASSED
+7
+WARNINGS
+1
+FAILED
+APPROVAL CHANCE
+2%
+VERY LOW
+Disallowed content detected — Microsoft Ads will reject this and may permanently suspend the account.
+REJECTION PROBABILITY
+98%
+VERY HIGH
+1 disapproval category triggered.
+Likely Disapproval Reasons
+CRITICAL
+Scareware / fake alerts
+Fake virus warnings and scareware lead to permanent suspension.
+
+PAGE TO FIX:
+https://printsoftdriver.com
+FOUND ON PAGE: Failed on 6 pages: /driver-store-cleanup.html, /driver-store-explained.html, /error-code-28-explained.html (+3 more) Scareware language detected (fake virus/error/security alerts)
+HOW TO FIX
+Remove all fake error messages, virus warnings, and security alerts. Microsoft permanently suspends accounts for scareware.
+TRIGGERED BY: No scareware or fake error messages
+ESTIMATES BASED ON MICROSOFT ADS POLICY. FINAL DISAPPROVAL DECISIONS ARE MADE BY MICROSOFT EDITORIAL REVIEW.
+Per-Page Breakdown
+135 OF 135 PAGES SCANNED
+Site-wide score above is the worst page's score. Microsoft reviews each landing page individually — fix the failing pages below before targeting them in your campaigns.
+
+
+99
+HOMEPAGE
+/
+https://www.printsoftdriver.com/
+101
+4
+WARNINGS (4)
+Fewer than 3 redirects
+1 redirect(s) detected
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+20
+/driver-store-cleanup.html
+https://www.printsoftdriver.com/driver-store-cleanup.html
+100
+5
+1
+FAILURES (1)
+No scareware or fake error messages
+Scareware language detected (fake virus/error/security alerts)
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Cleaning Up the Windows Driver Store Safely" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"Trim a bloated Windows driver store without breaking anything — the built-in too..." (135 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+20
+/driver-store-explained.html
+https://www.printsoftdriver.com/driver-store-explained.html
+100
+5
+1
+FAILURES (1)
+No scareware or fake error messages
+Scareware language detected (fake virus/error/security alerts)
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"The Windows Driver Store, Plainly Explained" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"Where Windows keeps every installed driver, why it grows over time, and how to i..." (134 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+20
+/error-code-28-explained.html
+https://www.printsoftdriver.com/error-code-28-explained.html
+101
+4
+1
+FAILURES (1)
+No scareware or fake error messages
+Scareware language detected (fake virus/error/security alerts)
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What Device Manager Error Code 28 (The drivers for this device are not installed..." (175 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+20
+/fix-print-queue-stuck.html
+https://www.printsoftdriver.com/fix-print-queue-stuck.html
+100
+5
+1
+FAILURES (1)
+No scareware or fake error messages
+Scareware language detected (fake virus/error/security alerts)
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Stuck Print Queue, Plain-English Walkthrough" (49 chars)
+Meta description present and optimal length (140–160 chars)
+"When print jobs pile up and refuse to clear, this calm walkthrough resets the pr..." (123 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+20
+/windows-10-driver-overview.html
+https://www.printsoftdriver.com/windows-10-driver-overview.html
+102
+3
+1
+FAILURES (1)
+No scareware or fake error messages
+Scareware language detected (fake virus/error/security alerts)
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+20
+/what-is-a-device-driver.html
+https://www.printsoftdriver.com/what-is-a-device-driver.html
+100
+5
+1
+FAILURES (1)
+No scareware or fake error messages
+Scareware language detected (fake virus/error/security alerts)
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"What Is a Device Driver? Plain-English Overview" (47 chars)
+Meta description present and optimal length (140–160 chars)
+"A short, calm answer to one of the most common beginner questions in computing —..." (134 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/debian-driver-overview.html
+https://www.printsoftdriver.com/debian-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Debian Driver Overview — Stable Linux Drivers | PrintSoftDriver" (63 chars)
+Meta description present and optimal length (140–160 chars)
+"How drivers work on Debian — the kernel modules, the firmware repository, and th..." (111 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/dkms-explained.html
+https://www.printsoftdriver.com/dkms-explained.html
+102
+5
+WARNINGS (5)
+Meta description present and optimal length (140–160 chars)
+"Plain-English walkthrough of how DKMS keeps out-of-tree Linux drivers working th..." (139 chars)
+Phone number visible on page
+No phone number found on page
+Refund/Return policy linked (e-commerce)
+E-commerce detected but no refund policy link found
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/dma-and-drivers.html
+https://www.printsoftdriver.com/dma-and-drivers.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Dma and Drivers — Letting Hardware Move Data" (44 chars)
+Meta description present and optimal length (140–160 chars)
+"What direct memory access is, why drivers set it up, and how the protections aro..." (108 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/driver-package-anatomy.html
+https://www.printsoftdriver.com/driver-package-anatomy.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Driver Package Anatomy — Inside the Install" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"What is inside a driver package — Inf, Cat, Sys, support files — and why each pi..." (116 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/driver-test-mode-explained.html
+https://www.printsoftdriver.com/driver-test-mode-explained.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Driver Test Mode — Loading Pre-Release Code" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"What test mode does, when developers and power users enable it, and what it cost..." (112 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/driver-verifier-explained.html
+https://www.printsoftdriver.com/driver-verifier-explained.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Driver Verifier Explained for Curious Users" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"What Windows&#39;s Driver Verifier does, when developers reach for it, and why m..." (135 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/error-code-32-explained.html
+https://www.printsoftdriver.com/error-code-32-explained.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Code 32 Explained — Service Start Type Disabled" (47 chars)
+Meta description present and optimal length (140–160 chars)
+"What code 32 means, why a driver service is set to disabled, and how to restore ..." (135 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/error-code-33-explained.html
+https://www.printsoftdriver.com/error-code-33-explained.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Code 33 Explained — Translator Did Not Respond" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"Why code 33 surfaces deep in the I/O path, what a translator is, and how to reco..." (115 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/error-code-37-explained.html
+https://www.printsoftdriver.com/error-code-37-explained.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Code 37 Explained — Driver Init Did Not Succeed" (47 chars)
+Meta description present and optimal length (140–160 chars)
+"What code 37 means at the technical level, the most likely root causes, and a ca..." (108 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fingerprint-reader-driver-overview.html
+https://www.printsoftdriver.com/fingerprint-reader-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fingerprint Reader Drivers and Windows Sign-in" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"What fingerprint reader drivers actually do, why they always need vendor softwar..." (135 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/firmware-vs-driver.html
+https://www.printsoftdriver.com/firmware-vs-driver.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Firmware vs Driver — Two Layers, One Device" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"What firmware does versus what a driver does, why both matter, and how they inte..." (102 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-audio-static-noise.html
+https://www.printsoftdriver.com/fix-audio-static-noise.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Audio Static or Hiss | PrintSoftDriver" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"Why audio sometimes carries static or hiss, the most likely root causes, and a c..." (107 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-battery-not-charging.html
+https://www.printsoftdriver.com/fix-battery-not-charging.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Battery Not Charging | PrintSoftDriver" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"Why a laptop battery may stop charging, the small set of likely causes, and the ..." (110 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-keyboard-not-typing.html
+https://www.printsoftdriver.com/fix-keyboard-not-typing.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Keyboard Not Typing | PrintSoftDriver" (42 chars)
+Meta description present and optimal length (140–160 chars)
+"A calm walkthrough for a keyboard that types nothing — connection, layout, drive..." (97 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-external-monitor-not-detected.html
+https://www.printsoftdriver.com/fix-external-monitor-not-detected.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: External Monitor Not Detected by Your PC" (45 chars)
+Meta description present and optimal length (140–160 chars)
+"Cable, port, OS detection, GPU panel — a calm, ordered walkthrough through every..." (137 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-bluetooth-pairing-fails.html
+https://www.printsoftdriver.com/fix-bluetooth-pairing-fails.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Bluetooth Pairing Fails | PrintSoftDriver" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"Why pairing sometimes does not complete, the small set of root causes, and the s..." (116 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-laptop-fan-loud.html
+https://www.printsoftdriver.com/fix-laptop-fan-loud.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Laptop Fan Loud | PrintSoftDriver" (38 chars)
+Meta description present and optimal length (140–160 chars)
+"A calm walkthrough for a laptop that runs the fan at full speed — drivers, dust,..." (117 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-mouse-not-responding.html
+https://www.printsoftdriver.com/fix-mouse-not-responding.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Mouse Not Responding | PrintSoftDriver" (43 chars)
+Meta description present and optimal length (140–160 chars)
+"A calm walkthrough for an unresponsive mouse — battery, port, driver, and the or..." (99 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-no-wifi-after-update.html
+https://www.printsoftdriver.com/fix-no-wifi-after-update.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: No Wi-Fi After an Update | PrintSoftDriver" (47 chars)
+Meta description present and optimal length (140–160 chars)
+"Why an update can leave Wi-Fi missing, the safe ways to recover, and how to avoi..." (111 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-sleep-mode-not-working.html
+https://www.printsoftdriver.com/fix-sleep-mode-not-working.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Sleep Mode Not Working | PrintSoftDriver" (45 chars)
+Meta description present and optimal length (140–160 chars)
+"Why a system refuses to sleep, the small set of common root causes, and a calm p..." (110 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/fix-slow-usb-transfer.html
+https://www.printsoftdriver.com/fix-slow-usb-transfer.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Fix: Slow USB Transfer Speeds, Calmly Explained" (47 chars)
+Meta description present and optimal length (140–160 chars)
+"Drive class, port speed, cache settings, chipset drivers — a calm overview to ma..." (131 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/inf-files-explained.html
+https://www.printsoftdriver.com/inf-files-explained.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"INF Files — Windows Driver Manifests Explained" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"Open the lid on the small text file that Windows reads every time it installs a ..." (132 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/macos-monterey-driver-overview.html
+https://www.printsoftdriver.com/macos-monterey-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"macOS Monterey Driver Overview — Calm Defaults" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"How macOS Monterey handles drivers, the kext sunset, and the small set of vendor..." (106 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/linux-mint-driver-overview.html
+https://www.printsoftdriver.com/linux-mint-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Linux Mint Driver Overview — Friendly Defaults" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"How Linux Mint handles drivers, the role of its Driver Manager tool, and when to..." (111 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/macos-ventura-driver-overview.html
+https://www.printsoftdriver.com/macos-ventura-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"macOS Ventura Driver Overview — Quiet Hardware" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"How macOS Ventura handles drivers — built-in support, system extensions, and the..." (111 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/manjaro-driver-overview.html
+https://www.printsoftdriver.com/manjaro-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Manjaro Driver Overview — Arch Made Friendly | PrintSoftDriver" (62 chars)
+Meta description present and optimal length (140–160 chars)
+"How Manjaro handles drivers with the Mhwd tool, when to switch graphics drivers,..." (119 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/npu-driver-overview.html
+https://www.printsoftdriver.com/npu-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"NPU Drivers Explained for New AI-Enabled PCs" (44 chars)
+Meta description present and optimal length (140–160 chars)
+"What an NPU is, why every new laptop has one, and what its driver does to accele..." (138 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/opensuse-driver-overview.html
+https://www.printsoftdriver.com/opensuse-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"openSUSE Driver Overview — Tumbleweed and Leap" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"How drivers work in openSUSE Tumbleweed and Leap, where vendor extras come from,..." (117 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/output-device-drivers.html
+https://www.printsoftdriver.com/output-device-drivers.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Output Device Drivers — Sound, Display, Conn…" (45 chars)
+Meta description present and optimal length (140–160 chars)
+"A friendly overview of the drivers behind the devices that present information t..." (129 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/pop-os-driver-overview.html
+https://www.printsoftdriver.com/pop-os-driver-overview.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Pop!_OS Driver Overview — Hardware-Friendly Def…" (48 chars)
+Meta description present and optimal length (140–160 chars)
+"How Pop!_OS handles drivers — the dual ISO approach, the System76 firmware tools..." (110 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/set-default-audio-device.html
+https://www.printsoftdriver.com/set-default-audio-device.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"Set the Default Audio Device | PrintSoftDriver" (46 chars)
+Meta description present and optimal length (140–160 chars)
+"How to set, switch, and pin a default audio device — for speakers, headphones, o..." (102 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/third-party-driver-updaters.html
+https://www.printsoftdriver.com/third-party-driver-updaters.html
+102
+5
+WARNINGS (5)
+Meta description present and optimal length (140–160 chars)
+"Why apps that promise to scan your PC and update its drivers are usually unneces..." (138 chars)
+Phone number visible on page
+No phone number found on page
+Refund/Return policy linked (e-commerce)
+E-commerce detected but no refund policy link found
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+98
+/uninstall-driver-cleanly.html
+https://www.printsoftdriver.com/uninstall-driver-cleanly.html
+101
+5
+WARNINGS (5)
+Title tag present and optimal length (50–60 chars)
+"How to Uninstall a Driver Cleanly on Windows" (44 chars)
+Meta description present and optimal length (140–160 chars)
+"Plain-English walkthrough through the right way to remove a driver — including t..." (135 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/about.html
+https://www.printsoftdriver.com/about.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/acpi-and-drivers.html
+https://www.printsoftdriver.com/acpi-and-drivers.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What Acpi describes, how drivers use it for power management, and why Bios table..." (110 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/arch-linux-driver-overview.html
+https://www.printsoftdriver.com/arch-linux-driver-overview.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/compare-driver-versions.html
+https://www.printsoftdriver.com/compare-driver-versions.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How to compare driver versions across systems, what to look at, and the differen..." (132 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/conexant-audio-drivers.html
+https://www.printsoftdriver.com/conexant-audio-drivers.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/contact.html
+https://www.printsoftdriver.com/contact.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/blog.html
+https://www.printsoftdriver.com/blog.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/audio-drivers.html
+https://www.printsoftdriver.com/audio-drivers.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/card-reader-driver-overview.html
+https://www.printsoftdriver.com/card-reader-driver-overview.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why card readers usually work without extra software, what vendor drivers add, a..." (136 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/boot-time-driver-loading.html
+https://www.printsoftdriver.com/boot-time-driver-loading.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How the operating system loads drivers in early boot, why some load before other..." (120 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/cookie-policy.html
+https://www.printsoftdriver.com/cookie-policy.html
+101
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/corsair-peripheral-drivers.html
+https://www.printsoftdriver.com/corsair-peripheral-drivers.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Premium Peripheral Driver and Software Overview | PrintSoftDriver" (65 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/chromeos-driver-overview.html
+https://www.printsoftdriver.com/chromeos-driver-overview.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/disclaimer.html
+https://www.printsoftdriver.com/disclaimer.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-input-devices.html
+https://www.printsoftdriver.com/driver-input-devices.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-isolation-explained.html
+https://www.printsoftdriver.com/driver-isolation-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What driver isolation means, why operating systems push for it, and how it chang..." (116 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-backup-overview.html
+https://www.printsoftdriver.com/driver-backup-overview.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How to export every third-party driver on your machine before a Windows reinstal..." (123 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-bluetooth.html
+https://www.printsoftdriver.com/driver-bluetooth.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-chipset.html
+https://www.printsoftdriver.com/driver-chipset.html
+101
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"A clear, friendly overview to chipset drivers — the small but critical software ..." (163 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-signing-explained.html
+https://www.printsoftdriver.com/driver-signing-explained.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-storage-disk.html
+https://www.printsoftdriver.com/driver-storage-disk.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-kernel-mode.html
+https://www.printsoftdriver.com/driver-kernel-mode.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-user-mode.html
+https://www.printsoftdriver.com/driver-user-mode.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-version-numbers.html
+https://www.printsoftdriver.com/driver-version-numbers.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What the four numbers in a driver version tell you, why they jump around, and ho..." (111 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/driver-virtual.html
+https://www.printsoftdriver.com/driver-virtual.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/enable-driver-event-logging.html
+https://www.printsoftdriver.com/enable-driver-event-logging.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How to turn on event logging for a driver, what to capture, and how to read the ..." (112 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-10-explained.html
+https://www.printsoftdriver.com/error-code-10-explained.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-12-explained.html
+https://www.printsoftdriver.com/error-code-12-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why Device Manager shows code 12, what a resource conflict really means, and the..." (123 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-18-explained.html
+https://www.printsoftdriver.com/error-code-18-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What code 18 means, why a clean reinstall fixes it, and the safest order of oper..." (108 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-19-explained.html
+https://www.printsoftdriver.com/error-code-19-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why code 19 points at the registry, what got out of sync, and how to repair the ..." (115 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-22-explained.html
+https://www.printsoftdriver.com/error-code-22-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why a device shows as disabled, who likely turned it off, and how to bring it ba..." (115 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-24-explained.html
+https://www.printsoftdriver.com/error-code-24-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why a device shows as not present while still listed, and how to tell whether th..." (181 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-21-explained.html
+https://www.printsoftdriver.com/error-code-21-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why code 21 appears during driver swaps, what is taking so long, and when waitin..." (118 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-31-explained.html
+https://www.printsoftdriver.com/error-code-31-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What Device Manager Error Code 31 (This device is not working properly because W..." (230 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-14-explained.html
+https://www.printsoftdriver.com/error-code-14-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why a device is asking for a restart, what changes between boot and shutdown, an..." (116 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-39-explained.html
+https://www.printsoftdriver.com/error-code-39-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What Device Manager Error Code 39 (Windows cannot load the device driver for thi..." (225 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-43-explained.html
+https://www.printsoftdriver.com/error-code-43-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What Device Manager Error Code 43 (Windows has stopped this device because it ha..." (194 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/error-code-45-explained.html
+https://www.printsoftdriver.com/error-code-45-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What Device Manager Error Code 45 (Currently this hardware device is not connect..." (193 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/extract-driver-from-installer.html
+https://www.printsoftdriver.com/extract-driver-from-installer.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How to pull the driver files out of a maker installer when you need them for off..." (108 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fedora-driver-overview.html
+https://www.printsoftdriver.com/fedora-driver-overview.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"A friendly walkthrough of how device drivers work on Fedora — where they live, h..." (139 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-bsod-driver-irql.html
+https://www.printsoftdriver.com/fix-bsod-driver-irql.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Fix: DRIVER_IRQL_NOT_LESS_OR_EQUAL Blue Screen | PrintSoftDriver" (64 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-display-blank.html
+https://www.printsoftdriver.com/fix-display-blank.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"A calm step-by-step for the case where a connected display lights up but shows n..." (130 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-bluetooth-not-working.html
+https://www.printsoftdriver.com/fix-bluetooth-not-working.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Fix: Bluetooth Has Stopped Working — Step by Step" (49 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-game-controller-not-detected.html
+https://www.printsoftdriver.com/fix-game-controller-not-detected.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Cable, wireless dongle, drivers, vendor apps, calibration — calm walkthrough for..." (138 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-headphones-not-detected.html
+https://www.printsoftdriver.com/fix-headphones-not-detected.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-keyboard-backlight.html
+https://www.printsoftdriver.com/fix-keyboard-backlight.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Function-key toggles, power management, vendor apps — a calm, ordered overview t..." (135 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-driver-power-state-failure.html
+https://www.printsoftdriver.com/fix-driver-power-state-failure.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Fix: DRIVER_POWER_STATE_FAILURE Blue Screen | PrintSoftDriver" (61 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-display-driver-stopped-responding.html
+https://www.printsoftdriver.com/fix-display-driver-stopped-responding.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why a graphics driver pauses and recovers, what causes the cycle, and how to mak..." (103 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-microphone-not-working.html
+https://www.printsoftdriver.com/fix-microphone-not-working.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-network-device-offline.html
+https://www.printsoftdriver.com/fix-network-device-offline.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-no-sound.html
+https://www.printsoftdriver.com/fix-no-sound.html
+101
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"A calm, plain-English overview to fixing missing sound on your laptop or desktop..." (163 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-screen-flicker.html
+https://www.printsoftdriver.com/fix-screen-flicker.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-second-monitor-blurry.html
+https://www.printsoftdriver.com/fix-second-monitor-blurry.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Resolution, scaling, cable bandwidth — a calm, ordered overview to making your s..." (123 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-second-display-no-signal.html
+https://www.printsoftdriver.com/fix-second-display-no-signal.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"A calm walkthrough for a second monitor that stays dark — cable, port, source, a..." (105 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-slow-after-update.html
+https://www.printsoftdriver.com/fix-slow-after-update.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-system-thread-exception.html
+https://www.printsoftdriver.com/fix-system-thread-exception.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Fix: SYSTEM_THREAD_EXCEPTION_NOT_HANDLED Blue Screen | PrintSoftDriver" (70 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-touchpad-not-responding.html
+https://www.printsoftdriver.com/fix-touchpad-not-responding.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Function key toggles, OS settings, drivers, BIOS — a calm, ordered overview to b..." (124 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-usb-not-recognised.html
+https://www.printsoftdriver.com/fix-usb-not-recognised.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/killer-network-drivers.html
+https://www.printsoftdriver.com/killer-network-drivers.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Friendly explainer for Premium Gaming Wi-Fi drivers — what they do, where to fin..." (133 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-webcam-not-detected.html
+https://www.printsoftdriver.com/fix-webcam-not-detected.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"When your webcam vanishes from camera apps, the fix is almost always one of thre..." (132 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/fix-wifi-drops.html
+https://www.printsoftdriver.com/fix-wifi-drops.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/graphics-drivers.html
+https://www.printsoftdriver.com/graphics-drivers.html
+101
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Discover how graphics drivers turn raw graphics processor power into smooth vide..." (163 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/kext-vs-system-extension.html
+https://www.printsoftdriver.com/kext-vs-system-extension.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How macOS drivers have moved from kernel extensions to safer System Extensions a..." (137 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/macos-sequoia-driver-overview.html
+https://www.printsoftdriver.com/macos-sequoia-driver-overview.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"macOS Sequoia Driver Overview for Beginners | PrintSoftDriver" (61 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/knowledge.html
+https://www.printsoftdriver.com/knowledge.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/network-drivers.html
+https://www.printsoftdriver.com/network-drivers.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/macos-sonoma-driver-overview.html
+https://www.printsoftdriver.com/macos-sonoma-driver-overview.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/msi-vs-msi-x-interrupts.html
+https://www.printsoftdriver.com/msi-vs-msi-x-interrupts.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What message-signalled interrupts are, the difference between Msi and Msi-X, and..." (115 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/pcie-driver-basics.html
+https://www.printsoftdriver.com/pcie-driver-basics.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What the PCIe bus exposes, how drivers attach, and why generation and lane count..." (105 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/plug-and-play-explained.html
+https://www.printsoftdriver.com/plug-and-play-explained.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Friendly tour of Plug and Play — how your computer identifies, configures, and l..." (136 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/privacy-policy.html
+https://www.printsoftdriver.com/privacy-policy.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/razer-peripheral-drivers.html
+https://www.printsoftdriver.com/razer-peripheral-drivers.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Gaming Peripheral Driver and Software Overview | PrintSoftDriver" (64 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/privacy.html
+https://www.printsoftdriver.com/privacy.html
+101
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/read-system-stop-report.html
+https://www.printsoftdriver.com/read-system-stop-report.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How to find and read a system stop report, what the headline information tells y..." (108 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/roll-back-driver.html
+https://www.printsoftdriver.com/roll-back-driver.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/sensor-hub-driver-overview.html
+https://www.printsoftdriver.com/sensor-hub-driver-overview.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Sensor Hub Drivers Explained for Modern Laptops" (47 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/signed-vs-unsigned-drivers.html
+https://www.printsoftdriver.com/signed-vs-unsigned-drivers.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"Signed vs Unsigned Drivers — A Plain Overview | PrintSoftDriver" (63 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/sitemap.html
+https://www.printsoftdriver.com/sitemap.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/steelseries-peripheral-drivers.html
+https://www.printsoftdriver.com/steelseries-peripheral-drivers.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/system-drivers.html
+https://www.printsoftdriver.com/system-drivers.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/terms.html
+https://www.printsoftdriver.com/terms.html
+100
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"The friendly rules for using the PrintSoftDriver website — a major chip vendorle..." (174 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/touchpad-driver-overview.html
+https://www.printsoftdriver.com/touchpad-driver-overview.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"Why some touchpads feel buttery and others feel jumpy — and what role Windows Pr..." (137 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/tpm-driver-overview.html
+https://www.printsoftdriver.com/tpm-driver-overview.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What the TPM is, why Windows 11 made it mandatory, and what its small driver act..." (122 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/ubuntu-driver-overview.html
+https://www.printsoftdriver.com/ubuntu-driver-overview.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"A friendly walkthrough of how device drivers work on Ubuntu — where they live, h..." (139 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/usb-drivers.html
+https://www.printsoftdriver.com/usb-drivers.html
+101
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"USB & Device Drivers Explained | PrintSoftDriver" (48 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/update-drivers-oem-tool.html
+https://www.printsoftdriver.com/update-drivers-oem-tool.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What your laptop manufacturer&#39;s OEM update tool — your laptop" (65 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/update-drivers-windows-update.html
+https://www.printsoftdriver.com/update-drivers-windows-update.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"What Windows Update delivers, how it lags vendor releases, and the pragmatic upd..." (129 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/when-not-to-update-drivers.html
+https://www.printsoftdriver.com/when-not-to-update-drivers.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"The cases where leaving a driver alone is the smarter choice, even when a fresh ..." (137 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/when-to-update-drivers.html
+https://www.printsoftdriver.com/when-to-update-drivers.html
+102
+4
+WARNINGS (4)
+Title tag present and optimal length (50–60 chars)
+"When to Update Your Drivers — A Calm Framework" (46 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/via-hd-audio-drivers.html
+https://www.printsoftdriver.com/via-hd-audio-drivers.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/wdm-vs-wdf-drivers.html
+https://www.printsoftdriver.com/wdm-vs-wdf-drivers.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"A friendly comparison of WDM and WDF — Windows&#39; two main driver frameworks —..." (135 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/webcam-driver-overview.html
+https://www.printsoftdriver.com/webcam-driver-overview.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How webcams talk to your computer, why most need no separate driver, and what th..." (132 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/windows-server-driver-overview.html
+https://www.printsoftdriver.com/windows-server-driver-overview.html
+102
+4
+WARNINGS (4)
+Meta description present and optimal length (140–160 chars)
+"How drivers work on server operating systems — signing requirements, in-box cove..." (131 chars)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/index.html
+https://www.printsoftdriver.com/index.html
+102
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+99
+/windows-11-driver-overview.html
+https://www.printsoftdriver.com/windows-11-driver-overview.html
+103
+3
+WARNINGS (3)
+Phone number visible on page
+No phone number found on page
+Microsoft UET tag detected
+No Microsoft UET tag detected
+Privacy Policy mentions Microsoft/Bing tracking
+Privacy policy may not mention Microsoft/Bing tracking
+
+Technical & Infrastructure
+21 pass
+1 warn
+HTTPS enforced
+Final URL uses HTTPS
+How to fix
+Configure your server to redirect all HTTP traffic to HTTPS using a 301 redirect.
+Valid SSL certificate
+SSL certificate appears valid (page loaded over HTTPS)
+How to fix
+Install a valid SSL certificate from a trusted CA (e.g., Let's Encrypt).
+HTTP status code is 200 OK
+HTTP 200
+How to fix
+Ensure your landing page returns HTTP 200. Pages returning 4xx/5xx errors will be rejected by Microsoft Ads.
+Fewer than 3 redirects
+Warning on page: /
+1 redirect(s) detected
+How to fix
+Reduce redirect chains. Each redirect adds latency and may lose tracking parameters.
+HTTP → HTTPS redirect
+Page served over HTTPS
+How to fix
+Set up a 301 redirect from http:// to https:// at the server level.
+No mixed content
+0 potential HTTP (non-HTTPS) reference(s) found in HTML
+How to fix
+Update all resource URLs (images, scripts, stylesheets, fonts) to use HTTPS.
+Page loads in under 3 seconds
+Page loaded in 0.34s
+How to fix
+Optimize images, enable compression (gzip/brotli), minimize JS/CSS, use a CDN.
+Mobile viewport meta tag present
+Viewport meta tag found
+How to fix
+Add <meta name="viewport" content="width=device-width, initial-scale=1"> to your <head>.
+Security headers present
+CSP: ✓, X-Frame-Options: ✓, X-Content-Type-Options: ✓
+How to fix
+Add security headers: Content-Security-Policy, X-Frame-Options, X-Content-Type-Options.
+Cache-Control header present
+Cache-Control: public, max-age=0, must-revalidate
+How to fix
+Add a Cache-Control header to improve performance and CDN behavior.
+robots.txt exists
+robots.txt found (115 bytes)
+How to fix
+Create a robots.txt at your domain root and ensure it doesn't block the ad landing page URL.
+sitemap.xml exists
+sitemap.xml found (22686 bytes)
+How to fix
+Create an XML sitemap at /sitemap.xml and submit it to Bing Webmaster Tools.
+robots.txt does not block Bingbot
+robots.txt does not block Bingbot
+How to fix
+Update robots.txt to allow Bingbot. Microsoft Ads requires that landing pages are crawlable by Bingbot.
+Favicon present
+Favicon link tag found
+How to fix
+Add <link rel="icon" href="/favicon.ico"> to your <head>.
+Character encoding declared
+Character encoding declared
+How to fix
+Add <meta charset="UTF-8"> to the <head> of your page.
+HTML5 doctype declared
+<!DOCTYPE html> found
+How to fix
+Add <!DOCTYPE html> as the first line of your HTML document.
+Reasonable JavaScript bundle count
+1 external script(s) loaded
+How to fix
+Reduce the number of external JavaScript files. Heavy script loading slows down the page and hurts landing-page experience scoring.
+No duplicate HTML element IDs
+All element IDs are unique
+How to fix
+Each HTML element ID must be unique. Duplicates break accessibility tools and JavaScript references.
+No deprecated HTML tags
+No deprecated HTML tags detected
+How to fix
+Remove deprecated tags like <font>, <center>, <marquee>, <blink>. Use CSS instead.
+Limited inline styles
+5 inline style attribute(s) found
+How to fix
+Move inline styles to external stylesheets for better performance and maintainability.
+Balanced HTML structural tags
+All structural tags balanced
+How to fix
+Ensure every <div>, <section>, <article>, etc. has a matching closing tag. Unclosed tags break layout and accessibility.
+Reasonable HTML page weight
+HTML document is 110 KB
+How to fix
+Keep HTML payload under 500 KB. Large HTML hurts mobile load times and landing-page experience.
+
+SEO & Bing Indexability
+11 pass
+2 warn
+Title tag present and optimal length (50–60 chars)
+Warning on 46 pages: /corsair-peripheral-drivers.html, /debian-driver-overview.html, /dma-and-drivers.html (+43 more)
+"Premium Peripheral Driver and Software Overview | PrintSoftDriver" (65 chars)
+How to fix
+Write a title between 50–60 characters that clearly describes the page and includes keywords.
+Meta description present and optimal length (140–160 chars)
+Warning on 86 pages: /acpi-and-drivers.html, /compare-driver-versions.html, /card-reader-driver-overview.html (+83 more)
+"What Acpi describes, how drivers use it for power management, and why Bios table..." (110 chars)
+How to fix
+Write a compelling meta description between 140–160 characters.
+Exactly one H1 tag
+1 H1 tag(s) found
+How to fix
+Use exactly one H1 tag that describes the primary topic of the page.
+Logical heading hierarchy
+H1: 1, H2: 14, H3: 57
+How to fix
+Use headings in order: H1 → H2 → H3. Don't skip heading levels.
+All images have alt attributes
+0 image(s) missing alt attributes out of 30 total
+How to fix
+Add descriptive alt attributes to all <img> tags for accessibility and SEO.
+JSON-LD structured data present
+JSON-LD structured data found
+How to fix
+Add Organization or WebSite JSON-LD schema to help search engines understand your site.
+Open Graph tags present
+og:title: ✓, og:description: ✓, og:image: ✓
+How to fix
+Add og:title, og:description, og:image, and og:url meta tags.
+Canonical link tag present
+Canonical: https://www.printsoftdriver.com/
+How to fix
+Add <link rel="canonical" href="https://yourdomain.com/page/"> to your <head>.
+HTML lang attribute present
+lang="en"
+How to fix
+Add a lang attribute to your <html> tag, e.g., <html lang="en">.
+URL is lowercase and hyphenated
+URL path: /
+How to fix
+Use lowercase, hyphen-separated URL paths (e.g., /my-product-page instead of /MyProductPage).
+Content rendered server-side (visible to Bingbot)
+Server-rendered content present (7912 words in <body>).
+How to fix
+Use Server-Side Rendering (SSR) or pre-rendering. Bingbot's JavaScript rendering is limited — pages that render entirely in the browser are often not indexed, which means your ads won't run.
+Title tag is not keyword-stuffed
+Title shows natural word distribution
+How to fix
+Write a natural, descriptive title. Avoid repeating the same keyword multiple times in your <title> tag.
+Meta keywords tag is not stuffed
+3 meta keywords declared
+How to fix
+The meta keywords tag is largely ignored by search engines and should contain at most 5–10 truly relevant terms — or be omitted entirely.
+
+Content Compliance
+35 pass
+1 fail
+No adult/sexually explicit content
+No adult content keywords detected
+How to fix
+Remove adult content. Microsoft Ads prohibits adult and sexually explicit content.
+No drugs or drug paraphernalia
+No drug-related content detected
+How to fix
+Advertising for recreational drugs or drug paraphernalia is prohibited by Microsoft Ads.
+No weapons, firearms, or ammunition
+No weapon-related content detected
+How to fix
+Advertising for weapons, firearms, and ammunition is prohibited by Microsoft Ads.
+No tobacco or vaping products
+No tobacco/vaping content detected
+How to fix
+Advertising for tobacco products and vaping/e-cigarette products is prohibited by Microsoft Ads.
+No malware, phishing, or unwanted software indicators
+No malware/phishing indicators detected
+How to fix
+Remove any content related to malware distribution, phishing, or unwanted software downloads.
+No trafficking or exploitation content
+No trafficking/exploitation content detected
+How to fix
+Content related to trafficking or exploitation is strictly prohibited.
+No deceptive products or services
+No deceptive product/service claims detected
+How to fix
+Remove get-rich-quick schemes, miracle cure claims, and other deceptive advertising patterns.
+No piracy or counterfeit content
+No piracy content detected
+How to fix
+Advertising for pirated content, cracked software, or counterfeit goods is prohibited.
+No third-party tech support advertising
+No third-party tech support language detected
+How to fix
+Microsoft globally banned third-party tech support advertising in 2016. You cannot advertise support for products you don't own. Accounts are permanently suspended for this violation.
+No Microsoft brand terms in domain name
+Domain does not contain Microsoft brand terms
+How to fix
+Domain names must not contain Microsoft, Windows, Office, Xbox, Bing, Outlook, or other Microsoft brand terms.
+No scareware or fake error messages
+DEAL-BREAKER
+Failed on 6 pages: /driver-store-cleanup.html, /driver-store-explained.html, /error-code-28-explained.html (+3 more)
+Scareware language detected (fake virus/error/security alerts)
+How to fix
+Remove all fake error messages, virus warnings, and security alerts. Microsoft permanently suspends accounts for scareware.
+No dangerous executable download links
+No .exe, .msi, .scr, .bat, or .cmd download links detected
+How to fix
+Remove all .exe, .msi, .scr, .bat, and .cmd download links. Microsoft treats these as high-risk on third-party sites.
+No remote access tool downloads or widgets
+No remote access tools detected on page
+How to fix
+Remove all remote access tool downloads (TeamViewer, AnyDesk, LogMeIn, etc.) and 'connect to technician' widgets from landing pages.
+No third-party credential harvesting forms
+No credential harvesting patterns detected
+How to fix
+Do not embed login forms for Microsoft, Google, Apple, or other third-party services on your landing page.
+No unverifiable trust badges or endorsement claims
+No unverifiable trust badges detected
+How to fix
+Remove trust badges (Norton, McAfee, BBB, 'As seen on CNN') unless they link to a valid, active verification page. Fake badges cause instant rejection.
+No unauthorized Microsoft brand impersonation
+No Microsoft brand logo images detected
+How to fix
+Remove all Microsoft, Windows, Office, Xbox, and Surface logos and brand marks. Only Microsoft and authorized partners may display these.
+No urgent call prompts or phone numbers in error messages
+No urgent call prompts or phone-in-error patterns detected
+How to fix
+Remove urgent call prompts ('Call Now!', 'Immediate Help!', '24/7 Emergency'). Phone numbers near error messages are a permanent suspension trigger.
+No gift card, wire transfer, or crypto payment requests
+No scam payment method patterns detected
+How to fix
+Remove gift card, wire transfer, money order, and cryptocurrency payment options. These are universal scam signals that trigger automatic suspension.
+Gambling content (requires certification)
+No gambling terms detected
+How to fix
+Gambling advertising requires Microsoft Advertising certification and is restricted by market. Contact Microsoft Ads support to apply.
+Alcohol content (restricted by market)
+No alcohol sales terms detected
+How to fix
+Alcohol advertising is restricted by market. Must not target minors. Verify compliance with local laws and Microsoft Ads alcohol policy.
+Healthcare claims include required disclaimers
+Health terms found: diagnose, symptom (NO disclaimer found)
+How to fix
+Add medical disclaimers: 'Consult a healthcare professional. This is not a substitute for medical advice.' Healthcare ads are restricted.
+Financial claims include required disclaimers
+No financial claim terms detected
+How to fix
+Add disclaimers: 'Past performance does not guarantee future results. Investments involve risk of loss.' Finance ads are restricted.
+Cryptocurrency content (requires certification)
+No cryptocurrency terms detected
+How to fix
+Cryptocurrency advertising requires Microsoft Advertiser certification. Contact Microsoft Ads support to apply.
+Dating content (restricted by market)
+No dating service terms detected
+How to fix
+Dating and companionship advertising is restricted. Must not promote sexual services. Review Microsoft Ads dating policy.
+No unsubstantiated superlatives
+No prohibited superlatives detected
+How to fix
+Remove or substantiate claims like '#1', 'best', 'guaranteed', 'miracle'. Provide evidence or remove them.
+No prohibited urgency language
+No prohibited urgency patterns detected
+How to fix
+Microsoft Ads prohibits urgency language such as "do this immediately," "supplies are running out," or "offer won't last."
+No excessive capitalization
+No excessive capitalization detected
+How to fix
+Use proper grammatically correct capitalization. Avoid random or excessive caps like BIG SALE or AmAzinG.
+No competitor trademark misuse in H1/Title
+No trademark misuse detected in title/H1
+How to fix
+Do not use competitor trademarks (Microsoft, Google, Amazon) in your H1 or title tag unless you are that brand.
+Business name visible on page
+Business/brand name visible: "PrintSoftDriver - Device Driver Education &amp; Ov"
+How to fix
+Make sure your brand/business name is clearly visible, ideally in the page title or H1.
+No misleading calls-to-action
+No misleading CTAs detected
+How to fix
+Remove misleading CTAs. Microsoft Ads prohibits deceptive calls-to-action like fake prize notifications.
+Affiliate / sponsored content disclosed (when monetized links present)
+No affiliate / referral links detected on page
+How to fix
+If your page contains affiliate or sponsored links, you must clearly disclose the material connection (FTC + Microsoft Ads Information Integrity policy). Add a visible 'Affiliate disclosure' or 'We may earn a commission' notice.
+No signs of AI-generated content
+Content shows natural variation (377 sentences analyzed)
+How to fix
+Add personal voice, varied sentence lengths, and concrete examples. Microsoft penalizes pages with low-quality, mass-produced content.
+No duplicated paragraphs
+No duplicate sentences detected
+How to fix
+Remove duplicate content. Microsoft Ads quality scoring penalizes pages with repeated or boilerplate paragraphs.
+No spam or auto-generated content patterns
+No spam patterns detected
+How to fix
+Reduce link density and remove repeated/auto-generated text patterns. Spam-style pages are rejected by Microsoft Ads.
+Sufficient content depth
+7919 words of body text (good depth)
+How to fix
+Add at least 250 words of meaningful, original content. Thin pages fail landing-page experience scoring.
+No keyword stuffing
+No keyword stuffing detected (analyzed 5155 content words)
+How to fix
+Reduce keyword repetition. Microsoft Ads policy prohibits keyword stuffing — write naturally for users, not search engines.
+
+Required Pages & Contact Info
+5 pass
+2 warn
+Privacy Policy linked
+Privacy policy link found
+How to fix
+Add a visible link to your Privacy Policy. Microsoft Ads requires an accessible privacy policy on all landing pages.
+Terms of Service linked
+Terms of service link found
+How to fix
+Add a link to your Terms of Service.
+Contact page linked
+Contact page link found
+How to fix
+Add a link to a contact page with your business address, phone number, or email.
+About page linked
+About page link found
+How to fix
+Add a link to an About page explaining who you are and what you do.
+Phone number visible on page
+Warning on 135 pages: /, /about.html, /acpi-and-drivers.html (+132 more)
+No phone number found on page
+How to fix
+Display a real contact phone number to build trust with visitors.
+Email address visible on page
+Email address detected on page
+How to fix
+Display a contact email address to build trust.
+Refund/Return policy linked (e-commerce)
+Warning on 2 pages: /dkms-explained.html, /third-party-driver-updaters.html
+E-commerce detected but no refund policy link found
+How to fix
+For e-commerce sites, add a visible link to your Refund and Return Policy.
+
+Consent & Privacy
+4 pass
+2 warn
+Cookie consent mechanism detected
+Cookie consent mechanism detected
+How to fix
+Add a GDPR/CCPA compliant cookie consent banner. Consider using a CMP like OneTrust, Cookiebot, or CookieYes.
+Cookie banner has Reject option
+Reject/decline option found in cookie banner
+How to fix
+Add a 'Reject All' button with equal visual prominence to the 'Accept' button in your cookie banner.
+Microsoft UET tag detected
+Warning on 135 pages: /, /about.html, /acpi-and-drivers.html (+132 more)
+No Microsoft UET tag detected
+How to fix
+Install the Microsoft Universal Event Tracking (UET) tag to track conversions.
+Google Consent Mode v2 (if GA4 used)
+Consent Mode signals detected
+How to fix
+Implement Google Consent Mode v2 if using GA4 to comply with EU consent requirements.
+Privacy Policy mentions Microsoft/Bing tracking
+Warning on 135 pages: /, /about.html, /acpi-and-drivers.html (+132 more)
+Privacy policy may not mention Microsoft/Bing tracking
+How to fix
+Update your Privacy Policy to explicitly mention Microsoft Advertising tracking technologies.
+"Do Not Sell or Share" link (CCPA)
+"Do Not Sell" link found
+How to fix
+For California visitors, add a "Do Not Sell or Share My Personal Information" link per CCPA requirements.
+
+Landing Page Quality
+13 pass
+Final URL domain matches original (no cloaking)
+Final URL stays on the same domain: www.printsoftdriver.com
+How to fix
+The final landing page domain must match the domain in your ad. Redirecting to a different brand/domain is prohibited (www <-> non-www on the same domain is fine).
+No high density of advertising
+Ad iframes: 0, Ad scripts: 0
+How to fix
+Landing pages must not display a high density of advertising above the fold or consist primarily of ads/links. Content should provide value, not solely display ads.
+Page has sufficient, substantive content
+Approximately 7919 words of text content detected
+How to fix
+Landing pages must not contain sparse or limited content. Add substantive, relevant text content that provides value to users.
+No auto-playing video with sound
+No unmuted auto-playing video detected
+How to fix
+Add the muted attribute to all autoplay videos: <video autoplay muted>
+No browser manipulation (resize, prompt-spam, back-button hijack)
+No browser manipulation detected
+How to fix
+Do not resize browser windows, spam beforeunload prompts, or trap users with popstate re-pushes.
+No full-page modal/interstitial on load
+No obvious full-page interstitial detected
+How to fix
+Avoid showing full-page pop-ups or interstitials immediately on page load. Do not delay or obstruct user access to content.
+Primary call-to-action visible
+Call-to-action button/link detected
+How to fix
+Ensure your primary call-to-action is clearly visible on the page.
+No unnecessary sensitive data collection
+No unnecessary sensitive data collection detected
+How to fix
+Do not require the entry of sensitive personal data (SSN, passport, etc.) unnecessary to provide the service.
+Basic accessibility attributes present
+ARIA attributes detected
+How to fix
+Add aria-labels, roles, and alt text to improve accessibility for users with disabilities.
+Page is not set to noindex
+Page allows indexing
+How to fix
+Remove the noindex meta tag. Microsoft Ads requires landing pages to be indexable by Bing. Non-indexed sites are disallowed.
+No placeholder or under-construction content
+No placeholder text detected
+How to fix
+Replace all placeholder text with real content before running ads. Pages not functioning properly will be rejected.
+Landing page opens to working content (not 'unavailable' / 404 soft-fail)
+No 'page unavailable' / soft-404 patterns detected
+How to fix
+Microsoft Ads rejects landing pages that 'do not open properly or consistently result in a product not available message'. Fix dead links or remove the URL from your campaign.
+CTA buttons link to a real destination
+0 working CTA(s), 0 dead CTA(s) (href="#" / javascript:void)
+How to fix
+Every 'Buy Now' / 'Sign Up' / 'Get Started' button must link to a real destination. Dead-link CTAs (href="#") violate the relevance and quality policy.
+
+Hosting & Site Intelligence
+9 pass
+Custom domain (not a free hosting subdomain)
+Domain www.printsoftdriver.com is a custom domain
+How to fix
+Use a custom domain (yourbrand.com) for Microsoft Ads landing pages instead of a free hosting subdomain.
+Site is live (no sleep / spin-down page)
+Site is responding normally
+How to fix
+Your application is not running. Use a production hosting tier (always-on / autoscale) to ensure 100% uptime for your ad landing page.
+No hardcoded API keys/secrets in HTML
+No obvious secret patterns detected in HTML
+How to fix
+Never hardcode API keys or secrets in client-side code. Use environment variables server-side only.
+Production-grade deployment
+Custom domain detected — likely properly deployed
+How to fix
+Use a production hosting tier (always-on, autoscale, or reserved VM) to ensure 100% uptime for your ad landing page.
+Hosted IP address
+216.150.16.129, 216.150.1.129 — United States, Walnut
+How to fix
+Informational — confirms where the landing page is physically served from.
+Hosting IP not flagged
+IP / hosting provider does not match known suspicious patterns
+How to fix
+Move the landing page to a reputable hosting provider. VPN/proxy IPs and bulletproof hosts are commonly rejected by Microsoft Ads.
+Hosting provider
+Vercel, Inc (AS16509 Amazon.com, Inc.) • CDN: Vercel Edge
+How to fix
+Informational — useful for attribution and IP-reputation diagnostics.
+Domain registrar
+Registrar information unavailable
+How to fix
+Informational — confirms domain ownership chain.
+Detected website technology
+Built with: Bootstrap • Server: Vercel
+How to fix
+Informational — useful for diagnosing landing-page rendering issues.

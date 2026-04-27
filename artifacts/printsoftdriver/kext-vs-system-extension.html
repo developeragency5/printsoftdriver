@@ -108,7 +108,7 @@
   <div class="hero-page-content reveal">
     <span class="hero-eyebrow">Kexts Vs System Extensions</span>
     <h1>Kexts and System Extensions — How macOS Drivers Have Evolved</h1>
-    <p>Apple has been quietly retiring traditional kernel extensions in favour of safer alternatives. Here is what changed and why it matters.</p>
+    <p>macOS has been quietly retiring traditional kernel extensions in favour of safer alternatives. Here is what changed and why it matters.</p>
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="index.html">Home</a>
       <span aria-hidden="true">›</span>
@@ -125,7 +125,7 @@
       <div class="split-text reveal">
         <h2 id="sec-0">Kernel Extensions, the Original macOS Driver</h2>
         <p>For most of macOS's history, third-party drivers shipped as kernel extensions, or 'kexts' — bundles loaded directly into the macOS kernel with full system privileges. They worked well, but they shared all the risks of any kernel-mode driver: a bug could crash the whole machine.</p>
-        <p>Kexts also made macOS more vulnerable to malware that could persist deep in the system. Apple began tightening kext loading rules years ago, requiring user approval and notarisation before any new kext could load.</p>
+        <p>Kexts also made macOS more vulnerable to malware that could persist deep in the system. The OS vendor began tightening kext loading rules years ago, requiring user approval and notarisation before any new kext could load.</p>
         
       </div>
       <div class="split-image reveal">
@@ -139,7 +139,7 @@
     <div class="split-row reverse">
       <div class="split-text reveal">
         <h2 id="sec-1">DriverKit and System Extensions</h2>
-        <p>Apple introduced DriverKit and System Extensions to move driver code out of the kernel and into safer user-space frameworks. These newer drivers run with restricted privileges, communicate with the kernel through tightly controlled APIs, and cannot bring down the system if they crash.</p>
+        <p>The OS vendor introduced DriverKit and System Extensions to move driver code out of the kernel and into safer user-space frameworks. These newer drivers run with restricted privileges, communicate with the kernel through tightly controlled APIs, and cannot bring down the system if they crash.</p>
         <p>From the user's perspective, the experience is much the same: install a driver, approve it once, and forget it. Behind the scenes, however, the safety profile is dramatically better.</p>
         
       </div>
@@ -153,13 +153,13 @@
   <div class="section-inner">
     <div class="split-row">
       <div class="split-text reveal">
-        <h2 id="sec-2">What This Means for Apple Silicon Macs</h2>
-        <p>Apple Silicon Macs strongly prefer System Extensions and DriverKit. Loading a traditional kext on Apple Silicon requires reduced security mode and a deliberate user opt-in — a clear signal that Apple wants the kext era to end.</p>
+        <h2 id="sec-2">What This Means for modern Mac computers with custom silicon</h2>
+        <p>modern Mac computers with custom silicon strongly prefer System Extensions and DriverKit. Loading a traditional kext on modern Mac silicon requires reduced security mode and a deliberate user opt-in — a clear signal that the OS vendor wants the kext era to end.</p>
         <p>For most users, this transition is invisible. Vendors that still need driver-style functionality on macOS have largely migrated their products to the new frameworks already.</p>
         
       </div>
       <div class="split-image reveal">
-        <img src="images/psd-454.jpg" alt="Apple workstation concept" loading="lazy" width="640" height="420">
+        <img src="images/psd-454.jpg" alt="The OS vendor workstation concept" loading="lazy" width="640" height="420">
       </div>
     </div>
   </div>
@@ -177,21 +177,21 @@
           <span>Are kexts still allowed on macOS?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes, but Apple discourages them. New macOS releases require user approval and notarisation, and Apple Silicon adds an extra security opt-in.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes, but the OS vendor discourages them. New macOS releases require user approval and notarisation, and modern Mac silicon adds an extra security opt-in.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
           <span>What is DriverKit?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Apple's user-space driver framework, the modern replacement for traditional kernel extensions on macOS.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>macOS's user-space driver framework, the modern replacement for traditional kernel extensions on macOS.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
           <span>Will kexts ever stop working entirely?</span>
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
-        <div class="faq-answer"><div class="faq-answer-inner"><p>Probably eventually. Apple has been clearly signalling for years that the future is System Extensions and DriverKit.</p></div></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Probably eventually. macOS has been clearly signalling for years that the future is System Extensions and DriverKit.</p></div></div>
       </div>
     </div>
   </div>
@@ -266,7 +266,6 @@
         <li><a href="terms.html">Terms of Use</a></li>
         <li><a href="disclaimer.html">Disclaimer</a></li>
         <li><a href="cookie-policy.html">Cookie Policy</a></li>
-        <li><a href="privacy-policy.html#do-not-sell-section">Your Privacy Choices</a></li>
       </ul>
     </div>
     <div class="footer-col footer-col-3">
@@ -290,7 +289,6 @@
       <a href="terms.html">Terms of Use</a>
       <a href="disclaimer.html">Full Disclaimer</a>
       <a href="cookie-policy.html">Cookie Policy</a>
-      <a href="privacy-policy.html#do-not-sell-section">Your Privacy Choices</a>
       <a href="sitemap.html">Sitemap</a>
     </div>
     <p class="footer-copyright">&copy; PrintSoftDriver. All Rights Reserved.</p>

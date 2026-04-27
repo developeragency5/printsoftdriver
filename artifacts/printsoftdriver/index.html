@@ -689,7 +689,7 @@
         </figure>
         <div class="how-to-body">
           <h3>On macOS</h3>
-          <p>Click the Apple menu, choose "About This Mac," then click "More Info" and "System Report." A detailed window opens with sections for graphics, audio, USB, network, and more. Each section lists the underlying driver (called a "kext" or "extension") along with its version. macOS handles most drivers automatically, so what you'll usually see are clean, system-managed entries.</p>
+          <p>Click the system menu, choose "About This Mac," then click "More Info" and "System Report." A detailed window opens with sections for graphics, audio, USB, network, and more. Each section lists the underlying driver (called a "kext" or "extension") along with its version. macOS handles most drivers automatically, so what you'll usually see are clean, system-managed entries.</p>
         </div>
       </article>
       <article class="how-to-card">
@@ -778,8 +778,8 @@
       <div class="col-block">
         <h3>The macOS Approach</h3>
         <p>macOS uses a driver framework called I/O Kit, which implements drivers as C++ objects organized in a hierarchical matching system. When a device is connected, I/O Kit's matching algorithm walks the device tree and instantiates the most specific driver class that matches the device's properties. This object-oriented approach enforces a clean separation between driver layers and makes it straightforward to implement driver inheritance, where a specialized driver can inherit behavior from a generic parent class.</p>
-        <p>Apple exerts tight control over the hardware ecosystem for Mac computers, which means that the company can include drivers for supported hardware directly in the operating system. This results in an experience where most devices work immediately upon connection, without requiring manual driver installation. Third-party hardware vendors can distribute drivers through Apple's developer program, which requires notarization — a security check that verifies the driver package hasn't been tampered with.</p>
-        <p>With the introduction of the DriverKit framework, Apple moved toward user-space drivers for many device classes, improving system stability. DriverKit drivers run as user-space processes rather than in kernel mode, meaning a driver failure can be handled gracefully without crashing the entire system. This represents a significant evolution in Apple's driver architecture philosophy and reflects an industry-wide trend toward isolating drivers from the kernel for improved safety.</p>
+        <p>macOS exerts tight control over the hardware ecosystem for Mac computers, which means that the company can include drivers for supported hardware directly in the operating system. This results in an experience where most devices work immediately upon connection, without requiring manual driver installation. Third-party hardware vendors can distribute drivers through the OS vendor's developer program, which requires notarization — a security check that verifies the driver package hasn't been tampered with.</p>
+        <p>With the introduction of the DriverKit framework, the OS vendor moved toward user-space drivers for many device classes, improving system stability. DriverKit drivers run as user-space processes rather than in kernel mode, meaning a driver failure can be handled gracefully without crashing the entire system. This represents a significant evolution in macOS's driver architecture philosophy and reflects an industry-wide trend toward isolating drivers from the kernel for improved safety.</p>
       </div>
     </div>
   </div>
@@ -1209,7 +1209,6 @@
             <li><a href="terms.html">Terms of Use</a></li>
             <li><a href="disclaimer.html">Disclaimer</a></li>
             <li><a href="cookie-policy.html">Cookie Policy</a></li>
-            <li><a href="privacy-policy.html#do-not-sell-section">Your Privacy Choices</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -1244,7 +1243,6 @@
           <a href="terms.html">Terms of Use</a>
           <a href="disclaimer.html">Full Disclaimer</a>
           <a href="cookie-policy.html">Cookie Policy</a>
-          <a href="privacy-policy.html#do-not-sell-section">Your Privacy Choices</a>
           <a href="sitemap.html">Sitemap</a>
         </div>
         <p class="footer-copyright">&copy; PrintSoftDriver. All Rights Reserved.</p>
